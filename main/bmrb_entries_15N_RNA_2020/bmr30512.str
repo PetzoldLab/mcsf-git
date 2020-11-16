@@ -1,0 +1,1698 @@
+data_30512
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             30512
+   _Entry.Title
+;
+Solution structure of 7SK stem-loop 1
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2018-08-31
+   _Entry.Accession_date                 2018-08-31
+   _Entry.Last_release_date              2018-09-10
+   _Entry.Original_release_date          2018-09-10
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLUTION
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_experimental_methods.ID
+      _Entry_experimental_methods.Method
+      _Entry_experimental_methods.Subtype
+      _Entry_experimental_methods.Entry_ID
+
+      1   'SOLUTION NMR'   'SOLUTION NMR'   30512
+   stop_
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   V.   Pham      V.   V.   .   .   30512
+      2   V.   D'Souza   V.   M.   .   .   30512
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      RNA             .   30512
+      Transcription   .   30512
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   30512
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   49    30512
+      '15N chemical shifts'   27    30512
+      '1H chemical shifts'    207   30512
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2018-10-24   .   original   BMRB   .   30512
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB   6MCI   .   30512
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     30512
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    30323330
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+HIV-1 Tat interactions with cellular 7SK and viral TAR RNAs identifies dual structural mimicry
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Nat. Commun.'
+   _Citation.Journal_name_full            'Nature communications'
+   _Citation.Journal_volume               9
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 2041-1723
+   _Citation.Journal_CSD                  0353
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   4266
+   _Citation.Page_last                    4266
+   _Citation.Year                         2018
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   V.   Pham             V.   V.   .   .   30512   1
+      2   C.   Salguero         C.   .    .   .   30512   1
+      3   S.   Khan             S.   N.   .   .   30512   1
+      4   J.   Meagher          J.   .    .   .   30512   1
+      5   W.   Brown            W.   .    .   .   30512   1
+      6   N.   Humbert          N.   .    .   .   30512   1
+      7   H.   'de Rocquigny'   H.   .    .   .   30512   1
+      8   J.   Smith            J.   .    .   .   30512   1
+      9   V.   D'Souza          V.   M.   .   .   30512   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          30512
+   _Assembly.ID                                1
+   _Assembly.Name                              '7SK RNA'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   entity_1   1   $entity_1   A   A   yes   .   .   .   .   .   .   30512   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          30512
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polyribonucleotide
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+GGGAUCUGUCACCCCAUUGA
+UCGCCGAGAGGCUGAUCUGG
+XUGGXUAGGCGGGUCCC
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                57
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        syn
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    18358.910
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    24   G    .   30512   1
+      2    25   G    .   30512   1
+      3    26   G    .   30512   1
+      4    27   A    .   30512   1
+      5    28   U    .   30512   1
+      6    29   C    .   30512   1
+      7    30   U    .   30512   1
+      8    31   G    .   30512   1
+      9    32   U    .   30512   1
+      10   33   C    .   30512   1
+      11   34   A    .   30512   1
+      12   35   C    .   30512   1
+      13   36   C    .   30512   1
+      14   37   C    .   30512   1
+      15   38   C    .   30512   1
+      16   39   A    .   30512   1
+      17   40   U    .   30512   1
+      18   41   U    .   30512   1
+      19   42   G    .   30512   1
+      20   43   A    .   30512   1
+      21   44   U    .   30512   1
+      22   45   C    .   30512   1
+      23   46   G    .   30512   1
+      24   47   C    .   30512   1
+      25   48   C    .   30512   1
+      26   49   G    .   30512   1
+      27   50   A    .   30512   1
+      28   51   G    .   30512   1
+      29   52   A    .   30512   1
+      30   60   G    .   30512   1
+      31   61   G    .   30512   1
+      32   62   C    .   30512   1
+      33   63   U    .   30512   1
+      34   64   G    .   30512   1
+      35   65   A    .   30512   1
+      36   66   U    .   30512   1
+      37   67   C    .   30512   1
+      38   68   U    .   30512   1
+      39   69   G    .   30512   1
+      40   70   G    .   30512   1
+      41   71   RY   .   30512   1
+      42   72   U    .   30512   1
+      43   73   G    .   30512   1
+      44   74   G    .   30512   1
+      45   75   RY   .   30512   1
+      46   76   U    .   30512   1
+      47   77   A    .   30512   1
+      48   78   G    .   30512   1
+      49   79   G    .   30512   1
+      50   80   C    .   30512   1
+      51   81   G    .   30512   1
+      52   82   G    .   30512   1
+      53   83   G    .   30512   1
+      54   84   U    .   30512   1
+      55   85   C    .   30512   1
+      56   86   C    .   30512   1
+      57   87   C    .   30512   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   G    1    1    30512   1
+      .   G    2    2    30512   1
+      .   G    3    3    30512   1
+      .   A    4    4    30512   1
+      .   U    5    5    30512   1
+      .   C    6    6    30512   1
+      .   U    7    7    30512   1
+      .   G    8    8    30512   1
+      .   U    9    9    30512   1
+      .   C    10   10   30512   1
+      .   A    11   11   30512   1
+      .   C    12   12   30512   1
+      .   C    13   13   30512   1
+      .   C    14   14   30512   1
+      .   C    15   15   30512   1
+      .   A    16   16   30512   1
+      .   U    17   17   30512   1
+      .   U    18   18   30512   1
+      .   G    19   19   30512   1
+      .   A    20   20   30512   1
+      .   U    21   21   30512   1
+      .   C    22   22   30512   1
+      .   G    23   23   30512   1
+      .   C    24   24   30512   1
+      .   C    25   25   30512   1
+      .   G    26   26   30512   1
+      .   A    27   27   30512   1
+      .   G    28   28   30512   1
+      .   A    29   29   30512   1
+      .   G    30   30   30512   1
+      .   G    31   31   30512   1
+      .   C    32   32   30512   1
+      .   U    33   33   30512   1
+      .   G    34   34   30512   1
+      .   A    35   35   30512   1
+      .   U    36   36   30512   1
+      .   C    37   37   30512   1
+      .   U    38   38   30512   1
+      .   G    39   39   30512   1
+      .   G    40   40   30512   1
+      .   RY   41   41   30512   1
+      .   U    42   42   30512   1
+      .   G    43   43   30512   1
+      .   G    44   44   30512   1
+      .   RY   45   45   30512   1
+      .   U    46   46   30512   1
+      .   A    47   47   30512   1
+      .   G    48   48   30512   1
+      .   G    49   49   30512   1
+      .   C    50   50   30512   1
+      .   G    51   51   30512   1
+      .   G    52   52   30512   1
+      .   G    53   53   30512   1
+      .   U    54   54   30512   1
+      .   C    55   55   30512   1
+      .   C    56   56   30512   1
+      .   C    57   57   30512   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       30512
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   9606   organism   .   'Homo sapiens'   Human   .   .   Eukaryota   Metazoa   Homo   sapiens   .   .   .   .   .   .   .   .   .   .   .   .   .   30512   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       30512
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'chemical synthesis'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30512   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+save_chem_comp_RY
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_RY
+   _Chem_comp.Entry_ID                          30512
+   _Chem_comp.ID                                RY
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              "5'-3,6-dihydrocytidylic acid"
+   _Chem_comp.Type                              'RNA LINKING'
+   _Chem_comp.BMRB_code                         RY
+   _Chem_comp.PDB_code                          RY
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2018-09-07
+   _Chem_comp.Modified_date                     2018-09-07
+   _Chem_comp.Release_status                    HOLD
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 RY
+   _Chem_comp.Number_atoms_all                  37
+   _Chem_comp.Number_atoms_nh                   21
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+;
+InChI=1S/C9H16N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1,4,6-8,13-14H,2-3,10H2,(H,11,15)(H2,16,17,18)/t4-,6-,7-,8-/m1/s1
+;
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C9 H16 N3 O8 P'
+   _Chem_comp.Formula_weight                    325.212
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         6MCF
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      C1C=C(NC(=O)N1C2C(C(C(O2)COP(=O)(O)O)O)O)N                     SMILES             'OpenEye OEToolkits'   2.0.6   30512   RY
+      C1C=C(NC(=O)N1[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O)N   SMILES_CANONICAL   'OpenEye OEToolkits'   2.0.6   30512   RY
+
+;
+InChI=1S/C9H16N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1,4,6-8,13-14H,2-3,10H2,(H,11,15)(H2,16,17,18)/t4-,6-,7-,8-/m1/s1
+;
+                                                                     InChI              InChI                  1.03    30512   RY
+      NC1=CCN([C@@H]2O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]2O)C(=O)N1   SMILES_CANONICAL   CACTVS                 3.385   30512   RY
+      NC1=CCN([CH]2O[CH](CO[P](O)(O)=O)[CH](O)[CH]2O)C(=O)N1         SMILES             CACTVS                 3.385   30512   RY
+      NWPXZYGTNOANAA-XVFCMESISA-N                                    InChIKey           InChI                  1.03    30512   RY
+      P(O)(OCC1OC(C(C1O)O)N2CC=C(NC2=O)N)(O)=O                       SMILES             ACDLabs                12.01   30512   RY
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      "5'-3,6-dihydrocytidylic acid"   'SYSTEMATIC NAME'   ACDLabs                12.01   30512   RY
+
+;
+[(2~{R},3~{S},4~{R},5~{R})-5-(6-azanyl-2-oxidanylidene-1,4-dihydropyrimidin-3-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methyl dihydrogen phosphate
+;
+                                       'SYSTEMATIC NAME'   'OpenEye OEToolkits'   2.0.6   30512   RY
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      P      P      P      P1    .   P   .   .   N   0   .   .   .   1   no   no    .   .   .   .   32.896   .   6.856    .   -5.847   .   -4.067   -1.071   0.048    1    .   30512   RY
+      C5'    C5'    C5'    C1    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.597   .   5.982    .   -4.718   .   -2.130   0.726    -0.352   2    .   30512   RY
+      O5'    O5'    O5'    O1    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   32.002   .   6.244    .   -4.634   .   -2.798   -0.195   0.512    3    .   30512   RY
+      C4'    C4'    C4'    C2    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   30.220   .   4.708    .   -5.495   .   -0.974   1.387    0.402    4    .   30512   RY
+      O4'    O4'    O4'    O2    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.772   .   3.540    .   -4.893   .   0.033    0.407    0.709    5    .   30512   RY
+      C3'    C3'    C3'    C3    .   C   .   .   S   0   .   .   .   1   no   no    .   .   .   .   28.695   .   4.437    .   -5.549   .   -0.314   2.459    -0.486   6    .   30512   RY
+      O3'    O3'    O3'    O3    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   28.104   .   4.707    .   -6.821   .   -0.398   3.743    0.135    7    .   30512   RY
+      C2'    C2'    C2'    C4    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   28.598   .   2.927    .   -5.226   .   1.162    2.006    -0.595   8    .   30512   RY
+      O2'    O2'    O2'    O4    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   27.700   .   2.186    .   -6.044   .   2.047    3.123    -0.502   9    .   30512   RY
+      C1'    C1'    C1'    C5    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   30.032   .   2.466    .   -5.441   .   1.309    1.078    0.638    10   .   30512   RY
+      N1     N1     N1     N1    .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.349   .   1.152    .   -4.818   .   2.390    0.111    0.430    11   .   30512   RY
+      C2     C2     C2     C6    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.522   .   0.027    .   -5.633   .   2.303    -0.823   -0.538   12   .   30512   RY
+      O2     O2     O2     O5    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.355   .   0.028    .   -6.845   .   1.311    -0.853   -1.242   13   .   30512   RY
+      N3     N3     N3     N2    .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.838   .   -1.142   .   -5.077   .   3.276    -1.718   -0.748   14   .   30512   RY
+      C4     C4     C4     C7    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.973   .   -1.285   .   -3.797   .   4.443    -1.765   -0.001   15   .   30512   RY
+      N4     N4     N4     N3    .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   31.297   .   -2.455   .   -3.318   .   5.402    -2.730   -0.289   16   .   30512   RY
+      C5     C5     C5     C8    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.748   .   -0.198   .   -2.910   .   4.661    -0.901   0.989    17   .   30512   RY
+      C6     C6     C6     C9    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.446   .   1.012    .   -3.455   .   3.598    0.140    1.270    18   .   30512   RY
+      OP1    OP1    OP1    O6    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   32.002   .   7.206    .   -6.975   .   -3.717   -1.840   -1.167   19   .   30512   RY
+      OP2    OP2    OP2    O7    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   33.735   .   7.954    .   -5.302   .   -4.477   -2.087   1.227    20   .   30512   RY
+      OP3    OP3    OP3    O8    .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   33.875   .   5.682    .   -6.362   .   -5.305   -0.093   -0.273   21   .   30512   RY
+      H5''   H5''   H5''   H1    .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   30.119   .   6.839    .   -5.215   .   -1.740   0.193    -1.220   22   .   30512   RY
+      H5'    H5'    H5'    H2    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.206   .   5.886    .   -3.694   .   -2.833   1.491    -0.681   23   .   30512   RY
+      H4'    H4'    H4'    H3    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.589   .   4.808    .   -6.526   .   -1.343   1.840    1.322    24   .   30512   RY
+      H3'    H3'    H3'    H4    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   28.197   .   5.011    .   -4.754   .   -0.781   2.479    -1.471   25   .   30512   RY
+      H1     H1     H1     H5    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   27.173   .   4.521    .   -6.784   .   0.002    4.457    -0.381   26   .   30512   RY
+      H2'    H2'    H2'    H6    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   28.338   .   2.809    .   -4.164   .   1.332    1.453    -1.520   27   .   30512   RY
+      HO2'   HO2'   HO2'   H7    .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   27.705   .   1.275    .   -5.776   .   1.930    3.778    -1.204   28   .   30512   RY
+      H1'    H1'    H1'    H8    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.217   .   2.399    .   -6.523   .   1.485    1.664    1.540    29   .   30512   RY
+      H3     H3     H3     H9    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.976   .   -1.936   .   -5.669   .   3.159    -2.367   -1.459   30   .   30512   RY
+      H41    H41    H41    H10   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   31.362   .   -2.401   .   -2.322   .   5.251    -3.363   -1.009   31   .   30512   RY
+      H42    H42    H42    H11   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.598   .   -3.124   .   -3.571   .   6.221    -2.770   0.229    32   .   30512   RY
+      H5     H5     H5     H12   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   30.814   .   -0.328   .   -1.840   .   5.571    -0.939   1.571    33   .   30512   RY
+      H6     H6     H6     H13   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   31.224   .   1.713    .   -3.120   .   4.053    1.125    1.168    34   .   30512   RY
+      H2     H2     H2     H14   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   29.475   .   1.314    .   -3.036   .   3.287    0.025    2.309    35   .   30512   RY
+      H4     H4     H4     H15   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   33.562   .   8.754    .   -5.784   .   -5.236   -2.648   1.016    36   .   30512   RY
+      H7     H7     H7     H16   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   33.670   .   5.471    .   -7.265   .   -5.588   0.443    0.480    37   .   30512   RY
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   DOUB   OP1   P      no   N   1    .   30512   RY
+      2    .   DOUB   O2    C2     no   N   2    .   30512   RY
+      3    .   SING   O3'   C3'    no   N   3    .   30512   RY
+      4    .   SING   O2'   C2'    no   N   4    .   30512   RY
+      5    .   SING   P     OP2    no   N   5    .   30512   RY
+      6    .   SING   P     O5'    no   N   6    .   30512   RY
+      7    .   SING   C2    N3     no   N   7    .   30512   RY
+      8    .   SING   C2    N1     no   N   8    .   30512   RY
+      9    .   SING   C3'   C4'    no   N   9    .   30512   RY
+      10   .   SING   C3'   C2'    no   N   10   .   30512   RY
+      11   .   SING   C4'   O4'    no   N   11   .   30512   RY
+      12   .   SING   C4'   C5'    no   N   12   .   30512   RY
+      13   .   SING   C1'   C2'    no   N   13   .   30512   RY
+      14   .   SING   C1'   O4'    no   N   14   .   30512   RY
+      15   .   SING   C1'   N1     no   N   15   .   30512   RY
+      16   .   SING   N3    C4     no   N   16   .   30512   RY
+      17   .   SING   N1    C6     no   N   17   .   30512   RY
+      18   .   SING   C5'   O5'    no   N   18   .   30512   RY
+      19   .   SING   C4    N4     no   N   19   .   30512   RY
+      20   .   DOUB   C4    C5     no   N   20   .   30512   RY
+      21   .   SING   C6    C5     no   N   21   .   30512   RY
+      22   .   SING   P     OP3    no   N   22   .   30512   RY
+      23   .   SING   C5'   H5''   no   N   23   .   30512   RY
+      24   .   SING   C5'   H5'    no   N   24   .   30512   RY
+      25   .   SING   C4'   H4'    no   N   25   .   30512   RY
+      26   .   SING   C3'   H3'    no   N   26   .   30512   RY
+      27   .   SING   O3'   H1     no   N   27   .   30512   RY
+      28   .   SING   C2'   H2'    no   N   28   .   30512   RY
+      29   .   SING   O2'   HO2'   no   N   29   .   30512   RY
+      30   .   SING   C1'   H1'    no   N   30   .   30512   RY
+      31   .   SING   N3    H3     no   N   31   .   30512   RY
+      32   .   SING   N4    H41    no   N   32   .   30512   RY
+      33   .   SING   N4    H42    no   N   33   .   30512   RY
+      34   .   SING   C5    H5     no   N   34   .   30512   RY
+      35   .   SING   C6    H6     no   N   35   .   30512   RY
+      36   .   SING   C6    H2     no   N   36   .   30512   RY
+      37   .   SING   OP2   H4     no   N   37   .   30512   RY
+      38   .   SING   OP3   H7     no   N   38   .   30512   RY
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         30512
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          '0.5 mM 7SK RNA, 10mM Phosphate, 70mM NaCl, 0.1mM EDTA, 90%H2O/10%D2O'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   '7SK RNA'   'natural abundance'   .   .   1   $entity_1   .   .   0.5   .   .   mM   0.1   .   .   .   30512   1
+      2   NaCl        'natural abundance'   .   .   .   .           .   .   10    .   .   mM   .     .   .   .   30512   1
+      3   NaCl        'natural abundance'   .   .   .   .           .   .   70    .   .   mM   .     .   .   .   30512   1
+      4   EDTA        'natural abundance'   .   .   .   .           .   .   0.1   .   .   mM   .     .   .   .   30512   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         30512
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          '0.5 mM [U-13C; U-15N] 7SK RNA, 10mM Phosphate, 70mM NaCl, 0.1mM EDTA, 90%H2O/10%D2O'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   '7SK RNA'   '[U-13C; U-15N]'      .   .   1   $entity_1   .   .   0.5   .   .   mM   0.1   .   .   .   30512   2
+      2   NaCl        'natural abundance'   .   .   .   .           .   .   10    .   .   mM   .     .   .   .   30512   2
+      3   NaCl        'natural abundance'   .   .   .   .           .   .   70    .   .   mM   .     .   .   .   30512   2
+      4   EDTA        'natural abundance'   .   .   .   .           .   .   0.1   .   .   mM   .     .   .   .   30512   2
+   stop_
+save_
+
+save_sample_3
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_3
+   _Sample.Entry_ID                         30512
+   _Sample.ID                               3
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          '0.5 mM [U-13C; U-15N] 7SK RNA, 10mM Phosphate, 70mM NaCl, 0.1mM EDTA, 100% D2O'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   '7SK RNA'   '[U-13C; U-15N]'      .   .   1   $entity_1   .   .   0.5   .   .   mM   0.1   .   .   .   30512   3
+      2   NaCl        'natural abundance'   .   .   .   .           .   .   10    .   .   mM   .     .   .   .   30512   3
+      3   NaCl        'natural abundance'   .   .   .   .           .   .   70    .   .   mM   .     .   .   .   30512   3
+      4   EDTA        'natural abundance'   .   .   .   .           .   .   0.1   .   .   mM   .     .   .   .   30512   3
+   stop_
+save_
+
+save_sample_4
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_4
+   _Sample.Entry_ID                         30512
+   _Sample.ID                               4
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          '0.5 mM 7SK RNA, 10mM Phosphate, 70mM NaCl, 0.1mM EDTA, 100% D2O'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   '7SK RNA'   'natural abundance'   .   .   1   $entity_1   .   .   0.5   .   .   mM   0.1   .   .   .   30512   4
+      2   NaCl        'natural abundance'   .   .   .   .           .   .   10    .   .   mM   .     .   .   .   30512   4
+      3   NaCl        'natural abundance'   .   .   .   .           .   .   70    .   .   mM   .     .   .   .   30512   4
+      4   EDTA        'natural abundance'   .   .   .   .           .   .   0.1   .   .   mM   .     .   .   .   30512   4
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       30512
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   80       .   mM   30512   1
+      pH                 5.4      .   pH   30512   1
+      pressure           100000   .   Pa   30512   1
+      temperature        283      .   K    30512   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       30512
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           TOPSPIN
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin'   .   .   30512   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection   30512   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       30512
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           NMRView
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Johnson, One Moon Scientific'   .   .   30512   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   30512   2
+      'peak picking'                30512   2
+   stop_
+save_
+
+save_software_3
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_3
+   _Software.Entry_ID       30512
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           CYANA
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Guntert, Mumenthaler and Wuthrich'   .   .   30512   3
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'           30512   3
+      processing                30512   3
+      'structure calculation'   30512   3
+   stop_
+save_
+
+save_software_4
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_4
+   _Software.Entry_ID       30512
+   _Software.ID             4
+   _Software.Type           .
+   _Software.Name           AMBER
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Case, Darden, Cheatham III, Simmerling, Wang, Duke, Luo, and Kollman'   .   .   30512   4
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement   30512   4
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         30512
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            DMX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       30512
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   NMR_spectrometer_1   Bruker   DMX   .   700   .   .   .   30512   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       30512
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D 1H-1H NOESY'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30512   1
+      2   '2D 1H-15N HSQC'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30512   1
+      3   '2D 1H-13C HSQC'   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30512   1
+      4   '2D 1H-1H NOESY'   no   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30512   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       30512
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS                          'methyl carbons'   .   .   .   .   Hz    25144953     internal   indirect   0.25144953    .   .   .   .   .   30512   1
+      H   1    water                        protons            .   .   .   .   ppm   4.706        na         direct     1             .   .   .   .   .   30512   1
+      N   15   'liquid anhydrous ammonia'   nitrogen           .   .   .   .   Hz    10132911.8   external   indirect   0.101329118   .   .   .   .   .   30512   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      30512
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D 1H-1H NOESY'   .   .   .   30512   1
+      2   '2D 1H-15N HSQC'   .   .   .   30512   1
+      3   '2D 1H-13C HSQC'   .   .   .   30512   1
+      4   '2D 1H-1H NOESY'   .   .   .   30512   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      3   $software_3   .   .   30512   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   1    1    G    H1    H   1    11.7423    .   .   1   .   .   .   .   A   24   G    H1    .   30512   1
+      2     .   1   1   1    1    G    H1'   H   1    5.5422     .   .   1   .   .   .   .   A   24   G    H1'   .   30512   1
+      3     .   1   1   1    1    G    H2'   H   1    4.6704     .   .   1   .   .   .   .   A   24   G    H2'   .   30512   1
+      4     .   1   1   1    1    G    H8    H   1    7.8907     .   .   1   .   .   .   .   A   24   G    H8    .   30512   1
+      5     .   1   1   1    1    G    C1'   C   13   90.4248    .   .   1   .   .   .   .   A   24   G    C1'   .   30512   1
+      6     .   1   1   2    2    G    H1    H   1    12.4721    .   .   1   .   .   .   .   A   25   G    H1    .   30512   1
+      7     .   1   1   2    2    G    H1'   H   1    5.6658     .   .   1   .   .   .   .   A   25   G    H1'   .   30512   1
+      8     .   1   1   2    2    G    H8    H   1    7.2424     .   .   1   .   .   .   .   A   25   G    H8    .   30512   1
+      9     .   1   1   2    2    G    C8    C   13   139.2752   .   .   1   .   .   .   .   A   25   G    C8    .   30512   1
+      10    .   1   1   2    2    G    N1    N   15   149.6525   .   .   1   .   .   .   .   A   25   G    N1    .   30512   1
+      11    .   1   1   3    3    G    H1    H   1    12.1031    .   .   1   .   .   .   .   A   26   G    H1    .   30512   1
+      12    .   1   1   3    3    G    H1'   H   1    5.4961     .   .   1   .   .   .   .   A   26   G    H1'   .   30512   1
+      13    .   1   1   3    3    G    H8    H   1    6.9488     .   .   1   .   .   .   .   A   26   G    H8    .   30512   1
+      14    .   1   1   3    3    G    C8    C   13   139.3044   .   .   1   .   .   .   .   A   26   G    C8    .   30512   1
+      15    .   1   1   3    3    G    N1    N   15   149.0752   .   .   1   .   .   .   .   A   26   G    N1    .   30512   1
+      16    .   1   1   4    4    A    H1'   H   1    5.7127     .   .   1   .   .   .   .   A   27   A    H1'   .   30512   1
+      17    .   1   1   4    4    A    H2    H   1    7.5747     .   .   1   .   .   .   .   A   27   A    H2    .   30512   1
+      18    .   1   1   4    4    A    H8    H   1    7.3922     .   .   1   .   .   .   .   A   27   A    H8    .   30512   1
+      19    .   1   1   4    4    A    C1'   C   13   90.4958    .   .   1   .   .   .   .   A   27   A    C1'   .   30512   1
+      20    .   1   1   4    4    A    C2    C   13   154.0868   .   .   1   .   .   .   .   A   27   A    C2    .   30512   1
+      21    .   1   1   4    4    A    C8    C   13   140.8452   .   .   1   .   .   .   .   A   27   A    C8    .   30512   1
+      22    .   1   1   5    5    U    H1'   H   1    5.0378     .   .   1   .   .   .   .   A   28   U    H1'   .   30512   1
+      23    .   1   1   5    5    U    H3    H   1    11.6165    .   .   1   .   .   .   .   A   28   U    H3    .   30512   1
+      24    .   1   1   5    5    U    H5    H   1    5.0445     .   .   1   .   .   .   .   A   28   U    H5    .   30512   1
+      25    .   1   1   5    5    U    H6    H   1    7.2769     .   .   1   .   .   .   .   A   28   U    H6    .   30512   1
+      26    .   1   1   5    5    U    C6    C   13   137.9798   .   .   1   .   .   .   .   A   28   U    C6    .   30512   1
+      27    .   1   1   5    5    U    N3    N   15   157.1924   .   .   1   .   .   .   .   A   28   U    N3    .   30512   1
+      28    .   1   1   6    6    C    H1'   H   1    5.3303     .   .   1   .   .   .   .   A   29   C    H1'   .   30512   1
+      29    .   1   1   6    6    C    H5    H   1    5.3354     .   .   1   .   .   .   .   A   29   C    H5    .   30512   1
+      30    .   1   1   6    6    C    H6    H   1    7.4815     .   .   1   .   .   .   .   A   29   C    H6    .   30512   1
+      31    .   1   1   6    6    C    H41   H   1    8.1576     .   .   2   .   .   .   .   A   29   C    H41   .   30512   1
+      32    .   1   1   6    6    C    H42   H   1    6.6078     .   .   2   .   .   .   .   A   29   C    H42   .   30512   1
+      33    .   1   1   7    7    U    H1'   H   1    5.2462     .   .   1   .   .   .   .   A   30   U    H1'   .   30512   1
+      34    .   1   1   7    7    U    H3    H   1    11.4164    .   .   1   .   .   .   .   A   30   U    H3    .   30512   1
+      35    .   1   1   7    7    U    H5    H   1    5.1657     .   .   1   .   .   .   .   A   30   U    H5    .   30512   1
+      36    .   1   1   7    7    U    H6    H   1    7.4095     .   .   1   .   .   .   .   A   30   U    H6    .   30512   1
+      37    .   1   1   7    7    U    C6    C   13   139.1252   .   .   1   .   .   .   .   A   30   U    C6    .   30512   1
+      38    .   1   1   7    7    U    N3    N   15   156.0179   .   .   1   .   .   .   .   A   30   U    N3    .   30512   1
+      39    .   1   1   8    8    G    H1    H   1    12.2934    .   .   1   .   .   .   .   A   31   G    H1    .   30512   1
+      40    .   1   1   8    8    G    H1'   H   1    5.4659     .   .   1   .   .   .   .   A   31   G    H1'   .   30512   1
+      41    .   1   1   8    8    G    H8    H   1    7.5369     .   .   1   .   .   .   .   A   31   G    H8    .   30512   1
+      42    .   1   1   8    8    G    C8    C   13   142.8938   .   .   1   .   .   .   .   A   31   G    C8    .   30512   1
+      43    .   1   1   8    8    G    N1    N   15   150.9694   .   .   1   .   .   .   .   A   31   G    N1    .   30512   1
+      44    .   1   1   9    9    U    H1'   H   1    5.252      .   .   1   .   .   .   .   A   32   U    H1'   .   30512   1
+      45    .   1   1   9    9    U    H3    H   1    11.8566    .   .   1   .   .   .   .   A   32   U    H3    .   30512   1
+      46    .   1   1   9    9    U    H5    H   1    5.1116     .   .   1   .   .   .   .   A   32   U    H5    .   30512   1
+      47    .   1   1   9    9    U    H6    H   1    7.3914     .   .   1   .   .   .   .   A   32   U    H6    .   30512   1
+      48    .   1   1   9    9    U    C6    C   13   143.8929   .   .   1   .   .   .   .   A   32   U    C6    .   30512   1
+      49    .   1   1   9    9    U    N3    N   15   157.0322   .   .   1   .   .   .   .   A   32   U    N3    .   30512   1
+      50    .   1   1   10   10   C    H1'   H   1    5.3966     .   .   1   .   .   .   .   A   33   C    H1'   .   30512   1
+      51    .   1   1   10   10   C    H5    H   1    5.2755     .   .   1   .   .   .   .   A   33   C    H5    .   30512   1
+      52    .   1   1   10   10   C    H6    H   1    7.534      .   .   1   .   .   .   .   A   33   C    H6    .   30512   1
+      53    .   1   1   10   10   C    H41   H   1    8.0706     .   .   2   .   .   .   .   A   33   C    H41   .   30512   1
+      54    .   1   1   10   10   C    H42   H   1    6.1764     .   .   2   .   .   .   .   A   33   C    H42   .   30512   1
+      55    .   1   1   11   11   A    H1'   H   1    5.5104     .   .   1   .   .   .   .   A   34   A    H1'   .   30512   1
+      56    .   1   1   11   11   A    H2    H   1    7.8334     .   .   1   .   .   .   .   A   34   A    H2    .   30512   1
+      57    .   1   1   11   11   A    H8    H   1    7.8449     .   .   1   .   .   .   .   A   34   A    H8    .   30512   1
+      58    .   1   1   11   11   A    C1'   C   13   92.3246    .   .   1   .   .   .   .   A   34   A    C1'   .   30512   1
+      59    .   1   1   11   11   A    C2    C   13   153.9452   .   .   1   .   .   .   .   A   34   A    C2    .   30512   1
+      60    .   1   1   12   12   C    H1'   H   1    4.9316     .   .   1   .   .   .   .   A   35   C    H1'   .   30512   1
+      61    .   1   1   12   12   C    H5    H   1    4.9615     .   .   1   .   .   .   .   A   35   C    H5    .   30512   1
+      62    .   1   1   12   12   C    H6    H   1    7.0538     .   .   1   .   .   .   .   A   35   C    H6    .   30512   1
+      63    .   1   1   12   12   C    H41   H   1    8.2575     .   .   2   .   .   .   .   A   35   C    H41   .   30512   1
+      64    .   1   1   13   13   C    H1'   H   1    5.1622     .   .   1   .   .   .   .   A   36   C    H1'   .   30512   1
+      65    .   1   1   13   13   C    H5    H   1    5.2143     .   .   1   .   .   .   .   A   36   C    H5    .   30512   1
+      66    .   1   1   13   13   C    H6    H   1    7.0722     .   .   1   .   .   .   .   A   36   C    H6    .   30512   1
+      67    .   1   1   13   13   C    H41   H   1    7.961      .   .   2   .   .   .   .   A   36   C    H41   .   30512   1
+      68    .   1   1   13   13   C    H42   H   1    6.8148     .   .   2   .   .   .   .   A   36   C    H42   .   30512   1
+      69    .   1   1   14   14   C    H1'   H   1    5.1305     .   .   1   .   .   .   .   A   37   C    H1'   .   30512   1
+      70    .   1   1   14   14   C    H5    H   1    5.19       .   .   1   .   .   .   .   A   37   C    H5    .   30512   1
+      71    .   1   1   14   14   C    H6    H   1    7.5362     .   .   1   .   .   .   .   A   37   C    H6    .   30512   1
+      72    .   1   1   14   14   C    H41   H   1    8.1844     .   .   2   .   .   .   .   A   37   C    H41   .   30512   1
+      73    .   1   1   14   14   C    H42   H   1    6.8125     .   .   2   .   .   .   .   A   37   C    H42   .   30512   1
+      74    .   1   1   15   15   C    H1'   H   1    5.167      .   .   1   .   .   .   .   A   38   C    H1'   .   30512   1
+      75    .   1   1   15   15   C    H5    H   1    5.2135     .   .   1   .   .   .   .   A   38   C    H5    .   30512   1
+      76    .   1   1   15   15   C    H6    H   1    7.3899     .   .   1   .   .   .   .   A   38   C    H6    .   30512   1
+      77    .   1   1   15   15   C    H41   H   1    7.8601     .   .   2   .   .   .   .   A   38   C    H41   .   30512   1
+      78    .   1   1   15   15   C    H42   H   1    6.5374     .   .   2   .   .   .   .   A   38   C    H42   .   30512   1
+      79    .   1   1   16   16   A    H1'   H   1    5.5294     .   .   1   .   .   .   .   A   39   A    H1'   .   30512   1
+      80    .   1   1   16   16   A    H8    H   1    7.6113     .   .   1   .   .   .   .   A   39   A    H8    .   30512   1
+      81    .   1   1   16   16   A    C1'   C   13   91.35      .   .   1   .   .   .   .   A   39   A    C1'   .   30512   1
+      82    .   1   1   17   17   U    H1'   H   1    5.2515     .   .   1   .   .   .   .   A   40   U    H1'   .   30512   1
+      83    .   1   1   17   17   U    H3    H   1    11.4535    .   .   1   .   .   .   .   A   40   U    H3    .   30512   1
+      84    .   1   1   17   17   U    H5    H   1    4.9687     .   .   1   .   .   .   .   A   40   U    H5    .   30512   1
+      85    .   1   1   17   17   U    H6    H   1    7.082      .   .   1   .   .   .   .   A   40   U    H6    .   30512   1
+      86    .   1   1   17   17   U    C5    C   13   110.2669   .   .   1   .   .   .   .   A   40   U    C5    .   30512   1
+      87    .   1   1   17   17   U    N3    N   15   155.2704   .   .   1   .   .   .   .   A   40   U    N3    .   30512   1
+      88    .   1   1   18   18   U    H1'   H   1    5.3448     .   .   1   .   .   .   .   A   41   U    H1'   .   30512   1
+      89    .   1   1   18   18   U    H5    H   1    5.5019     .   .   1   .   .   .   .   A   41   U    H5    .   30512   1
+      90    .   1   1   18   18   U    H6    H   1    7.5705     .   .   1   .   .   .   .   A   41   U    H6    .   30512   1
+      91    .   1   1   18   18   U    C6    C   13   144.7306   .   .   1   .   .   .   .   A   41   U    C6    .   30512   1
+      92    .   1   1   19   19   G    H1    H   1    12.2497    .   .   1   .   .   .   .   A   42   G    H1    .   30512   1
+      93    .   1   1   19   19   G    H1'   H   1    5.6301     .   .   1   .   .   .   .   A   42   G    H1'   .   30512   1
+      94    .   1   1   19   19   G    H8    H   1    7.5298     .   .   1   .   .   .   .   A   42   G    H8    .   30512   1
+      95    .   1   1   19   19   G    C8    C   13   142.8186   .   .   1   .   .   .   .   A   42   G    C8    .   30512   1
+      96    .   1   1   19   19   G    N1    N   15   149.3956   .   .   1   .   .   .   .   A   42   G    N1    .   30512   1
+      97    .   1   1   20   20   A    H1'   H   1    5.7559     .   .   1   .   .   .   .   A   43   A    H1'   .   30512   1
+      98    .   1   1   20   20   A    H2    H   1    7.5106     .   .   1   .   .   .   .   A   43   A    H2    .   30512   1
+      99    .   1   1   20   20   A    H8    H   1    7.6011     .   .   1   .   .   .   .   A   43   A    H8    .   30512   1
+      100   .   1   1   20   20   A    C1'   C   13   92.0074    .   .   1   .   .   .   .   A   43   A    C1'   .   30512   1
+      101   .   1   1   20   20   A    C2    C   13   153.6798   .   .   1   .   .   .   .   A   43   A    C2    .   30512   1
+      102   .   1   1   21   21   U    H1'   H   1    5.2843     .   .   1   .   .   .   .   A   44   U    H1'   .   30512   1
+      103   .   1   1   21   21   U    H3    H   1    13.7981    .   .   1   .   .   .   .   A   44   U    H3    .   30512   1
+      104   .   1   1   21   21   U    H5    H   1    4.7094     .   .   1   .   .   .   .   A   44   U    H5    .   30512   1
+      105   .   1   1   21   21   U    H6    H   1    7.3566     .   .   1   .   .   .   .   A   44   U    H6    .   30512   1
+      106   .   1   1   21   21   U    C6    C   13   142.1932   .   .   1   .   .   .   .   A   44   U    C6    .   30512   1
+      107   .   1   1   21   21   U    N3    N   15   164.56     .   .   1   .   .   .   .   A   44   U    N3    .   30512   1
+      108   .   1   1   22   22   C    H1'   H   1    5.2957     .   .   1   .   .   .   .   A   45   C    H1'   .   30512   1
+      109   .   1   1   22   22   C    H5    H   1    5.3369     .   .   1   .   .   .   .   A   45   C    H5    .   30512   1
+      110   .   1   1   22   22   C    H6    H   1    7.4444     .   .   1   .   .   .   .   A   45   C    H6    .   30512   1
+      111   .   1   1   22   22   C    H41   H   1    8.0121     .   .   2   .   .   .   .   A   45   C    H41   .   30512   1
+      112   .   1   1   22   22   C    H42   H   1    6.5254     .   .   2   .   .   .   .   A   45   C    H42   .   30512   1
+      113   .   1   1   23   23   G    H1    H   1    12.3364    .   .   1   .   .   .   .   A   46   G    H1    .   30512   1
+      114   .   1   1   23   23   G    H1'   H   1    5.3269     .   .   1   .   .   .   .   A   46   G    H1'   .   30512   1
+      115   .   1   1   23   23   G    H8    H   1    7.2792     .   .   1   .   .   .   .   A   46   G    H8    .   30512   1
+      116   .   1   1   23   23   G    C8    C   13   141.8718   .   .   1   .   .   .   .   A   46   G    C8    .   30512   1
+      117   .   1   1   23   23   G    N1    N   15   149.9308   .   .   1   .   .   .   .   A   46   G    N1    .   30512   1
+      118   .   1   1   24   24   C    H1'   H   1    5.1673     .   .   1   .   .   .   .   A   47   C    H1'   .   30512   1
+      119   .   1   1   24   24   C    H5    H   1    4.9972     .   .   1   .   .   .   .   A   47   C    H5    .   30512   1
+      120   .   1   1   24   24   C    H6    H   1    7.4423     .   .   1   .   .   .   .   A   47   C    H6    .   30512   1
+      121   .   1   1   24   24   C    H41   H   1    8.2412     .   .   2   .   .   .   .   A   47   C    H41   .   30512   1
+      122   .   1   1   24   24   C    H42   H   1    6.7269     .   .   2   .   .   .   .   A   47   C    H42   .   30512   1
+      123   .   1   1   25   25   C    H1'   H   1    5.4        .   .   1   .   .   .   .   A   48   C    H1'   .   30512   1
+      124   .   1   1   25   25   C    H5    H   1    5.1676     .   .   1   .   .   .   .   A   48   C    H5    .   30512   1
+      125   .   1   1   25   25   C    H6    H   1    7.4573     .   .   1   .   .   .   .   A   48   C    H6    .   30512   1
+      126   .   1   1   25   25   C    H41   H   1    8.0747     .   .   2   .   .   .   .   A   48   C    H41   .   30512   1
+      127   .   1   1   25   25   C    H42   H   1    6.7245     .   .   2   .   .   .   .   A   48   C    H42   .   30512   1
+      128   .   1   1   26   26   G    H1    H   1    10.1812    .   .   1   .   .   .   .   A   49   G    H1    .   30512   1
+      129   .   1   1   26   26   G    H1'   H   1    5.3775     .   .   1   .   .   .   .   A   49   G    H1'   .   30512   1
+      130   .   1   1   26   26   G    H8    H   1    7.2169     .   .   1   .   .   .   .   A   49   G    H8    .   30512   1
+      131   .   1   1   26   26   G    C8    C   13   144.1548   .   .   1   .   .   .   .   A   49   G    C8    .   30512   1
+      132   .   1   1   26   26   G    N1    N   15   145.845    .   .   1   .   .   .   .   A   49   G    N1    .   30512   1
+      133   .   1   1   27   27   A    H1'   H   1    5.4097     .   .   1   .   .   .   .   A   50   A    H1'   .   30512   1
+      134   .   1   1   27   27   A    H2    H   1    7.7841     .   .   1   .   .   .   .   A   50   A    H2    .   30512   1
+      135   .   1   1   27   27   A    H8    H   1    7.9729     .   .   1   .   .   .   .   A   50   A    H8    .   30512   1
+      136   .   1   1   27   27   A    C1'   C   13   90.8949    .   .   1   .   .   .   .   A   50   A    C1'   .   30512   1
+      137   .   1   1   27   27   A    C2    C   13   154.0856   .   .   1   .   .   .   .   A   50   A    C2    .   30512   1
+      138   .   1   1   27   27   A    C8    C   13   139.9638   .   .   1   .   .   .   .   A   50   A    C8    .   30512   1
+      139   .   1   1   28   28   G    H1    H   1    10.2883    .   .   1   .   .   .   .   A   51   G    H1    .   30512   1
+      140   .   1   1   28   28   G    H1'   H   1    4.6683     .   .   1   .   .   .   .   A   51   G    H1'   .   30512   1
+      141   .   1   1   28   28   G    H8    H   1    7.371      .   .   1   .   .   .   .   A   51   G    H8    .   30512   1
+      142   .   1   1   28   28   G    N1    N   15   148.5802   .   .   1   .   .   .   .   A   51   G    N1    .   30512   1
+      143   .   1   1   29   29   A    H1'   H   1    5.7998     .   .   1   .   .   .   .   A   52   A    H1'   .   30512   1
+      144   .   1   1   29   29   A    H2    H   1    7.9489     .   .   1   .   .   .   .   A   52   A    H2    .   30512   1
+      145   .   1   1   29   29   A    H8    H   1    7.7433     .   .   1   .   .   .   .   A   52   A    H8    .   30512   1
+      146   .   1   1   29   29   A    C1'   C   13   90.2264    .   .   1   .   .   .   .   A   52   A    C1'   .   30512   1
+      147   .   1   1   29   29   A    C2    C   13   155.6568   .   .   1   .   .   .   .   A   52   A    C2    .   30512   1
+      148   .   1   1   29   29   A    C8    C   13   138.3734   .   .   1   .   .   .   .   A   52   A    C8    .   30512   1
+      149   .   1   1   30   30   G    H1    H   1    12.2206    .   .   1   .   .   .   .   A   60   G    H1    .   30512   1
+      150   .   1   1   30   30   G    H1'   H   1    4.9086     .   .   1   .   .   .   .   A   60   G    H1'   .   30512   1
+      151   .   1   1   30   30   G    H8    H   1    7.575      .   .   1   .   .   .   .   A   60   G    H8    .   30512   1
+      152   .   1   1   30   30   G    C8    C   13   136.9167   .   .   1   .   .   .   .   A   60   G    C8    .   30512   1
+      153   .   1   1   30   30   G    N1    N   15   148.3234   .   .   1   .   .   .   .   A   60   G    N1    .   30512   1
+      154   .   1   1   31   31   G    H1    H   1    13.0162    .   .   1   .   .   .   .   A   61   G    H1    .   30512   1
+      155   .   1   1   31   31   G    H1'   H   1    5.5055     .   .   1   .   .   .   .   A   61   G    H1'   .   30512   1
+      156   .   1   1   31   31   G    H8    H   1    6.8827     .   .   1   .   .   .   .   A   61   G    H8    .   30512   1
+      157   .   1   1   31   31   G    C8    C   13   139.1652   .   .   1   .   .   .   .   A   61   G    C8    .   30512   1
+      158   .   1   1   31   31   G    N1    N   15   151.4777   .   .   1   .   .   .   .   A   61   G    N1    .   30512   1
+      159   .   1   1   32   32   C    H1'   H   1    5.4442     .   .   1   .   .   .   .   A   62   C    H1'   .   30512   1
+      160   .   1   1   32   32   C    H5    H   1    4.922      .   .   1   .   .   .   .   A   62   C    H5    .   30512   1
+      161   .   1   1   32   32   C    H6    H   1    7.1558     .   .   1   .   .   .   .   A   62   C    H6    .   30512   1
+      162   .   1   1   32   32   C    H41   H   1    8.3206     .   .   2   .   .   .   .   A   62   C    H41   .   30512   1
+      163   .   1   1   33   33   U    H1'   H   1    5.1672     .   .   1   .   .   .   .   A   63   U    H1'   .   30512   1
+      164   .   1   1   33   33   U    H3    H   1    10.3869    .   .   1   .   .   .   .   A   63   U    H3    .   30512   1
+      165   .   1   1   33   33   U    H5    H   1    5.5031     .   .   1   .   .   .   .   A   63   U    H5    .   30512   1
+      166   .   1   1   33   33   U    H6    H   1    7.5744     .   .   1   .   .   .   .   A   63   U    H6    .   30512   1
+      167   .   1   1   33   33   U    C6    C   13   144.8848   .   .   1   .   .   .   .   A   63   U    C6    .   30512   1
+      168   .   1   1   33   33   U    N3    N   15   151.4264   .   .   1   .   .   .   .   A   63   U    N3    .   30512   1
+      169   .   1   1   34   34   G    H1    H   1    12.088     .   .   1   .   .   .   .   A   64   G    H1    .   30512   1
+      170   .   1   1   34   34   G    H1'   H   1    5.5018     .   .   1   .   .   .   .   A   64   G    H1'   .   30512   1
+      171   .   1   1   34   34   G    H8    H   1    7.4728     .   .   1   .   .   .   .   A   64   G    H8    .   30512   1
+      172   .   1   1   34   34   G    C8    C   13   142.8691   .   .   1   .   .   .   .   A   64   G    C8    .   30512   1
+      173   .   1   1   34   34   G    N1    N   15   149.0752   .   .   1   .   .   .   .   A   64   G    N1    .   30512   1
+      174   .   1   1   35   35   A    H1'   H   1    5.7491     .   .   1   .   .   .   .   A   65   A    H1'   .   30512   1
+      175   .   1   1   35   35   A    H2    H   1    7.4964     .   .   1   .   .   .   .   A   65   A    H2    .   30512   1
+      176   .   1   1   35   35   A    H8    H   1    7.7171     .   .   1   .   .   .   .   A   65   A    H8    .   30512   1
+      177   .   1   1   35   35   A    C1'   C   13   92.0145    .   .   1   .   .   .   .   A   65   A    C1'   .   30512   1
+      178   .   1   1   35   35   A    C2    C   13   153.6798   .   .   1   .   .   .   .   A   65   A    C2    .   30512   1
+      179   .   1   1   36   36   U    H1'   H   1    5.2588     .   .   1   .   .   .   .   A   66   U    H1'   .   30512   1
+      180   .   1   1   36   36   U    H3    H   1    13.7957    .   .   1   .   .   .   .   A   66   U    H3    .   30512   1
+      181   .   1   1   36   36   U    H5    H   1    4.6728     .   .   1   .   .   .   .   A   66   U    H5    .   30512   1
+      182   .   1   1   36   36   U    H6    H   1    7.3466     .   .   1   .   .   .   .   A   66   U    H6    .   30512   1
+      183   .   1   1   36   36   U    C6    C   13   140.2092   .   .   1   .   .   .   .   A   66   U    C6    .   30512   1
+      184   .   1   1   36   36   U    N3    N   15   164.56     .   .   1   .   .   .   .   A   66   U    N3    .   30512   1
+      185   .   1   1   37   37   C    H1'   H   1    5.3071     .   .   1   .   .   .   .   A   67   C    H1'   .   30512   1
+      186   .   1   1   37   37   C    H5    H   1    5.1928     .   .   1   .   .   .   .   A   67   C    H5    .   30512   1
+      187   .   1   1   37   37   C    H6    H   1    7.3672     .   .   1   .   .   .   .   A   67   C    H6    .   30512   1
+      188   .   1   1   37   37   C    H41   H   1    8.0239     .   .   2   .   .   .   .   A   67   C    H41   .   30512   1
+      189   .   1   1   37   37   C    H42   H   1    6.6134     .   .   2   .   .   .   .   A   67   C    H42   .   30512   1
+      190   .   1   1   38   38   U    H1'   H   1    5.2959     .   .   1   .   .   .   .   A   68   U    H1'   .   30512   1
+      191   .   1   1   38   38   U    H3    H   1    11.6766    .   .   1   .   .   .   .   A   68   U    H3    .   30512   1
+      192   .   1   1   38   38   U    H5    H   1    5.2581     .   .   1   .   .   .   .   A   68   U    H5    .   30512   1
+      193   .   1   1   38   38   U    H6    H   1    7.5055     .   .   1   .   .   .   .   A   68   U    H6    .   30512   1
+      194   .   1   1   38   38   U    C6    C   13   139.9433   .   .   1   .   .   .   .   A   68   U    C6    .   30512   1
+      195   .   1   1   39   39   G    H1    H   1    11.8504    .   .   1   .   .   .   .   A   69   G    H1    .   30512   1
+      196   .   1   1   39   39   G    H1'   H   1    5.4659     .   .   1   .   .   .   .   A   69   G    H1'   .   30512   1
+      197   .   1   1   39   39   G    H8    H   1    7.1024     .   .   1   .   .   .   .   A   69   G    H8    .   30512   1
+      198   .   1   1   39   39   G    C8    C   13   139.1588   .   .   1   .   .   .   .   A   69   G    C8    .   30512   1
+      199   .   1   1   39   39   G    N1    N   15   147.9787   .   .   1   .   .   .   .   A   69   G    N1    .   30512   1
+      200   .   1   1   40   40   G    H1    H   1    12.578     .   .   1   .   .   .   .   A   70   G    H1    .   30512   1
+      201   .   1   1   40   40   G    H1'   H   1    5.5074     .   .   1   .   .   .   .   A   70   G    H1'   .   30512   1
+      202   .   1   1   40   40   G    H8    H   1    6.9525     .   .   1   .   .   .   .   A   70   G    H8    .   30512   1
+      203   .   1   1   40   40   G    C8    C   13   139.3829   .   .   1   .   .   .   .   A   70   G    C8    .   30512   1
+      204   .   1   1   40   40   G    N1    N   15   151.4162   .   .   1   .   .   .   .   A   70   G    N1    .   30512   1
+      205   .   1   1   41   41   RY   H1'   H   1    5.5886     .   .   1   .   .   .   .   A   71   RY   H1'   .   30512   1
+      206   .   1   1   41   41   RY   H5    H   1    5.7422     .   .   1   .   .   .   .   A   71   RY   H5    .   30512   1
+      207   .   1   1   41   41   RY   H6    H   1    7.4264     .   .   1   .   .   .   .   A   71   RY   H6    .   30512   1
+      208   .   1   1   41   41   RY   H41   H   1    10.0661    .   .   2   .   .   .   .   A   71   RY   H41   .   30512   1
+      209   .   1   1   41   41   RY   H42   H   1    8.7392     .   .   2   .   .   .   .   A   71   RY   H42   .   30512   1
+      210   .   1   1   42   42   U    H1'   H   1    5.7228     .   .   1   .   .   .   .   A   72   U    H1'   .   30512   1
+      211   .   1   1   42   42   U    H5    H   1    5.656      .   .   1   .   .   .   .   A   72   U    H5    .   30512   1
+      212   .   1   1   42   42   U    H6    H   1    7.5503     .   .   1   .   .   .   .   A   72   U    H6    .   30512   1
+      213   .   1   1   42   42   U    C6    C   13   144.8881   .   .   1   .   .   .   .   A   72   U    C6    .   30512   1
+      214   .   1   1   43   43   G    H1    H   1    12.2701    .   .   1   .   .   .   .   A   73   G    H1    .   30512   1
+      215   .   1   1   43   43   G    H1'   H   1    5.5479     .   .   1   .   .   .   .   A   73   G    H1'   .   30512   1
+      216   .   1   1   43   43   G    H8    H   1    7.0674     .   .   1   .   .   .   .   A   73   G    H8    .   30512   1
+      217   .   1   1   43   43   G    C8    C   13   141.2248   .   .   1   .   .   .   .   A   73   G    C8    .   30512   1
+      218   .   1   1   43   43   G    N1    N   15   150.6154   .   .   1   .   .   .   .   A   73   G    N1    .   30512   1
+      219   .   1   1   44   44   G    H1    H   1    12.9239    .   .   1   .   .   .   .   A   74   G    H1    .   30512   1
+      220   .   1   1   44   44   G    H1'   H   1    5.7133     .   .   1   .   .   .   .   A   74   G    H1'   .   30512   1
+      221   .   1   1   44   44   G    H8    H   1    7.2958     .   .   1   .   .   .   .   A   74   G    H8    .   30512   1
+      222   .   1   1   44   44   G    C8    C   13   141.7694   .   .   1   .   .   .   .   A   74   G    C8    .   30512   1
+      223   .   1   1   44   44   G    N1    N   15   150.9374   .   .   1   .   .   .   .   A   74   G    N1    .   30512   1
+      224   .   1   1   45   45   RY   H1'   H   1    5.6377     .   .   1   .   .   .   .   A   75   RY   H1'   .   30512   1
+      225   .   1   1   45   45   RY   H5    H   1    5.3156     .   .   1   .   .   .   .   A   75   RY   H5    .   30512   1
+      226   .   1   1   45   45   RY   H6    H   1    7.3679     .   .   1   .   .   .   .   A   75   RY   H6    .   30512   1
+      227   .   1   1   46   46   U    H1'   H   1    5.5579     .   .   1   .   .   .   .   A   76   U    H1'   .   30512   1
+      228   .   1   1   46   46   U    H5    H   1    5.4996     .   .   1   .   .   .   .   A   76   U    H5    .   30512   1
+      229   .   1   1   46   46   U    H6    H   1    7.5008     .   .   1   .   .   .   .   A   76   U    H6    .   30512   1
+      230   .   1   1   46   46   U    C6    C   13   143.8929   .   .   1   .   .   .   .   A   76   U    C6    .   30512   1
+      231   .   1   1   47   47   A    H1'   H   1    5.8363     .   .   1   .   .   .   .   A   77   A    H1'   .   30512   1
+      232   .   1   1   47   47   A    H8    H   1    8.0461     .   .   1   .   .   .   .   A   77   A    H8    .   30512   1
+      233   .   1   1   47   47   A    C1'   C   13   90.1865    .   .   1   .   .   .   .   A   77   A    C1'   .   30512   1
+      234   .   1   1   47   47   A    C8    C   13   140.0195   .   .   1   .   .   .   .   A   77   A    C8    .   30512   1
+      235   .   1   1   48   48   G    H1    H   1    11.784     .   .   1   .   .   .   .   A   78   G    H1    .   30512   1
+      236   .   1   1   48   48   G    H1'   H   1    5.2757     .   .   1   .   .   .   .   A   78   G    H1'   .   30512   1
+      237   .   1   1   48   48   G    H8    H   1    7.5301     .   .   1   .   .   .   .   A   78   G    H8    .   30512   1
+      238   .   1   1   48   48   G    C8    C   13   142.7426   .   .   1   .   .   .   .   A   78   G    C8    .   30512   1
+      239   .   1   1   48   48   G    N1    N   15   148.132    .   .   1   .   .   .   .   A   78   G    N1    .   30512   1
+      240   .   1   1   49   49   G    H1    H   1    11.1202    .   .   1   .   .   .   .   A   79   G    H1    .   30512   1
+      241   .   1   1   49   49   G    H1'   H   1    5.5027     .   .   1   .   .   .   .   A   79   G    H1'   .   30512   1
+      242   .   1   1   49   49   G    H8    H   1    7.1789     .   .   1   .   .   .   .   A   79   G    H8    .   30512   1
+      243   .   1   1   49   49   G    C8    C   13   141.6886   .   .   1   .   .   .   .   A   79   G    C8    .   30512   1
+      244   .   1   1   49   49   G    N1    N   15   144.4304   .   .   1   .   .   .   .   A   79   G    N1    .   30512   1
+      245   .   1   1   50   50   C    H1'   H   1    5.3278     .   .   1   .   .   .   .   A   80   C    H1'   .   30512   1
+      246   .   1   1   50   50   C    H5    H   1    5.0703     .   .   1   .   .   .   .   A   80   C    H5    .   30512   1
+      247   .   1   1   50   50   C    H6    H   1    7.2925     .   .   1   .   .   .   .   A   80   C    H6    .   30512   1
+      248   .   1   1   50   50   C    H41   H   1    8.0336     .   .   2   .   .   .   .   A   80   C    H41   .   30512   1
+      249   .   1   1   50   50   C    H42   H   1    6.6768     .   .   2   .   .   .   .   A   80   C    H42   .   30512   1
+      250   .   1   1   51   51   G    H1    H   1    10.3674    .   .   1   .   .   .   .   A   81   G    H1    .   30512   1
+      251   .   1   1   51   51   G    H1'   H   1    5.4721     .   .   1   .   .   .   .   A   81   G    H1'   .   30512   1
+      252   .   1   1   51   51   G    H8    H   1    7.1826     .   .   1   .   .   .   .   A   81   G    H8    .   30512   1
+      253   .   1   1   51   51   G    C8    C   13   139.0745   .   .   1   .   .   .   .   A   81   G    C8    .   30512   1
+      254   .   1   1   51   51   G    N1    N   15   139.8924   .   .   1   .   .   .   .   A   81   G    N1    .   30512   1
+      255   .   1   1   52   52   G    H1    H   1    12.4808    .   .   1   .   .   .   .   A   82   G    H1    .   30512   1
+      256   .   1   1   52   52   G    H1'   H   1    5.4948     .   .   1   .   .   .   .   A   82   G    H1'   .   30512   1
+      257   .   1   1   52   52   G    H8    H   1    6.9746     .   .   1   .   .   .   .   A   82   G    H8    .   30512   1
+      258   .   1   1   52   52   G    C8    C   13   139.6942   .   .   1   .   .   .   .   A   82   G    C8    .   30512   1
+      259   .   1   1   52   52   G    N1    N   15   150.3218   .   .   1   .   .   .   .   A   82   G    N1    .   30512   1
+      260   .   1   1   53   53   G    H1    H   1    11.2537    .   .   1   .   .   .   .   A   83   G    H1    .   30512   1
+      261   .   1   1   53   53   G    H1'   H   1    5.5106     .   .   1   .   .   .   .   A   83   G    H1'   .   30512   1
+      262   .   1   1   53   53   G    H8    H   1    6.8727     .   .   1   .   .   .   .   A   83   G    H8    .   30512   1
+      263   .   1   1   53   53   G    C8    C   13   141.05     .   .   1   .   .   .   .   A   83   G    C8    .   30512   1
+      264   .   1   1   53   53   G    N1    N   15   144.0567   .   .   1   .   .   .   .   A   83   G    N1    .   30512   1
+      265   .   1   1   54   54   U    H1'   H   1    5.2191     .   .   1   .   .   .   .   A   84   U    H1'   .   30512   1
+      266   .   1   1   54   54   U    H3    H   1    14.171     .   .   1   .   .   .   .   A   84   U    H3    .   30512   1
+      267   .   1   1   54   54   U    H5    H   1    4.906      .   .   1   .   .   .   .   A   84   U    H5    .   30512   1
+      268   .   1   1   54   54   U    H6    H   1    7.4986     .   .   1   .   .   .   .   A   84   U    H6    .   30512   1
+      269   .   1   1   54   54   U    C6    C   13   139.8799   .   .   1   .   .   .   .   A   84   U    C6    .   30512   1
+      270   .   1   1   54   54   U    N3    N   15   166.1083   .   .   1   .   .   .   .   A   84   U    N3    .   30512   1
+      271   .   1   1   55   55   C    H1'   H   1    5.2966     .   .   1   .   .   .   .   A   85   C    H1'   .   30512   1
+      272   .   1   1   55   55   C    H5    H   1    5.3329     .   .   1   .   .   .   .   A   85   C    H5    .   30512   1
+      273   .   1   1   55   55   C    H6    H   1    7.6609     .   .   1   .   .   .   .   A   85   C    H6    .   30512   1
+      274   .   1   1   55   55   C    H41   H   1    8.1661     .   .   2   .   .   .   .   A   85   C    H41   .   30512   1
+      275   .   1   1   55   55   C    H42   H   1    6.7908     .   .   2   .   .   .   .   A   85   C    H42   .   30512   1
+      276   .   1   1   56   56   C    H1'   H   1    5.1979     .   .   1   .   .   .   .   A   86   C    H1'   .   30512   1
+      277   .   1   1   56   56   C    H5    H   1    5.2216     .   .   1   .   .   .   .   A   86   C    H5    .   30512   1
+      278   .   1   1   56   56   C    H6    H   1    7.4752     .   .   1   .   .   .   .   A   86   C    H6    .   30512   1
+      279   .   1   1   56   56   C    H41   H   1    7.9909     .   .   2   .   .   .   .   A   86   C    H41   .   30512   1
+      280   .   1   1   56   56   C    H42   H   1    6.6426     .   .   2   .   .   .   .   A   86   C    H42   .   30512   1
+      281   .   1   1   57   57   C    H1'   H   1    5.4698     .   .   1   .   .   .   .   A   87   C    H1'   .   30512   1
+      282   .   1   1   57   57   C    H5    H   1    5.1692     .   .   1   .   .   .   .   A   87   C    H5    .   30512   1
+      283   .   1   1   57   57   C    H6    H   1    7.3701     .   .   1   .   .   .   .   A   87   C    H6    .   30512   1
+   stop_
+save_
+

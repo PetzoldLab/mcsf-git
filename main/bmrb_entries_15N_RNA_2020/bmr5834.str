@@ -1,0 +1,1333 @@
+data_5834
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            5834
+  _Entry.Title                         
+;
+Solution structure of the HIV-1 frameshift inducing stem-loop RNA
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2003-06-17
+  _Entry.Accession_date                2003-06-17
+  _Entry.Last_release_date             2003-09-12
+  _Entry.Original_release_date         2003-09-12
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     2.1
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   .
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    David     Staple     .   W.    .   5834    
+    2    Samuel    Butcher    .   E.    .   5834    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    assigned_chemical_shifts    1    5834    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    '13C chemical shifts'  59     5834    
+    '15N chemical shifts'  31     5834    
+    '1H chemical shifts'   155    5834    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    1    .   .   2003-09-12    2003-06-17    original    author    .   5834    
+  stop_
+
+  loop_
+    _Related_entries.Database_name
+    _Related_entries.Database_accession_code
+    _Related_entries.Relationship
+    _Related_entries.Entry_ID
+
+    PDB    1PJY    'BMRB Entry Tracking System'  5834    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_entry_citation
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                entry_citation
+  _Citation.Entry_ID                    5834
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             22770795
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   12888491
+  _Citation.Full_citation               .
+  _Citation.Title                       'Solution Structure of the HIV-1 Frameshift Inducing Stem-loop RNA'
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              'Nucleic Acids Res.'
+  _Citation.Journal_name_full           .
+  _Citation.Journal_volume              31
+  _Citation.Journal_issue               15
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  4326
+  _Citation.Page_last                   4331
+  _Citation.Year                        2003
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    David     Staple     .   W    .   5834    1    
+    2    Samuel    Butcher    .   E    .   5834    1    
+  stop_
+
+  loop_
+    _Citation_keyword.Keyword
+    _Citation_keyword.Entry_ID
+    _Citation_keyword.Citation_ID
+
+    frameshift    5834    1    
+    HIV           5834    1    
+    RNA           5834    1    
+    tetraloop     5834    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_system_HIVFSL
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     system_HIVFSL
+  _Assembly.Entry_ID                         5834
+  _Assembly.ID                               1
+  _Assembly.Name                             'HIV-1 frameshift inducing stem-loop RNA'
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             .
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               .
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      'not present'
+  _Assembly.Molecular_mass                   .
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          .
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Assembly_type.Type
+    _Assembly_type.Entry_ID
+    _Assembly_type.Assembly_ID
+
+    monmer    5834    1    
+  stop_
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    'HIV-1 frameshift inducing stem-loop RNA'  1    $HIVfsl   .   .   .   native    .   .   .   .   .   5834    1    
+  stop_
+
+  loop_
+    _Assembly_db_link.Author_supplied
+    _Assembly_db_link.Database_code
+    _Assembly_db_link.Accession_code
+    _Assembly_db_link.Entry_mol_code
+    _Assembly_db_link.Entry_mol_name
+    _Assembly_db_link.Entry_experimental_method
+    _Assembly_db_link.Entry_structure_resolution
+    _Assembly_db_link.Entry_relation_type
+    _Assembly_db_link.Entry_details
+    _Assembly_db_link.Entry_ID
+    _Assembly_db_link.Assembly_ID
+
+    .   PDB    1PJY    .   .   .   .   .   .   5834    1    
+  stop_
+
+  loop_
+    _Assembly_common_name.Name
+    _Assembly_common_name.Type
+    _Assembly_common_name.Entry_ID
+    _Assembly_common_name.Assembly_ID
+
+    'HIV-1 frameshift inducing stem-loop RNA'  system          5834    1    
+    HIVfsl                                     abbreviation    5834    1    
+  stop_
+
+  loop_
+    _Assembly_bio_function.Biological_function
+    _Assembly_bio_function.Entry_ID
+    _Assembly_bio_function.Assembly_ID
+
+    'induces a programmed -1 frameshift during translation of the HIV-1 genes'  5834    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_HIVfsl
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     HIVfsl
+  _Entity.Entry_ID                         5834
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             'HIV-1 frameshift inducing stem-loop RNA'
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polyribonucleotide
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      
+;
+GGCCUUCCCACAAGGGAAGG
+CC
+;
+
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  .
+  _Entity.Ambiguous_chem_comp_sites        .
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   .
+  _Entity.Nstd_linkage                     .
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               22
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      'not present'
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 .
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_common_name.Name
+    _Entity_common_name.Type
+    _Entity_common_name.Entry_ID
+    _Entity_common_name.Entity_ID
+
+    'HIV-1 frameshift inducing stem-loop RNA'  common          5834    1    
+    HIVfsl                                     abbreviation    5834    1    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     .   G    .   5834    1    
+    2     .   G    .   5834    1    
+    3     .   C    .   5834    1    
+    4     .   C    .   5834    1    
+    5     .   U    .   5834    1    
+    6     .   U    .   5834    1    
+    7     .   C    .   5834    1    
+    8     .   C    .   5834    1    
+    9     .   C    .   5834    1    
+    10    .   A    .   5834    1    
+    11    .   C    .   5834    1    
+    12    .   A    .   5834    1    
+    13    .   A    .   5834    1    
+    14    .   G    .   5834    1    
+    15    .   G    .   5834    1    
+    16    .   G    .   5834    1    
+    17    .   A    .   5834    1    
+    18    .   A    .   5834    1    
+    19    .   G    .   5834    1    
+    20    .   G    .   5834    1    
+    21    .   C    .   5834    1    
+    22    .   C    .   5834    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   G    1     1     5834    1    
+    .   G    2     2     5834    1    
+    .   C    3     3     5834    1    
+    .   C    4     4     5834    1    
+    .   U    5     5     5834    1    
+    .   U    6     6     5834    1    
+    .   C    7     7     5834    1    
+    .   C    8     8     5834    1    
+    .   C    9     9     5834    1    
+    .   A    10    10    5834    1    
+    .   C    11    11    5834    1    
+    .   A    12    12    5834    1    
+    .   A    13    13    5834    1    
+    .   G    14    14    5834    1    
+    .   G    15    15    5834    1    
+    .   G    16    16    5834    1    
+    .   A    17    17    5834    1    
+    .   A    18    18    5834    1    
+    .   G    19    19    5834    1    
+    .   G    20    20    5834    1    
+    .   C    21    21    5834    1    
+    .   C    22    22    5834    1    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      5834
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $HIVfsl   .   12721    .   .   'Lentivirus HIV'  HIV    .   .   Viruses    .   Lentivirus    HIV    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      5834
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $HIVfsl   .   'enzymatic semisynthesis'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   'The RNA was transcribed in vitro using T7 RNA polymerase.'  .   .   5834    1    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_Sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    Sample_1
+  _Sample.Entry_ID                        5834
+  _Sample.ID                              1
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'HIV-1 frameshift inducing stem-loop RNA'  .   .   .   1    $HIVfsl   .   .   1.0    .   .   mM    .   .   .   .   5834    1    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_condition_1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  condition_1
+  _Sample_condition_list.Entry_ID      5834
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH             6.8    0.1    n/a    5834    1    
+    temperature    303    1      K      5834    1    
+  stop_
+
+save_
+
+save_condition_2
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  condition_2
+  _Sample_condition_list.Entry_ID      5834
+  _Sample_condition_list.ID            2
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH             6.8    0.1    n/a    5834    2    
+    temperature    283    1      K      5834    2    
+  stop_
+
+save_
+
+save_condition_3
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  condition_3
+  _Sample_condition_list.Entry_ID      5834
+  _Sample_condition_list.ID            3
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH             6.8    0.1    n/a    5834    3    
+    temperature    298    1      K      5834    3    
+  stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_NMR_spectrometer_1
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_1
+  _NMR_spectrometer.Entry_ID        5834
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Bruker
+  _NMR_spectrometer.Model           DMX
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  750
+
+save_
+
+save_NMR_spectrometer_2
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_2
+  _NMR_spectrometer.Entry_ID        5834
+  _NMR_spectrometer.ID              2
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Bruker
+  _NMR_spectrometer.Model           DMX
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  600
+
+save_
+
+save_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      5834
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    NMR_spectrometer_1    Bruker    DMX    .   750    .   .   .   5834    1    
+    2    NMR_spectrometer_2    Bruker    DMX    .   600    .   .   .   5834    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      5834
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1    '1H-1H NOESY'           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+    2    '1H-1H TOCSY'           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+    3    '1H-13C HSQC'           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+    4    HCCH-TOCSY              .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+    5    HCCH-COSY               .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+    6    HNN-COSY                .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+    7    '1H-13C-1H NOESY HMQC'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5834    1    
+  stop_
+
+save_
+
+save_NMR_spec_expt__0_1
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_1
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             1
+  _NMR_spec_expt.Name                           '1H-1H NOESY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+save_NMR_spec_expt__0_2
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_2
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             2
+  _NMR_spec_expt.Name                           '1H-1H TOCSY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+save_NMR_spec_expt__0_3
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_3
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             3
+  _NMR_spec_expt.Name                           '1H-13C HSQC'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+save_NMR_spec_expt__0_4
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_4
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             4
+  _NMR_spec_expt.Name                           HCCH-TOCSY
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+save_NMR_spec_expt__0_5
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_5
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             5
+  _NMR_spec_expt.Name                           HCCH-COSY
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+save_NMR_spec_expt__0_6
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_6
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             6
+  _NMR_spec_expt.Name                           HNN-COSY
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+save_NMR_spec_expt__0_7
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_spec_expt__0_7
+  _NMR_spec_expt.Entry_ID                       5834
+  _NMR_spec_expt.ID                             7
+  _NMR_spec_expt.Name                           '1H-13C-1H NOESY HMQC'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    .
+  _NMR_spec_expt.Software_label                 .
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        '600 MHz spectrometer was equipped with a cryoprobe.'
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+save_chemical_shift_reference
+  _Chem_shift_reference.Sf_category   chem_shift_reference
+  _Chem_shift_reference.Sf_framecode  chemical_shift_reference
+  _Chem_shift_reference.Entry_ID      5834
+  _Chem_shift_reference.ID            1
+  _Chem_shift_reference.Details       .
+
+  loop_
+    _Chem_shift_ref.Atom_type
+    _Chem_shift_ref.Atom_isotope_number
+    _Chem_shift_ref.Mol_common_name
+    _Chem_shift_ref.Atom_group
+    _Chem_shift_ref.Concentration_val
+    _Chem_shift_ref.Concentration_units
+    _Chem_shift_ref.Solvent
+    _Chem_shift_ref.Rank
+    _Chem_shift_ref.Chem_shift_units
+    _Chem_shift_ref.Chem_shift_val
+    _Chem_shift_ref.Ref_method
+    _Chem_shift_ref.Ref_type
+    _Chem_shift_ref.Indirect_shift_ratio
+    _Chem_shift_ref.External_ref_loc
+    _Chem_shift_ref.External_ref_sample_geometry
+    _Chem_shift_ref.External_ref_axis
+    _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+    _Chem_shift_ref.Indirect_shift_ratio_cit_label
+    _Chem_shift_ref.Ref_correction_type
+    _Chem_shift_ref.Correction_val
+    _Chem_shift_ref.Correction_val_cit_ID
+    _Chem_shift_ref.Correction_val_cit_label
+    _Chem_shift_ref.Entry_ID
+    _Chem_shift_ref.Chem_shift_reference_ID
+
+    C    13    DSS    'methyl protons'  .   .   .   .   ppm    0.0    .           indirect    0.251449530    .   .   .   .   .   .   .   .   .   5834    1    
+    H    1     DSS    'methyl protons'  .   .   .   .   ppm    0.0    internal    direct      1.0            .   .   .   .   .   .   .   .   .   5834    1    
+    N    15    DSS    'methyl protons'  .   .   .   .   ppm    0.0    .           indirect    0.101329118    .   .   .   .   .   .   .   .   .   5834    1    
+  stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_chemical_shift_list
+  _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_framecode                 chemical_shift_list
+  _Assigned_chem_shift_list.Entry_ID                     5834
+  _Assigned_chem_shift_list.ID                           1
+  _Assigned_chem_shift_list.Sample_condition_list_ID     1
+  _Assigned_chem_shift_list.Sample_condition_list_label  $condition_1
+  _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+  _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+  _Assigned_chem_shift_list.Chem_shift_1H_err            .
+  _Assigned_chem_shift_list.Chem_shift_13C_err           .
+  _Assigned_chem_shift_list.Chem_shift_15N_err           .
+  _Assigned_chem_shift_list.Chem_shift_31P_err           .
+  _Assigned_chem_shift_list.Chem_shift_2H_err            .
+  _Assigned_chem_shift_list.Chem_shift_19F_err           .
+  _Assigned_chem_shift_list.Error_derivation_method      .
+  _Assigned_chem_shift_list.Details                      .
+  _Assigned_chem_shift_list.Text_data_format             .
+  _Assigned_chem_shift_list.Text_data                    .
+
+  loop_
+    _Chem_shift_experiment.Experiment_ID
+    _Chem_shift_experiment.Experiment_name
+    _Chem_shift_experiment.Sample_ID
+    _Chem_shift_experiment.Sample_label
+    _Chem_shift_experiment.Sample_state
+    _Chem_shift_experiment.Entry_ID
+    _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+    .   .   1    $Sample_1   .   5834    1    
+  stop_
+
+  loop_
+    _Atom_chem_shift.ID
+    _Atom_chem_shift.Assembly_atom_ID
+    _Atom_chem_shift.Entity_assembly_ID
+    _Atom_chem_shift.Entity_ID
+    _Atom_chem_shift.Comp_index_ID
+    _Atom_chem_shift.Seq_ID
+    _Atom_chem_shift.Comp_ID
+    _Atom_chem_shift.Atom_ID
+    _Atom_chem_shift.Atom_type
+    _Atom_chem_shift.Atom_isotope_number
+    _Atom_chem_shift.Val
+    _Atom_chem_shift.Val_err
+    _Atom_chem_shift.Assign_fig_of_merit
+    _Atom_chem_shift.Ambiguity_code
+    _Atom_chem_shift.Occupancy
+    _Atom_chem_shift.Resonance_ID
+    _Atom_chem_shift.Auth_entity_assembly_ID
+    _Atom_chem_shift.Auth_asym_ID
+    _Atom_chem_shift.Auth_seq_ID
+    _Atom_chem_shift.Auth_comp_ID
+    _Atom_chem_shift.Auth_atom_ID
+    _Atom_chem_shift.Details
+    _Atom_chem_shift.Entry_ID
+    _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+    1      .   1    1    1     1     G    C1'     C    13    90.224     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    2      .   1    1    1     1     G    C8      C    13    139.005    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    3      .   1    1    1     1     G    H1      H    1     12.955     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    4      .   1    1    1     1     G    H1'     H    1     5.755      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    5      .   1    1    1     1     G    H2'     H    1     4.882      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    6      .   1    1    1     1     G    H3'     H    1     4.76       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    7      .   1    1    1     1     G    H4'     H    1     4.501      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    8      .   1    1    1     1     G    H8      H    1     8.13       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    9      .   1    1    1     1     G    N1      N    15    147.359    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    10     .   1    1    1     1     G    N3      N    15    162.186    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    11     .   1    1    1     1     G    N7      N    15    217.632    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    12     .   1    1    2     2     G    C1'     C    13    92.722     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    13     .   1    1    2     2     G    C8      C    13    136.992    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    14     .   1    1    2     2     G    H1      H    1     13.407     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    15     .   1    1    2     2     G    H1'     H    1     5.874      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    16     .   1    1    2     2     G    H2'     H    1     4.529      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    17     .   1    1    2     2     G    H21     H    1     8.373      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    18     .   1    1    2     2     G    H22     H    1     7.585      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    19     .   1    1    2     2     G    H3'     H    1     4.507      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    20     .   1    1    2     2     G    H4'     H    1     4.565      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    21     .   1    1    2     2     G    H8      H    1     7.67       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    22     .   1    1    2     2     G    N1      N    15    148.384    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    23     .   1    1    2     2     G    N3      N    15    161.55     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    24     .   1    1    2     2     G    N7      N    15    218.419    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    25     .   1    1    3     3     C    C1'     C    13    93.773     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    26     .   1    1    3     3     C    C5      C    13    97.005     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    27     .   1    1    3     3     C    C6      C    13    140.864    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    28     .   1    1    3     3     C    H1'     H    1     5.528      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    29     .   1    1    3     3     C    H2'     H    1     4.412      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    30     .   1    1    3     3     C    H3'     H    1     4.34       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    31     .   1    1    3     3     C    H41     H    1     8.603      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    32     .   1    1    3     3     C    H42     H    1     6.847      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    33     .   1    1    3     3     C    H5      H    1     5.25       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    34     .   1    1    3     3     C    H6      H    1     7.672      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    35     .   1    1    3     3     C    N3      N    15    197.487    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    36     .   1    1    4     4     C    C1'     C    13    94.105     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    37     .   1    1    4     4     C    C5      C    13    97.88      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    38     .   1    1    4     4     C    C6      C    13    141.513    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    39     .   1    1    4     4     C    H1'     H    1     5.483      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    40     .   1    1    4     4     C    H2'     H    1     4.392      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    41     .   1    1    4     4     C    H3'     H    1     4.384      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    42     .   1    1    4     4     C    H4'     H    1     4.399      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    43     .   1    1    4     4     C    H41     H    1     8.482      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    44     .   1    1    4     4     C    H42     H    1     6.877      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    45     .   1    1    4     4     C    H5      H    1     5.536      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    46     .   1    1    4     4     C    H6      H    1     7.717      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    47     .   1    1    4     4     C    N3      N    15    196.969    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    48     .   1    1    5     5     U    C1'     C    13    93.986     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    49     .   1    1    5     5     U    C5      C    13    103.154    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    50     .   1    1    5     5     U    C6      C    13    139.823    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    51     .   1    1    5     5     U    H1'     H    1     5.491      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    52     .   1    1    5     5     U    H2'     H    1     4.424      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    53     .   1    1    5     5     U    H3      H    1     13.843     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    54     .   1    1    5     5     U    H3'     H    1     4.486      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    55     .   1    1    5     5     U    H4'     H    1     4.412      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    56     .   1    1    5     5     U    H5      H    1     5.399      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    57     .   1    1    5     5     U    H6      H    1     7.88       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    58     .   1    1    5     5     U    N3      N    15    161.656    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    59     .   1    1    6     6     U    C1'     C    13    93.565     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    60     .   1    1    6     6     U    C5      C    13    102.868    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    61     .   1    1    6     6     U    C6      C    13    140.304    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    62     .   1    1    6     6     U    H1'     H    1     5.595      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    63     .   1    1    6     6     U    H2'     H    1     4.376      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    64     .   1    1    6     6     U    H3      H    1     13.691     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    65     .   1    1    6     6     U    H3'     H    1     4.505      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    66     .   1    1    6     6     U    H4'     H    1     4.419      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    67     .   1    1    6     6     U    H5      H    1     5.557      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    68     .   1    1    6     6     U    H6      H    1     8.022      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    69     .   1    1    6     6     U    N3      N    15    162.344    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    70     .   1    1    7     7     C    C1'     C    13    93.796     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    71     .   1    1    7     7     C    C5      C    13    97.037     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    72     .   1    1    7     7     C    C6      C    13    141.704    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    73     .   1    1    7     7     C    H1'     H    1     5.455      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    74     .   1    1    7     7     C    H2'     H    1     4.193      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    75     .   1    1    7     7     C    H3'     H    1     4.409      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    76     .   1    1    7     7     C    H4'     H    1     4.38       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    77     .   1    1    7     7     C    H41     H    1     8.23       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    78     .   1    1    7     7     C    H42     H    1     6.732      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    79     .   1    1    7     7     C    H5      H    1     5.572      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    80     .   1    1    7     7     C    H6      H    1     7.843      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    81     .   1    1    7     7     C    N3      N    15    197.983    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    82     .   1    1    8     8     C    C2'     C    13    93.761     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    83     .   1    1    8     8     C    C5      C    13    97.14      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    84     .   1    1    8     8     C    C6      C    13    141.083    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    85     .   1    1    8     8     C    H1'     H    1     5.347      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    86     .   1    1    8     8     C    H2'     H    1     4.258      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    87     .   1    1    8     8     C    H3'     H    1     4.404      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    88     .   1    1    8     8     C    H4'     H    1     4.311      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    89     .   1    1    8     8     C    H41     H    1     8.239      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    90     .   1    1    8     8     C    H42     H    1     6.708      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    91     .   1    1    8     8     C    H5      H    1     5.331      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    92     .   1    1    8     8     C    H6      H    1     7.702      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    93     .   1    1    8     8     C    N3      N    15    196.661    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    94     .   1    1    9     9     C    C1'     C    13    93.695     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    95     .   1    1    9     9     C    C5      C    13    97.061     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    96     .   1    1    9     9     C    C6      C    13    140.729    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    97     .   1    1    9     9     C    H1'     H    1     5.407      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    98     .   1    1    9     9     C    H2'     H    1     4.558      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    99     .   1    1    9     9     C    H3'     H    1     4.334      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    100    .   1    1    9     9     C    H4'     H    1     4.319      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    101    .   1    1    9     9     C    H41     H    1     7.698      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    102    .   1    1    9     9     C    H42     H    1     5.688      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    103    .   1    1    9     9     C    H5      H    1     5.148      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    104    .   1    1    9     9     C    H6      H    1     7.493      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    105    .   1    1    9     9     C    N3      N    15    195.496    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    106    .   1    1    10    10    A    C1'     C    13    93.184     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    107    .   1    1    10    10    A    C2      C    13    152.073    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    108    .   1    1    10    10    A    C8      C    13    137.454    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    109    .   1    1    10    10    A    H1'     H    1     5.698      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    110    .   1    1    10    10    A    H2      H    1     7.564      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    111    .   1    1    10    10    A    H2'     H    1     4.4        .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    112    .   1    1    10    10    A    H3'     H    1     4.458      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    113    .   1    1    10    10    A    H4'     H    1     4.392      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    114    .   1    1    10    10    A    H8      H    1     8.029      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    115    .   1    1    11    11    C    C1'     C    13    89.872     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    116    .   1    1    11    11    C    C5      C    13    98.08      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    117    .   1    1    11    11    C    C6      C    13    142.691    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    118    .   1    1    11    11    C    H1'     H    1     5.576      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    119    .   1    1    11    11    C    H2'     H    1     3.997      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    120    .   1    1    11    11    C    H3'     H    1     4.275      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    121    .   1    1    11    11    C    H4'     H    1     3.66       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    122    .   1    1    11    11    C    H5      H    1     5.425      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    123    .   1    1    11    11    C    H5''    H    1     3.777      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    124    .   1    1    11    11    C    H6      H    1     7.444      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    125    .   1    1    12    12    A    C1'     C    13    89.971     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    126    .   1    1    12    12    A    C2      C    13    152.663    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    127    .   1    1    12    12    A    C8      C    13    139.299    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    128    .   1    1    12    12    A    H1'     H    1     5.77       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    129    .   1    1    12    12    A    H2      H    1     7.968      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    130    .   1    1    12    12    A    H2'     H    1     4.523      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    131    .   1    1    12    12    A    H3'     H    1     4.648      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    132    .   1    1    12    12    A    H4'     H    1     4.32       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    133    .   1    1    12    12    A    H8      H    1     8.079      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    134    .   1    1    13    13    A    C1'     C    13    90.538     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    135    .   1    1    13    13    A    C2      C    13    152.788    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    136    .   1    1    13    13    A    C8      C    13    139.66     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    137    .   1    1    13    13    A    H1'     H    1     6.058      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    138    .   1    1    13    13    A    H2      H    1     8.062      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    139    .   1    1    13    13    A    H2'     H    1     4.775      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    140    .   1    1    13    13    A    H3'     H    1     4.902      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    141    .   1    1    13    13    A    H4'     H    1     4.552      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    142    .   1    1    13    13    A    H8      H    1     8.331      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    143    .   1    1    14    14    G    C1'     C    13    92.42      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    144    .   1    1    14    14    G    C8      C    13    137.303    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    145    .   1    1    14    14    G    H1      H    1     12.022     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    146    .   1    1    14    14    G    H1'     H    1     5.014      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    147    .   1    1    14    14    G    H2'     H    1     4.539      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    148    .   1    1    14    14    G    H21     H    1     8.216      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    149    .   1    1    14    14    G    H22     H    1     6.038      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    150    .   1    1    14    14    G    H3'     H    1     4.26       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    151    .   1    1    14    14    G    H4'     H    1     4.441      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    152    .   1    1    14    14    G    H8      H    1     7.685      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    153    .   1    1    14    14    G    N1      N    15    146.803    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    154    .   1    1    14    14    G    N3      N    15    162.976    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    155    .   1    1    14    14    G    N7      N    15    217.005    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    156    .   1    1    15    15    G    C1'     C    13    92.713     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    157    .   1    1    15    15    G    C8      C    13    135.971    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    158    .   1    1    15    15    G    H1      H    1     12.333     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    159    .   1    1    15    15    G    H1'     H    1     5.754      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    160    .   1    1    15    15    G    H2'     H    1     4.421      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    161    .   1    1    15    15    G    H21     H    1     8.217      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    162    .   1    1    15    15    G    H22     H    1     5.784      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    163    .   1    1    15    15    G    H3'     H    1     4.577      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    164    .   1    1    15    15    G    H8      H    1     7.199      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    165    .   1    1    15    15    G    N1      N    15    147.26     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    166    .   1    1    15    15    G    N3      N    15    162.551    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    167    .   1    1    15    15    G    N7      N    15    217.259    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    168    .   1    1    16    16    G    C1'     C    13    92.833     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    169    .   1    1    16    16    G    C8      C    13    136.05     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    170    .   1    1    16    16    G    H1      H    1     12.1       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    171    .   1    1    16    16    G    H1'     H    1     5.695      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    172    .   1    1    16    16    G    H2'     H    1     4.54       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    173    .   1    1    16    16    G    H21     H    1     7.824      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    174    .   1    1    16    16    G    H22     H    1     5.684      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    175    .   1    1    16    16    G    H8      H    1     7.091      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    176    .   1    1    16    16    G    N1      N    15    147.004    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    177    .   1    1    16    16    G    N3      N    15    162.784    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    178    .   1    1    16    16    G    N7      N    15    217.082    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    179    .   1    1    17    17    A    C1'     C    13    92.99      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    180    .   1    1    17    17    A    C2      C    13    150.46     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    181    .   1    1    17    17    A    C8      C    13    136.632    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    182    .   1    1    17    17    A    H1'     H    1     5.847      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    183    .   1    1    17    17    A    H2      H    1     7.047      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    184    .   1    1    17    17    A    H2'     H    1     4.542      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    185    .   1    1    17    17    A    H3'     H    1     4.57       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    186    .   1    1    17    17    A    H4'     H    1     4.445      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    187    .   1    1    17    17    A    H61     H    1     7.749      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    188    .   1    1    17    17    A    H62     H    1     6.527      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    189    .   1    1    17    17    A    H8      H    1     7.595      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    190    .   1    1    17    17    A    N1      N    15    220.173    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    191    .   1    1    18    18    A    C1'     C    13    92.411     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    192    .   1    1    18    18    A    C2      C    13    150.732    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    193    .   1    1    18    18    A    C8      C    13    136.623    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    194    .   1    1    18    18    A    H1'     H    1     5.837      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    195    .   1    1    18    18    A    H2      H    1     7.414      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    196    .   1    1    18    18    A    H2'     H    1     4.554      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    197    .   1    1    18    18    A    H3'     H    1     4.356      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    198    .   1    1    18    18    A    H4'     H    1     4.428      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    199    .   1    1    18    18    A    H61     H    1     7.881      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    200    .   1    1    18    18    A    H62     H    1     6.492      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    201    .   1    1    18    18    A    H8      H    1     7.615      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    202    .   1    1    18    18    A    N1      N    15    219.986    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    203    .   1    1    19    19    G    C1'     C    13    92.42      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    204    .   1    1    19    19    G    C8      C    13    135.597    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    205    .   1    1    19    19    G    H1      H    1     12.857     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    206    .   1    1    19    19    G    H1'     H    1     5.524      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    207    .   1    1    19    19    G    H2'     H    1     4.463      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    208    .   1    1    19    19    G    H21     H    1     8.225      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    209    .   1    1    19    19    G    H22     H    1     6.002      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    210    .   1    1    19    19    G    H3'     H    1     4.515      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    211    .   1    1    19    19    G    H8      H    1     7.002      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    212    .   1    1    19    19    G    N1      N    15    147.464    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    213    .   1    1    19    19    G    N3      N    15    162.374    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    214    .   1    1    19    19    G    N7      N    15    217.519    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    215    .   1    1    20    20    G    C1'     C    13    92.833     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    216    .   1    1    20    20    G    C8      C    13    136.21     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    217    .   1    1    20    20    G    H1      H    1     13.278     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    218    .   1    1    20    20    G    H1'     H    1     5.701      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    219    .   1    1    20    20    G    H2'     H    1     4.46       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    220    .   1    1    20    20    G    H21     H    1     8.453      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    221    .   1    1    20    20    G    H22     H    1     7.668      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    222    .   1    1    20    20    G    H8      H    1     7.208      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    223    .   1    1    20    20    G    N1      N    15    148.747    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    224    .   1    1    20    20    G    N7      N    15    218.748    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    225    .   1    1    21    21    C    C1'     C    13    93.996     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    226    .   1    1    21    21    C    C5      C    13    96.898     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    227    .   1    1    21    21    C    C6      C    13    140.921    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    228    .   1    1    21    21    C    H1'     H    1     5.502      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    229    .   1    1    21    21    C    H2'     H    1     4.25       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    230    .   1    1    21    21    C    H3'     H    1     4.49       .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    231    .   1    1    21    21    C    H4'     H    1     4.357      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    232    .   1    1    21    21    C    H41     H    1     8.543      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    233    .   1    1    21    21    C    H42     H    1     6.877      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    234    .   1    1    21    21    C    H5      H    1     5.162      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    235    .   1    1    21    21    C    H6      H    1     7.583      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    236    .   1    1    21    21    C    N3      N    15    197.988    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    237    .   1    1    22    22    C    C1'     C    13    92.713     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    238    .   1    1    22    22    C    C5      C    13    98.072     .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    239    .   1    1    22    22    C    C6      C    13    141.674    .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    240    .   1    1    22    22    C    H1'     H    1     5.739      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    241    .   1    1    22    22    C    H2'     H    1     3.964      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    242    .   1    1    22    22    C    H4'     H    1     4.127      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    243    .   1    1    22    22    C    H5      H    1     5.5        .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    244    .   1    1    22    22    C    H6      H    1     7.644      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+    245    .   1    1    22    22    C    N3      N    15    196.9      .   .   1    .   .   .   .   .   .   .   .   5834    1    
+  stop_
+
+save_
+

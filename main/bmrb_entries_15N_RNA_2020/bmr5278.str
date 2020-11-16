@@ -1,0 +1,1605 @@
+data_5278
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            5278
+  _Entry.Title                         
+;
+PEMV-1 P1-P2 Frameshifting Pseudoknot Regularized Average Structure
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2002-02-06
+  _Entry.Accession_date                2002-02-06
+  _Entry.Last_release_date             2003-02-20
+  _Entry.Original_release_date         2003-02-20
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     2.1
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   .
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    P.    Nixon      .   L.    .   5278    
+    2    D.    Giedroc    .   P.    .   5278    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    assigned_chemical_shifts    1    5278    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    '1H chemical shifts'   173    5278    
+    '13C chemical shifts'  36     5278    
+    '15N chemical shifts'  66     5278    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    1    .   .   2003-02-20    2002-02-06    original    author    .   5278    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_entry_citation
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                entry_citation
+  _Citation.Entry_ID                    5278
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             22213647
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   12225754
+  _Citation.Full_citation               .
+  _Citation.Title                       'Solution Structure of a Luteoviral P1-P2 frameshifting mRNA Pseudoknot'
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              'J. Mol. Biol.'
+  _Citation.Journal_name_full           .
+  _Citation.Journal_volume              322
+  _Citation.Journal_issue               3
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  621
+  _Citation.Page_last                   633
+  _Citation.Year                        2002
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    P.      Nixon      .   L.    .   5278    1    
+    2    A.      Rangan     .   .     .   5278    1    
+    3    Y-G.    Kim        .   .     .   5278    1    
+    4    A.      Rich       .   .     .   5278    1    
+    5    D.      Hoffman    .   W.    .   5278    1    
+    6    M.      Hennig     .   .     .   5278    1    
+    7    D.      Giedroc    .   P.    .   5278    1    
+  stop_
+
+  loop_
+    _Citation_keyword.Keyword
+    _Citation_keyword.Entry_ID
+    _Citation_keyword.Citation_ID
+
+    Pseudoknot             5278    1    
+    NMR                    5278    1    
+    Frameshifting          5278    1    
+    Luteovirus             5278    1    
+    'Triple Helix'         5278    1    
+    'Protonated Cytidine'  5278    1    
+    'Ribonucleic Acid'     5278    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_system_PEMV-1
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     system_PEMV-1
+  _Assembly.Entry_ID                         5278
+  _Assembly.ID                               1
+  _Assembly.Name                             'Pea Enation Mosaic Virus P1-P2 frameshifting pseudoknot'
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             .
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               .
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      'not present'
+  _Assembly.Molecular_mass                   .
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          .
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Assembly_type.Type
+    _Assembly_type.Entry_ID
+    _Assembly_type.Assembly_ID
+
+    monomer    5278    1    
+  stop_
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    'P1-P2 frameshifting pseudoknot'  1    $PEMV-1   .   .   .   native    .   .   .   .   .   5278    1    
+  stop_
+
+  loop_
+    _Assembly_db_link.Author_supplied
+    _Assembly_db_link.Database_code
+    _Assembly_db_link.Accession_code
+    _Assembly_db_link.Entry_mol_code
+    _Assembly_db_link.Entry_mol_name
+    _Assembly_db_link.Entry_experimental_method
+    _Assembly_db_link.Entry_structure_resolution
+    _Assembly_db_link.Entry_relation_type
+    _Assembly_db_link.Entry_details
+    _Assembly_db_link.Entry_ID
+    _Assembly_db_link.Assembly_ID
+
+    yes    PDB    1KPZ    .   .   .   .   .   .   5278    1    
+    yes    PDB    1KPY    .   .   .   .   .   .   5278    1    
+  stop_
+
+  loop_
+    _Assembly_common_name.Name
+    _Assembly_common_name.Type
+    _Assembly_common_name.Entry_ID
+    _Assembly_common_name.Assembly_ID
+
+    'Pea Enation Mosaic Virus P1-P2 frameshifting pseudoknot'  system          5278    1    
+    PEMV-1                                                     abbreviation    5278    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_PEMV-1
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     PEMV-1
+  _Entity.Entry_ID                         5278
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             'Pea Enation Mosaic Virus Pseudoknot'
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polyribonucleotide
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      
+;
+GAAUUCCGGUXGACUCCGGA
+GAAACAAAGUCAA
+;
+
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  .
+  _Entity.Ambiguous_chem_comp_sites        .
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   .
+  _Entity.Nstd_linkage                     .
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               33
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      'not present'
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 1
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          'Minor Groove Triplex and an A(n-1)C+G-C(n) base quadruple.'
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_common_name.Name
+    _Entity_common_name.Type
+    _Entity_common_name.Entry_ID
+    _Entity_common_name.Entity_ID
+
+    'Pea Enation Mosaic Virus Pseudoknot'  common          5278    1    
+    PEMV-1                                 abbreviation    5278    1    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     0     G     .   5278    1    
+    2     1     A     .   5278    1    
+    3     2     A     .   5278    1    
+    4     3     U     .   5278    1    
+    5     4     U     .   5278    1    
+    6     5     C     .   5278    1    
+    7     6     C     .   5278    1    
+    8     7     G     .   5278    1    
+    9     8     G     .   5278    1    
+    10    9     U     .   5278    1    
+    11    10    CH    .   5278    1    
+    12    11    G     .   5278    1    
+    13    12    A     .   5278    1    
+    14    13    C     .   5278    1    
+    15    14    U     .   5278    1    
+    16    15    C     .   5278    1    
+    17    16    C     .   5278    1    
+    18    17    G     .   5278    1    
+    19    18    G     .   5278    1    
+    20    19    A     .   5278    1    
+    21    20    G     .   5278    1    
+    22    21    A     .   5278    1    
+    23    22    A     .   5278    1    
+    24    23    A     .   5278    1    
+    25    24    C     .   5278    1    
+    26    25    A     .   5278    1    
+    27    26    A     .   5278    1    
+    28    27    A     .   5278    1    
+    29    28    G     .   5278    1    
+    30    29    U     .   5278    1    
+    31    30    C     .   5278    1    
+    32    31    A     .   5278    1    
+    33    32    A     .   5278    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   G     1     1     5278    1    
+    .   A     2     2     5278    1    
+    .   A     3     3     5278    1    
+    .   U     4     4     5278    1    
+    .   U     5     5     5278    1    
+    .   C     6     6     5278    1    
+    .   C     7     7     5278    1    
+    .   G     8     8     5278    1    
+    .   G     9     9     5278    1    
+    .   U     10    10    5278    1    
+    .   CH    11    11    5278    1    
+    .   G     12    12    5278    1    
+    .   A     13    13    5278    1    
+    .   C     14    14    5278    1    
+    .   U     15    15    5278    1    
+    .   C     16    16    5278    1    
+    .   C     17    17    5278    1    
+    .   G     18    18    5278    1    
+    .   G     19    19    5278    1    
+    .   A     20    20    5278    1    
+    .   G     21    21    5278    1    
+    .   A     22    22    5278    1    
+    .   A     23    23    5278    1    
+    .   A     24    24    5278    1    
+    .   C     25    25    5278    1    
+    .   A     26    26    5278    1    
+    .   A     27    27    5278    1    
+    .   A     28    28    5278    1    
+    .   G     29    29    5278    1    
+    .   U     30    30    5278    1    
+    .   C     31    31    5278    1    
+    .   A     32    32    5278    1    
+    .   A     33    33    5278    1    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      5278
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $PEMV-1   .   12290    .   .   'Enamovirus Pea enation mosaic virus'  'Pea enation mosaic virus'  .   .   Viruses    .   Enamovirus    'Pea enation mosaic virus'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5278    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      5278
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $PEMV-1   .   'enzymatic semisynthesis'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5278    1    
+  stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+save_chem_comp_CH
+  _Chem_comp.Sf_category                      chem_comp
+  _Chem_comp.Sf_framecode                     chem_comp_CH
+  _Chem_comp.Entry_ID                         5278
+  _Chem_comp.ID                               CH
+  _Chem_comp.Provenance                       .
+  _Chem_comp.Name                             'N3-PROTONATED CYTIDINE-5'-MONOPHOSPHATE'
+  _Chem_comp.Type                             'RNA linking'
+  _Chem_comp.BMRB_code                        .
+  _Chem_comp.PDB_code                         CH
+  _Chem_comp.Ambiguous_flag                   no
+  _Chem_comp.Initial_date                     1999-07-08
+  _Chem_comp.Modified_date                    2011-06-04
+  _Chem_comp.Release_status                   REL
+  _Chem_comp.Replaced_by                      .
+  _Chem_comp.Replaces                         .
+  _Chem_comp.One_letter_code                  C
+  _Chem_comp.Three_letter_code                CH
+  _Chem_comp.Number_atoms_all                 .
+  _Chem_comp.Number_atoms_nh                  .
+  _Chem_comp.PubChem_code                     .
+  _Chem_comp.Subcomponent_list                .
+  _Chem_comp.InChI_code                       .
+  _Chem_comp.Mon_nstd_flag                    .
+  _Chem_comp.Mon_nstd_class                   .
+  _Chem_comp.Mon_nstd_details                 .
+  _Chem_comp.Mon_nstd_parent                  .
+  _Chem_comp.Mon_nstd_parent_comp_ID          C
+  _Chem_comp.Std_deriv_one_letter_code        .
+  _Chem_comp.Std_deriv_three_letter_code      .
+  _Chem_comp.Std_deriv_BMRB_code              .
+  _Chem_comp.Std_deriv_PDB_code               .
+  _Chem_comp.Std_deriv_chem_comp_name         .
+  _Chem_comp.Synonyms                         .
+  _Chem_comp.Formal_charge                    1
+  _Chem_comp.Paramagnetic                     .
+  _Chem_comp.Aromatic                         no
+  _Chem_comp.Formula                          'C9 H15 N3 O8 P'
+  _Chem_comp.Formula_weight                   324.204
+  _Chem_comp.Formula_mono_iso_wt_nat          .
+  _Chem_comp.Formula_mono_iso_wt_13C          .
+  _Chem_comp.Formula_mono_iso_wt_15N          .
+  _Chem_comp.Formula_mono_iso_wt_13C_15N      .
+  _Chem_comp.Image_file_name                  .
+  _Chem_comp.Image_file_format                .
+  _Chem_comp.Topo_file_name                   .
+  _Chem_comp.Topo_file_format                 .
+  _Chem_comp.Struct_file_name                 .
+  _Chem_comp.Struct_file_format               .
+  _Chem_comp.Stereochem_param_file_name       .
+  _Chem_comp.Stereochem_param_file_format     .
+  _Chem_comp.Model_details                    .
+  _Chem_comp.Model_erf                        .
+  _Chem_comp.Model_source                     .
+  _Chem_comp.Model_coordinates_details        .
+  _Chem_comp.Model_coordinates_missing_flag   no
+  _Chem_comp.Ideal_coordinates_details        .
+  _Chem_comp.Ideal_coordinates_missing_flag   yes
+  _Chem_comp.Model_coordinates_db_code        1KOS
+  _Chem_comp.Processing_site                  PDBE
+  _Chem_comp.Vendor                           .
+  _Chem_comp.Vendor_product_code              .
+  _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Thu Jun  9 09:58:16 2011
+;
+
+  _Chem_comp.DB_query_date                    .
+  _Chem_comp.DB_last_query_revised_last_date  .
+
+  loop_
+    _Chem_comp_descriptor.Descriptor
+    _Chem_comp_descriptor.Type
+    _Chem_comp_descriptor.Program
+    _Chem_comp_descriptor.Program_version
+    _Chem_comp_descriptor.Entry_ID
+    _Chem_comp_descriptor.Comp_ID
+
+    O=C1NC(N)=CC=[N+]1C2OC(C(O)C2O)COP(=O)(O)O                                                                                                            SMILES              ACDLabs               10.04    5278    CH    
+    NC1=CC=[N+]([C@@H]2O[C@H](CO[P](O)(O)=O)[C@@H](O)[C@H]2O)C(=O)N1                                                                                      SMILES_CANONICAL    CACTVS                3.341    5278    CH    
+    NC1=CC=[N+]([CH]2O[CH](CO[P](O)(O)=O)[CH](O)[CH]2O)C(=O)N1                                                                                            SMILES              CACTVS                3.341    5278    CH    
+    C1=C(NC(=O)[N+](=C1)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O)N                                                                                    SMILES_CANONICAL    'OpenEye OEToolkits'  1.5.0    5278    CH    
+    C1=C(NC(=O)[N+](=C1)C2C(C(C(O2)COP(=O)(O)O)O)O)N                                                                                                      SMILES              'OpenEye OEToolkits'  1.5.0    5278    CH    
+    InChI=1S/C9H14N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1-2,4,6-8,13-14H,3H2,(H4,10,11,15,16,17,18)/p+1/t4-,6-,7-,8-/m1/s1    InChI               InChI                 1.03     5278    CH    
+    ULTJSGLMABORQB-XVFCMESISA-O                                                                                                                           InChIKey            InChI                 1.03     5278    CH    
+  stop_
+
+  loop_
+    _Chem_comp_identifier.Identifier
+    _Chem_comp_identifier.Type
+    _Chem_comp_identifier.Program
+    _Chem_comp_identifier.Program_version
+    _Chem_comp_identifier.Entry_ID
+    _Chem_comp_identifier.Comp_ID
+
+    '5'-cytidylic acid'                                                                                               'SYSTEMATIC NAME'  ACDLabs               10.04    5278    CH    
+    '[(2R,3S,4R,5R)-5-(4-amino-2-oxo-3H-pyrimidin-1-ium-1-yl)-3,4-dihydroxy-oxolan-2-yl]methyl dihydrogen phosphate'  'SYSTEMATIC NAME'  'OpenEye OEToolkits'  1.5.0    5278    CH    
+  stop_
+
+  loop_
+    _Chem_comp_atom.Atom_ID
+    _Chem_comp_atom.BMRB_code
+    _Chem_comp_atom.PDB_atom_ID
+    _Chem_comp_atom.Alt_atom_ID
+    _Chem_comp_atom.Auth_atom_ID
+    _Chem_comp_atom.Type_symbol
+    _Chem_comp_atom.Isotope_number
+    _Chem_comp_atom.Chirality
+    _Chem_comp_atom.Stereo_config
+    _Chem_comp_atom.Charge
+    _Chem_comp_atom.Partial_charge
+    _Chem_comp_atom.Oxidation_number
+    _Chem_comp_atom.Unpaired_electron_number
+    _Chem_comp_atom.Align
+    _Chem_comp_atom.Aromatic_flag
+    _Chem_comp_atom.Leaving_atom_flag
+    _Chem_comp_atom.Substruct_code
+    _Chem_comp_atom.Ionizable
+    _Chem_comp_atom.Drawing_2D_coord_x
+    _Chem_comp_atom.Drawing_2D_coord_y
+    _Chem_comp_atom.Model_Cartn_x
+    _Chem_comp_atom.Model_Cartn_x_esd
+    _Chem_comp_atom.Model_Cartn_y
+    _Chem_comp_atom.Model_Cartn_y_esd
+    _Chem_comp_atom.Model_Cartn_z
+    _Chem_comp_atom.Model_Cartn_z_esd
+    _Chem_comp_atom.Model_Cartn_x_ideal
+    _Chem_comp_atom.Model_Cartn_y_ideal
+    _Chem_comp_atom.Model_Cartn_z_ideal
+    _Chem_comp_atom.PDBX_ordinal
+    _Chem_comp_atom.Details
+    _Chem_comp_atom.Entry_ID
+    _Chem_comp_atom.Comp_ID
+
+    OP3     .   OP3     .   .   O    .   .   N    0    .   .   .   .   no    yes    .   .   .   .   -7.677    .   -3.826    .   -4.414     .   -4.977    0.089     -0.423    1     .   5278    CH    
+    P       .   P       .   .   P    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -7.437    .   -2.235    .   -4.522     .   -4.091    -0.990    0.070     2     .   5278    CH    
+    OP1     .   OP1     .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -8.014    .   -1.611    .   -3.313     .   -3.632    -1.914    -1.165    3     .   5278    CH    
+    OP2     .   OP2     .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.008    .   -2.013    .   -4.810     .   -4.886    -1.887    1.145     4     .   5278    CH    
+    O5'     .   O5'     .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -8.345    .   -1.800    .   -5.813     .   -2.793    -0.341    0.768     5     .   5278    CH    
+    C5'     .   C5'     .   .   C    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -8.537    .   -2.595    .   -7.009     .   -2.200    0.532     -0.195    6     .   5278    CH    
+    C4'     .   C4'     .   .   C    .   .   R    0    .   .   .   .   no    no     .   .   .   .   -7.342    .   -2.521    .   -7.948     .   -0.954    1.184     0.407     7     .   5278    CH    
+    O4'     .   O4'     .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.203    .   -2.857    .   -7.171     .   0.068     0.192     0.645     8     .   5278    CH    
+    C3'     .   C3'     .   .   C    .   .   S    0    .   .   .   .   no    no     .   .   .   .   -7.339    .   -3.495    .   -9.133     .   -0.320    2.169     -0.600    9     .   5278    CH    
+    O3'     .   O3'     .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.465    .   -3.009    .   -10.168    .   -0.722    3.510     -0.310    10    .   5278    CH    
+    C2'     .   C2'     .   .   C    .   .   R    0    .   .   .   .   no    no     .   .   .   .   -6.769    .   -4.723    .   -8.425     .   1.203     2.001     -0.383    11    .   5278    CH    
+    O2'     .   O2'     .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.281    .   -5.760    .   -9.271     .   1.787     3.234     0.045     12    .   5278    CH    
+    C1'     .   C1'     .   .   C    .   .   R    0    .   .   .   .   no    no     .   .   .   .   -5.641    .   -4.069    .   -7.620     .   1.306     0.932     0.727     13    .   5278    CH    
+    N1      .   N1      .   .   N    .   .   N    1    .   .   .   .   no    no     .   .   .   .   -5.100    .   -4.838    .   -6.463     .   2.446     0.047     0.478     14    .   5278    CH    
+    C2      .   C2      .   .   C    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -3.751    .   -4.636    .   -6.154     .   2.506     -0.637    -0.663    15    .   5278    CH    
+    O2      .   O2      .   .   O    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -3.019    .   -3.875    .   -6.788     .   1.610     -0.516    -1.481    16    .   5278    CH    
+    N3      .   N3      .   .   N    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -3.267    .   -5.348    .   -5.075     .   3.540     -1.456    -0.932    17    .   5278    CH    
+    C4      .   C4      .   .   C    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -4.038    .   -6.208    .   -4.333     .   4.547     -1.605    -0.021    18    .   5278    CH    
+    N4      .   N4      .   .   N    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -3.470    .   -6.838    .   -3.305     .   5.603     -2.439    -0.279    19    .   5278    CH    
+    C5      .   C5      .   .   C    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -5.411    .   -6.400    .   -4.669     .   4.484     -0.892    1.167     20    .   5278    CH    
+    C6      .   C6      .   .   C    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -5.894    .   -5.704    .   -5.726     .   3.398     -0.057    1.390     21    .   5278    CH    
+    HOP3    .   HOP3    .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -7.306    .   -4.227    .   -5.191     .   .         .         .         22    .   5278    CH    
+    HOP2    .   HOP2    .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -5.866    .   -1.075    .   -4.873     .   -5.654    -2.255    0.688     23    .   5278    CH    
+    H5'     .   H5'     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -9.436    .   -2.272    .   -7.536     .   -2.915    1.305     -0.475    24    .   5278    CH    
+    H5''    .   H5''    .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -8.675    .   -3.630    .   -6.696     .   -1.919    -0.040    -1.080    25    .   5278    CH    
+    H4'     .   H4'     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -7.243    .   -1.501    .   -8.317     .   -1.206    1.699     1.334     26    .   5278    CH    
+    H3'     .   H3'     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -8.346    .   -3.631    .   -9.531     .   -0.593    1.902     -1.620    27    .   5278    CH    
+    HO3'    .   HO3'    .   .   H    .   .   N    0    .   .   .   .   no    yes    .   .   .   .   -6.463    .   -3.612    .   -10.901    .   -0.298    4.077     -0.968    28    .   5278    CH    
+    H2'     .   H2'     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -7.553    .   -5.116    .   -7.780     .   1.682     1.649     -1.296    29    .   5278    CH    
+    HO2'    .   HO2'    .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.053    .   -6.490    .   -8.689     .   1.637     3.875     -0.663    30    .   5278    CH    
+    H1'     .   H1'     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -4.844    .   -3.677    .   -8.250     .   1.400     1.406     1.704     31    .   5278    CH    
+    HN3     .   HN3     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -2.294    .   -5.211    .   -4.840     .   3.566     -1.946    -1.769    32    .   5278    CH    
+    H41     .   H41     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -2.495    .   -6.682    .   -3.095     .   6.316     -2.534    0.372     33    .   5278    CH    
+    H42     .   H42     .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -4.015    .   -7.470    .   -2.737     .   5.637     -2.936    -1.111    34    .   5278    CH    
+    H5      .   H5      .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.031    .   -7.088    .   -4.091     .   5.266     -0.985    1.906     35    .   5278    CH    
+    H6      .   H6      .   .   H    .   .   N    0    .   .   .   .   no    no     .   .   .   .   -6.951    .   -5.842    .   -5.981     .   3.329     0.506     2.309     36    .   5278    CH    
+  stop_
+
+  loop_
+    _Chem_comp_bond.ID
+    _Chem_comp_bond.Type
+    _Chem_comp_bond.Value_order
+    _Chem_comp_bond.Atom_ID_1
+    _Chem_comp_bond.Atom_ID_2
+    _Chem_comp_bond.Aromatic_flag
+    _Chem_comp_bond.Stereo_config
+    _Chem_comp_bond.Ordinal
+    _Chem_comp_bond.Details
+    _Chem_comp_bond.Entry_ID
+    _Chem_comp_bond.Comp_ID
+
+    1     .   SING    OP3    P       no    N    1     .   5278    CH    
+    2     .   SING    OP3    HOP3    no    N    2     .   5278    CH    
+    3     .   DOUB    P      OP1     no    N    3     .   5278    CH    
+    4     .   SING    P      OP2     no    N    4     .   5278    CH    
+    5     .   SING    P      O5'     no    N    5     .   5278    CH    
+    6     .   SING    OP2    HOP2    no    N    6     .   5278    CH    
+    7     .   SING    O5'    C5'     no    N    7     .   5278    CH    
+    8     .   SING    C5'    C4'     no    N    8     .   5278    CH    
+    9     .   SING    C5'    H5'     no    N    9     .   5278    CH    
+    10    .   SING    C5'    H5''    no    N    10    .   5278    CH    
+    11    .   SING    C4'    O4'     no    N    11    .   5278    CH    
+    12    .   SING    C4'    C3'     no    N    12    .   5278    CH    
+    13    .   SING    C4'    H4'     no    N    13    .   5278    CH    
+    14    .   SING    O4'    C1'     no    N    14    .   5278    CH    
+    15    .   SING    C3'    O3'     no    N    15    .   5278    CH    
+    16    .   SING    C3'    C2'     no    N    16    .   5278    CH    
+    17    .   SING    C3'    H3'     no    N    17    .   5278    CH    
+    18    .   SING    O3'    HO3'    no    N    18    .   5278    CH    
+    19    .   SING    C2'    O2'     no    N    19    .   5278    CH    
+    20    .   SING    C2'    C1'     no    N    20    .   5278    CH    
+    21    .   SING    C2'    H2'     no    N    21    .   5278    CH    
+    22    .   SING    O2'    HO2'    no    N    22    .   5278    CH    
+    23    .   SING    C1'    N1      no    N    23    .   5278    CH    
+    24    .   SING    C1'    H1'     no    N    24    .   5278    CH    
+    25    .   SING    N1     C2      no    N    25    .   5278    CH    
+    26    .   DOUB    N1     C6      no    N    26    .   5278    CH    
+    27    .   DOUB    C2     O2      no    N    27    .   5278    CH    
+    28    .   SING    C2     N3      no    N    28    .   5278    CH    
+    29    .   SING    N3     C4      no    N    29    .   5278    CH    
+    30    .   SING    N3     HN3     no    N    30    .   5278    CH    
+    31    .   SING    C4     N4      no    N    31    .   5278    CH    
+    32    .   DOUB    C4     C5      no    N    32    .   5278    CH    
+    33    .   SING    N4     H41     no    N    33    .   5278    CH    
+    34    .   SING    N4     H42     no    N    34    .   5278    CH    
+    35    .   SING    C5     C6      no    N    35    .   5278    CH    
+    36    .   SING    C5     H5      no    N    36    .   5278    CH    
+    37    .   SING    C6     H6      no    N    37    .   5278    CH    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_1
+  _Sample.Entry_ID                        5278
+  _Sample.ID                              1
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'Pea Enation Mosaic Virus Pseudoknot'  .   .   .   1    $PEMV-1   .   .   2      .   .   mM    .   .   .   .   5278    1    
+    2    KPO4                                   .   .   .   .    .         .   .   10     .   .   mM    .   .   .   .   5278    1    
+    3    KCl                                    .   .   .   .    .         .   .   100    .   .   mM    .   .   .   .   5278    1    
+    4    MgCl2                                  .   .   .   .    .         .   .   5      .   .   mM    .   .   .   .   5278    1    
+  stop_
+
+save_
+
+save_sample_2
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_2
+  _Sample.Entry_ID                        5278
+  _Sample.ID                              2
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'Pea Enation Mosaic Virus Pseudoknot'  '[U-95% 15N]'  .   .   1    $PEMV-1   .   .   0.2    .   .   mM    .   .   .   .   5278    2    
+    2    KPO4                                   .              .   .   .    .         .   .   10     .   .   mM    .   .   .   .   5278    2    
+    3    KCl                                    .              .   .   .    .         .   .   100    .   .   mM    .   .   .   .   5278    2    
+    4    MgCl2                                  .              .   .   .    .         .   .   5      .   .   mM    .   .   .   .   5278    2    
+  stop_
+
+save_
+
+save_sample_3
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_3
+  _Sample.Entry_ID                        5278
+  _Sample.ID                              3
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'Pea Enation Mosaic Virus Pseudoknot'  '[U-95% 13C; U-95% 15N]'  .   .   1    $PEMV-1   .   .   0.3    .   .   mM    .   .   .   .   5278    3    
+    2    KPO4                                   .                         .   .   .    .         .   .   10     .   .   mM    .   .   .   .   5278    3    
+    3    KCl                                    .                         .   .   .    .         .   .   100    .   .   mM    .   .   .   .   5278    3    
+    4    MgCl2                                  .                         .   .   .    .         .   .   5      .   .   mM    .   .   .   .   5278    3    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_sample_cond_1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_cond_1
+  _Sample_condition_list.Entry_ID      5278
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH                6.0    0.1    n/a    5278    1    
+    temperature       283    1      K      5278    1    
+    'ionic strength'  110    10     mM     5278    1    
+    pressure          1      .      atm    5278    1    
+  stop_
+
+save_
+
+save_sample_cond_2
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_cond_2
+  _Sample_condition_list.Entry_ID      5278
+  _Sample_condition_list.ID            2
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH                6.0    0.1    n/a    5278    2    
+    temperature       298    1      K      5278    2    
+    'ionic strength'  100    10     mM     5278    2    
+    pressure          1      .      atm    5278    2    
+  stop_
+
+save_
+
+save_sample_cond_3
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_cond_3
+  _Sample_condition_list.Entry_ID      5278
+  _Sample_condition_list.ID            3
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH                5.8    0.1    n/a    5278    3    
+    temperature       283    1      K      5278    3    
+    'ionic strength'  100    10     mM     5278    3    
+    pressure          1      .      atm    5278    3    
+  stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+save_X-PLOR
+  _Software.Sf_category   software
+  _Software.Sf_framecode  X-PLOR
+  _Software.Entry_ID      5278
+  _Software.ID            1
+  _Software.Name          X-PLOR
+  _Software.Version       3.851
+  _Software.Details       'Brunger, A.T'
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    'structure solution, refinement'  5278    1    
+  stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_NMR_spectrometer_1
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_1
+  _NMR_spectrometer.Entry_ID        5278
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           INOVA
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  600
+
+save_
+
+save_NMR_spectrometer_2
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    NMR_spectrometer_2
+  _NMR_spectrometer.Entry_ID        5278
+  _NMR_spectrometer.ID              2
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           INOVA
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  500
+
+save_
+
+save_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      5278
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    NMR_spectrometer_1    Varian    INOVA    .   600    .   .   .   5278    1    
+    2    NMR_spectrometer_2    Varian    INOVA    .   500    .   .   .   5278    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      5278
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1    '2D NOESY'  .   1    $NMR_applied_experiment   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5278    1    
+  stop_
+
+save_
+
+save_NMR_applied_experiment
+  _NMR_spec_expt.Sf_category                    NMR_spectrometer_expt
+  _NMR_spec_expt.Sf_framecode                   NMR_applied_experiment
+  _NMR_spec_expt.Entry_ID                       5278
+  _NMR_spec_expt.ID                             1
+  _NMR_spec_expt.Name                           '2D NOESY'
+  _NMR_spec_expt.Type                           .
+  _NMR_spec_expt.Sample_volume                  .
+  _NMR_spec_expt.Sample_volume_units            .
+  _NMR_spec_expt.NMR_tube_type                  .
+  _NMR_spec_expt.Sample_spinning_rate           .
+  _NMR_spec_expt.Sample_angle                   .
+  _NMR_spec_expt.NMR_spectrometer_ID            .
+  _NMR_spec_expt.NMR_spectrometer_label         .
+  _NMR_spec_expt.NMR_spectrometer_probe_ID      .
+  _NMR_spec_expt.NMR_spectrometer_probe_label   .
+  _NMR_spec_expt.Carrier_freq_switch_time       .
+  _NMR_spec_expt.Software_ID                    1
+  _NMR_spec_expt.Software_label                 $X-PLOR
+  _NMR_spec_expt.Method_ID                      .
+  _NMR_spec_expt.Method_label                   .
+  _NMR_spec_expt.Pulse_seq_accession_BMRB_code  .
+  _NMR_spec_expt.Details                        .
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+save_chemical_shift_reference
+  _Chem_shift_reference.Sf_category   chem_shift_reference
+  _Chem_shift_reference.Sf_framecode  chemical_shift_reference
+  _Chem_shift_reference.Entry_ID      5278
+  _Chem_shift_reference.ID            1
+  _Chem_shift_reference.Details       .
+
+  loop_
+    _Chem_shift_ref.Atom_type
+    _Chem_shift_ref.Atom_isotope_number
+    _Chem_shift_ref.Mol_common_name
+    _Chem_shift_ref.Atom_group
+    _Chem_shift_ref.Concentration_val
+    _Chem_shift_ref.Concentration_units
+    _Chem_shift_ref.Solvent
+    _Chem_shift_ref.Rank
+    _Chem_shift_ref.Chem_shift_units
+    _Chem_shift_ref.Chem_shift_val
+    _Chem_shift_ref.Ref_method
+    _Chem_shift_ref.Ref_type
+    _Chem_shift_ref.Indirect_shift_ratio
+    _Chem_shift_ref.External_ref_loc
+    _Chem_shift_ref.External_ref_sample_geometry
+    _Chem_shift_ref.External_ref_axis
+    _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+    _Chem_shift_ref.Indirect_shift_ratio_cit_label
+    _Chem_shift_ref.Ref_correction_type
+    _Chem_shift_ref.Correction_val
+    _Chem_shift_ref.Correction_val_cit_ID
+    _Chem_shift_ref.Correction_val_cit_label
+    _Chem_shift_ref.Entry_ID
+    _Chem_shift_ref.Chem_shift_reference_ID
+
+    H    1     DSS    'methyl protons'  .   .   .   .   ppm    0.0    internal    direct      1.0            .   .   .   1    $entry_citation   .   .   1    $entry_citation   5278    1    
+    N    15    DSS    'methyl protons'  .   .   .   .   ppm    0.0    .           indirect    0.101329118    .   .   .   1    $entry_citation   .   .   1    $entry_citation   5278    1    
+    C    13    DSS    'methyl protons'  .   .   .   .   ppm    0.0    .           indirect    0.251449530    .   .   .   1    $entry_citation   .   .   1    $entry_citation   5278    1    
+  stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_chemical_shift_set_1
+  _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_framecode                 chemical_shift_set_1
+  _Assigned_chem_shift_list.Entry_ID                     5278
+  _Assigned_chem_shift_list.ID                           1
+  _Assigned_chem_shift_list.Sample_condition_list_ID     1
+  _Assigned_chem_shift_list.Sample_condition_list_label  $sample_cond_1
+  _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+  _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+  _Assigned_chem_shift_list.Chem_shift_1H_err            .
+  _Assigned_chem_shift_list.Chem_shift_13C_err           .
+  _Assigned_chem_shift_list.Chem_shift_15N_err           .
+  _Assigned_chem_shift_list.Chem_shift_31P_err           .
+  _Assigned_chem_shift_list.Chem_shift_2H_err            .
+  _Assigned_chem_shift_list.Chem_shift_19F_err           .
+  _Assigned_chem_shift_list.Error_derivation_method      .
+  _Assigned_chem_shift_list.Details                      .
+  _Assigned_chem_shift_list.Text_data_format             .
+  _Assigned_chem_shift_list.Text_data                    .
+
+  loop_
+    _Chem_shift_experiment.Experiment_ID
+    _Chem_shift_experiment.Experiment_name
+    _Chem_shift_experiment.Sample_ID
+    _Chem_shift_experiment.Sample_label
+    _Chem_shift_experiment.Sample_state
+    _Chem_shift_experiment.Entry_ID
+    _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+    .   .   1    $sample_1   .   5278    1    
+  stop_
+
+  loop_
+    _Atom_chem_shift.ID
+    _Atom_chem_shift.Assembly_atom_ID
+    _Atom_chem_shift.Entity_assembly_ID
+    _Atom_chem_shift.Entity_ID
+    _Atom_chem_shift.Comp_index_ID
+    _Atom_chem_shift.Seq_ID
+    _Atom_chem_shift.Comp_ID
+    _Atom_chem_shift.Atom_ID
+    _Atom_chem_shift.Atom_type
+    _Atom_chem_shift.Atom_isotope_number
+    _Atom_chem_shift.Val
+    _Atom_chem_shift.Val_err
+    _Atom_chem_shift.Assign_fig_of_merit
+    _Atom_chem_shift.Ambiguity_code
+    _Atom_chem_shift.Occupancy
+    _Atom_chem_shift.Resonance_ID
+    _Atom_chem_shift.Auth_entity_assembly_ID
+    _Atom_chem_shift.Auth_asym_ID
+    _Atom_chem_shift.Auth_seq_ID
+    _Atom_chem_shift.Auth_comp_ID
+    _Atom_chem_shift.Auth_atom_ID
+    _Atom_chem_shift.Details
+    _Atom_chem_shift.Entry_ID
+    _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+    1      .   1    1    2     2     A     H2      H    1     8.00      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    2      .   1    1    2     2     A     H8      H    1     8.16      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    3      .   1    1    2     2     A     H1'     H    1     5.97      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    4      .   1    1    2     2     A     N1      N    15    225.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    5      .   1    1    2     2     A     N3      N    15    216.20    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    6      .   1    1    3     3     A     H2      H    1     7.98      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    7      .   1    1    3     3     A     H8      H    1     8.24      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    8      .   1    1    3     3     A     H1'     H    1     5.66      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    9      .   1    1    3     3     A     N1      N    15    225.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    10     .   1    1    3     3     A     N7      N    15    232.50    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    11     .   1    1    3     3     A     N9      N    15    168.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    12     .   1    1    4     4     U     H5      H    1     5.86      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    13     .   1    1    4     4     U     H6      H    1     8.13      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    14     .   1    1    4     4     U     H1'     H    1     5.79      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    15     .   1    1    4     4     U     H2'     H    1     4.90      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    16     .   1    1    4     4     U     H3'     H    1     4.52      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    17     .   1    1    4     4     U     C5      C    13    104.50    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    18     .   1    1    4     4     U     C1'     C    13    91.22     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    19     .   1    1    5     5     U     H5      H    1     5.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    20     .   1    1    5     5     U     H6      H    1     7.80      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    21     .   1    1    5     5     U     H1'     H    1     5.88      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    22     .   1    1    5     5     U     H2'     H    1     4.55      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    23     .   1    1    5     5     U     C5      C    13    105.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    24     .   1    1    5     5     U     C1'     C    13    91.70     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    25     .   1    1    6     6     C     H5      H    1     5.83      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    26     .   1    1    6     6     C     H6      H    1     7.99      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    27     .   1    1    6     6     C     H41     H    1     7.98      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    28     .   1    1    6     6     C     H42     H    1     7.16      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    29     .   1    1    6     6     C     H1'     H    1     5.68      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    30     .   1    1    6     6     C     H2'     H    1     4.11      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    31     .   1    1    6     6     C     H3'     H    1     4.47      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    32     .   1    1    6     6     C     C5      C    13    98.00     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    33     .   1    1    6     6     C     C1'     C    13    95.80     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    34     .   1    1    6     6     C     N3      N    15    195.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    35     .   1    1    6     6     C     N4      N    15    95.76     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    36     .   1    1    7     7     C     H5      H    1     5.32      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    37     .   1    1    7     7     C     H6      H    1     7.53      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    38     .   1    1    7     7     C     H41     H    1     8.36      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    39     .   1    1    7     7     C     H42     H    1     6.25      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    40     .   1    1    7     7     C     H1'     H    1     3.60      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    41     .   1    1    7     7     C     H2'     H    1     4.27      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    42     .   1    1    7     7     C     H3'     H    1     4.24      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    43     .   1    1    7     7     C     C5      C    13    98.40     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    44     .   1    1    7     7     C     C1'     C    13    94.12     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    45     .   1    1    7     7     C     N3      N    15    198.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    46     .   1    1    7     7     C     N4      N    15    96.23     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    47     .   1    1    8     8     G     H8      H    1     7.32      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    48     .   1    1    8     8     G     H1      H    1     12.81     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    49     .   1    1    8     8     G     H21     H    1     8.03      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    50     .   1    1    8     8     G     H22     H    1     6.31      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    51     .   1    1    8     8     G     H1'     H    1     5.71      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    52     .   1    1    8     8     G     H2'     H    1     4.51      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    53     .   1    1    8     8     G     H3'     H    1     4.42      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    54     .   1    1    8     8     G     C1'     C    13    93.20     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    55     .   1    1    8     8     G     N1      N    15    146.60    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    56     .   1    1    8     8     G     N2      N    15    75.21     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    57     .   1    1    8     8     G     N7      N    15    232.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    58     .   1    1    8     8     G     N9      N    15    170.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    59     .   1    1    9     9     G     H8      H    1     7.44      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    60     .   1    1    9     9     G     H1      H    1     13.26     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    61     .   1    1    9     9     G     H21     H    1     7.57      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    62     .   1    1    9     9     G     H22     H    1     7.36      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    63     .   1    1    9     9     G     H1'     H    1     5.90      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    64     .   1    1    9     9     G     H2'     H    1     3.79      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    65     .   1    1    9     9     G     H3'     H    1     4.51      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    66     .   1    1    9     9     G     H5'     H    1     4.18      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    67     .   1    1    9     9     G     H5''    H    1     5.11      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    68     .   1    1    9     9     G     C1'     C    13    92.70     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    69     .   1    1    9     9     G     N1      N    15    148.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    70     .   1    1    9     9     G     N2      N    15    78.40     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    71     .   1    1    9     9     G     N7      N    15    232.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    72     .   1    1    9     9     G     N9      N    15    171.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    73     .   1    1    10    10    U     H5      H    1     5.47      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    74     .   1    1    10    10    U     H6      H    1     7.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    75     .   1    1    10    10    U     H3      H    1     12.62     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    76     .   1    1    10    10    U     H1'     H    1     5.44      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    77     .   1    1    10    10    U     H2'     H    1     4.00      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    78     .   1    1    10    10    U     H3'     H    1     4.26      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    79     .   1    1    10    10    U     C5      C    13    105.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    80     .   1    1    10    10    U     C6      C    13    142.80    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    81     .   1    1    10    10    U     C1'     C    13    93.10     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    82     .   1    1    10    10    U     N3      N    15    161.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    83     .   1    1    11    11    CH    H5      H    1     6.01      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    84     .   1    1    11    11    CH    H6      H    1     8.42      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    85     .   1    1    11    11    CH    HN3     H    1     12.56     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    86     .   1    1    11    11    CH    H41     H    1     11.15     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    87     .   1    1    11    11    CH    H42     H    1     9.85      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    88     .   1    1    11    11    CH    H1'     H    1     6.15      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    89     .   1    1    11    11    CH    H2'     H    1     3.97      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    90     .   1    1    11    11    CH    H3'     H    1     4.82      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    91     .   1    1    11    11    CH    C5      C    13    98.20     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    92     .   1    1    11    11    CH    C1'     C    13    90.20     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    93     .   1    1    11    11    CH    N3      N    15    142.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    94     .   1    1    11    11    CH    N4      N    15    115.80    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    95     .   1    1    12    12    G     H8      H    1     8.12      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    96     .   1    1    12    12    G     H1      H    1     11.81     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    97     .   1    1    12    12    G     H1'     H    1     5.64      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    98     .   1    1    12    12    G     H2'     H    1     4.60      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    99     .   1    1    12    12    G     C8      C    13    140.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    100    .   1    1    12    12    G     C1'     C    13    94.06     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    101    .   1    1    12    12    G     N1      N    15    146.20    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    102    .   1    1    12    12    G     N7      N    15    234.60    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    103    .   1    1    12    12    G     N9      N    15    169.20    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    104    .   1    1    13    13    A     H2      H    1     7.69      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    105    .   1    1    13    13    A     H8      H    1     7.92      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    106    .   1    1    13    13    A     H61     H    1     8.10      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    107    .   1    1    13    13    A     H62     H    1     6.86      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    108    .   1    1    13    13    A     H1'     H    1     6.01      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    109    .   1    1    13    13    A     H2'     H    1     4.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    110    .   1    1    13    13    A     C8      C    13    139.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    111    .   1    1    13    13    A     C1'     C    13    93.04     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    112    .   1    1    13    13    A     N1      N    15    219.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    113    .   1    1    13    13    A     N3      N    15    210.30    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    114    .   1    1    13    13    A     N6      N    15    88.14     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    115    .   1    1    14    14    C     H5      H    1     5.43      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    116    .   1    1    14    14    C     H6      H    1     6.91      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    117    .   1    1    14    14    C     H41     H    1     7.52      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    118    .   1    1    14    14    C     H42     H    1     7.30      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    119    .   1    1    14    14    C     H1'     H    1     5.19      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    120    .   1    1    14    14    C     H2'     H    1     3.67      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    121    .   1    1    14    14    C     H3'     H    1     4.40      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    122    .   1    1    14    14    C     H4'     H    1     4.30      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    123    .   1    1    14    14    C     C5      C    13    100.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    124    .   1    1    14    14    C     C1'     C    13    95.21     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    125    .   1    1    14    14    C     C2'     C    13    77.20     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    126    .   1    1    14    14    C     N3      N    15    196.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    127    .   1    1    14    14    C     N4      N    15    99.83     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    128    .   1    1    15    15    U     H5      H    1     5.93      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    129    .   1    1    15    15    U     H6      H    1     7.96      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    130    .   1    1    15    15    U     H1'     H    1     6.20      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    131    .   1    1    15    15    U     H2'     H    1     4.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    132    .   1    1    15    15    U     H3'     H    1     4.48      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    133    .   1    1    15    15    U     C5      C    13    106.30    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    134    .   1    1    15    15    U     C1'     C    13    89.53     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    135    .   1    1    16    16    C     H5      H    1     6.18      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    136    .   1    1    16    16    C     H6      H    1     8.21      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    137    .   1    1    16    16    C     H41     H    1     8.44      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    138    .   1    1    16    16    C     H42     H    1     7.20      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    139    .   1    1    16    16    C     H1'     H    1     5.68      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    140    .   1    1    16    16    C     H2'     H    1     4.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    141    .   1    1    16    16    C     H3'     H    1     4.82      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    142    .   1    1    16    16    C     HO2'    H    1     9.70      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    143    .   1    1    16    16    C     C5      C    13    98.14     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    144    .   1    1    16    16    C     C1'     C    13    94.87     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    145    .   1    1    16    16    C     N3      N    15    199.80    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    146    .   1    1    16    16    C     N4      N    15    96.00     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    147    .   1    1    17    17    C     H5      H    1     5.68      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    148    .   1    1    17    17    C     H6      H    1     8.12      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    149    .   1    1    17    17    C     H41     H    1     8.51      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    150    .   1    1    17    17    C     H42     H    1     6.55      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    151    .   1    1    17    17    C     H1'     H    1     5.94      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    152    .   1    1    17    17    C     H2'     H    1     4.70      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    153    .   1    1    17    17    C     H3'     H    1     4.33      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    154    .   1    1    17    17    C     H5'     H    1     4.53      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    155    .   1    1    17    17    C     H5''    H    1     4.20      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    156    .   1    1    17    17    C     HO2'    H    1     8.95      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    157    .   1    1    17    17    C     C5      C    13    98.54     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    158    .   1    1    17    17    C     C1'     C    13    91.61     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    159    .   1    1    17    17    C     N3      N    15    196.00    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    160    .   1    1    17    17    C     N4      N    15    97.47     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    161    .   1    1    18    18    G     H8      H    1     7.50      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    162    .   1    1    18    18    G     H1      H    1     12.97     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    163    .   1    1    18    18    G     H21     H    1     8.10      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    164    .   1    1    18    18    G     H22     H    1     7.32      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    165    .   1    1    18    18    G     H1'     H    1     5.49      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    166    .   1    1    18    18    G     H2'     H    1     4.91      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    167    .   1    1    18    18    G     H3'     H    1     4.58      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    168    .   1    1    18    18    G     C1'     C    13    92.80     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    169    .   1    1    18    18    G     N1      N    15    148.80    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    170    .   1    1    18    18    G     N2      N    15    78.42     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    171    .   1    1    18    18    G     N7      N    15    233.00    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    172    .   1    1    18    18    G     N9      N    15    170.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    173    .   1    1    19    19    G     H8      H    1     7.06      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    174    .   1    1    19    19    G     H1      H    1     12.27     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    175    .   1    1    19    19    G     H21     H    1     8.55      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    176    .   1    1    19    19    G     H22     H    1     6.55      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    177    .   1    1    19    19    G     H1'     H    1     5.84      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    178    .   1    1    19    19    G     H2'     H    1     4.60      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    179    .   1    1    19    19    G     H3'     H    1     4.54      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    180    .   1    1    19    19    G     H5'     H    1     4.04      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    181    .   1    1    19    19    G     C1'     C    13    93.90     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    182    .   1    1    19    19    G     N1      N    15    145.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    183    .   1    1    19    19    G     N7      N    15    232.60    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    184    .   1    1    19    19    G     N9      N    15    169.30    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    185    .   1    1    20    20    A     H2      H    1     8.55      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    186    .   1    1    20    20    A     H8      H    1     8.46      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    187    .   1    1    20    20    A     H1'     H    1     6.09      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    188    .   1    1    20    20    A     H2'     H    1     5.28      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    189    .   1    1    20    20    A     H3'     H    1     4.56      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    190    .   1    1    20    20    A     N7      N    15    233.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    191    .   1    1    20    20    A     N9      N    15    171.00    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    192    .   1    1    21    21    G     H8      H    1     8.09      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    193    .   1    1    21    21    G     H1'     H    1     6.50      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    194    .   1    1    22    22    A     H2      H    1     7.98      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    195    .   1    1    22    22    A     H8      H    1     8.40      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    196    .   1    1    22    22    A     H1'     H    1     6.70      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    197    .   1    1    22    22    A     N7      N    15    234.20    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    198    .   1    1    22    22    A     N9      N    15    171.00    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    199    .   1    1    23    23    A     H2      H    1     8.04      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    200    .   1    1    23    23    A     H2'     H    1     5.28      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    201    .   1    1    23    23    A     H3'     H    1     5.13      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    202    .   1    1    23    23    A     N1      N    15    226.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    203    .   1    1    23    23    A     N3      N    15    216.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    204    .   1    1    24    24    A     H2      H    1     7.81      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    205    .   1    1    24    24    A     H8      H    1     8.10      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    206    .   1    1    24    24    A     H1'     H    1     5.85      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    207    .   1    1    24    24    A     N1      N    15    225.00    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    208    .   1    1    24    24    A     N3      N    15    215.50    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    209    .   1    1    25    25    C     H5      H    1     4.93      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    210    .   1    1    25    25    C     H6      H    1     7.36      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    211    .   1    1    25    25    C     H1'     H    1     5.51      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    212    .   1    1    25    25    C     C5      C    13    97.47     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    213    .   1    1    26    26    A     H2      H    1     7.52      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    214    .   1    1    26    26    A     H8      H    1     7.81      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    215    .   1    1    26    26    A     H1'     H    1     5.54      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    216    .   1    1    26    26    A     N1      N    15    220.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    217    .   1    1    26    26    A     N3      N    15    216.20    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    218    .   1    1    27    27    A     H2      H    1     7.09      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    219    .   1    1    27    27    A     H8      H    1     7.80      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    220    .   1    1    27    27    A     H1'     H    1     5.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    221    .   1    1    27    27    A     H2'     H    1     4.67      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    222    .   1    1    27    27    A     N1      N    15    229.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    223    .   1    1    27    27    A     N3      N    15    213.30    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    224    .   1    1    28    28    A     H2      H    1     8.16      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    225    .   1    1    28    28    A     H8      H    1     7.81      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    226    .   1    1    28    28    A     H61     H    1     8.40      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    227    .   1    1    28    28    A     H62     H    1     7.99      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    228    .   1    1    28    28    A     H1'     H    1     6.31      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    229    .   1    1    28    28    A     H2'     H    1     4.89      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    230    .   1    1    28    28    A     N1      N    15    220.30    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    231    .   1    1    28    28    A     N3      N    15    214.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    232    .   1    1    28    28    A     N6      N    15    86.57     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    233    .   1    1    28    28    A     N7      N    15    233.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    234    .   1    1    29    29    G     H8      H    1     7.16      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    235    .   1    1    29    29    G     H1      H    1     13.77     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    236    .   1    1    29    29    G     H21     H    1     8.84      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    237    .   1    1    29    29    G     H22     H    1     6.64      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    238    .   1    1    29    29    G     H1'     H    1     5.45      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    239    .   1    1    29    29    G     H2'     H    1     4.46      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    240    .   1    1    29    29    G     H3'     H    1     4.73      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    241    .   1    1    29    29    G     H4'     H    1     4.57      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    242    .   1    1    29    29    G     H5'     H    1     4.24      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    243    .   1    1    29    29    G     H5''    H    1     4.54      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    244    .   1    1    29    29    G     C1'     C    13    94.06     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    245    .   1    1    29    29    G     N1      N    15    148.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    246    .   1    1    29    29    G     N2      N    15    77.00     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    247    .   1    1    29    29    G     N3      N    15    234.10    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    248    .   1    1    30    30    U     H5      H    1     4.81      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    249    .   1    1    30    30    U     H6      H    1     8.04      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    250    .   1    1    30    30    U     H3      H    1     14.25     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    251    .   1    1    30    30    U     H1'     H    1     5.61      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    252    .   1    1    30    30    U     H2'     H    1     4.49      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    253    .   1    1    30    30    U     H3'     H    1     4.39      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    254    .   1    1    30    30    U     C5      C    13    102.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    255    .   1    1    30    30    U     C1'     C    13    94.26     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    256    .   1    1    30    30    U     N3      N    15    162.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    257    .   1    1    31    31    C     H5      H    1     5.61      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    258    .   1    1    31    31    C     H6      H    1     7.85      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    259    .   1    1    31    31    C     H41     H    1     8.08      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    260    .   1    1    31    31    C     H42     H    1     6.79      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    261    .   1    1    31    31    C     H1'     H    1     5.58      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    262    .   1    1    31    31    C     C5      C    13    98.76     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    263    .   1    1    31    31    C     C1'     C    13    94.06     .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    264    .   1    1    31    31    C     N3      N    15    195.30    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    265    .   1    1    31    31    C     N4      N    15    100.70    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    266    .   1    1    32    32    A     H2      H    1     6.91      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    267    .   1    1    32    32    A     H1'     H    1     5.64      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    268    .   1    1    32    32    A     N1      N    15    224.90    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    269    .   1    1    32    32    A     N3      N    15    215.00    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    270    .   1    1    33    33    A     H2      H    1     7.98      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    271    .   1    1    33    33    A     H8      H    1     7.92      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    272    .   1    1    33    33    A     H1'     H    1     5.72      .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    273    .   1    1    33    33    A     N3      N    15    217.40    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    274    .   1    1    33    33    A     N7      N    15    235.50    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+    275    .   1    1    33    33    A     N9      N    15    168.20    .   .   .   .   .   .   .   .   .   .   .   5278    1    
+  stop_
+
+save_
+

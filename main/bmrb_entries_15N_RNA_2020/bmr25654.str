@@ -1,0 +1,2324 @@
+data_25654
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             25654
+   _Entry.Title
+;
+NMR structure of the II-III-VI three-way junction from the VS ribozyme
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2015-06-09
+   _Entry.Accession_date                 2015-06-09
+   _Entry.Last_release_date              2015-07-03
+   _Entry.Original_release_date          2015-07-03
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.2.6
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLUTION
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Eric        Bonneau   .   .   .   .   25654
+      2   Nicolas     Girard    .   .   .   .   25654
+      3   Sebastien   Lemieux   .   .   .   .   25654
+      4   Pascale     Legault   .   .   .   .   25654
+   stop_
+
+   loop_
+      _SG_project.SG_project_ID
+      _SG_project.Project_name
+      _SG_project.Full_name_of_center
+      _SG_project.Initial_of_center
+      _SG_project.Entry_ID
+
+      1   'not applicable'   'not applicable'   .   25654
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      Catalysis       .   25654
+      'Mg2+ ions'     .   25654
+      NMR             .   25654
+      RNA             .   25654
+      'VS ribozyme'   .   25654
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   25654
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   394   25654
+      '15N chemical shifts'   51    25654
+      '1H chemical shifts'    511   25654
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2016-08-16   2015-06-09   update     BMRB     'update entry citation'   25654
+      1   .   .   2015-07-03   2015-06-09   original   author   'original release'        25654
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   25655   'II-III-VI three-way junction from the VS ribozyme in complex with MAGNESIUM'   25654
+      PDB    2N3Q    'BMRB Entry Tracking System'                                                    25654
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     25654
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    26124200
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+The NMR structure of the II-III-VI three-way junction from the Neurospora VS ribozyme reveals a critical tertiary interaction and provides new insights into the global ribozyme structure
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               RNA
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               21
+   _Citation.Journal_issue                9
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   1621
+   _Citation.Page_last                    1632
+   _Citation.Year                         2015
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Eric        Bonneau   .   .   .   .   25654   1
+      2   Nicolas     Girard    .   .   .   .   25654   1
+      3   Sebastien   Lemieux   .   .   .   .   25654   1
+      4   Pascale     Legault   .   .   .   .   25654   1
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          25654
+   _Assembly.ID                                1
+   _Assembly.Name                              'II-III-VI three-way junction from the VS ribozyme'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'RNA (62-MER)'   1   $RNA_(62-MER)   A   .   yes   native   no   no   .   .   .   25654   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_RNA_(62-MER)
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      RNA_(62-MER)
+   _Entity.Entry_ID                          25654
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              RNA_(62-MER)
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polyribonucleotide
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+GCAGCAGGGAACUCACGCUU
+GCGUAGAGGCUAAGUGCUUC
+GGCACAGCACAAGCCCGCUG
+CG
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                62
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        syn
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    20022.115
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    1    G   .   25654   1
+      2    2    C   .   25654   1
+      3    3    A   .   25654   1
+      4    4    G   .   25654   1
+      5    5    C   .   25654   1
+      6    6    A   .   25654   1
+      7    7    G   .   25654   1
+      8    8    G   .   25654   1
+      9    9    G   .   25654   1
+      10   10   A   .   25654   1
+      11   11   A   .   25654   1
+      12   12   C   .   25654   1
+      13   13   U   .   25654   1
+      14   14   C   .   25654   1
+      15   15   A   .   25654   1
+      16   16   C   .   25654   1
+      17   17   G   .   25654   1
+      18   18   C   .   25654   1
+      19   19   U   .   25654   1
+      20   20   U   .   25654   1
+      21   21   G   .   25654   1
+      22   22   C   .   25654   1
+      23   23   G   .   25654   1
+      24   24   U   .   25654   1
+      25   25   A   .   25654   1
+      26   26   G   .   25654   1
+      27   27   A   .   25654   1
+      28   28   G   .   25654   1
+      29   29   G   .   25654   1
+      30   30   C   .   25654   1
+      31   31   U   .   25654   1
+      32   32   A   .   25654   1
+      33   33   A   .   25654   1
+      34   34   G   .   25654   1
+      35   35   U   .   25654   1
+      36   36   G   .   25654   1
+      37   37   C   .   25654   1
+      38   38   U   .   25654   1
+      39   39   U   .   25654   1
+      40   40   C   .   25654   1
+      41   41   G   .   25654   1
+      42   42   G   .   25654   1
+      43   43   C   .   25654   1
+      44   44   A   .   25654   1
+      45   45   C   .   25654   1
+      46   46   A   .   25654   1
+      47   47   G   .   25654   1
+      48   48   C   .   25654   1
+      49   49   A   .   25654   1
+      50   50   C   .   25654   1
+      51   51   A   .   25654   1
+      52   52   A   .   25654   1
+      53   53   G   .   25654   1
+      54   54   C   .   25654   1
+      55   55   C   .   25654   1
+      56   56   C   .   25654   1
+      57   57   G   .   25654   1
+      58   58   C   .   25654   1
+      59   59   U   .   25654   1
+      60   60   G   .   25654   1
+      61   61   C   .   25654   1
+      62   62   G   .   25654   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   G   1    1    25654   1
+      .   C   2    2    25654   1
+      .   A   3    3    25654   1
+      .   G   4    4    25654   1
+      .   C   5    5    25654   1
+      .   A   6    6    25654   1
+      .   G   7    7    25654   1
+      .   G   8    8    25654   1
+      .   G   9    9    25654   1
+      .   A   10   10   25654   1
+      .   A   11   11   25654   1
+      .   C   12   12   25654   1
+      .   U   13   13   25654   1
+      .   C   14   14   25654   1
+      .   A   15   15   25654   1
+      .   C   16   16   25654   1
+      .   G   17   17   25654   1
+      .   C   18   18   25654   1
+      .   U   19   19   25654   1
+      .   U   20   20   25654   1
+      .   G   21   21   25654   1
+      .   C   22   22   25654   1
+      .   G   23   23   25654   1
+      .   U   24   24   25654   1
+      .   A   25   25   25654   1
+      .   G   26   26   25654   1
+      .   A   27   27   25654   1
+      .   G   28   28   25654   1
+      .   G   29   29   25654   1
+      .   C   30   30   25654   1
+      .   U   31   31   25654   1
+      .   A   32   32   25654   1
+      .   A   33   33   25654   1
+      .   G   34   34   25654   1
+      .   U   35   35   25654   1
+      .   G   36   36   25654   1
+      .   C   37   37   25654   1
+      .   U   38   38   25654   1
+      .   U   39   39   25654   1
+      .   C   40   40   25654   1
+      .   G   41   41   25654   1
+      .   G   42   42   25654   1
+      .   C   43   43   25654   1
+      .   A   44   44   25654   1
+      .   C   45   45   25654   1
+      .   A   46   46   25654   1
+      .   G   47   47   25654   1
+      .   C   48   48   25654   1
+      .   A   49   49   25654   1
+      .   C   50   50   25654   1
+      .   A   51   51   25654   1
+      .   A   52   52   25654   1
+      .   G   53   53   25654   1
+      .   C   54   54   25654   1
+      .   C   55   55   25654   1
+      .   C   56   56   25654   1
+      .   G   57   57   25654   1
+      .   C   58   58   25654   1
+      .   U   59   59   25654   1
+      .   G   60   60   25654   1
+      .   C   61   61   25654   1
+      .   G   62   62   25654   1
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       25654
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $RNA_(62-MER)   .   5141   organism   .   'Neurospora crassa'   'red bread mold'   .   .   Eukaryota   Fungi   Neurospora   crassa   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       25654
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $RNA_(62-MER)   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   .   .   .   .   .   .   'pTZ19R-derived pTR-4'   .   .   .   25654   1
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_J236-15N
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     J236-15N
+   _Sample.Entry_ID                         25654
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'RNA (62-MER)'   [U-15N]               .   .   1   $RNA_(62-MER)   .   .   2      .   .   mM   .   .   .   .   25654   1
+      2   D2O              'natural abundance'   .   .   .   .               .   .   10     .   .   %    .   .   .   .   25654   1
+      3   H2O              'natural abundance'   .   .   .   .               .   .   90     .   .   %    .   .   .   .   25654   1
+      4   NaCacodylate     'natural abundance'   .   .   .   .               .   .   10     .   .   mM   .   .   .   .   25654   1
+      5   KCl              'natural abundance'   .   .   .   .               .   .   50     .   .   mM   .   .   .   .   25654   1
+      6   NaN3             'natural abundance'   .   .   .   .               .   .   0.05   .   .   mM   .   .   .   .   25654   1
+      7   MgCl2            'natural abundance'   .   .   .   .               .   .   5      .   .   mM   .   .   .   .   25654   1
+   stop_
+save_
+
+save_J236-13C-15N
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     J236-13C-15N
+   _Sample.Entry_ID                         25654
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'RNA (62-MER)'   '[U-13C; U-15N]'      .   .   1   $RNA_(62-MER)   .   .   2      .   .   mM   .   .   .   .   25654   2
+      2   D2O              'natural abundance'   .   .   .   .               .   .   100    .   .   %    .   .   .   .   25654   2
+      3   NaCacodylate     'natural abundance'   .   .   .   .               .   .   10     .   .   mM   .   .   .   .   25654   2
+      4   KCl              'natural abundance'   .   .   .   .               .   .   50     .   .   mM   .   .   .   .   25654   2
+      5   NaN3             'natural abundance'   .   .   .   .               .   .   0.05   .   .   mM   .   .   .   .   25654   2
+      6   MgCl2            'natural abundance'   .   .   .   .               .   .   5      .   .   mM   .   .   .   .   25654   2
+   stop_
+save_
+
+save_J236-ATP-13C-15N
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     J236-ATP-13C-15N
+   _Sample.Entry_ID                         25654
+   _Sample.ID                               3
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'RNA (62-MER)'   '[U-13C; U-15N]-Ade'   .   .   1   $RNA_(62-MER)   .   .   2      .   .   mM   .   .   .   .   25654   3
+      2   D2O              'natural abundance'    .   .   .   .               .   .   100    .   .   %    .   .   .   .   25654   3
+      3   NaCacodylate     'natural abundance'    .   .   .   .               .   .   10     .   .   mM   .   .   .   .   25654   3
+      4   KCl              'natural abundance'    .   .   .   .               .   .   50     .   .   mM   .   .   .   .   25654   3
+      5   NaN3             'natural abundance'    .   .   .   .               .   .   0.05   .   .   mM   .   .   .   .   25654   3
+      6   MgCl2            'natural abundance'    .   .   .   .               .   .   5      .   .   mM   .   .   .   .   25654   3
+   stop_
+save_
+
+save_J236-CTP-13C-15N
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     J236-CTP-13C-15N
+   _Sample.Entry_ID                         25654
+   _Sample.ID                               4
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'RNA (62-MER)'   '[U-13C; U-15N]-Cyt'   .   .   1   $RNA_(62-MER)   .   .   2      .   .   mM   .   .   .   .   25654   4
+      2   D2O              'natural abundance'    .   .   .   .               .   .   100    .   .   %    .   .   .   .   25654   4
+      3   NaCacodylate     'natural abundance'    .   .   .   .               .   .   10     .   .   mM   .   .   .   .   25654   4
+      4   KCl              'natural abundance'    .   .   .   .               .   .   50     .   .   mM   .   .   .   .   25654   4
+      5   NaN3             'natural abundance'    .   .   .   .               .   .   0.05   .   .   mM   .   .   .   .   25654   4
+      6   MgCl2            'natural abundance'    .   .   .   .               .   .   5      .   .   mM   .   .   .   .   25654   4
+   stop_
+save_
+
+save_J236-GTP-13C-15N
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     J236-GTP-13C-15N
+   _Sample.Entry_ID                         25654
+   _Sample.ID                               5
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'RNA (62-MER)'   '[U-13C; U-15N]-Gua'   .   .   1   $RNA_(62-MER)   .   .   2.5    .   .   mM   .   .   .   .   25654   5
+      2   D2O              'natural abundance'    .   .   .   .               .   .   100    .   .   %    .   .   .   .   25654   5
+      3   NaCacodylate     'natural abundance'    .   .   .   .               .   .   10     .   .   mM   .   .   .   .   25654   5
+      4   KCl              'natural abundance'    .   .   .   .               .   .   50     .   .   mM   .   .   .   .   25654   5
+      5   NaN3             'natural abundance'    .   .   .   .               .   .   0.05   .   .   mM   .   .   .   .   25654   5
+      6   MgCl2            'natural abundance'    .   .   .   .               .   .   5      .   .   mM   .   .   .   .   25654   5
+   stop_
+save_
+
+save_J236-13C-15N-H2O
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     J236-13C-15N-H2O
+   _Sample.Entry_ID                         25654
+   _Sample.ID                               6
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'RNA (62-MER)'   '[U-13C; U-15N]'      .   .   1   $RNA_(62-MER)   .   .   2      .   .   mM   .   .   .   .   25654   6
+      2   D2O              'natural abundance'   .   .   .   .               .   .   10     .   .   %    .   .   .   .   25654   6
+      3   H2O              'natural abundance'   .   .   .   .               .   .   90     .   .   %    .   .   .   .   25654   6
+      4   NaCacodylate     'natural abundance'   .   .   .   .               .   .   10     .   .   mM   .   .   .   .   25654   6
+      5   KCl              'natural abundance'   .   .   .   .               .   .   50     .   .   mM   .   .   .   .   25654   6
+      6   NaN3             'natural abundance'   .   .   .   .               .   .   0.05   .   .   mM   .   .   .   .   25654   6
+      7   MgCl2            'natural abundance'   .   .   .   .               .   .   5      .   .   mM   .   .   .   .   25654   6
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_Sample_condition_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   Sample_condition_1
+   _Sample_condition_list.Entry_ID       25654
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5   .   pH    25654   1
+      pressure      1     .   atm   25654   1
+      temperature   273   .   K     25654   1
+   stop_
+save_
+
+save_Sample_condition_2
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   Sample_condition_2
+   _Sample_condition_list.Entry_ID       25654
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5   .   pH    25654   2
+      pressure      1     .   atm   25654   2
+      temperature   273   .   K     25654   2
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_NMRDraw
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRDraw
+   _Software.Entry_ID       25654
+   _Software.ID             1
+   _Software.Name           NMRDraw
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'   .   .   25654   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   25654   1
+      processing        25654   1
+   stop_
+save_
+
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       25654
+   _Software.ID             2
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'   .   .   25654   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   25654   2
+      processing        25654   2
+   stop_
+save_
+
+save_CCPNMR
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CCPNMR
+   _Software.Entry_ID       25654
+   _Software.ID             3
+   _Software.Name           CCPNMR
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      CCPN   .   .   25654   3
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   25654   3
+      'data analysis'               25654   3
+      'peak picking'                25654   3
+   stop_
+save_
+
+save_X-PLOR_NIH
+   _Software.Sf_category    software
+   _Software.Sf_framecode   X-PLOR_NIH
+   _Software.Entry_ID       25654
+   _Software.ID             4
+   _Software.Name           X-PLOR_NIH
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Schwieters, Kuszewski, Tjandra and Clore'   .   .   25654   4
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement             25654   4
+      'structure solution'   25654   4
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         25654
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Unity
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       25654
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Varian   Unity   .   600   .   .   .   25654   1
+   stop_
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       25654
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    '1D 1H watergate'                  no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      2    '2D 1H-15N HSQC'                   no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      3    '2D 1H-15N HSQC NH2 only'          no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      4    '2D HNN COSY'                      no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      5    '2D 1H-1H NOESY'                   no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      6    '2D 1H-15N CPMG-NOESY'             no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      7    '3D 15N-edited NOESY-HSQC'         no   .   .   .   .   .   .   .   .   .   .   1   $J236-15N           isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      8    '3D 15N/13C-edited NOESY-HSQC'     no   .   .   .   .   .   .   .   .   .   .   6   $J236-13C-15N-H2O   isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      9    '2D G-specific H(NC)-TOCSY-(C)H'   no   .   .   .   .   .   .   .   .   .   .   6   $J236-13C-15N-H2O   isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      10   '2D A-specific H(NC)-TOCSY-(C)H'   no   .   .   .   .   .   .   .   .   .   .   6   $J236-13C-15N-H2O   isotropic   .   .   1   $Sample_condition_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      11   '2D 1H-15N MQ-(HC)N(C)H'           no   .   .   .   .   .   .   .   .   .   .   2   $J236-13C-15N       isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      12   '2D 1H-13C HSQC'                   no   .   .   .   .   .   .   .   .   .   .   2   $J236-13C-15N       isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      13   '2D 1H-13C HMQC'                   no   .   .   .   .   .   .   .   .   .   .   2   $J236-13C-15N       isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      14   '3D HCCH-COSY'                     no   .   .   .   .   .   .   .   .   .   .   2   $J236-13C-15N       isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      15   '3D HCCH-TOCSY'                    no   .   .   .   .   .   .   .   .   .   .   2   $J236-13C-15N       isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      16   '3D 13C-edited NOESY-HSQC'         no   .   .   .   .   .   .   .   .   .   .   2   $J236-13C-15N       isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      17   '2D 1H-13C HSQC'                   no   .   .   .   .   .   .   .   .   .   .   3   $J236-ATP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      18   '2D 1H-13C HMQC'                   no   .   .   .   .   .   .   .   .   .   .   3   $J236-ATP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      19   '3D HCCH-COSY'                     no   .   .   .   .   .   .   .   .   .   .   3   $J236-ATP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      20   '3D HCCH-TOCSY'                    no   .   .   .   .   .   .   .   .   .   .   3   $J236-ATP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      21   '3D 13C-edited NOESY-HSQC'         no   .   .   .   .   .   .   .   .   .   .   3   $J236-ATP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      22   '2D 1H-13C HSQC'                   no   .   .   .   .   .   .   .   .   .   .   4   $J236-CTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      23   '2D 1H-13C HMQC'                   no   .   .   .   .   .   .   .   .   .   .   4   $J236-CTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      24   '3D HCCH-COSY'                     no   .   .   .   .   .   .   .   .   .   .   4   $J236-CTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      25   '3D HCCH-TOCSY'                    no   .   .   .   .   .   .   .   .   .   .   4   $J236-CTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      26   '3D 13C-edited NOESY-HSQC'         no   .   .   .   .   .   .   .   .   .   .   4   $J236-CTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      27   '2D 1H-13C HSQC'                   no   .   .   .   .   .   .   .   .   .   .   5   $J236-GTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      28   '2D 1H-13C HMQC'                   no   .   .   .   .   .   .   .   .   .   .   5   $J236-GTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      29   '3D HCCH-COSY'                     no   .   .   .   .   .   .   .   .   .   .   5   $J236-GTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      30   '3D HCCH-TOCSY'                    no   .   .   .   .   .   .   .   .   .   .   5   $J236-GTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+      31   '3D 13C-edited NOESY-HSQC'         no   .   .   .   .   .   .   .   .   .   .   5   $J236-GTP-13C-15N   isotropic   .   .   2   $Sample_condition_2   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25654   1
+   stop_
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       25654
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.251449530   .   .   .   .   .   25654   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.00   internal   direct     1.000000000   .   .   .   .   .   25654   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.101329118   .   .   .   .   .   25654   1
+   stop_
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      25654
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $Sample_condition_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      2    '2D 1H-15N HSQC'            .   .   .   25654   1
+      3    '2D 1H-15N HSQC NH2 only'   .   .   .   25654   1
+      12   '2D 1H-13C HSQC'            .   .   .   25654   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   1    1    G   H1     H   1    12.981    0.02   .   1   .   .   .   A   1    G   H1     .   25654   1
+      2     .   1   1   1    1    G   H1'    H   1    5.836     0.01   .   1   .   .   .   A   1    G   H1'    .   25654   1
+      3     .   1   1   1    1    G   H2'    H   1    4.748     0.01   .   1   .   .   .   A   1    G   H2'    .   25654   1
+      4     .   1   1   1    1    G   H3'    H   1    4.578     0.01   .   1   .   .   .   A   1    G   H3'    .   25654   1
+      5     .   1   1   1    1    G   H4'    H   1    4.439     0.01   .   1   .   .   .   A   1    G   H4'    .   25654   1
+      6     .   1   1   1    1    G   H5'    H   1    4.136     0.01   .   1   .   .   .   A   1    G   H5'    .   25654   1
+      7     .   1   1   1    1    G   H5''   H   1    3.957     0.01   .   1   .   .   .   A   1    G   H5''   .   25654   1
+      8     .   1   1   1    1    G   H8     H   1    8.125     0.01   .   1   .   .   .   A   1    G   H8     .   25654   1
+      9     .   1   1   1    1    G   C1'    C   13   93.311    0.20   .   1   .   .   .   A   1    G   C1'    .   25654   1
+      10    .   1   1   1    1    G   C2'    C   13   75.027    0.20   .   1   .   .   .   A   1    G   C2'    .   25654   1
+      11    .   1   1   1    1    G   C3'    C   13   73.764    0.20   .   1   .   .   .   A   1    G   C3'    .   25654   1
+      12    .   1   1   1    1    G   C4'    C   13   84.691    0.20   .   1   .   .   .   A   1    G   C4'    .   25654   1
+      13    .   1   1   1    1    G   C5'    C   13   62.296    0.20   .   1   .   .   .   A   1    G   C5'    .   25654   1
+      14    .   1   1   1    1    G   C8     C   13   138.555   0.20   .   1   .   .   .   A   1    G   C8     .   25654   1
+      15    .   1   1   1    1    G   N1     N   15   148.106   0.10   .   1   .   .   .   A   1    G   N1     .   25654   1
+      16    .   1   1   2    2    C   H1'    H   1    5.586     0.01   .   1   .   .   .   A   2    C   H1'    .   25654   1
+      17    .   1   1   2    2    C   H2'    H   1    4.570     0.01   .   1   .   .   .   A   2    C   H2'    .   25654   1
+      18    .   1   1   2    2    C   H3'    H   1    4.620     0.01   .   1   .   .   .   A   2    C   H3'    .   25654   1
+      19    .   1   1   2    2    C   H4'    H   1    4.486     0.01   .   1   .   .   .   A   2    C   H4'    .   25654   1
+      20    .   1   1   2    2    C   H5     H   1    5.276     0.01   .   1   .   .   .   A   2    C   H5     .   25654   1
+      21    .   1   1   2    2    C   H5'    H   1    4.103     0.01   .   1   .   .   .   A   2    C   H5'    .   25654   1
+      22    .   1   1   2    2    C   H5''   H   1    4.618     0.01   .   1   .   .   .   A   2    C   H5''   .   25654   1
+      23    .   1   1   2    2    C   H6     H   1    7.895     0.01   .   1   .   .   .   A   2    C   H6     .   25654   1
+      24    .   1   1   2    2    C   H41    H   1    6.762     0.02   .   1   .   .   .   A   2    C   H41    .   25654   1
+      25    .   1   1   2    2    C   H42    H   1    8.480     0.02   .   1   .   .   .   A   2    C   H42    .   25654   1
+      26    .   1   1   2    2    C   C1'    C   13   93.707    0.20   .   1   .   .   .   A   2    C   C1'    .   25654   1
+      27    .   1   1   2    2    C   C2'    C   13   75.236    0.20   .   1   .   .   .   A   2    C   C2'    .   25654   1
+      28    .   1   1   2    2    C   C3'    C   13   72.067    0.20   .   1   .   .   .   A   2    C   C3'    .   25654   1
+      29    .   1   1   2    2    C   C4'    C   13   81.837    0.20   .   1   .   .   .   A   2    C   C4'    .   25654   1
+      30    .   1   1   2    2    C   C5     C   13   96.966    0.20   .   1   .   .   .   A   2    C   C5     .   25654   1
+      31    .   1   1   2    2    C   C5'    C   13   64.175    0.20   .   1   .   .   .   A   2    C   C5'    .   25654   1
+      32    .   1   1   2    2    C   C6     C   13   141.507   0.20   .   1   .   .   .   A   2    C   C6     .   25654   1
+      33    .   1   1   2    2    C   N4     N   15   98.840    0.10   .   1   .   .   .   A   2    C   N4     .   25654   1
+      34    .   1   1   3    3    A   H1'    H   1    5.927     0.01   .   1   .   .   .   A   3    A   H1'    .   25654   1
+      35    .   1   1   3    3    A   H2     H   1    7.045     0.01   .   1   .   .   .   A   3    A   H2     .   25654   1
+      36    .   1   1   3    3    A   H2'    H   1    4.679     0.01   .   1   .   .   .   A   3    A   H2'    .   25654   1
+      37    .   1   1   3    3    A   H3'    H   1    4.636     0.01   .   1   .   .   .   A   3    A   H3'    .   25654   1
+      38    .   1   1   3    3    A   H4'    H   1    4.476     0.01   .   1   .   .   .   A   3    A   H4'    .   25654   1
+      39    .   1   1   3    3    A   H5'    H   1    4.654     0.01   .   1   .   .   .   A   3    A   H5'    .   25654   1
+      40    .   1   1   3    3    A   H5''   H   1    4.159     0.01   .   1   .   .   .   A   3    A   H5''   .   25654   1
+      41    .   1   1   3    3    A   H8     H   1    7.988     0.01   .   1   .   .   .   A   3    A   H8     .   25654   1
+      42    .   1   1   3    3    A   C1'    C   13   93.063    0.20   .   1   .   .   .   A   3    A   C1'    .   25654   1
+      43    .   1   1   3    3    A   C2     C   13   152.550   0.20   .   1   .   .   .   A   3    A   C2     .   25654   1
+      44    .   1   1   3    3    A   C2'    C   13   75.622    0.20   .   1   .   .   .   A   3    A   C2'    .   25654   1
+      45    .   1   1   3    3    A   C3'    C   13   72.130    0.20   .   1   .   .   .   A   3    A   C3'    .   25654   1
+      46    .   1   1   3    3    A   C4'    C   13   81.872    0.20   .   1   .   .   .   A   3    A   C4'    .   25654   1
+      47    .   1   1   3    3    A   C5'    C   13   64.926    0.20   .   1   .   .   .   A   3    A   C5'    .   25654   1
+      48    .   1   1   3    3    A   C8     C   13   139.277   0.20   .   1   .   .   .   A   3    A   C8     .   25654   1
+      49    .   1   1   4    4    G   H1     H   1    13.431    0.02   .   1   .   .   .   A   4    G   H1     .   25654   1
+      50    .   1   1   4    4    G   H1'    H   1    5.596     0.01   .   1   .   .   .   A   4    G   H1'    .   25654   1
+      51    .   1   1   4    4    G   H2'    H   1    4.302     0.01   .   1   .   .   .   A   4    G   H2'    .   25654   1
+      52    .   1   1   4    4    G   H3'    H   1    4.453     0.01   .   1   .   .   .   A   4    G   H3'    .   25654   1
+      53    .   1   1   4    4    G   H4'    H   1    4.260     0.01   .   1   .   .   .   A   4    G   H4'    .   25654   1
+      54    .   1   1   4    4    G   H5'    H   1    4.525     0.01   .   1   .   .   .   A   4    G   H5'    .   25654   1
+      55    .   1   1   4    4    G   H5''   H   1    4.138     0.01   .   1   .   .   .   A   4    G   H5''   .   25654   1
+      56    .   1   1   4    4    G   H8     H   1    7.221     0.01   .   1   .   .   .   A   4    G   H8     .   25654   1
+      57    .   1   1   4    4    G   C1'    C   13   92.895    0.20   .   1   .   .   .   A   4    G   C1'    .   25654   1
+      58    .   1   1   4    4    G   C2'    C   13   75.238    0.20   .   1   .   .   .   A   4    G   C2'    .   25654   1
+      59    .   1   1   4    4    G   C3'    C   13   72.508    0.20   .   1   .   .   .   A   4    G   C3'    .   25654   1
+      60    .   1   1   4    4    G   C4'    C   13   82.357    0.20   .   1   .   .   .   A   4    G   C4'    .   25654   1
+      61    .   1   1   4    4    G   C5'    C   13   64.937    0.20   .   1   .   .   .   A   4    G   C5'    .   25654   1
+      62    .   1   1   4    4    G   C8     C   13   135.456   0.20   .   1   .   .   .   A   4    G   C8     .   25654   1
+      63    .   1   1   4    4    G   N1     N   15   147.961   0.10   .   1   .   .   .   A   4    G   N1     .   25654   1
+      64    .   1   1   5    5    C   H1'    H   1    5.713     0.01   .   1   .   .   .   A   5    C   H1'    .   25654   1
+      65    .   1   1   5    5    C   H2'    H   1    4.271     0.01   .   1   .   .   .   A   5    C   H2'    .   25654   1
+      66    .   1   1   5    5    C   H3'    H   1    4.725     0.01   .   1   .   .   .   A   5    C   H3'    .   25654   1
+      67    .   1   1   5    5    C   H4'    H   1    4.462     0.01   .   1   .   .   .   A   5    C   H4'    .   25654   1
+      68    .   1   1   5    5    C   H5     H   1    5.132     0.01   .   1   .   .   .   A   5    C   H5     .   25654   1
+      69    .   1   1   5    5    C   H6     H   1    7.593     0.01   .   1   .   .   .   A   5    C   H6     .   25654   1
+      70    .   1   1   5    5    C   H41    H   1    6.482     0.02   .   1   .   .   .   A   5    C   H41    .   25654   1
+      71    .   1   1   5    5    C   H42    H   1    8.419     0.02   .   1   .   .   .   A   5    C   H42    .   25654   1
+      72    .   1   1   5    5    C   C1'    C   13   92.311    0.20   .   1   .   .   .   A   5    C   C1'    .   25654   1
+      73    .   1   1   5    5    C   C2'    C   13   78.071    0.20   .   1   .   .   .   A   5    C   C2'    .   25654   1
+      74    .   1   1   5    5    C   C3'    C   13   72.724    0.20   .   1   .   .   .   A   5    C   C3'    .   25654   1
+      75    .   1   1   5    5    C   C4'    C   13   81.651    0.20   .   1   .   .   .   A   5    C   C4'    .   25654   1
+      76    .   1   1   5    5    C   C5     C   13   97.375    0.20   .   1   .   .   .   A   5    C   C5     .   25654   1
+      77    .   1   1   5    5    C   C6     C   13   140.879   0.20   .   1   .   .   .   A   5    C   C6     .   25654   1
+      78    .   1   1   5    5    C   N4     N   15   97.860    0.10   .   1   .   .   .   A   5    C   N4     .   25654   1
+      79    .   1   1   6    6    A   H1'    H   1    7.156     0.01   .   1   .   .   .   A   6    A   H1'    .   25654   1
+      80    .   1   1   6    6    A   H2     H   1    6.953     0.01   .   1   .   .   .   A   6    A   H2     .   25654   1
+      81    .   1   1   6    6    A   H2'    H   1    4.621     0.01   .   1   .   .   .   A   6    A   H2'    .   25654   1
+      82    .   1   1   6    6    A   H3'    H   1    5.210     0.01   .   1   .   .   .   A   6    A   H3'    .   25654   1
+      83    .   1   1   6    6    A   H4'    H   1    4.460     0.01   .   1   .   .   .   A   6    A   H4'    .   25654   1
+      84    .   1   1   6    6    A   H5'    H   1    4.309     0.01   .   1   .   .   .   A   6    A   H5'    .   25654   1
+      85    .   1   1   6    6    A   H5''   H   1    4.259     0.01   .   1   .   .   .   A   6    A   H5''   .   25654   1
+      86    .   1   1   6    6    A   H8     H   1    8.355     0.01   .   1   .   .   .   A   6    A   H8     .   25654   1
+      87    .   1   1   6    6    A   C1'    C   13   90.374    0.20   .   1   .   .   .   A   6    A   C1'    .   25654   1
+      88    .   1   1   6    6    A   C2     C   13   152.739   0.20   .   1   .   .   .   A   6    A   C2     .   25654   1
+      89    .   1   1   6    6    A   C2'    C   13   77.738    0.20   .   1   .   .   .   A   6    A   C2'    .   25654   1
+      90    .   1   1   6    6    A   C3'    C   13   73.870    0.20   .   1   .   .   .   A   6    A   C3'    .   25654   1
+      91    .   1   1   6    6    A   C4'    C   13   81.832    0.20   .   1   .   .   .   A   6    A   C4'    .   25654   1
+      92    .   1   1   6    6    A   C5'    C   13   65.731    0.20   .   1   .   .   .   A   6    A   C5'    .   25654   1
+      93    .   1   1   6    6    A   C8     C   13   143.029   0.20   .   1   .   .   .   A   6    A   C8     .   25654   1
+      94    .   1   1   7    7    G   H1     H   1    12.237    0.02   .   1   .   .   .   A   7    G   H1     .   25654   1
+      95    .   1   1   7    7    G   H1'    H   1    5.863     0.01   .   1   .   .   .   A   7    G   H1'    .   25654   1
+      96    .   1   1   7    7    G   H2'    H   1    4.505     0.01   .   1   .   .   .   A   7    G   H2'    .   25654   1
+      97    .   1   1   7    7    G   H3'    H   1    4.255     0.01   .   1   .   .   .   A   7    G   H3'    .   25654   1
+      98    .   1   1   7    7    G   H8     H   1    7.543     0.01   .   1   .   .   .   A   7    G   H8     .   25654   1
+      99    .   1   1   7    7    G   C1'    C   13   93.290    0.20   .   1   .   .   .   A   7    G   C1'    .   25654   1
+      100   .   1   1   7    7    G   C2'    C   13   74.456    0.20   .   1   .   .   .   A   7    G   C2'    .   25654   1
+      101   .   1   1   7    7    G   C3'    C   13   75.237    0.20   .   1   .   .   .   A   7    G   C3'    .   25654   1
+      102   .   1   1   7    7    G   C8     C   13   136.608   0.20   .   1   .   .   .   A   7    G   C8     .   25654   1
+      103   .   1   1   7    7    G   N1     N   15   146.554   0.10   .   1   .   .   .   A   7    G   N1     .   25654   1
+      104   .   1   1   8    8    G   H1     H   1    12.602    0.02   .   1   .   .   .   A   8    G   H1     .   25654   1
+      105   .   1   1   8    8    G   H1'    H   1    5.739     0.01   .   1   .   .   .   A   8    G   H1'    .   25654   1
+      106   .   1   1   8    8    G   H2'    H   1    4.588     0.01   .   1   .   .   .   A   8    G   H2'    .   25654   1
+      107   .   1   1   8    8    G   H3'    H   1    4.316     0.01   .   1   .   .   .   A   8    G   H3'    .   25654   1
+      108   .   1   1   8    8    G   H8     H   1    7.087     0.01   .   1   .   .   .   A   8    G   H8     .   25654   1
+      109   .   1   1   8    8    G   C1'    C   13   92.643    0.20   .   1   .   .   .   A   8    G   C1'    .   25654   1
+      110   .   1   1   8    8    G   C2'    C   13   75.233    0.20   .   1   .   .   .   A   8    G   C2'    .   25654   1
+      111   .   1   1   8    8    G   C3'    C   13   73.167    0.20   .   1   .   .   .   A   8    G   C3'    .   25654   1
+      112   .   1   1   8    8    G   C8     C   13   136.275   0.20   .   1   .   .   .   A   8    G   C8     .   25654   1
+      113   .   1   1   8    8    G   N1     N   15   147.162   0.10   .   1   .   .   .   A   8    G   N1     .   25654   1
+      114   .   1   1   9    9    G   H1     H   1    12.595    0.02   .   1   .   .   .   A   9    G   H1     .   25654   1
+      115   .   1   1   9    9    G   H1'    H   1    5.594     0.01   .   1   .   .   .   A   9    G   H1'    .   25654   1
+      116   .   1   1   9    9    G   H2'    H   1    4.259     0.01   .   1   .   .   .   A   9    G   H2'    .   25654   1
+      117   .   1   1   9    9    G   H3'    H   1    4.453     0.01   .   1   .   .   .   A   9    G   H3'    .   25654   1
+      118   .   1   1   9    9    G   H8     H   1    7.069     0.01   .   1   .   .   .   A   9    G   H8     .   25654   1
+      119   .   1   1   9    9    G   C1'    C   13   93.703    0.20   .   1   .   .   .   A   9    G   C1'    .   25654   1
+      120   .   1   1   9    9    G   C2'    C   13   74.843    0.20   .   1   .   .   .   A   9    G   C2'    .   25654   1
+      121   .   1   1   9    9    G   C3'    C   13   72.505    0.20   .   1   .   .   .   A   9    G   C3'    .   25654   1
+      122   .   1   1   9    9    G   C8     C   13   136.621   0.20   .   1   .   .   .   A   9    G   C8     .   25654   1
+      123   .   1   1   9    9    G   N1     N   15   147.201   0.10   .   1   .   .   .   A   9    G   N1     .   25654   1
+      124   .   1   1   10   10   A   H1'    H   1    6.050     0.01   .   1   .   .   .   A   10   A   H1'    .   25654   1
+      125   .   1   1   10   10   A   H2     H   1    7.613     0.01   .   1   .   .   .   A   10   A   H2     .   25654   1
+      126   .   1   1   10   10   A   H2'    H   1    4.144     0.01   .   1   .   .   .   A   10   A   H2'    .   25654   1
+      127   .   1   1   10   10   A   H3'    H   1    4.853     0.01   .   1   .   .   .   A   10   A   H3'    .   25654   1
+      128   .   1   1   10   10   A   H4'    H   1    4.647     0.01   .   1   .   .   .   A   10   A   H4'    .   25654   1
+      129   .   1   1   10   10   A   H5'    H   1    4.346     0.01   .   1   .   .   .   A   10   A   H5'    .   25654   1
+      130   .   1   1   10   10   A   H5''   H   1    4.211     0.01   .   1   .   .   .   A   10   A   H5''   .   25654   1
+      131   .   1   1   10   10   A   H8     H   1    8.291     0.01   .   1   .   .   .   A   10   A   H8     .   25654   1
+      132   .   1   1   10   10   A   H61    H   1    6.526     0.02   .   1   .   .   .   A   10   A   H61    .   25654   1
+      133   .   1   1   10   10   A   C1'    C   13   93.099    0.20   .   1   .   .   .   A   10   A   C1'    .   25654   1
+      134   .   1   1   10   10   A   C2     C   13   154.144   0.20   .   1   .   .   .   A   10   A   C2     .   25654   1
+      135   .   1   1   10   10   A   C2'    C   13   76.210    0.20   .   1   .   .   .   A   10   A   C2'    .   25654   1
+      136   .   1   1   10   10   A   C3'    C   13   74.654    0.20   .   1   .   .   .   A   10   A   C3'    .   25654   1
+      137   .   1   1   10   10   A   C4'    C   13   82.605    0.20   .   1   .   .   .   A   10   A   C4'    .   25654   1
+      138   .   1   1   10   10   A   C5'    C   13   67.502    0.20   .   1   .   .   .   A   10   A   C5'    .   25654   1
+      139   .   1   1   10   10   A   C8     C   13   140.514   0.20   .   1   .   .   .   A   10   A   C8     .   25654   1
+      140   .   1   1   10   10   A   N6     N   15   71.934    0.10   .   1   .   .   .   A   10   A   N6     .   25654   1
+      141   .   1   1   11   11   A   H1'    H   1    6.324     0.01   .   1   .   .   .   A   11   A   H1'    .   25654   1
+      142   .   1   1   11   11   A   H2     H   1    8.132     0.01   .   1   .   .   .   A   11   A   H2     .   25654   1
+      143   .   1   1   11   11   A   H2'    H   1    5.328     0.01   .   1   .   .   .   A   11   A   H2'    .   25654   1
+      144   .   1   1   11   11   A   H3'    H   1    4.664     0.01   .   1   .   .   .   A   11   A   H3'    .   25654   1
+      145   .   1   1   11   11   A   H4'    H   1    4.768     0.01   .   1   .   .   .   A   11   A   H4'    .   25654   1
+      146   .   1   1   11   11   A   H5'    H   1    4.388     0.01   .   1   .   .   .   A   11   A   H5'    .   25654   1
+      147   .   1   1   11   11   A   H5''   H   1    4.352     0.01   .   1   .   .   .   A   11   A   H5''   .   25654   1
+      148   .   1   1   11   11   A   H8     H   1    8.828     0.01   .   1   .   .   .   A   11   A   H8     .   25654   1
+      149   .   1   1   11   11   A   C1'    C   13   88.467    0.20   .   1   .   .   .   A   11   A   C1'    .   25654   1
+      150   .   1   1   11   11   A   C2     C   13   155.393   0.20   .   1   .   .   .   A   11   A   C2     .   25654   1
+      151   .   1   1   11   11   A   C2'    C   13   76.046    0.20   .   1   .   .   .   A   11   A   C2'    .   25654   1
+      152   .   1   1   11   11   A   C3'    C   13   78.722    0.20   .   1   .   .   .   A   11   A   C3'    .   25654   1
+      153   .   1   1   11   11   A   C4'    C   13   87.468    0.20   .   1   .   .   .   A   11   A   C4'    .   25654   1
+      154   .   1   1   11   11   A   C5'    C   13   68.428    0.20   .   1   .   .   .   A   11   A   C5'    .   25654   1
+      155   .   1   1   11   11   A   C8     C   13   143.312   0.20   .   1   .   .   .   A   11   A   C8     .   25654   1
+      156   .   1   1   12   12   C   H1'    H   1    5.542     0.01   .   1   .   .   .   A   12   C   H1'    .   25654   1
+      157   .   1   1   12   12   C   H2'    H   1    4.894     0.01   .   1   .   .   .   A   12   C   H2'    .   25654   1
+      158   .   1   1   12   12   C   H3'    H   1    4.839     0.01   .   1   .   .   .   A   12   C   H3'    .   25654   1
+      159   .   1   1   12   12   C   H4'    H   1    4.442     0.01   .   1   .   .   .   A   12   C   H4'    .   25654   1
+      160   .   1   1   12   12   C   H5     H   1    5.998     0.01   .   1   .   .   .   A   12   C   H5     .   25654   1
+      161   .   1   1   12   12   C   H5'    H   1    4.314     0.01   .   1   .   .   .   A   12   C   H5'    .   25654   1
+      162   .   1   1   12   12   C   H5''   H   1    4.653     0.01   .   1   .   .   .   A   12   C   H5''   .   25654   1
+      163   .   1   1   12   12   C   H6     H   1    8.413     0.01   .   1   .   .   .   A   12   C   H6     .   25654   1
+      164   .   1   1   12   12   C   H41    H   1    7.370     0.02   .   1   .   .   .   A   12   C   H41    .   25654   1
+      165   .   1   1   12   12   C   H42    H   1    8.595     0.02   .   1   .   .   .   A   12   C   H42    .   25654   1
+      166   .   1   1   12   12   C   C1'    C   13   94.873    0.20   .   1   .   .   .   A   12   C   C1'    .   25654   1
+      167   .   1   1   12   12   C   C2'    C   13   75.222    0.20   .   1   .   .   .   A   12   C   C2'    .   25654   1
+      168   .   1   1   12   12   C   C3'    C   13   72.506    0.20   .   1   .   .   .   A   12   C   C3'    .   25654   1
+      169   .   1   1   12   12   C   C4'    C   13   85.116    0.20   .   1   .   .   .   A   12   C   C4'    .   25654   1
+      170   .   1   1   12   12   C   C5     C   13   97.457    0.20   .   1   .   .   .   A   12   C   C5     .   25654   1
+      171   .   1   1   12   12   C   C5'    C   13   64.954    0.20   .   1   .   .   .   A   12   C   C5'    .   25654   1
+      172   .   1   1   12   12   C   C6     C   13   143.226   0.20   .   1   .   .   .   A   12   C   C6     .   25654   1
+      173   .   1   1   12   12   C   N4     N   15   97.178    0.10   .   1   .   .   .   A   12   C   N4     .   25654   1
+      174   .   1   1   13   13   U   H1'    H   1    5.908     0.01   .   1   .   .   .   A   13   U   H1'    .   25654   1
+      175   .   1   1   13   13   U   H2'    H   1    4.780     0.01   .   1   .   .   .   A   13   U   H2'    .   25654   1
+      176   .   1   1   13   13   U   H3     H   1    15.177    0.02   .   1   .   .   .   A   13   U   H3     .   25654   1
+      177   .   1   1   13   13   U   H3'    H   1    4.653     0.01   .   1   .   .   .   A   13   U   H3'    .   25654   1
+      178   .   1   1   13   13   U   H4'    H   1    4.707     0.01   .   1   .   .   .   A   13   U   H4'    .   25654   1
+      179   .   1   1   13   13   U   H5     H   1    5.746     0.01   .   1   .   .   .   A   13   U   H5     .   25654   1
+      180   .   1   1   13   13   U   H6     H   1    8.243     0.01   .   1   .   .   .   A   13   U   H6     .   25654   1
+      181   .   1   1   13   13   U   C1'    C   13   91.719    0.20   .   1   .   .   .   A   13   U   C1'    .   25654   1
+      182   .   1   1   13   13   U   C2'    C   13   74.848    0.20   .   1   .   .   .   A   13   U   C2'    .   25654   1
+      183   .   1   1   13   13   U   C3'    C   13   71.785    0.20   .   1   .   .   .   A   13   U   C3'    .   25654   1
+      184   .   1   1   13   13   U   C4'    C   13   82.403    0.20   .   1   .   .   .   A   13   U   C4'    .   25654   1
+      185   .   1   1   13   13   U   C5     C   13   102.634   0.20   .   1   .   .   .   A   13   U   C5     .   25654   1
+      186   .   1   1   13   13   U   C6     C   13   142.674   0.20   .   1   .   .   .   A   13   U   C6     .   25654   1
+      187   .   1   1   13   13   U   N3     N   15   164.103   0.10   .   1   .   .   .   A   13   U   N3     .   25654   1
+      188   .   1   1   14   14   C   H1'    H   1    5.212     0.01   .   1   .   .   .   A   14   C   H1'    .   25654   1
+      189   .   1   1   14   14   C   H2'    H   1    4.210     0.01   .   1   .   .   .   A   14   C   H2'    .   25654   1
+      190   .   1   1   14   14   C   H3'    H   1    4.375     0.01   .   1   .   .   .   A   14   C   H3'    .   25654   1
+      191   .   1   1   14   14   C   H4'    H   1    3.376     0.01   .   1   .   .   .   A   14   C   H4'    .   25654   1
+      192   .   1   1   14   14   C   H5     H   1    5.684     0.01   .   1   .   .   .   A   14   C   H5     .   25654   1
+      193   .   1   1   14   14   C   H5'    H   1    4.072     0.01   .   1   .   .   .   A   14   C   H5'    .   25654   1
+      194   .   1   1   14   14   C   H5''   H   1    4.548     0.01   .   1   .   .   .   A   14   C   H5''   .   25654   1
+      195   .   1   1   14   14   C   H6     H   1    7.890     0.01   .   1   .   .   .   A   14   C   H6     .   25654   1
+      196   .   1   1   14   14   C   H41    H   1    6.892     0.02   .   1   .   .   .   A   14   C   H41    .   25654   1
+      197   .   1   1   14   14   C   H42    H   1    8.117     0.02   .   1   .   .   .   A   14   C   H42    .   25654   1
+      198   .   1   1   14   14   C   C1'    C   13   93.768    0.20   .   1   .   .   .   A   14   C   C1'    .   25654   1
+      199   .   1   1   14   14   C   C2'    C   13   74.646    0.20   .   1   .   .   .   A   14   C   C2'    .   25654   1
+      200   .   1   1   14   14   C   C3'    C   13   72.303    0.20   .   1   .   .   .   A   14   C   C3'    .   25654   1
+      201   .   1   1   14   14   C   C4'    C   13   80.868    0.20   .   1   .   .   .   A   14   C   C4'    .   25654   1
+      202   .   1   1   14   14   C   C5     C   13   97.384    0.20   .   1   .   .   .   A   14   C   C5     .   25654   1
+      203   .   1   1   14   14   C   C5'    C   13   64.153    0.20   .   1   .   .   .   A   14   C   C5'    .   25654   1
+      204   .   1   1   14   14   C   C6     C   13   141.491   0.20   .   1   .   .   .   A   14   C   C6     .   25654   1
+      205   .   1   1   14   14   C   N4     N   15   98.528    0.10   .   1   .   .   .   A   14   C   N4     .   25654   1
+      206   .   1   1   15   15   A   H1'    H   1    5.750     0.01   .   1   .   .   .   A   15   A   H1'    .   25654   1
+      207   .   1   1   15   15   A   H2     H   1    7.157     0.01   .   1   .   .   .   A   15   A   H2     .   25654   1
+      208   .   1   1   15   15   A   H2'    H   1    4.382     0.01   .   1   .   .   .   A   15   A   H2'    .   25654   1
+      209   .   1   1   15   15   A   H3'    H   1    4.625     0.01   .   1   .   .   .   A   15   A   H3'    .   25654   1
+      210   .   1   1   15   15   A   H4'    H   1    4.319     0.01   .   1   .   .   .   A   15   A   H4'    .   25654   1
+      211   .   1   1   15   15   A   H5'    H   1    4.380     0.01   .   1   .   .   .   A   15   A   H5'    .   25654   1
+      212   .   1   1   15   15   A   H5''   H   1    3.982     0.01   .   1   .   .   .   A   15   A   H5''   .   25654   1
+      213   .   1   1   15   15   A   H8     H   1    7.965     0.01   .   1   .   .   .   A   15   A   H8     .   25654   1
+      214   .   1   1   15   15   A   C1'    C   13   92.737    0.20   .   1   .   .   .   A   15   A   C1'    .   25654   1
+      215   .   1   1   15   15   A   C2     C   13   153.655   0.20   .   1   .   .   .   A   15   A   C2     .   25654   1
+      216   .   1   1   15   15   A   C2'    C   13   75.420    0.20   .   1   .   .   .   A   15   A   C2'    .   25654   1
+      217   .   1   1   15   15   A   C3'    C   13   72.121    0.20   .   1   .   .   .   A   15   A   C3'    .   25654   1
+      218   .   1   1   15   15   A   C4'    C   13   81.823    0.20   .   1   .   .   .   A   15   A   C4'    .   25654   1
+      219   .   1   1   15   15   A   C5'    C   13   64.161    0.20   .   1   .   .   .   A   15   A   C5'    .   25654   1
+      220   .   1   1   15   15   A   C8     C   13   139.249   0.20   .   1   .   .   .   A   15   A   C8     .   25654   1
+      221   .   1   1   16   16   C   H1'    H   1    5.206     0.01   .   1   .   .   .   A   16   C   H1'    .   25654   1
+      222   .   1   1   16   16   C   H2'    H   1    4.043     0.01   .   1   .   .   .   A   16   C   H2'    .   25654   1
+      223   .   1   1   16   16   C   H3'    H   1    4.418     0.01   .   1   .   .   .   A   16   C   H3'    .   25654   1
+      224   .   1   1   16   16   C   H4'    H   1    4.294     0.01   .   1   .   .   .   A   16   C   H4'    .   25654   1
+      225   .   1   1   16   16   C   H5     H   1    5.277     0.01   .   1   .   .   .   A   16   C   H5     .   25654   1
+      226   .   1   1   16   16   C   H5'    H   1    4.110     0.01   .   1   .   .   .   A   16   C   H5'    .   25654   1
+      227   .   1   1   16   16   C   H5''   H   1    4.503     0.01   .   1   .   .   .   A   16   C   H5''   .   25654   1
+      228   .   1   1   16   16   C   H6     H   1    7.478     0.01   .   1   .   .   .   A   16   C   H6     .   25654   1
+      229   .   1   1   16   16   C   H41    H   1    6.503     0.02   .   1   .   .   .   A   16   C   H41    .   25654   1
+      230   .   1   1   16   16   C   H42    H   1    8.129     0.02   .   1   .   .   .   A   16   C   H42    .   25654   1
+      231   .   1   1   16   16   C   C1'    C   13   93.298    0.20   .   1   .   .   .   A   16   C   C1'    .   25654   1
+      232   .   1   1   16   16   C   C2'    C   13   75.235    0.20   .   1   .   .   .   A   16   C   C2'    .   25654   1
+      233   .   1   1   16   16   C   C3'    C   13   71.747    0.20   .   1   .   .   .   A   16   C   C3'    .   25654   1
+      234   .   1   1   16   16   C   C4'    C   13   81.458    0.20   .   1   .   .   .   A   16   C   C4'    .   25654   1
+      235   .   1   1   16   16   C   C5     C   13   97.573    0.20   .   1   .   .   .   A   16   C   C5     .   25654   1
+      236   .   1   1   16   16   C   C5'    C   13   64.182    0.20   .   1   .   .   .   A   16   C   C5'    .   25654   1
+      237   .   1   1   16   16   C   C6     C   13   139.922   0.20   .   1   .   .   .   A   16   C   C6     .   25654   1
+      238   .   1   1   16   16   C   N4     N   15   97.648    0.10   .   1   .   .   .   A   16   C   N4     .   25654   1
+      239   .   1   1   17   17   G   H1     H   1    12.771    0.02   .   1   .   .   .   A   17   G   H1     .   25654   1
+      240   .   1   1   17   17   G   H1'    H   1    6.017     0.01   .   1   .   .   .   A   17   G   H1'    .   25654   1
+      241   .   1   1   17   17   G   H2'    H   1    4.678     0.01   .   1   .   .   .   A   17   G   H2'    .   25654   1
+      242   .   1   1   17   17   G   H3'    H   1    4.961     0.01   .   1   .   .   .   A   17   G   H3'    .   25654   1
+      243   .   1   1   17   17   G   H4'    H   1    4.439     0.01   .   1   .   .   .   A   17   G   H4'    .   25654   1
+      244   .   1   1   17   17   G   H5'    H   1    4.413     0.01   .   1   .   .   .   A   17   G   H5'    .   25654   1
+      245   .   1   1   17   17   G   H5''   H   1    4.079     0.01   .   1   .   .   .   A   17   G   H5''   .   25654   1
+      246   .   1   1   17   17   G   H8     H   1    7.521     0.01   .   1   .   .   .   A   17   G   H8     .   25654   1
+      247   .   1   1   17   17   G   C1'    C   13   91.492    0.20   .   1   .   .   .   A   17   G   C1'    .   25654   1
+      248   .   1   1   17   17   G   C2'    C   13   84.743    0.20   .   1   .   .   .   A   17   G   C2'    .   25654   1
+      249   .   1   1   17   17   G   C3'    C   13   78.360    0.20   .   1   .   .   .   A   17   G   C3'    .   25654   1
+      250   .   1   1   17   17   G   C4'    C   13   85.916    0.20   .   1   .   .   .   A   17   G   C4'    .   25654   1
+      251   .   1   1   17   17   G   C5'    C   13   65.922    0.20   .   1   .   .   .   A   17   G   C5'    .   25654   1
+      252   .   1   1   17   17   G   C8     C   13   138.006   0.20   .   1   .   .   .   A   17   G   C8     .   25654   1
+      253   .   1   1   17   17   G   N1     N   15   146.759   0.10   .   1   .   .   .   A   17   G   N1     .   25654   1
+      254   .   1   1   18   18   C   H1'    H   1    5.820     0.01   .   1   .   .   .   A   18   C   H1'    .   25654   1
+      255   .   1   1   18   18   C   H2'    H   1    4.196     0.01   .   1   .   .   .   A   18   C   H2'    .   25654   1
+      256   .   1   1   18   18   C   H3'    H   1    4.643     0.01   .   1   .   .   .   A   18   C   H3'    .   25654   1
+      257   .   1   1   18   18   C   H4'    H   1    4.440     0.01   .   1   .   .   .   A   18   C   H4'    .   25654   1
+      258   .   1   1   18   18   C   H5     H   1    5.535     0.01   .   1   .   .   .   A   18   C   H5     .   25654   1
+      259   .   1   1   18   18   C   H5'    H   1    4.011     0.01   .   1   .   .   .   A   18   C   H5'    .   25654   1
+      260   .   1   1   18   18   C   H5''   H   1    4.388     0.01   .   1   .   .   .   A   18   C   H5''   .   25654   1
+      261   .   1   1   18   18   C   H6     H   1    7.500     0.01   .   1   .   .   .   A   18   C   H6     .   25654   1
+      262   .   1   1   18   18   C   H42    H   1    7.003     0.02   .   1   .   .   .   A   18   C   H42    .   25654   1
+      263   .   1   1   18   18   C   C1'    C   13   89.535    0.20   .   1   .   .   .   A   18   C   C1'    .   25654   1
+      264   .   1   1   18   18   C   C2'    C   13   75.812    0.20   .   1   .   .   .   A   18   C   C2'    .   25654   1
+      265   .   1   1   18   18   C   C3'    C   13   72.114    0.20   .   1   .   .   .   A   18   C   C3'    .   25654   1
+      266   .   1   1   18   18   C   C4'    C   13   81.760    0.20   .   1   .   .   .   A   18   C   C4'    .   25654   1
+      267   .   1   1   18   18   C   C5     C   13   99.124    0.20   .   1   .   .   .   A   18   C   C5     .   25654   1
+      268   .   1   1   18   18   C   C5'    C   13   67.067    0.20   .   1   .   .   .   A   18   C   C5'    .   25654   1
+      269   .   1   1   18   18   C   C6     C   13   141.861   0.20   .   1   .   .   .   A   18   C   C6     .   25654   1
+      270   .   1   1   18   18   C   N4     N   15   95.751    0.10   .   1   .   .   .   A   18   C   N4     .   25654   1
+      271   .   1   1   19   19   U   H1'    H   1    6.108     0.01   .   1   .   .   .   A   19   U   H1'    .   25654   1
+      272   .   1   1   19   19   U   H2'    H   1    4.486     0.01   .   1   .   .   .   A   19   U   H2'    .   25654   1
+      273   .   1   1   19   19   U   H3     H   1    11.221    0.02   .   1   .   .   .   A   19   U   H3     .   25654   1
+      274   .   1   1   19   19   U   H3'    H   1    4.559     0.01   .   1   .   .   .   A   19   U   H3'    .   25654   1
+      275   .   1   1   19   19   U   H4'    H   1    4.365     0.01   .   1   .   .   .   A   19   U   H4'    .   25654   1
+      276   .   1   1   19   19   U   H5     H   1    6.010     0.01   .   1   .   .   .   A   19   U   H5     .   25654   1
+      277   .   1   1   19   19   U   H5'    H   1    4.073     0.01   .   1   .   .   .   A   19   U   H5'    .   25654   1
+      278   .   1   1   19   19   U   H5''   H   1    4.209     0.01   .   1   .   .   .   A   19   U   H5''   .   25654   1
+      279   .   1   1   19   19   U   H6     H   1    8.076     0.01   .   1   .   .   .   A   19   U   H6     .   25654   1
+      280   .   1   1   19   19   U   C1'    C   13   89.265    0.20   .   1   .   .   .   A   19   U   C1'    .   25654   1
+      281   .   1   1   19   19   U   C2'    C   13   76.389    0.20   .   1   .   .   .   A   19   U   C2'    .   25654   1
+      282   .   1   1   19   19   U   C3'    C   13   79.899    0.20   .   1   .   .   .   A   19   U   C3'    .   25654   1
+      283   .   1   1   19   19   U   C4'    C   13   86.872    0.20   .   1   .   .   .   A   19   U   C4'    .   25654   1
+      284   .   1   1   19   19   U   C5     C   13   105.519   0.20   .   1   .   .   .   A   19   U   C5     .   25654   1
+      285   .   1   1   19   19   U   C5'    C   13   67.844    0.20   .   1   .   .   .   A   19   U   C5'    .   25654   1
+      286   .   1   1   19   19   U   C6     C   13   144.339   0.20   .   1   .   .   .   A   19   U   C6     .   25654   1
+      287   .   1   1   19   19   U   N3     N   15   157.756   0.10   .   1   .   .   .   A   19   U   N3     .   25654   1
+      288   .   1   1   20   20   U   H1'    H   1    4.969     0.01   .   1   .   .   .   A   20   U   H1'    .   25654   1
+      289   .   1   1   20   20   U   H2'    H   1    3.985     0.01   .   1   .   .   .   A   20   U   H2'    .   25654   1
+      290   .   1   1   20   20   U   H3     H   1    10.328    0.02   .   1   .   .   .   A   20   U   H3     .   25654   1
+      291   .   1   1   20   20   U   H3'    H   1    4.467     0.01   .   1   .   .   .   A   20   U   H3'    .   25654   1
+      292   .   1   1   20   20   U   H4'    H   1    4.296     0.01   .   1   .   .   .   A   20   U   H4'    .   25654   1
+      293   .   1   1   20   20   U   H5     H   1    5.348     0.01   .   1   .   .   .   A   20   U   H5     .   25654   1
+      294   .   1   1   20   20   U   H5'    H   1    3.896     0.01   .   1   .   .   .   A   20   U   H5'    .   25654   1
+      295   .   1   1   20   20   U   H5''   H   1    4.054     0.01   .   1   .   .   .   A   20   U   H5''   .   25654   1
+      296   .   1   1   20   20   U   H6     H   1    7.746     0.01   .   1   .   .   .   A   20   U   H6     .   25654   1
+      297   .   1   1   20   20   U   C1'    C   13   89.416    0.20   .   1   .   .   .   A   20   U   C1'    .   25654   1
+      298   .   1   1   20   20   U   C2'    C   13   77.726    0.20   .   1   .   .   .   A   20   U   C2'    .   25654   1
+      299   .   1   1   20   20   U   C3'    C   13   80.465    0.20   .   1   .   .   .   A   20   U   C3'    .   25654   1
+      300   .   1   1   20   20   U   C4'    C   13   85.331    0.20   .   1   .   .   .   A   20   U   C4'    .   25654   1
+      301   .   1   1   20   20   U   C5     C   13   104.370   0.20   .   1   .   .   .   A   20   U   C5     .   25654   1
+      302   .   1   1   20   20   U   C5'    C   13   68.405    0.20   .   1   .   .   .   A   20   U   C5'    .   25654   1
+      303   .   1   1   20   20   U   C6     C   13   144.205   0.20   .   1   .   .   .   A   20   U   C6     .   25654   1
+      304   .   1   1   20   20   U   N3     N   15   155.320   0.10   .   1   .   .   .   A   20   U   N3     .   25654   1
+      305   .   1   1   21   21   G   H1     H   1    13.192    0.02   .   1   .   .   .   A   21   G   H1     .   25654   1
+      306   .   1   1   21   21   G   H1'    H   1    5.628     0.01   .   1   .   .   .   A   21   G   H1'    .   25654   1
+      307   .   1   1   21   21   G   H2'    H   1    4.976     0.01   .   1   .   .   .   A   21   G   H2'    .   25654   1
+      308   .   1   1   21   21   G   H3'    H   1    4.849     0.01   .   1   .   .   .   A   21   G   H3'    .   25654   1
+      309   .   1   1   21   21   G   H4'    H   1    4.463     0.01   .   1   .   .   .   A   21   G   H4'    .   25654   1
+      310   .   1   1   21   21   G   H5'    H   1    4.054     0.01   .   1   .   .   .   A   21   G   H5'    .   25654   1
+      311   .   1   1   21   21   G   H5''   H   1    3.980     0.01   .   1   .   .   .   A   21   G   H5''   .   25654   1
+      312   .   1   1   21   21   G   H8     H   1    8.020     0.01   .   1   .   .   .   A   21   G   H8     .   25654   1
+      313   .   1   1   21   21   G   C1'    C   13   86.859    0.20   .   1   .   .   .   A   21   G   C1'    .   25654   1
+      314   .   1   1   21   21   G   C2'    C   13   74.245    0.20   .   1   .   .   .   A   21   G   C2'    .   25654   1
+      315   .   1   1   21   21   G   C3'    C   13   77.526    0.20   .   1   .   .   .   A   21   G   C3'    .   25654   1
+      316   .   1   1   21   21   G   C4'    C   13   85.333    0.20   .   1   .   .   .   A   21   G   C4'    .   25654   1
+      317   .   1   1   21   21   G   C5'    C   13   69.789    0.20   .   1   .   .   .   A   21   G   C5'    .   25654   1
+      318   .   1   1   21   21   G   C8     C   13   137.757   0.20   .   1   .   .   .   A   21   G   C8     .   25654   1
+      319   .   1   1   21   21   G   N1     N   15   148.612   0.10   .   1   .   .   .   A   21   G   N1     .   25654   1
+      320   .   1   1   22   22   C   H1'    H   1    5.754     0.01   .   1   .   .   .   A   22   C   H1'    .   25654   1
+      321   .   1   1   22   22   C   H2'    H   1    4.856     0.01   .   1   .   .   .   A   22   C   H2'    .   25654   1
+      322   .   1   1   22   22   C   H3'    H   1    4.640     0.01   .   1   .   .   .   A   22   C   H3'    .   25654   1
+      323   .   1   1   22   22   C   H4'    H   1    4.641     0.01   .   1   .   .   .   A   22   C   H4'    .   25654   1
+      324   .   1   1   22   22   C   H5     H   1    5.380     0.01   .   1   .   .   .   A   22   C   H5     .   25654   1
+      325   .   1   1   22   22   C   H5'    H   1    4.354     0.01   .   1   .   .   .   A   22   C   H5'    .   25654   1
+      326   .   1   1   22   22   C   H5''   H   1    4.640     0.01   .   1   .   .   .   A   22   C   H5''   .   25654   1
+      327   .   1   1   22   22   C   H6     H   1    7.578     0.01   .   1   .   .   .   A   22   C   H6     .   25654   1
+      328   .   1   1   22   22   C   H41    H   1    6.431     0.02   .   1   .   .   .   A   22   C   H41    .   25654   1
+      329   .   1   1   22   22   C   H42    H   1    8.225     0.02   .   1   .   .   .   A   22   C   H42    .   25654   1
+      330   .   1   1   22   22   C   C1'    C   13   94.248    0.20   .   1   .   .   .   A   22   C   C1'    .   25654   1
+      331   .   1   1   22   22   C   C2'    C   13   72.499    0.20   .   1   .   .   .   A   22   C   C2'    .   25654   1
+      332   .   1   1   22   22   C   C3'    C   13   83.203    0.20   .   1   .   .   .   A   22   C   C3'    .   25654   1
+      333   .   1   1   22   22   C   C4'    C   13   83.582    0.20   .   1   .   .   .   A   22   C   C4'    .   25654   1
+      334   .   1   1   22   22   C   C5     C   13   97.950    0.20   .   1   .   .   .   A   22   C   C5     .   25654   1
+      335   .   1   1   22   22   C   C5'    C   13   69.975    0.20   .   1   .   .   .   A   22   C   C5'    .   25654   1
+      336   .   1   1   22   22   C   C6     C   13   141.893   0.20   .   1   .   .   .   A   22   C   C6     .   25654   1
+      337   .   1   1   22   22   C   N4     N   15   96.259    0.10   .   1   .   .   .   A   22   C   N4     .   25654   1
+      338   .   1   1   23   23   G   H1     H   1    13.191    0.02   .   1   .   .   .   A   23   G   H1     .   25654   1
+      339   .   1   1   23   23   G   H1'    H   1    5.802     0.01   .   1   .   .   .   A   23   G   H1'    .   25654   1
+      340   .   1   1   23   23   G   H2'    H   1    4.391     0.01   .   1   .   .   .   A   23   G   H2'    .   25654   1
+      341   .   1   1   23   23   G   H3'    H   1    4.575     0.01   .   1   .   .   .   A   23   G   H3'    .   25654   1
+      342   .   1   1   23   23   G   H4'    H   1    4.516     0.01   .   1   .   .   .   A   23   G   H4'    .   25654   1
+      343   .   1   1   23   23   G   H5'    H   1    4.543     0.01   .   1   .   .   .   A   23   G   H5'    .   25654   1
+      344   .   1   1   23   23   G   H5''   H   1    4.180     0.01   .   1   .   .   .   A   23   G   H5''   .   25654   1
+      345   .   1   1   23   23   G   H8     H   1    7.623     0.01   .   1   .   .   .   A   23   G   H8     .   25654   1
+      346   .   1   1   23   23   G   C1'    C   13   93.313    0.20   .   1   .   .   .   A   23   G   C1'    .   25654   1
+      347   .   1   1   23   23   G   C2'    C   13   75.414    0.20   .   1   .   .   .   A   23   G   C2'    .   25654   1
+      348   .   1   1   23   23   G   C3'    C   13   73.290    0.20   .   1   .   .   .   A   23   G   C3'    .   25654   1
+      349   .   1   1   23   23   G   C4'    C   13   82.414    0.20   .   1   .   .   .   A   23   G   C4'    .   25654   1
+      350   .   1   1   23   23   G   C5'    C   13   66.098    0.20   .   1   .   .   .   A   23   G   C5'    .   25654   1
+      351   .   1   1   23   23   G   C8     C   13   136.415   0.20   .   1   .   .   .   A   23   G   C8     .   25654   1
+      352   .   1   1   23   23   G   N1     N   15   147.638   0.10   .   1   .   .   .   A   23   G   N1     .   25654   1
+      353   .   1   1   24   24   U   H1'    H   1    5.854     0.01   .   1   .   .   .   A   24   U   H1'    .   25654   1
+      354   .   1   1   24   24   U   H2'    H   1    4.324     0.01   .   1   .   .   .   A   24   U   H2'    .   25654   1
+      355   .   1   1   24   24   U   H3'    H   1    4.691     0.01   .   1   .   .   .   A   24   U   H3'    .   25654   1
+      356   .   1   1   24   24   U   H4'    H   1    4.469     0.01   .   1   .   .   .   A   24   U   H4'    .   25654   1
+      357   .   1   1   24   24   U   H5     H   1    5.124     0.01   .   1   .   .   .   A   24   U   H5     .   25654   1
+      358   .   1   1   24   24   U   H6     H   1    7.663     0.01   .   1   .   .   .   A   24   U   H6     .   25654   1
+      359   .   1   1   24   24   U   C1'    C   13   91.002    0.20   .   1   .   .   .   A   24   U   C1'    .   25654   1
+      360   .   1   1   24   24   U   C2'    C   13   76.401    0.20   .   1   .   .   .   A   24   U   C2'    .   25654   1
+      361   .   1   1   24   24   U   C3'    C   13   76.012    0.20   .   1   .   .   .   A   24   U   C3'    .   25654   1
+      362   .   1   1   24   24   U   C4'    C   13   85.329    0.20   .   1   .   .   .   A   24   U   C4'    .   25654   1
+      363   .   1   1   24   24   U   C5     C   13   103.788   0.20   .   1   .   .   .   A   24   U   C5     .   25654   1
+      364   .   1   1   24   24   U   C6     C   13   142.264   0.20   .   1   .   .   .   A   24   U   C6     .   25654   1
+      365   .   1   1   25   25   A   H1'    H   1    6.159     0.01   .   1   .   .   .   A   25   A   H1'    .   25654   1
+      366   .   1   1   25   25   A   H2     H   1    8.146     0.01   .   1   .   .   .   A   25   A   H2     .   25654   1
+      367   .   1   1   25   25   A   H2'    H   1    4.853     0.01   .   1   .   .   .   A   25   A   H2'    .   25654   1
+      368   .   1   1   25   25   A   H3'    H   1    4.852     0.01   .   1   .   .   .   A   25   A   H3'    .   25654   1
+      369   .   1   1   25   25   A   H4'    H   1    4.582     0.01   .   1   .   .   .   A   25   A   H4'    .   25654   1
+      370   .   1   1   25   25   A   H5'    H   1    4.325     0.01   .   1   .   .   .   A   25   A   H5'    .   25654   1
+      371   .   1   1   25   25   A   H5''   H   1    4.245     0.01   .   1   .   .   .   A   25   A   H5''   .   25654   1
+      372   .   1   1   25   25   A   H8     H   1    8.388     0.01   .   1   .   .   .   A   25   A   H8     .   25654   1
+      373   .   1   1   25   25   A   H61    H   1    6.003     0.02   .   1   .   .   .   A   25   A   H61    .   25654   1
+      374   .   1   1   25   25   A   C1'    C   13   90.393    0.20   .   1   .   .   .   A   25   A   C1'    .   25654   1
+      375   .   1   1   25   25   A   C2     C   13   155.392   0.20   .   1   .   .   .   A   25   A   C2     .   25654   1
+      376   .   1   1   25   25   A   C2'    C   13   76.010    0.20   .   1   .   .   .   A   25   A   C2'    .   25654   1
+      377   .   1   1   25   25   A   C3'    C   13   76.014    0.20   .   1   .   .   .   A   25   A   C3'    .   25654   1
+      378   .   1   1   25   25   A   C4'    C   13   84.724    0.20   .   1   .   .   .   A   25   A   C4'    .   25654   1
+      379   .   1   1   25   25   A   C5'    C   13   67.469    0.20   .   1   .   .   .   A   25   A   C5'    .   25654   1
+      380   .   1   1   25   25   A   C8     C   13   142.198   0.20   .   1   .   .   .   A   25   A   C8     .   25654   1
+      381   .   1   1   25   25   A   N6     N   15   78.691    0.10   .   1   .   .   .   A   25   A   N6     .   25654   1
+      382   .   1   1   26   26   G   H1     H   1    11.733    0.02   .   1   .   .   .   A   26   G   H1     .   25654   1
+      383   .   1   1   26   26   G   H1'    H   1    5.602     0.01   .   1   .   .   .   A   26   G   H1'    .   25654   1
+      384   .   1   1   26   26   G   H2'    H   1    4.789     0.01   .   1   .   .   .   A   26   G   H2'    .   25654   1
+      385   .   1   1   26   26   G   H3'    H   1    4.577     0.01   .   1   .   .   .   A   26   G   H3'    .   25654   1
+      386   .   1   1   26   26   G   H4'    H   1    4.486     0.01   .   1   .   .   .   A   26   G   H4'    .   25654   1
+      387   .   1   1   26   26   G   H5'    H   1    4.574     0.01   .   1   .   .   .   A   26   G   H5'    .   25654   1
+      388   .   1   1   26   26   G   H5''   H   1    4.141     0.01   .   1   .   .   .   A   26   G   H5''   .   25654   1
+      389   .   1   1   26   26   G   H8     H   1    7.735     0.01   .   1   .   .   .   A   26   G   H8     .   25654   1
+      390   .   1   1   26   26   G   H21    H   1    5.657     0.02   .   1   .   .   .   A   26   G   H21    .   25654   1
+      391   .   1   1   26   26   G   C1'    C   13   93.688    0.20   .   1   .   .   .   A   26   G   C1'    .   25654   1
+      392   .   1   1   26   26   G   C2'    C   13   74.845    0.20   .   1   .   .   .   A   26   G   C2'    .   25654   1
+      393   .   1   1   26   26   G   C3'    C   13   72.503    0.20   .   1   .   .   .   A   26   G   C3'    .   25654   1
+      394   .   1   1   26   26   G   C4'    C   13   81.836    0.20   .   1   .   .   .   A   26   G   C4'    .   25654   1
+      395   .   1   1   26   26   G   C5'    C   13   64.904    0.20   .   1   .   .   .   A   26   G   C5'    .   25654   1
+      396   .   1   1   26   26   G   C8     C   13   137.786   0.20   .   1   .   .   .   A   26   G   C8     .   25654   1
+      397   .   1   1   26   26   G   N1     N   15   146.178   0.10   .   1   .   .   .   A   26   G   N1     .   25654   1
+      398   .   1   1   26   26   G   N2     N   15   71.316    0.10   .   1   .   .   .   A   26   G   N2     .   25654   1
+      399   .   1   1   27   27   A   H1'    H   1    5.873     0.01   .   1   .   .   .   A   27   A   H1'    .   25654   1
+      400   .   1   1   27   27   A   H2     H   1    7.467     0.01   .   1   .   .   .   A   27   A   H2     .   25654   1
+      401   .   1   1   27   27   A   H2'    H   1    4.516     0.01   .   1   .   .   .   A   27   A   H2'    .   25654   1
+      402   .   1   1   27   27   A   H3'    H   1    4.782     0.01   .   1   .   .   .   A   27   A   H3'    .   25654   1
+      403   .   1   1   27   27   A   H4'    H   1    4.515     0.01   .   1   .   .   .   A   27   A   H4'    .   25654   1
+      404   .   1   1   27   27   A   H5'    H   1    4.602     0.01   .   1   .   .   .   A   27   A   H5'    .   25654   1
+      405   .   1   1   27   27   A   H5''   H   1    4.148     0.01   .   1   .   .   .   A   27   A   H5''   .   25654   1
+      406   .   1   1   27   27   A   H8     H   1    7.935     0.01   .   1   .   .   .   A   27   A   H8     .   25654   1
+      407   .   1   1   27   27   A   C1'    C   13   92.926    0.20   .   1   .   .   .   A   27   A   C1'    .   25654   1
+      408   .   1   1   27   27   A   C2     C   13   153.158   0.20   .   1   .   .   .   A   27   A   C2     .   25654   1
+      409   .   1   1   27   27   A   C2'    C   13   75.614    0.20   .   1   .   .   .   A   27   A   C2'    .   25654   1
+      410   .   1   1   27   27   A   C3'    C   13   72.317    0.20   .   1   .   .   .   A   27   A   C3'    .   25654   1
+      411   .   1   1   27   27   A   C4'    C   13   81.856    0.20   .   1   .   .   .   A   27   A   C4'    .   25654   1
+      412   .   1   1   27   27   A   C5'    C   13   64.927    0.20   .   1   .   .   .   A   27   A   C5'    .   25654   1
+      413   .   1   1   27   27   A   C8     C   13   139.523   0.20   .   1   .   .   .   A   27   A   C8     .   25654   1
+      414   .   1   1   28   28   G   H1     H   1    12.771    0.02   .   1   .   .   .   A   28   G   H1     .   25654   1
+      415   .   1   1   28   28   G   H1'    H   1    6.019     0.01   .   1   .   .   .   A   28   G   H1'    .   25654   1
+      416   .   1   1   28   28   G   H2'    H   1    4.200     0.01   .   1   .   .   .   A   28   G   H2'    .   25654   1
+      417   .   1   1   28   28   G   H3'    H   1    4.699     0.01   .   1   .   .   .   A   28   G   H3'    .   25654   1
+      418   .   1   1   28   28   G   H4'    H   1    4.464     0.01   .   1   .   .   .   A   28   G   H4'    .   25654   1
+      419   .   1   1   28   28   G   H5'    H   1    4.616     0.01   .   1   .   .   .   A   28   G   H5'    .   25654   1
+      420   .   1   1   28   28   G   H5''   H   1    4.125     0.01   .   1   .   .   .   A   28   G   H5''   .   25654   1
+      421   .   1   1   28   28   G   H8     H   1    7.361     0.01   .   1   .   .   .   A   28   G   H8     .   25654   1
+      422   .   1   1   28   28   G   H21    H   1    8.560     0.02   .   1   .   .   .   A   28   G   H21    .   25654   1
+      423   .   1   1   28   28   G   H22    H   1    8.034     0.02   .   1   .   .   .   A   28   G   H22    .   25654   1
+      424   .   1   1   28   28   G   C1'    C   13   91.498    0.20   .   1   .   .   .   A   28   G   C1'    .   25654   1
+      425   .   1   1   28   28   G   C2'    C   13   76.980    0.20   .   1   .   .   .   A   28   G   C2'    .   25654   1
+      426   .   1   1   28   28   G   C3'    C   13   71.945    0.20   .   1   .   .   .   A   28   G   C3'    .   25654   1
+      427   .   1   1   28   28   G   C4'    C   13   81.248    0.20   .   1   .   .   .   A   28   G   C4'    .   25654   1
+      428   .   1   1   28   28   G   C5'    C   13   64.942    0.20   .   1   .   .   .   A   28   G   C5'    .   25654   1
+      429   .   1   1   28   28   G   C8     C   13   136.149   0.20   .   1   .   .   .   A   28   G   C8     .   25654   1
+      430   .   1   1   28   28   G   N1     N   15   147.913   0.10   .   1   .   .   .   A   28   G   N1     .   25654   1
+      431   .   1   1   28   28   G   N2     N   15   78.113    0.10   .   1   .   .   .   A   28   G   N2     .   25654   1
+      432   .   1   1   29   29   G   H1     H   1    12.263    0.02   .   1   .   .   .   A   29   G   H1     .   25654   1
+      433   .   1   1   29   29   G   H1'    H   1    5.924     0.01   .   1   .   .   .   A   29   G   H1'    .   25654   1
+      434   .   1   1   29   29   G   H2'    H   1    4.681     0.01   .   1   .   .   .   A   29   G   H2'    .   25654   1
+      435   .   1   1   29   29   G   H3'    H   1    4.236     0.01   .   1   .   .   .   A   29   G   H3'    .   25654   1
+      436   .   1   1   29   29   G   H4'    H   1    4.416     0.01   .   1   .   .   .   A   29   G   H4'    .   25654   1
+      437   .   1   1   29   29   G   H5'    H   1    4.472     0.01   .   1   .   .   .   A   29   G   H5'    .   25654   1
+      438   .   1   1   29   29   G   H5''   H   1    4.230     0.01   .   1   .   .   .   A   29   G   H5''   .   25654   1
+      439   .   1   1   29   29   G   H8     H   1    8.360     0.01   .   1   .   .   .   A   29   G   H8     .   25654   1
+      440   .   1   1   29   29   G   C1'    C   13   94.731    0.20   .   1   .   .   .   A   29   G   C1'    .   25654   1
+      441   .   1   1   29   29   G   C2'    C   13   75.620    0.20   .   1   .   .   .   A   29   G   C2'    .   25654   1
+      442   .   1   1   29   29   G   C3'    C   13   74.070    0.20   .   1   .   .   .   A   29   G   C3'    .   25654   1
+      443   .   1   1   29   29   G   C4'    C   13   83.165    0.20   .   1   .   .   .   A   29   G   C4'    .   25654   1
+      444   .   1   1   29   29   G   C5'    C   13   70.953    0.20   .   1   .   .   .   A   29   G   C5'    .   25654   1
+      445   .   1   1   29   29   G   C8     C   13   139.140   0.20   .   1   .   .   .   A   29   G   C8     .   25654   1
+      446   .   1   1   29   29   G   N1     N   15   147.557   0.10   .   1   .   .   .   A   29   G   N1     .   25654   1
+      447   .   1   1   30   30   C   H1'    H   1    5.551     0.01   .   1   .   .   .   A   30   C   H1'    .   25654   1
+      448   .   1   1   30   30   C   H2'    H   1    4.575     0.01   .   1   .   .   .   A   30   C   H2'    .   25654   1
+      449   .   1   1   30   30   C   H3'    H   1    4.570     0.01   .   1   .   .   .   A   30   C   H3'    .   25654   1
+      450   .   1   1   30   30   C   H4'    H   1    4.432     0.01   .   1   .   .   .   A   30   C   H4'    .   25654   1
+      451   .   1   1   30   30   C   H5     H   1    4.989     0.01   .   1   .   .   .   A   30   C   H5     .   25654   1
+      452   .   1   1   30   30   C   H5'    H   1    4.092     0.01   .   1   .   .   .   A   30   C   H5'    .   25654   1
+      453   .   1   1   30   30   C   H5''   H   1    4.522     0.01   .   1   .   .   .   A   30   C   H5''   .   25654   1
+      454   .   1   1   30   30   C   H6     H   1    7.769     0.01   .   1   .   .   .   A   30   C   H6     .   25654   1
+      455   .   1   1   30   30   C   H41    H   1    6.457     0.02   .   1   .   .   .   A   30   C   H41    .   25654   1
+      456   .   1   1   30   30   C   H42    H   1    8.332     0.02   .   1   .   .   .   A   30   C   H42    .   25654   1
+      457   .   1   1   30   30   C   C1'    C   13   93.631    0.20   .   1   .   .   .   A   30   C   C1'    .   25654   1
+      458   .   1   1   30   30   C   C2'    C   13   75.303    0.20   .   1   .   .   .   A   30   C   C2'    .   25654   1
+      459   .   1   1   30   30   C   C3'    C   13   71.919    0.20   .   1   .   .   .   A   30   C   C3'    .   25654   1
+      460   .   1   1   30   30   C   C4'    C   13   81.628    0.20   .   1   .   .   .   A   30   C   C4'    .   25654   1
+      461   .   1   1   30   30   C   C5     C   13   96.311    0.20   .   1   .   .   .   A   30   C   C5     .   25654   1
+      462   .   1   1   30   30   C   C5'    C   13   64.271    0.20   .   1   .   .   .   A   30   C   C5'    .   25654   1
+      463   .   1   1   30   30   C   C6     C   13   141.851   0.20   .   1   .   .   .   A   30   C   C6     .   25654   1
+      464   .   1   1   30   30   C   N4     N   15   97.067    0.10   .   1   .   .   .   A   30   C   N4     .   25654   1
+      465   .   1   1   31   31   U   H1'    H   1    5.807     0.01   .   1   .   .   .   A   31   U   H1'    .   25654   1
+      466   .   1   1   31   31   U   H2'    H   1    4.492     0.01   .   1   .   .   .   A   31   U   H2'    .   25654   1
+      467   .   1   1   31   31   U   H3     H   1    13.837    0.02   .   1   .   .   .   A   31   U   H3     .   25654   1
+      468   .   1   1   31   31   U   H3'    H   1    4.564     0.01   .   1   .   .   .   A   31   U   H3'    .   25654   1
+      469   .   1   1   31   31   U   H5     H   1    4.652     0.01   .   1   .   .   .   A   31   U   H5     .   25654   1
+      470   .   1   1   31   31   U   H6     H   1    7.578     0.01   .   1   .   .   .   A   31   U   H6     .   25654   1
+      471   .   1   1   31   31   U   C1'    C   13   92.608    0.20   .   1   .   .   .   A   31   U   C1'    .   25654   1
+      472   .   1   1   31   31   U   C2'    C   13   76.007    0.20   .   1   .   .   .   A   31   U   C2'    .   25654   1
+      473   .   1   1   31   31   U   C3'    C   13   72.302    0.20   .   1   .   .   .   A   31   U   C3'    .   25654   1
+      474   .   1   1   31   31   U   C5     C   13   102.258   0.20   .   1   .   .   .   A   31   U   C5     .   25654   1
+      475   .   1   1   31   31   U   C6     C   13   141.894   0.20   .   1   .   .   .   A   31   U   C6     .   25654   1
+      476   .   1   1   31   31   U   N3     N   15   160.003   0.10   .   1   .   .   .   A   31   U   N3     .   25654   1
+      477   .   1   1   32   32   A   H1'    H   1    6.312     0.01   .   1   .   .   .   A   32   A   H1'    .   25654   1
+      478   .   1   1   32   32   A   H2     H   1    8.085     0.01   .   1   .   .   .   A   32   A   H2     .   25654   1
+      479   .   1   1   32   32   A   H2'    H   1    4.504     0.01   .   1   .   .   .   A   32   A   H2'    .   25654   1
+      480   .   1   1   32   32   A   H3'    H   1    4.556     0.01   .   1   .   .   .   A   32   A   H3'    .   25654   1
+      481   .   1   1   32   32   A   H4'    H   1    4.614     0.01   .   1   .   .   .   A   32   A   H4'    .   25654   1
+      482   .   1   1   32   32   A   H5'    H   1    4.438     0.01   .   1   .   .   .   A   32   A   H5'    .   25654   1
+      483   .   1   1   32   32   A   H5''   H   1    4.071     0.01   .   1   .   .   .   A   32   A   H5''   .   25654   1
+      484   .   1   1   32   32   A   H8     H   1    8.843     0.01   .   1   .   .   .   A   32   A   H8     .   25654   1
+      485   .   1   1   32   32   A   C1'    C   13   88.722    0.20   .   1   .   .   .   A   32   A   C1'    .   25654   1
+      486   .   1   1   32   32   A   C2     C   13   156.284   0.20   .   1   .   .   .   A   32   A   C2     .   25654   1
+      487   .   1   1   32   32   A   C2'    C   13   75.598    0.20   .   1   .   .   .   A   32   A   C2'    .   25654   1
+      488   .   1   1   32   32   A   C3'    C   13   72.520    0.20   .   1   .   .   .   A   32   A   C3'    .   25654   1
+      489   .   1   1   32   32   A   C4'    C   13   82.432    0.20   .   1   .   .   .   A   32   A   C4'    .   25654   1
+      490   .   1   1   32   32   A   C5'    C   13   65.321    0.20   .   1   .   .   .   A   32   A   C5'    .   25654   1
+      491   .   1   1   32   32   A   C8     C   13   141.851   0.20   .   1   .   .   .   A   32   A   C8     .   25654   1
+      492   .   1   1   33   33   A   H1'    H   1    6.266     0.01   .   1   .   .   .   A   33   A   H1'    .   25654   1
+      493   .   1   1   33   33   A   H2     H   1    8.324     0.01   .   1   .   .   .   A   33   A   H2     .   25654   1
+      494   .   1   1   33   33   A   H2'    H   1    4.938     0.01   .   1   .   .   .   A   33   A   H2'    .   25654   1
+      495   .   1   1   33   33   A   H3'    H   1    4.956     0.01   .   1   .   .   .   A   33   A   H3'    .   25654   1
+      496   .   1   1   33   33   A   H4'    H   1    4.751     0.01   .   1   .   .   .   A   33   A   H4'    .   25654   1
+      497   .   1   1   33   33   A   H5'    H   1    4.443     0.01   .   1   .   .   .   A   33   A   H5'    .   25654   1
+      498   .   1   1   33   33   A   H5''   H   1    4.281     0.01   .   1   .   .   .   A   33   A   H5''   .   25654   1
+      499   .   1   1   33   33   A   H8     H   1    8.515     0.01   .   1   .   .   .   A   33   A   H8     .   25654   1
+      500   .   1   1   33   33   A   C1'    C   13   89.063    0.20   .   1   .   .   .   A   33   A   C1'    .   25654   1
+      501   .   1   1   33   33   A   C2     C   13   155.822   0.20   .   1   .   .   .   A   33   A   C2     .   25654   1
+      502   .   1   1   33   33   A   C2'    C   13   76.234    0.20   .   1   .   .   .   A   33   A   C2'    .   25654   1
+      503   .   1   1   33   33   A   C3'    C   13   78.354    0.20   .   1   .   .   .   A   33   A   C3'    .   25654   1
+      504   .   1   1   33   33   A   C4'    C   13   86.705    0.20   .   1   .   .   .   A   33   A   C4'    .   25654   1
+      505   .   1   1   33   33   A   C5'    C   13   68.632    0.20   .   1   .   .   .   A   33   A   C5'    .   25654   1
+      506   .   1   1   33   33   A   C8     C   13   142.465   0.20   .   1   .   .   .   A   33   A   C8     .   25654   1
+      507   .   1   1   34   34   G   H1     H   1    12.513    0.02   .   1   .   .   .   A   34   G   H1     .   25654   1
+      508   .   1   1   34   34   G   H1'    H   1    4.656     0.01   .   1   .   .   .   A   34   G   H1'    .   25654   1
+      509   .   1   1   34   34   G   H2'    H   1    4.298     0.01   .   1   .   .   .   A   34   G   H2'    .   25654   1
+      510   .   1   1   34   34   G   H3'    H   1    4.452     0.01   .   1   .   .   .   A   34   G   H3'    .   25654   1
+      511   .   1   1   34   34   G   H4'    H   1    4.451     0.01   .   1   .   .   .   A   34   G   H4'    .   25654   1
+      512   .   1   1   34   34   G   H5'    H   1    4.527     0.01   .   1   .   .   .   A   34   G   H5'    .   25654   1
+      513   .   1   1   34   34   G   H5''   H   1    4.058     0.01   .   1   .   .   .   A   34   G   H5''   .   25654   1
+      514   .   1   1   34   34   G   H8     H   1    7.197     0.01   .   1   .   .   .   A   34   G   H8     .   25654   1
+      515   .   1   1   34   34   G   C1'    C   13   93.098    0.20   .   1   .   .   .   A   34   G   C1'    .   25654   1
+      516   .   1   1   34   34   G   C2'    C   13   74.640    0.20   .   1   .   .   .   A   34   G   C2'    .   25654   1
+      517   .   1   1   34   34   G   C3'    C   13   72.507    0.20   .   1   .   .   .   A   34   G   C3'    .   25654   1
+      518   .   1   1   34   34   G   C4'    C   13   81.963    0.20   .   1   .   .   .   A   34   G   C4'    .   25654   1
+      519   .   1   1   34   34   G   C5'    C   13   64.820    0.20   .   1   .   .   .   A   34   G   C5'    .   25654   1
+      520   .   1   1   34   34   G   C8     C   13   137.977   0.20   .   1   .   .   .   A   34   G   C8     .   25654   1
+      521   .   1   1   34   34   G   N1     N   15   148.203   0.10   .   1   .   .   .   A   34   G   N1     .   25654   1
+      522   .   1   1   35   35   U   H1'    H   1    5.542     0.01   .   1   .   .   .   A   35   U   H1'    .   25654   1
+      523   .   1   1   35   35   U   H2'    H   1    4.560     0.01   .   1   .   .   .   A   35   U   H2'    .   25654   1
+      524   .   1   1   35   35   U   H3     H   1    13.888    0.02   .   1   .   .   .   A   35   U   H3     .   25654   1
+      525   .   1   1   35   35   U   H3'    H   1    4.633     0.01   .   1   .   .   .   A   35   U   H3'    .   25654   1
+      526   .   1   1   35   35   U   H4'    H   1    4.477     0.01   .   1   .   .   .   A   35   U   H4'    .   25654   1
+      527   .   1   1   35   35   U   H5     H   1    5.075     0.01   .   1   .   .   .   A   35   U   H5     .   25654   1
+      528   .   1   1   35   35   U   H6     H   1    7.930     0.01   .   1   .   .   .   A   35   U   H6     .   25654   1
+      529   .   1   1   35   35   U   C1'    C   13   93.322    0.20   .   1   .   .   .   A   35   U   C1'    .   25654   1
+      530   .   1   1   35   35   U   C2'    C   13   75.180    0.20   .   1   .   .   .   A   35   U   C2'    .   25654   1
+      531   .   1   1   35   35   U   C3'    C   13   72.141    0.20   .   1   .   .   .   A   35   U   C3'    .   25654   1
+      532   .   1   1   35   35   U   C4'    C   13   81.985    0.20   .   1   .   .   .   A   35   U   C4'    .   25654   1
+      533   .   1   1   35   35   U   C5     C   13   102.464   0.20   .   1   .   .   .   A   35   U   C5     .   25654   1
+      534   .   1   1   35   35   U   C6     C   13   142.072   0.20   .   1   .   .   .   A   35   U   C6     .   25654   1
+      535   .   1   1   35   35   U   N3     N   15   162.588   0.10   .   1   .   .   .   A   35   U   N3     .   25654   1
+      536   .   1   1   36   36   G   H1     H   1    12.596    0.02   .   1   .   .   .   A   36   G   H1     .   25654   1
+      537   .   1   1   36   36   G   H1'    H   1    5.835     0.01   .   1   .   .   .   A   36   G   H1'    .   25654   1
+      538   .   1   1   36   36   G   H2'    H   1    4.482     0.01   .   1   .   .   .   A   36   G   H2'    .   25654   1
+      539   .   1   1   36   36   G   H3'    H   1    4.597     0.01   .   1   .   .   .   A   36   G   H3'    .   25654   1
+      540   .   1   1   36   36   G   H4'    H   1    4.482     0.01   .   1   .   .   .   A   36   G   H4'    .   25654   1
+      541   .   1   1   36   36   G   H5'    H   1    4.560     0.01   .   1   .   .   .   A   36   G   H5'    .   25654   1
+      542   .   1   1   36   36   G   H5''   H   1    4.136     0.01   .   1   .   .   .   A   36   G   H5''   .   25654   1
+      543   .   1   1   36   36   G   H8     H   1    7.727     0.01   .   1   .   .   .   A   36   G   H8     .   25654   1
+      544   .   1   1   36   36   G   C1'    C   13   92.356    0.20   .   1   .   .   .   A   36   G   C1'    .   25654   1
+      545   .   1   1   36   36   G   C2'    C   13   75.425    0.20   .   1   .   .   .   A   36   G   C2'    .   25654   1
+      546   .   1   1   36   36   G   C3'    C   13   72.505    0.20   .   1   .   .   .   A   36   G   C3'    .   25654   1
+      547   .   1   1   36   36   G   C4'    C   13   81.836    0.20   .   1   .   .   .   A   36   G   C4'    .   25654   1
+      548   .   1   1   36   36   G   C5'    C   13   64.922    0.20   .   1   .   .   .   A   36   G   C5'    .   25654   1
+      549   .   1   1   36   36   G   C8     C   13   136.156   0.20   .   1   .   .   .   A   36   G   C8     .   25654   1
+      550   .   1   1   36   36   G   N1     N   15   147.418   0.10   .   1   .   .   .   A   36   G   N1     .   25654   1
+      551   .   1   1   37   37   C   H1'    H   1    5.451     0.01   .   1   .   .   .   A   37   C   H1'    .   25654   1
+      552   .   1   1   37   37   C   H2'    H   1    4.260     0.01   .   1   .   .   .   A   37   C   H2'    .   25654   1
+      553   .   1   1   37   37   C   H3'    H   1    4.382     0.01   .   1   .   .   .   A   37   C   H3'    .   25654   1
+      554   .   1   1   37   37   C   H4'    H   1    4.339     0.01   .   1   .   .   .   A   37   C   H4'    .   25654   1
+      555   .   1   1   37   37   C   H5     H   1    5.195     0.01   .   1   .   .   .   A   37   C   H5     .   25654   1
+      556   .   1   1   37   37   C   H5'    H   1    4.065     0.01   .   1   .   .   .   A   37   C   H5'    .   25654   1
+      557   .   1   1   37   37   C   H5''   H   1    4.514     0.01   .   1   .   .   .   A   37   C   H5''   .   25654   1
+      558   .   1   1   37   37   C   H6     H   1    7.470     0.01   .   1   .   .   .   A   37   C   H6     .   25654   1
+      559   .   1   1   37   37   C   H41    H   1    6.637     0.02   .   1   .   .   .   A   37   C   H41    .   25654   1
+      560   .   1   1   37   37   C   H42    H   1    8.402     0.02   .   1   .   .   .   A   37   C   H42    .   25654   1
+      561   .   1   1   37   37   C   C1'    C   13   93.686    0.20   .   1   .   .   .   A   37   C   C1'    .   25654   1
+      562   .   1   1   37   37   C   C2'    C   13   75.601    0.20   .   1   .   .   .   A   37   C   C2'    .   25654   1
+      563   .   1   1   37   37   C   C3'    C   13   72.061    0.20   .   1   .   .   .   A   37   C   C3'    .   25654   1
+      564   .   1   1   37   37   C   C4'    C   13   82.024    0.20   .   1   .   .   .   A   37   C   C4'    .   25654   1
+      565   .   1   1   37   37   C   C5     C   13   97.344    0.20   .   1   .   .   .   A   37   C   C5     .   25654   1
+      566   .   1   1   37   37   C   C5'    C   13   64.530    0.20   .   1   .   .   .   A   37   C   C5'    .   25654   1
+      567   .   1   1   37   37   C   C6     C   13   140.318   0.20   .   1   .   .   .   A   37   C   C6     .   25654   1
+      568   .   1   1   37   37   C   N4     N   15   99.384    0.10   .   1   .   .   .   A   37   C   N4     .   25654   1
+      569   .   1   1   38   38   U   H1'    H   1    5.644     0.01   .   1   .   .   .   A   38   U   H1'    .   25654   1
+      570   .   1   1   38   38   U   H2'    H   1    3.770     0.01   .   1   .   .   .   A   38   U   H2'    .   25654   1
+      571   .   1   1   38   38   U   H3'    H   1    4.531     0.01   .   1   .   .   .   A   38   U   H3'    .   25654   1
+      572   .   1   1   38   38   U   H4'    H   1    4.362     0.01   .   1   .   .   .   A   38   U   H4'    .   25654   1
+      573   .   1   1   38   38   U   H5     H   1    5.707     0.01   .   1   .   .   .   A   38   U   H5     .   25654   1
+      574   .   1   1   38   38   U   H5'    H   1    4.079     0.01   .   1   .   .   .   A   38   U   H5'    .   25654   1
+      575   .   1   1   38   38   U   H5''   H   1    4.532     0.01   .   1   .   .   .   A   38   U   H5''   .   25654   1
+      576   .   1   1   38   38   U   H6     H   1    7.776     0.01   .   1   .   .   .   A   38   U   H6     .   25654   1
+      577   .   1   1   38   38   U   C1'    C   13   94.464    0.20   .   1   .   .   .   A   38   U   C1'    .   25654   1
+      578   .   1   1   38   38   U   C2'    C   13   75.993    0.20   .   1   .   .   .   A   38   U   C2'    .   25654   1
+      579   .   1   1   38   38   U   C3'    C   13   73.105    0.20   .   1   .   .   .   A   38   U   C3'    .   25654   1
+      580   .   1   1   38   38   U   C4'    C   13   82.419    0.20   .   1   .   .   .   A   38   U   C4'    .   25654   1
+      581   .   1   1   38   38   U   C5     C   13   105.051   0.20   .   1   .   .   .   A   38   U   C5     .   25654   1
+      582   .   1   1   38   38   U   C5'    C   13   64.500    0.20   .   1   .   .   .   A   38   U   C5'    .   25654   1
+      583   .   1   1   38   38   U   C6     C   13   140.746   0.20   .   1   .   .   .   A   38   U   C6     .   25654   1
+      584   .   1   1   39   39   U   H1'    H   1    6.100     0.01   .   1   .   .   .   A   39   U   H1'    .   25654   1
+      585   .   1   1   39   39   U   H2'    H   1    4.655     0.01   .   1   .   .   .   A   39   U   H2'    .   25654   1
+      586   .   1   1   39   39   U   H3'    H   1    4.021     0.01   .   1   .   .   .   A   39   U   H3'    .   25654   1
+      587   .   1   1   39   39   U   H4'    H   1    4.484     0.01   .   1   .   .   .   A   39   U   H4'    .   25654   1
+      588   .   1   1   39   39   U   H5     H   1    5.860     0.01   .   1   .   .   .   A   39   U   H5     .   25654   1
+      589   .   1   1   39   39   U   H5'    H   1    4.024     0.01   .   1   .   .   .   A   39   U   H5'    .   25654   1
+      590   .   1   1   39   39   U   H5''   H   1    4.239     0.01   .   1   .   .   .   A   39   U   H5''   .   25654   1
+      591   .   1   1   39   39   U   H6     H   1    8.023     0.01   .   1   .   .   .   A   39   U   H6     .   25654   1
+      592   .   1   1   39   39   U   C1'    C   13   89.271    0.20   .   1   .   .   .   A   39   U   C1'    .   25654   1
+      593   .   1   1   39   39   U   C2'    C   13   74.620    0.20   .   1   .   .   .   A   39   U   C2'    .   25654   1
+      594   .   1   1   39   39   U   C3'    C   13   77.751    0.20   .   1   .   .   .   A   39   U   C3'    .   25654   1
+      595   .   1   1   39   39   U   C4'    C   13   86.927    0.20   .   1   .   .   .   A   39   U   C4'    .   25654   1
+      596   .   1   1   39   39   U   C5     C   13   105.514   0.20   .   1   .   .   .   A   39   U   C5     .   25654   1
+      597   .   1   1   39   39   U   C5'    C   13   67.847    0.20   .   1   .   .   .   A   39   U   C5'    .   25654   1
+      598   .   1   1   39   39   U   C6     C   13   144.641   0.20   .   1   .   .   .   A   39   U   C6     .   25654   1
+      599   .   1   1   40   40   C   H1'    H   1    5.961     0.01   .   1   .   .   .   A   40   C   H1'    .   25654   1
+      600   .   1   1   40   40   C   H2'    H   1    4.107     0.01   .   1   .   .   .   A   40   C   H2'    .   25654   1
+      601   .   1   1   40   40   C   H3'    H   1    4.502     0.01   .   1   .   .   .   A   40   C   H3'    .   25654   1
+      602   .   1   1   40   40   C   H4'    H   1    3.810     0.01   .   1   .   .   .   A   40   C   H4'    .   25654   1
+      603   .   1   1   40   40   C   H5     H   1    6.129     0.01   .   1   .   .   .   A   40   C   H5     .   25654   1
+      604   .   1   1   40   40   C   H5'    H   1    2.719     0.01   .   1   .   .   .   A   40   C   H5'    .   25654   1
+      605   .   1   1   40   40   C   H5''   H   1    3.620     0.01   .   1   .   .   .   A   40   C   H5''   .   25654   1
+      606   .   1   1   40   40   C   H6     H   1    7.701     0.01   .   1   .   .   .   A   40   C   H6     .   25654   1
+      607   .   1   1   40   40   C   H41    H   1    6.180     0.02   .   1   .   .   .   A   40   C   H41    .   25654   1
+      608   .   1   1   40   40   C   H42    H   1    7.043     0.02   .   1   .   .   .   A   40   C   H42    .   25654   1
+      609   .   1   1   40   40   C   C1'    C   13   89.159    0.20   .   1   .   .   .   A   40   C   C1'    .   25654   1
+      610   .   1   1   40   40   C   C2'    C   13   77.572    0.20   .   1   .   .   .   A   40   C   C2'    .   25654   1
+      611   .   1   1   40   40   C   C3'    C   13   80.284    0.20   .   1   .   .   .   A   40   C   C3'    .   25654   1
+      612   .   1   1   40   40   C   C4'    C   13   84.558    0.20   .   1   .   .   .   A   40   C   C4'    .   25654   1
+      613   .   1   1   40   40   C   C5     C   13   98.539    0.20   .   1   .   .   .   A   40   C   C5     .   25654   1
+      614   .   1   1   40   40   C   C5'    C   13   67.299    0.20   .   1   .   .   .   A   40   C   C5'    .   25654   1
+      615   .   1   1   40   40   C   C6     C   13   142.828   0.20   .   1   .   .   .   A   40   C   C6     .   25654   1
+      616   .   1   1   40   40   C   N4     N   15   93.721    0.10   .   1   .   .   .   A   40   C   N4     .   25654   1
+      617   .   1   1   41   41   G   H1     H   1    9.867     0.02   .   1   .   .   .   A   41   G   H1     .   25654   1
+      618   .   1   1   41   41   G   H1'    H   1    5.979     0.01   .   1   .   .   .   A   41   G   H1'    .   25654   1
+      619   .   1   1   41   41   G   H2'    H   1    4.842     0.01   .   1   .   .   .   A   41   G   H2'    .   25654   1
+      620   .   1   1   41   41   G   H3'    H   1    5.638     0.01   .   1   .   .   .   A   41   G   H3'    .   25654   1
+      621   .   1   1   41   41   G   H4'    H   1    4.430     0.01   .   1   .   .   .   A   41   G   H4'    .   25654   1
+      622   .   1   1   41   41   G   H5'    H   1    4.428     0.01   .   1   .   .   .   A   41   G   H5'    .   25654   1
+      623   .   1   1   41   41   G   H5''   H   1    4.207     0.01   .   1   .   .   .   A   41   G   H5''   .   25654   1
+      624   .   1   1   41   41   G   H8     H   1    7.871     0.01   .   1   .   .   .   A   41   G   H8     .   25654   1
+      625   .   1   1   41   41   G   C1'    C   13   94.569    0.20   .   1   .   .   .   A   41   G   C1'    .   25654   1
+      626   .   1   1   41   41   G   C2'    C   13   77.187    0.20   .   1   .   .   .   A   41   G   C2'    .   25654   1
+      627   .   1   1   41   41   G   C3'    C   13   75.822    0.20   .   1   .   .   .   A   41   G   C3'    .   25654   1
+      628   .   1   1   41   41   G   C4'    C   13   83.150    0.20   .   1   .   .   .   A   41   G   C4'    .   25654   1
+      629   .   1   1   41   41   G   C5'    C   13   69.018    0.20   .   1   .   .   .   A   41   G   C5'    .   25654   1
+      630   .   1   1   41   41   G   C8     C   13   143.008   0.20   .   1   .   .   .   A   41   G   C8     .   25654   1
+      631   .   1   1   41   41   G   N1     N   15   143.362   0.10   .   1   .   .   .   A   41   G   N1     .   25654   1
+      632   .   1   1   42   42   G   H1     H   1    13.339    0.02   .   1   .   .   .   A   42   G   H1     .   25654   1
+      633   .   1   1   42   42   G   H1'    H   1    4.430     0.01   .   1   .   .   .   A   42   G   H1'    .   25654   1
+      634   .   1   1   42   42   G   H2'    H   1    4.420     0.01   .   1   .   .   .   A   42   G   H2'    .   25654   1
+      635   .   1   1   42   42   G   H3'    H   1    4.506     0.01   .   1   .   .   .   A   42   G   H3'    .   25654   1
+      636   .   1   1   42   42   G   H4'    H   1    4.424     0.01   .   1   .   .   .   A   42   G   H4'    .   25654   1
+      637   .   1   1   42   42   G   H8     H   1    8.344     0.01   .   1   .   .   .   A   42   G   H8     .   25654   1
+      638   .   1   1   42   42   G   C1'    C   13   93.291    0.20   .   1   .   .   .   A   42   G   C1'    .   25654   1
+      639   .   1   1   42   42   G   C2'    C   13   75.053    0.20   .   1   .   .   .   A   42   G   C2'    .   25654   1
+      640   .   1   1   42   42   G   C3'    C   13   73.675    0.20   .   1   .   .   .   A   42   G   C3'    .   25654   1
+      641   .   1   1   42   42   G   C4'    C   13   82.431    0.20   .   1   .   .   .   A   42   G   C4'    .   25654   1
+      642   .   1   1   42   42   G   C8     C   13   139.007   0.20   .   1   .   .   .   A   42   G   C8     .   25654   1
+      643   .   1   1   42   42   G   N1     N   15   148.287   0.10   .   1   .   .   .   A   42   G   N1     .   25654   1
+      644   .   1   1   43   43   C   H1'    H   1    5.481     0.01   .   1   .   .   .   A   43   C   H1'    .   25654   1
+      645   .   1   1   43   43   C   H2'    H   1    4.270     0.01   .   1   .   .   .   A   43   C   H2'    .   25654   1
+      646   .   1   1   43   43   C   H3'    H   1    4.530     0.01   .   1   .   .   .   A   43   C   H3'    .   25654   1
+      647   .   1   1   43   43   C   H4'    H   1    4.400     0.01   .   1   .   .   .   A   43   C   H4'    .   25654   1
+      648   .   1   1   43   43   C   H5     H   1    5.270     0.01   .   1   .   .   .   A   43   C   H5     .   25654   1
+      649   .   1   1   43   43   C   H6     H   1    7.796     0.01   .   1   .   .   .   A   43   C   H6     .   25654   1
+      650   .   1   1   43   43   C   H41    H   1    6.731     0.02   .   1   .   .   .   A   43   C   H41    .   25654   1
+      651   .   1   1   43   43   C   H42    H   1    8.563     0.02   .   1   .   .   .   A   43   C   H42    .   25654   1
+      652   .   1   1   43   43   C   C1'    C   13   93.694    0.20   .   1   .   .   .   A   43   C   C1'    .   25654   1
+      653   .   1   1   43   43   C   C2'    C   13   75.597    0.20   .   1   .   .   .   A   43   C   C2'    .   25654   1
+      654   .   1   1   43   43   C   C3'    C   13   71.925    0.20   .   1   .   .   .   A   43   C   C3'    .   25654   1
+      655   .   1   1   43   43   C   C4'    C   13   81.737    0.20   .   1   .   .   .   A   43   C   C4'    .   25654   1
+      656   .   1   1   43   43   C   C5     C   13   96.971    0.20   .   1   .   .   .   A   43   C   C5     .   25654   1
+      657   .   1   1   43   43   C   C6     C   13   141.271   0.20   .   1   .   .   .   A   43   C   C6     .   25654   1
+      658   .   1   1   43   43   C   N4     N   15   97.789    0.10   .   1   .   .   .   A   43   C   N4     .   25654   1
+      659   .   1   1   44   44   A   H1'    H   1    5.937     0.01   .   1   .   .   .   A   44   A   H1'    .   25654   1
+      660   .   1   1   44   44   A   H2     H   1    7.284     0.01   .   1   .   .   .   A   44   A   H2     .   25654   1
+      661   .   1   1   44   44   A   H2'    H   1    4.493     0.01   .   1   .   .   .   A   44   A   H2'    .   25654   1
+      662   .   1   1   44   44   A   H3'    H   1    4.608     0.01   .   1   .   .   .   A   44   A   H3'    .   25654   1
+      663   .   1   1   44   44   A   H4'    H   1    4.552     0.01   .   1   .   .   .   A   44   A   H4'    .   25654   1
+      664   .   1   1   44   44   A   H5'    H   1    4.585     0.01   .   1   .   .   .   A   44   A   H5'    .   25654   1
+      665   .   1   1   44   44   A   H5''   H   1    4.190     0.01   .   1   .   .   .   A   44   A   H5''   .   25654   1
+      666   .   1   1   44   44   A   H8     H   1    8.010     0.01   .   1   .   .   .   A   44   A   H8     .   25654   1
+      667   .   1   1   44   44   A   C1'    C   13   92.906    0.20   .   1   .   .   .   A   44   A   C1'    .   25654   1
+      668   .   1   1   44   44   A   C2     C   13   152.890   0.20   .   1   .   .   .   A   44   A   C2     .   25654   1
+      669   .   1   1   44   44   A   C2'    C   13   75.465    0.20   .   1   .   .   .   A   44   A   C2'    .   25654   1
+      670   .   1   1   44   44   A   C3'    C   13   72.491    0.20   .   1   .   .   .   A   44   A   C3'    .   25654   1
+      671   .   1   1   44   44   A   C4'    C   13   81.832    0.20   .   1   .   .   .   A   44   A   C4'    .   25654   1
+      672   .   1   1   44   44   A   C5'    C   13   65.108    0.20   .   1   .   .   .   A   44   A   C5'    .   25654   1
+      673   .   1   1   44   44   A   C8     C   13   139.293   0.20   .   1   .   .   .   A   44   A   C8     .   25654   1
+      674   .   1   1   45   45   C   H1'    H   1    5.438     0.01   .   1   .   .   .   A   45   C   H1'    .   25654   1
+      675   .   1   1   45   45   C   H2'    H   1    4.108     0.01   .   1   .   .   .   A   45   C   H2'    .   25654   1
+      676   .   1   1   45   45   C   H3'    H   1    4.490     0.01   .   1   .   .   .   A   45   C   H3'    .   25654   1
+      677   .   1   1   45   45   C   H4'    H   1    4.488     0.01   .   1   .   .   .   A   45   C   H4'    .   25654   1
+      678   .   1   1   45   45   C   H5     H   1    4.939     0.01   .   1   .   .   .   A   45   C   H5     .   25654   1
+      679   .   1   1   45   45   C   H5'    H   1    4.180     0.01   .   1   .   .   .   A   45   C   H5'    .   25654   1
+      680   .   1   1   45   45   C   H5''   H   1    4.605     0.01   .   1   .   .   .   A   45   C   H5''   .   25654   1
+      681   .   1   1   45   45   C   H6     H   1    7.366     0.01   .   1   .   .   .   A   45   C   H6     .   25654   1
+      682   .   1   1   45   45   C   H41    H   1    6.475     0.02   .   1   .   .   .   A   45   C   H41    .   25654   1
+      683   .   1   1   45   45   C   H42    H   1    7.525     0.02   .   1   .   .   .   A   45   C   H42    .   25654   1
+      684   .   1   1   45   45   C   C1'    C   13   93.457    0.20   .   1   .   .   .   A   45   C   C1'    .   25654   1
+      685   .   1   1   45   45   C   C2'    C   13   75.478    0.20   .   1   .   .   .   A   45   C   C2'    .   25654   1
+      686   .   1   1   45   45   C   C3'    C   13   71.927    0.20   .   1   .   .   .   A   45   C   C3'    .   25654   1
+      687   .   1   1   45   45   C   C4'    C   13   81.836    0.20   .   1   .   .   .   A   45   C   C4'    .   25654   1
+      688   .   1   1   45   45   C   C5     C   13   96.616    0.20   .   1   .   .   .   A   45   C   C5     .   25654   1
+      689   .   1   1   45   45   C   C5'    C   13   64.559    0.20   .   1   .   .   .   A   45   C   C5'    .   25654   1
+      690   .   1   1   45   45   C   C6     C   13   140.502   0.20   .   1   .   .   .   A   45   C   C6     .   25654   1
+      691   .   1   1   45   45   C   N4     N   15   95.592    0.10   .   1   .   .   .   A   45   C   N4     .   25654   1
+      692   .   1   1   46   46   A   H1'    H   1    5.739     0.01   .   1   .   .   .   A   46   A   H1'    .   25654   1
+      693   .   1   1   46   46   A   H2     H   1    7.705     0.01   .   1   .   .   .   A   46   A   H2     .   25654   1
+      694   .   1   1   46   46   A   H2'    H   1    4.757     0.01   .   1   .   .   .   A   46   A   H2'    .   25654   1
+      695   .   1   1   46   46   A   H3'    H   1    4.665     0.01   .   1   .   .   .   A   46   A   H3'    .   25654   1
+      696   .   1   1   46   46   A   H4'    H   1    4.501     0.01   .   1   .   .   .   A   46   A   H4'    .   25654   1
+      697   .   1   1   46   46   A   H5'    H   1    4.621     0.01   .   1   .   .   .   A   46   A   H5'    .   25654   1
+      698   .   1   1   46   46   A   H5''   H   1    4.212     0.01   .   1   .   .   .   A   46   A   H5''   .   25654   1
+      699   .   1   1   46   46   A   H8     H   1    7.907     0.01   .   1   .   .   .   A   46   A   H8     .   25654   1
+      700   .   1   1   46   46   A   C1'    C   13   92.770    0.20   .   1   .   .   .   A   46   A   C1'    .   25654   1
+      701   .   1   1   46   46   A   C2     C   13   153.684   0.20   .   1   .   .   .   A   46   A   C2     .   25654   1
+      702   .   1   1   46   46   A   C2'    C   13   76.203    0.20   .   1   .   .   .   A   46   A   C2'    .   25654   1
+      703   .   1   1   46   46   A   C3'    C   13   73.872    0.20   .   1   .   .   .   A   46   A   C3'    .   25654   1
+      704   .   1   1   46   46   A   C4'    C   13   81.835    0.20   .   1   .   .   .   A   46   A   C4'    .   25654   1
+      705   .   1   1   46   46   A   C5'    C   13   64.561    0.20   .   1   .   .   .   A   46   A   C5'    .   25654   1
+      706   .   1   1   46   46   A   C8     C   13   140.296   0.20   .   1   .   .   .   A   46   A   C8     .   25654   1
+      707   .   1   1   47   47   G   H1     H   1    13.193    0.02   .   1   .   .   .   A   47   G   H1     .   25654   1
+      708   .   1   1   47   47   G   H1'    H   1    5.744     0.01   .   1   .   .   .   A   47   G   H1'    .   25654   1
+      709   .   1   1   47   47   G   H2'    H   1    4.488     0.01   .   1   .   .   .   A   47   G   H2'    .   25654   1
+      710   .   1   1   47   47   G   H3'    H   1    4.640     0.01   .   1   .   .   .   A   47   G   H3'    .   25654   1
+      711   .   1   1   47   47   G   H4'    H   1    4.314     0.01   .   1   .   .   .   A   47   G   H4'    .   25654   1
+      712   .   1   1   47   47   G   H5'    H   1    4.488     0.01   .   1   .   .   .   A   47   G   H5'    .   25654   1
+      713   .   1   1   47   47   G   H5''   H   1    4.055     0.01   .   1   .   .   .   A   47   G   H5''   .   25654   1
+      714   .   1   1   47   47   G   H8     H   1    7.515     0.01   .   1   .   .   .   A   47   G   H8     .   25654   1
+      715   .   1   1   47   47   G   C1'    C   13   92.901    0.20   .   1   .   .   .   A   47   G   C1'    .   25654   1
+      716   .   1   1   47   47   G   C2'    C   13   75.511    0.20   .   1   .   .   .   A   47   G   C2'    .   25654   1
+      717   .   1   1   47   47   G   C3'    C   13   72.215    0.20   .   1   .   .   .   A   47   G   C3'    .   25654   1
+      718   .   1   1   47   47   G   C4'    C   13   82.016    0.20   .   1   .   .   .   A   47   G   C4'    .   25654   1
+      719   .   1   1   47   47   G   C5'    C   13   64.174    0.20   .   1   .   .   .   A   47   G   C5'    .   25654   1
+      720   .   1   1   47   47   G   C8     C   13   136.209   0.20   .   1   .   .   .   A   47   G   C8     .   25654   1
+      721   .   1   1   47   47   G   N1     N   15   147.636   0.10   .   1   .   .   .   A   47   G   N1     .   25654   1
+      722   .   1   1   48   48   C   H1'    H   1    5.434     0.01   .   1   .   .   .   A   48   C   H1'    .   25654   1
+      723   .   1   1   48   48   C   H2'    H   1    4.435     0.01   .   1   .   .   .   A   48   C   H2'    .   25654   1
+      724   .   1   1   48   48   C   H3'    H   1    4.230     0.01   .   1   .   .   .   A   48   C   H3'    .   25654   1
+      725   .   1   1   48   48   C   H4'    H   1    4.435     0.01   .   1   .   .   .   A   48   C   H4'    .   25654   1
+      726   .   1   1   48   48   C   H5     H   1    5.025     0.01   .   1   .   .   .   A   48   C   H5     .   25654   1
+      727   .   1   1   48   48   C   H5'    H   1    4.090     0.01   .   1   .   .   .   A   48   C   H5'    .   25654   1
+      728   .   1   1   48   48   C   H5''   H   1    4.507     0.01   .   1   .   .   .   A   48   C   H5''   .   25654   1
+      729   .   1   1   48   48   C   H6     H   1    7.473     0.01   .   1   .   .   .   A   48   C   H6     .   25654   1
+      730   .   1   1   48   48   C   H41    H   1    6.466     0.02   .   1   .   .   .   A   48   C   H41    .   25654   1
+      731   .   1   1   48   48   C   H42    H   1    7.560     0.02   .   1   .   .   .   A   48   C   H42    .   25654   1
+      732   .   1   1   48   48   C   C1'    C   13   93.690    0.20   .   1   .   .   .   A   48   C   C1'    .   25654   1
+      733   .   1   1   48   48   C   C2'    C   13   75.414    0.20   .   1   .   .   .   A   48   C   C2'    .   25654   1
+      734   .   1   1   48   48   C   C3'    C   13   71.763    0.20   .   1   .   .   .   A   48   C   C3'    .   25654   1
+      735   .   1   1   48   48   C   C4'    C   13   81.736    0.20   .   1   .   .   .   A   48   C   C4'    .   25654   1
+      736   .   1   1   48   48   C   C5     C   13   97.021    0.20   .   1   .   .   .   A   48   C   C5     .   25654   1
+      737   .   1   1   48   48   C   C5'    C   13   64.185    0.20   .   1   .   .   .   A   48   C   C5'    .   25654   1
+      738   .   1   1   48   48   C   C6     C   13   139.929   0.20   .   1   .   .   .   A   48   C   C6     .   25654   1
+      739   .   1   1   48   48   C   N4     N   15   97.672    0.10   .   1   .   .   .   A   48   C   N4     .   25654   1
+      740   .   1   1   49   49   A   H1'    H   1    5.858     0.01   .   1   .   .   .   A   49   A   H1'    .   25654   1
+      741   .   1   1   49   49   A   H2     H   1    6.883     0.01   .   1   .   .   .   A   49   A   H2     .   25654   1
+      742   .   1   1   49   49   A   H2'    H   1    4.461     0.01   .   1   .   .   .   A   49   A   H2'    .   25654   1
+      743   .   1   1   49   49   A   H3'    H   1    4.356     0.01   .   1   .   .   .   A   49   A   H3'    .   25654   1
+      744   .   1   1   49   49   A   H4'    H   1    4.443     0.01   .   1   .   .   .   A   49   A   H4'    .   25654   1
+      745   .   1   1   49   49   A   H5'    H   1    4.452     0.01   .   1   .   .   .   A   49   A   H5'    .   25654   1
+      746   .   1   1   49   49   A   H5''   H   1    4.049     0.01   .   1   .   .   .   A   49   A   H5''   .   25654   1
+      747   .   1   1   49   49   A   H8     H   1    7.774     0.01   .   1   .   .   .   A   49   A   H8     .   25654   1
+      748   .   1   1   49   49   A   C1'    C   13   93.683    0.20   .   1   .   .   .   A   49   A   C1'    .   25654   1
+      749   .   1   1   49   49   A   C2     C   13   153.698   0.20   .   1   .   .   .   A   49   A   C2     .   25654   1
+      750   .   1   1   49   49   A   C2'    C   13   75.206    0.20   .   1   .   .   .   A   49   A   C2'    .   25654   1
+      751   .   1   1   49   49   A   C3'    C   13   72.902    0.20   .   1   .   .   .   A   49   A   C3'    .   25654   1
+      752   .   1   1   49   49   A   C4'    C   13   82.435    0.20   .   1   .   .   .   A   49   A   C4'    .   25654   1
+      753   .   1   1   49   49   A   C5'    C   13   65.343    0.20   .   1   .   .   .   A   49   A   C5'    .   25654   1
+      754   .   1   1   49   49   A   C8     C   13   138.945   0.20   .   1   .   .   .   A   49   A   C8     .   25654   1
+      755   .   1   1   50   50   C   H1'    H   1    5.607     0.01   .   1   .   .   .   A   50   C   H1'    .   25654   1
+      756   .   1   1   50   50   C   H2'    H   1    4.077     0.01   .   1   .   .   .   A   50   C   H2'    .   25654   1
+      757   .   1   1   50   50   C   H3'    H   1    4.541     0.01   .   1   .   .   .   A   50   C   H3'    .   25654   1
+      758   .   1   1   50   50   C   H4'    H   1    4.374     0.01   .   1   .   .   .   A   50   C   H4'    .   25654   1
+      759   .   1   1   50   50   C   H5     H   1    5.289     0.01   .   1   .   .   .   A   50   C   H5     .   25654   1
+      760   .   1   1   50   50   C   H5'    H   1    4.020     0.01   .   1   .   .   .   A   50   C   H5'    .   25654   1
+      761   .   1   1   50   50   C   H5''   H   1    4.425     0.01   .   1   .   .   .   A   50   C   H5''   .   25654   1
+      762   .   1   1   50   50   C   H6     H   1    7.384     0.01   .   1   .   .   .   A   50   C   H6     .   25654   1
+      763   .   1   1   50   50   C   H42    H   1    6.577     0.02   .   1   .   .   .   A   50   C   H42    .   25654   1
+      764   .   1   1   50   50   C   C1'    C   13   91.576    0.20   .   1   .   .   .   A   50   C   C1'    .   25654   1
+      765   .   1   1   50   50   C   C2'    C   13   76.393    0.20   .   1   .   .   .   A   50   C   C2'    .   25654   1
+      766   .   1   1   50   50   C   C3'    C   13   76.202    0.20   .   1   .   .   .   A   50   C   C3'    .   25654   1
+      767   .   1   1   50   50   C   C4'    C   13   84.160    0.20   .   1   .   .   .   A   50   C   C4'    .   25654   1
+      768   .   1   1   50   50   C   C5     C   13   97.569    0.20   .   1   .   .   .   A   50   C   C5     .   25654   1
+      769   .   1   1   50   50   C   C5'    C   13   65.879    0.20   .   1   .   .   .   A   50   C   C5'    .   25654   1
+      770   .   1   1   50   50   C   C6     C   13   141.453   0.20   .   1   .   .   .   A   50   C   C6     .   25654   1
+      771   .   1   1   50   50   C   N4     N   15   69.955    0.10   .   1   .   .   .   A   50   C   N4     .   25654   1
+      772   .   1   1   51   51   A   H1'    H   1    5.928     0.01   .   1   .   .   .   A   51   A   H1'    .   25654   1
+      773   .   1   1   51   51   A   H2     H   1    7.740     0.01   .   1   .   .   .   A   51   A   H2     .   25654   1
+      774   .   1   1   51   51   A   H2'    H   1    4.945     0.01   .   1   .   .   .   A   51   A   H2'    .   25654   1
+      775   .   1   1   51   51   A   H3'    H   1    4.575     0.01   .   1   .   .   .   A   51   A   H3'    .   25654   1
+      776   .   1   1   51   51   A   H4'    H   1    4.535     0.01   .   1   .   .   .   A   51   A   H4'    .   25654   1
+      777   .   1   1   51   51   A   H5'    H   1    4.556     0.01   .   1   .   .   .   A   51   A   H5'    .   25654   1
+      778   .   1   1   51   51   A   H5''   H   1    4.197     0.01   .   1   .   .   .   A   51   A   H5''   .   25654   1
+      779   .   1   1   51   51   A   H8     H   1    8.299     0.01   .   1   .   .   .   A   51   A   H8     .   25654   1
+      780   .   1   1   51   51   A   H61    H   1    6.813     0.02   .   1   .   .   .   A   51   A   H61    .   25654   1
+      781   .   1   1   51   51   A   C1'    C   13   93.882    0.20   .   1   .   .   .   A   51   A   C1'    .   25654   1
+      782   .   1   1   51   51   A   C2     C   13   152.928   0.20   .   1   .   .   .   A   51   A   C2     .   25654   1
+      783   .   1   1   51   51   A   C2'    C   13   75.136    0.20   .   1   .   .   .   A   51   A   C2'    .   25654   1
+      784   .   1   1   51   51   A   C3'    C   13   74.468    0.20   .   1   .   .   .   A   51   A   C3'    .   25654   1
+      785   .   1   1   51   51   A   C4'    C   13   82.999    0.20   .   1   .   .   .   A   51   A   C4'    .   25654   1
+      786   .   1   1   51   51   A   C5'    C   13   64.547    0.20   .   1   .   .   .   A   51   A   C5'    .   25654   1
+      787   .   1   1   51   51   A   C8     C   13   141.483   0.20   .   1   .   .   .   A   51   A   C8     .   25654   1
+      788   .   1   1   51   51   A   N6     N   15   78.673    0.10   .   1   .   .   .   A   51   A   N6     .   25654   1
+      789   .   1   1   52   52   A   H1'    H   1    5.865     0.01   .   1   .   .   .   A   52   A   H1'    .   25654   1
+      790   .   1   1   52   52   A   H2     H   1    7.935     0.01   .   1   .   .   .   A   52   A   H2     .   25654   1
+      791   .   1   1   52   52   A   H2'    H   1    4.429     0.01   .   1   .   .   .   A   52   A   H2'    .   25654   1
+      792   .   1   1   52   52   A   H3'    H   1    4.746     0.01   .   1   .   .   .   A   52   A   H3'    .   25654   1
+      793   .   1   1   52   52   A   H4'    H   1    4.522     0.01   .   1   .   .   .   A   52   A   H4'    .   25654   1
+      794   .   1   1   52   52   A   H5'    H   1    4.583     0.01   .   1   .   .   .   A   52   A   H5'    .   25654   1
+      795   .   1   1   52   52   A   H5''   H   1    4.182     0.01   .   1   .   .   .   A   52   A   H5''   .   25654   1
+      796   .   1   1   52   52   A   H8     H   1    8.032     0.01   .   1   .   .   .   A   52   A   H8     .   25654   1
+      797   .   1   1   52   52   A   H61    H   1    6.875     0.02   .   1   .   .   .   A   52   A   H61    .   25654   1
+      798   .   1   1   52   52   A   C1'    C   13   91.812    0.20   .   1   .   .   .   A   52   A   C1'    .   25654   1
+      799   .   1   1   52   52   A   C2     C   13   154.678   0.20   .   1   .   .   .   A   52   A   C2     .   25654   1
+      800   .   1   1   52   52   A   C2'    C   13   76.393    0.20   .   1   .   .   .   A   52   A   C2'    .   25654   1
+      801   .   1   1   52   52   A   C3'    C   13   72.732    0.20   .   1   .   .   .   A   52   A   C3'    .   25654   1
+      802   .   1   1   52   52   A   C4'    C   13   81.848    0.20   .   1   .   .   .   A   52   A   C4'    .   25654   1
+      803   .   1   1   52   52   A   C5'    C   13   64.924    0.20   .   1   .   .   .   A   52   A   C5'    .   25654   1
+      804   .   1   1   52   52   A   C8     C   13   139.299   0.20   .   1   .   .   .   A   52   A   C8     .   25654   1
+      805   .   1   1   52   52   A   N6     N   15   78.207    0.10   .   1   .   .   .   A   52   A   N6     .   25654   1
+      806   .   1   1   53   53   G   H1     H   1    14.323    0.02   .   1   .   .   .   A   53   G   H1     .   25654   1
+      807   .   1   1   53   53   G   H1'    H   1    5.758     0.01   .   1   .   .   .   A   53   G   H1'    .   25654   1
+      808   .   1   1   53   53   G   H2'    H   1    4.527     0.01   .   1   .   .   .   A   53   G   H2'    .   25654   1
+      809   .   1   1   53   53   G   H3'    H   1    4.605     0.01   .   1   .   .   .   A   53   G   H3'    .   25654   1
+      810   .   1   1   53   53   G   H4'    H   1    4.486     0.01   .   1   .   .   .   A   53   G   H4'    .   25654   1
+      811   .   1   1   53   53   G   H5'    H   1    4.530     0.01   .   1   .   .   .   A   53   G   H5'    .   25654   1
+      812   .   1   1   53   53   G   H5''   H   1    4.142     0.01   .   1   .   .   .   A   53   G   H5''   .   25654   1
+      813   .   1   1   53   53   G   H8     H   1    7.368     0.01   .   1   .   .   .   A   53   G   H8     .   25654   1
+      814   .   1   1   53   53   G   H21    H   1    7.859     0.02   .   1   .   .   .   A   53   G   H21    .   25654   1
+      815   .   1   1   53   53   G   H22    H   1    6.359     0.02   .   1   .   .   .   A   53   G   H22    .   25654   1
+      816   .   1   1   53   53   G   C1'    C   13   92.187    0.20   .   1   .   .   .   A   53   G   C1'    .   25654   1
+      817   .   1   1   53   53   G   C2'    C   13   75.605    0.20   .   1   .   .   .   A   53   G   C2'    .   25654   1
+      818   .   1   1   53   53   G   C3'    C   13   72.494    0.20   .   1   .   .   .   A   53   G   C3'    .   25654   1
+      819   .   1   1   53   53   G   C4'    C   13   81.953    0.20   .   1   .   .   .   A   53   G   C4'    .   25654   1
+      820   .   1   1   53   53   G   C5'    C   13   64.951    0.20   .   1   .   .   .   A   53   G   C5'    .   25654   1
+      821   .   1   1   53   53   G   C8     C   13   136.143   0.20   .   1   .   .   .   A   53   G   C8     .   25654   1
+      822   .   1   1   53   53   G   N1     N   15   153.129   0.10   .   1   .   .   .   A   53   G   N1     .   25654   1
+      823   .   1   1   53   53   G   N2     N   15   81.428    0.10   .   1   .   .   .   A   53   G   N2     .   25654   1
+      824   .   1   1   54   54   C   H1'    H   1    5.590     0.01   .   1   .   .   .   A   54   C   H1'    .   25654   1
+      825   .   1   1   54   54   C   H2'    H   1    4.297     0.01   .   1   .   .   .   A   54   C   H2'    .   25654   1
+      826   .   1   1   54   54   C   H3'    H   1    4.520     0.01   .   1   .   .   .   A   54   C   H3'    .   25654   1
+      827   .   1   1   54   54   C   H4'    H   1    4.460     0.01   .   1   .   .   .   A   54   C   H4'    .   25654   1
+      828   .   1   1   54   54   C   H5     H   1    5.136     0.01   .   1   .   .   .   A   54   C   H5     .   25654   1
+      829   .   1   1   54   54   C   H5'    H   1    4.094     0.01   .   1   .   .   .   A   54   C   H5'    .   25654   1
+      830   .   1   1   54   54   C   H5''   H   1    4.604     0.01   .   1   .   .   .   A   54   C   H5''   .   25654   1
+      831   .   1   1   54   54   C   H6     H   1    7.644     0.01   .   1   .   .   .   A   54   C   H6     .   25654   1
+      832   .   1   1   54   54   C   H41    H   1    6.649     0.02   .   1   .   .   .   A   54   C   H41    .   25654   1
+      833   .   1   1   54   54   C   H42    H   1    8.169     0.02   .   1   .   .   .   A   54   C   H42    .   25654   1
+      834   .   1   1   54   54   C   C1'    C   13   94.533    0.20   .   1   .   .   .   A   54   C   C1'    .   25654   1
+      835   .   1   1   54   54   C   C2'    C   13   75.238    0.20   .   1   .   .   .   A   54   C   C2'    .   25654   1
+      836   .   1   1   54   54   C   C3'    C   13   71.925    0.20   .   1   .   .   .   A   54   C   C3'    .   25654   1
+      837   .   1   1   54   54   C   C4'    C   13   82.425    0.20   .   1   .   .   .   A   54   C   C4'    .   25654   1
+      838   .   1   1   54   54   C   C5     C   13   97.001    0.20   .   1   .   .   .   A   54   C   C5     .   25654   1
+      839   .   1   1   54   54   C   C5'    C   13   64.180    0.20   .   1   .   .   .   A   54   C   C5'    .   25654   1
+      840   .   1   1   54   54   C   C6     C   13   140.870   0.20   .   1   .   .   .   A   54   C   C6     .   25654   1
+      841   .   1   1   54   54   C   N4     N   15   97.969    0.10   .   1   .   .   .   A   54   C   N4     .   25654   1
+      842   .   1   1   55   55   C   H1'    H   1    5.484     0.01   .   1   .   .   .   A   55   C   H1'    .   25654   1
+      843   .   1   1   55   55   C   H2'    H   1    4.745     0.01   .   1   .   .   .   A   55   C   H2'    .   25654   1
+      844   .   1   1   55   55   C   H3'    H   1    4.547     0.01   .   1   .   .   .   A   55   C   H3'    .   25654   1
+      845   .   1   1   55   55   C   H5     H   1    5.320     0.01   .   1   .   .   .   A   55   C   H5     .   25654   1
+      846   .   1   1   55   55   C   H6     H   1    7.883     0.01   .   1   .   .   .   A   55   C   H6     .   25654   1
+      847   .   1   1   55   55   C   H41    H   1    6.684     0.02   .   1   .   .   .   A   55   C   H41    .   25654   1
+      848   .   1   1   55   55   C   H42    H   1    8.482     0.02   .   1   .   .   .   A   55   C   H42    .   25654   1
+      849   .   1   1   55   55   C   C1'    C   13   94.469    0.20   .   1   .   .   .   A   55   C   C1'    .   25654   1
+      850   .   1   1   55   55   C   C2'    C   13   75.026    0.20   .   1   .   .   .   A   55   C   C2'    .   25654   1
+      851   .   1   1   55   55   C   C3'    C   13   71.920    0.20   .   1   .   .   .   A   55   C   C3'    .   25654   1
+      852   .   1   1   55   55   C   C5     C   13   96.979    0.20   .   1   .   .   .   A   55   C   C5     .   25654   1
+      853   .   1   1   55   55   C   C6     C   13   141.490   0.20   .   1   .   .   .   A   55   C   C6     .   25654   1
+      854   .   1   1   55   55   C   N4     N   15   97.742    0.10   .   1   .   .   .   A   55   C   N4     .   25654   1
+      855   .   1   1   56   56   C   H1'    H   1    5.416     0.01   .   1   .   .   .   A   56   C   H1'    .   25654   1
+      856   .   1   1   56   56   C   H2'    H   1    4.543     0.01   .   1   .   .   .   A   56   C   H2'    .   25654   1
+      857   .   1   1   56   56   C   H3'    H   1    4.370     0.01   .   1   .   .   .   A   56   C   H3'    .   25654   1
+      858   .   1   1   56   56   C   H4'    H   1    4.370     0.01   .   1   .   .   .   A   56   C   H4'    .   25654   1
+      859   .   1   1   56   56   C   H5     H   1    5.414     0.01   .   1   .   .   .   A   56   C   H5     .   25654   1
+      860   .   1   1   56   56   C   H6     H   1    7.788     0.01   .   1   .   .   .   A   56   C   H6     .   25654   1
+      861   .   1   1   56   56   C   H41    H   1    6.511     0.02   .   1   .   .   .   A   56   C   H41    .   25654   1
+      862   .   1   1   56   56   C   H42    H   1    8.154     0.02   .   1   .   .   .   A   56   C   H42    .   25654   1
+      863   .   1   1   56   56   C   C1'    C   13   93.850    0.20   .   1   .   .   .   A   56   C   C1'    .   25654   1
+      864   .   1   1   56   56   C   C2'    C   13   75.619    0.20   .   1   .   .   .   A   56   C   C2'    .   25654   1
+      865   .   1   1   56   56   C   C3'    C   13   72.140    0.20   .   1   .   .   .   A   56   C   C3'    .   25654   1
+      866   .   1   1   56   56   C   C4'    C   13   81.760    0.20   .   1   .   .   .   A   56   C   C4'    .   25654   1
+      867   .   1   1   56   56   C   C5     C   13   97.813    0.20   .   1   .   .   .   A   56   C   C5     .   25654   1
+      868   .   1   1   56   56   C   C6     C   13   141.272   0.20   .   1   .   .   .   A   56   C   C6     .   25654   1
+      869   .   1   1   56   56   C   N4     N   15   98.029    0.10   .   1   .   .   .   A   56   C   N4     .   25654   1
+      870   .   1   1   57   57   G   H1     H   1    12.847    0.02   .   1   .   .   .   A   57   G   H1     .   25654   1
+      871   .   1   1   57   57   G   H1'    H   1    5.673     0.01   .   1   .   .   .   A   57   G   H1'    .   25654   1
+      872   .   1   1   57   57   G   H2'    H   1    4.472     0.01   .   1   .   .   .   A   57   G   H2'    .   25654   1
+      873   .   1   1   57   57   G   H3'    H   1    4.650     0.01   .   1   .   .   .   A   57   G   H3'    .   25654   1
+      874   .   1   1   57   57   G   H4'    H   1    4.472     0.01   .   1   .   .   .   A   57   G   H4'    .   25654   1
+      875   .   1   1   57   57   G   H5'    H   1    4.516     0.01   .   1   .   .   .   A   57   G   H5'    .   25654   1
+      876   .   1   1   57   57   G   H5''   H   1    4.136     0.01   .   1   .   .   .   A   57   G   H5''   .   25654   1
+      877   .   1   1   57   57   G   H8     H   1    7.617     0.01   .   1   .   .   .   A   57   G   H8     .   25654   1
+      878   .   1   1   57   57   G   C1'    C   13   92.896    0.20   .   1   .   .   .   A   57   G   C1'    .   25654   1
+      879   .   1   1   57   57   G   C2'    C   13   75.070    0.20   .   1   .   .   .   A   57   G   C2'    .   25654   1
+      880   .   1   1   57   57   G   C3'    C   13   72.245    0.20   .   1   .   .   .   A   57   G   C3'    .   25654   1
+      881   .   1   1   57   57   G   C4'    C   13   81.839    0.20   .   1   .   .   .   A   57   G   C4'    .   25654   1
+      882   .   1   1   57   57   G   C5'    C   13   64.184    0.20   .   1   .   .   .   A   57   G   C5'    .   25654   1
+      883   .   1   1   57   57   G   C8     C   13   136.041   0.20   .   1   .   .   .   A   57   G   C8     .   25654   1
+      884   .   1   1   57   57   G   N1     N   15   147.847   0.10   .   1   .   .   .   A   57   G   N1     .   25654   1
+      885   .   1   1   58   58   C   H1'    H   1    5.489     0.01   .   1   .   .   .   A   58   C   H1'    .   25654   1
+      886   .   1   1   58   58   C   H2'    H   1    4.530     0.01   .   1   .   .   .   A   58   C   H2'    .   25654   1
+      887   .   1   1   58   58   C   H3'    H   1    4.587     0.01   .   1   .   .   .   A   58   C   H3'    .   25654   1
+      888   .   1   1   58   58   C   H4'    H   1    4.431     0.01   .   1   .   .   .   A   58   C   H4'    .   25654   1
+      889   .   1   1   58   58   C   H5     H   1    5.265     0.01   .   1   .   .   .   A   58   C   H5     .   25654   1
+      890   .   1   1   58   58   C   H5'    H   1    4.089     0.01   .   1   .   .   .   A   58   C   H5'    .   25654   1
+      891   .   1   1   58   58   C   H5''   H   1    4.529     0.01   .   1   .   .   .   A   58   C   H5''   .   25654   1
+      892   .   1   1   58   58   C   H6     H   1    7.782     0.01   .   1   .   .   .   A   58   C   H6     .   25654   1
+      893   .   1   1   58   58   C   H41    H   1    6.639     0.02   .   1   .   .   .   A   58   C   H41    .   25654   1
+      894   .   1   1   58   58   C   H42    H   1    8.452     0.02   .   1   .   .   .   A   58   C   H42    .   25654   1
+      895   .   1   1   58   58   C   C1'    C   13   93.775    0.20   .   1   .   .   .   A   58   C   C1'    .   25654   1
+      896   .   1   1   58   58   C   C2'    C   13   75.231    0.20   .   1   .   .   .   A   58   C   C2'    .   25654   1
+      897   .   1   1   58   58   C   C3'    C   13   71.920    0.20   .   1   .   .   .   A   58   C   C3'    .   25654   1
+      898   .   1   1   58   58   C   C4'    C   13   81.814    0.20   .   1   .   .   .   A   58   C   C4'    .   25654   1
+      899   .   1   1   58   58   C   C5     C   13   96.974    0.20   .   1   .   .   .   A   58   C   C5     .   25654   1
+      900   .   1   1   58   58   C   C5'    C   13   64.186    0.20   .   1   .   .   .   A   58   C   C5'    .   25654   1
+      901   .   1   1   58   58   C   C6     C   13   140.742   0.20   .   1   .   .   .   A   58   C   C6     .   25654   1
+      902   .   1   1   58   58   C   N4     N   15   99.385    0.10   .   1   .   .   .   A   58   C   N4     .   25654   1
+      903   .   1   1   59   59   U   H1'    H   1    5.536     0.01   .   1   .   .   .   A   59   U   H1'    .   25654   1
+      904   .   1   1   59   59   U   H2'    H   1    4.556     0.01   .   1   .   .   .   A   59   U   H2'    .   25654   1
+      905   .   1   1   59   59   U   H3     H   1    13.505    0.02   .   1   .   .   .   A   59   U   H3     .   25654   1
+      906   .   1   1   59   59   U   H3'    H   1    4.626     0.01   .   1   .   .   .   A   59   U   H3'    .   25654   1
+      907   .   1   1   59   59   U   H4'    H   1    4.485     0.01   .   1   .   .   .   A   59   U   H4'    .   25654   1
+      908   .   1   1   59   59   U   H5     H   1    5.410     0.01   .   1   .   .   .   A   59   U   H5     .   25654   1
+      909   .   1   1   59   59   U   H6     H   1    7.941     0.01   .   1   .   .   .   A   59   U   H6     .   25654   1
+      910   .   1   1   59   59   U   C1'    C   13   93.324    0.20   .   1   .   .   .   A   59   U   C1'    .   25654   1
+      911   .   1   1   59   59   U   C2'    C   13   75.247    0.20   .   1   .   .   .   A   59   U   C2'    .   25654   1
+      912   .   1   1   59   59   U   C3'    C   13   72.174    0.20   .   1   .   .   .   A   59   U   C3'    .   25654   1
+      913   .   1   1   59   59   U   C4'    C   13   82.014    0.20   .   1   .   .   .   A   59   U   C4'    .   25654   1
+      914   .   1   1   59   59   U   C5     C   13   103.400   0.20   .   1   .   .   .   A   59   U   C5     .   25654   1
+      915   .   1   1   59   59   U   C6     C   13   141.650   0.20   .   1   .   .   .   A   59   U   C6     .   25654   1
+      916   .   1   1   59   59   U   N3     N   15   161.672   0.10   .   1   .   .   .   A   59   U   N3     .   25654   1
+      917   .   1   1   60   60   G   H1     H   1    12.600    0.02   .   1   .   .   .   A   60   G   H1     .   25654   1
+      918   .   1   1   60   60   G   H1'    H   1    5.792     0.01   .   1   .   .   .   A   60   G   H1'    .   25654   1
+      919   .   1   1   60   60   G   H2'    H   1    4.478     0.01   .   1   .   .   .   A   60   G   H2'    .   25654   1
+      920   .   1   1   60   60   G   H3'    H   1    4.591     0.01   .   1   .   .   .   A   60   G   H3'    .   25654   1
+      921   .   1   1   60   60   G   H4'    H   1    4.478     0.01   .   1   .   .   .   A   60   G   H4'    .   25654   1
+      922   .   1   1   60   60   G   H5'    H   1    4.587     0.01   .   1   .   .   .   A   60   G   H5'    .   25654   1
+      923   .   1   1   60   60   G   H5''   H   1    4.133     0.01   .   1   .   .   .   A   60   G   H5''   .   25654   1
+      924   .   1   1   60   60   G   H8     H   1    7.721     0.01   .   1   .   .   .   A   60   G   H8     .   25654   1
+      925   .   1   1   60   60   G   C1'    C   13   92.716    0.20   .   1   .   .   .   A   60   G   C1'    .   25654   1
+      926   .   1   1   60   60   G   C2'    C   13   75.432    0.20   .   1   .   .   .   A   60   G   C2'    .   25654   1
+      927   .   1   1   60   60   G   C3'    C   13   72.510    0.20   .   1   .   .   .   A   60   G   C3'    .   25654   1
+      928   .   1   1   60   60   G   C4'    C   13   81.838    0.20   .   1   .   .   .   A   60   G   C4'    .   25654   1
+      929   .   1   1   60   60   G   C5'    C   13   64.961    0.20   .   1   .   .   .   A   60   G   C5'    .   25654   1
+      930   .   1   1   60   60   G   C8     C   13   136.154   0.20   .   1   .   .   .   A   60   G   C8     .   25654   1
+      931   .   1   1   60   60   G   N1     N   15   147.633   0.10   .   1   .   .   .   A   60   G   N1     .   25654   1
+      932   .   1   1   61   61   C   H1'    H   1    5.785     0.01   .   1   .   .   .   A   61   C   H1'    .   25654   1
+      933   .   1   1   61   61   C   H2'    H   1    4.362     0.01   .   1   .   .   .   A   61   C   H2'    .   25654   1
+      934   .   1   1   61   61   C   H3'    H   1    4.434     0.01   .   1   .   .   .   A   61   C   H3'    .   25654   1
+      935   .   1   1   61   61   C   H4'    H   1    4.334     0.01   .   1   .   .   .   A   61   C   H4'    .   25654   1
+      936   .   1   1   61   61   C   H5     H   1    5.197     0.01   .   1   .   .   .   A   61   C   H5     .   25654   1
+      937   .   1   1   61   61   C   H6     H   1    7.464     0.01   .   1   .   .   .   A   61   C   H6     .   25654   1
+      938   .   1   1   61   61   C   H41    H   1    6.535     0.02   .   1   .   .   .   A   61   C   H41    .   25654   1
+      939   .   1   1   61   61   C   H42    H   1    8.177     0.02   .   1   .   .   .   A   61   C   H42    .   25654   1
+      940   .   1   1   61   61   C   C1'    C   13   92.728    0.20   .   1   .   .   .   A   61   C   C1'    .   25654   1
+      941   .   1   1   61   61   C   C2'    C   13   74.651    0.20   .   1   .   .   .   A   61   C   C2'    .   25654   1
+      942   .   1   1   61   61   C   C3'    C   13   71.755    0.20   .   1   .   .   .   A   61   C   C3'    .   25654   1
+      943   .   1   1   61   61   C   C4'    C   13   81.646    0.20   .   1   .   .   .   A   61   C   C4'    .   25654   1
+      944   .   1   1   61   61   C   C5     C   13   97.262    0.20   .   1   .   .   .   A   61   C   C5     .   25654   1
+      945   .   1   1   61   61   C   C6     C   13   139.953   0.20   .   1   .   .   .   A   61   C   C6     .   25654   1
+      946   .   1   1   61   61   C   N4     N   15   98.520    0.10   .   1   .   .   .   A   61   C   N4     .   25654   1
+      947   .   1   1   62   62   G   H1'    H   1    5.770     0.01   .   1   .   .   .   A   62   G   H1'    .   25654   1
+      948   .   1   1   62   62   G   H2'    H   1    4.029     0.01   .   1   .   .   .   A   62   G   H2'    .   25654   1
+      949   .   1   1   62   62   G   H3'    H   1    4.234     0.01   .   1   .   .   .   A   62   G   H3'    .   25654   1
+      950   .   1   1   62   62   G   H4'    H   1    4.185     0.01   .   1   .   .   .   A   62   G   H4'    .   25654   1
+      951   .   1   1   62   62   G   H8     H   1    7.606     0.01   .   1   .   .   .   A   62   G   H8     .   25654   1
+      952   .   1   1   62   62   G   C1'    C   13   91.737    0.20   .   1   .   .   .   A   62   G   C1'    .   25654   1
+      953   .   1   1   62   62   G   C2'    C   13   77.761    0.20   .   1   .   .   .   A   62   G   C2'    .   25654   1
+      954   .   1   1   62   62   G   C3'    C   13   70.281    0.20   .   1   .   .   .   A   62   G   C3'    .   25654   1
+      955   .   1   1   62   62   G   C4'    C   13   83.947    0.20   .   1   .   .   .   A   62   G   C4'    .   25654   1
+      956   .   1   1   62   62   G   C8     C   13   137.521   0.20   .   1   .   .   .   A   62   G   C8     .   25654   1
+   stop_
+save_
+

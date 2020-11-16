@@ -1,0 +1,2122 @@
+data_11014
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            11014
+  _Entry.Title                         
+;
+Liquid crystal solution structure of the kissing complex formed by the apical
+loop of the HIV TAR RNA and a high affinity RNA aptamer optimized by SELEX.
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2007-12-05
+  _Entry.Accession_date                2007-12-05
+  _Entry.Last_release_date             .
+  _Entry.Original_release_date         .
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     3.0.8.100
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   solution
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    Helene          'Van Melckebeke'  .   .     .   11014    
+    2    Matthew         Devany            .   .     .   11014    
+    3    Carmelo         'Di Primo'        .   .     .   11014    
+    4    Francois        Beaurain          .   .     .   11014    
+    5    Jean-Jacques    Toulme            .   .     .   11014    
+    6    David           Bryce             .   L.    .   11014    
+    7    Jerome          Boisbouvier       .   .     .   11014    
+  stop_
+
+  loop_
+    _Entry_src.ID
+    _Entry_src.Project_name
+    _Entry_src.Organization_full_name
+    _Entry_src.Organization_initials
+    _Entry_src.Entry_ID
+
+    .    .   'University of Ottawa, Chemistry department'  .   11014    
+    1    .   'IBS Grenoble'                                .   11014    
+  stop_
+
+  loop_
+    _Struct_keywords.Keywords
+    _Struct_keywords.Text
+    _Struct_keywords.Entry_ID
+
+    'GA base pair'                                 .   11014    
+    'High affinity RNA aptamer selected by SELEX'  .   11014    
+    'HIV TAR'                                      .   11014    
+    'Liquid crystal NMR'                           .   11014    
+    'RNA kissing complex'                          .   11014    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    assigned_chemical_shifts    1    11014    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    '13C chemical shifts'  176    11014    
+    '15N chemical shifts'  9      11014    
+    '1H chemical shifts'   235    11014    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    2    .   .   2008-07-29    2007-12-05    update      BMRB      'complete entry citation'  11014    
+    1    .   .   2008-07-15    2007-12-05    original    author    'original release'         11014    
+  stop_
+
+  loop_
+    _Related_entries.Database_name
+    _Related_entries.Database_accession_code
+    _Related_entries.Relationship
+    _Related_entries.Entry_ID
+
+    PDB    1KIS    'Lower affinity aptamer - HIV TAR kissing complex'  11014    
+    PDB    2RN1    'BMRB Entry Tracking System'                        11014    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_citation_1
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                citation_1
+  _Citation.Entry_ID                    11014
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             .
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   18607001
+  _Citation.Full_citation               .
+  _Citation.Title                       'Liquid-crystal NMR structure of HIV TAR RNA bound to its SELEX RNA aptamer reveals the origins of the high stability of the complex'
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              'Proc. Natl. Acad. Sci. U. S. A.'
+  _Citation.Journal_name_full           .
+  _Citation.Journal_volume              105
+  _Citation.Journal_issue               27
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  9210
+  _Citation.Page_last                   9215
+  _Citation.Year                        2008
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    Helene          'Van Melckebeke'  .   .     .   11014    1    
+    2    Matthew         Devany            .   .     .   11014    1    
+    3    Carmelo         'Di Primo'        .   .     .   11014    1    
+    4    Francois        Beaurain          .   .     .   11014    1    
+    5    Jean-Jacques    Toulme            .   .     .   11014    1    
+    6    David           Bryce             .   L.    .   11014    1    
+    7    Jerome          Boisbouvier       .   .     .   11014    1    
+  stop_
+
+  loop_
+    _Citation_keyword.Keyword
+    _Citation_keyword.Entry_ID
+    _Citation_keyword.Citation_ID
+
+    'high stability RNA aptamer selected by SELEX'  11014    1    
+    'HIV TAR RNA'                                   11014    1    
+    'Kissing complex'                               11014    1    
+    'liquid crystal NMR'                            11014    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_assembly
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     assembly
+  _Assembly.Entry_ID                         11014
+  _Assembly.ID                               1
+  _Assembly.Name                             'TAR-TAR*GA aptamer kissing complex'
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             2
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               no
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      .
+  _Assembly.Molecular_mass                   11150
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          
+;
+Kissing complex formed by the apical loop of the HIV TAR RNA and a high-affinity
+RNA aptamer optimized by SELEX.
+;
+
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    TAR       1    $TAR      A    .   yes    native    no    no    .   'HIV RNA'      .   11014    1    
+    2    TAR*GA    2    $TAR*GA   B    .   yes    native    no    no    .   'RNA aptamer'  .   11014    1    
+  stop_
+
+  loop_
+    _Assembly_bio_function.Biological_function
+    _Assembly_bio_function.Entry_ID
+    _Assembly_bio_function.Assembly_ID
+
+    'Interaction of TAR with TAR*GA aptamer : inhibition of HIV transcription'  11014    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_TAR
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     TAR
+  _Entity.Entry_ID                         11014
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             TAR
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polyribonucleotide
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                A
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      GAGCCCUGGGAGGCUC
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       'G1 A2 G3 C4 C5 C6 U7 G8 G9 G10 A11 G12 G13 C14 U15 C16'
+  _Entity.Polymer_author_seq_details       
+;
+This sequence is the apical loop of the HIV TAR RNA, stabilized by a GC
+base-pair.
+;
+
+  _Entity.Ambiguous_conformational_states  no
+  _Entity.Ambiguous_chem_comp_sites        no
+  _Entity.Nstd_monomer                     no
+  _Entity.Nstd_chirality                   no
+  _Entity.Nstd_linkage                     no
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               16
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     no
+  _Entity.Thiol_state                      'not present'
+  _Entity.Src_method                       syn
+  _Entity.Parent_entity_ID                 .
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   5168.169
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_biological_function.Biological_function
+    _Entity_biological_function.Entry_ID
+    _Entity_biological_function.Entity_ID
+
+    'Apical loop of the Trans Activation Response RNA in HIV'  11014    1    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     1     G    .   11014    1    
+    2     2     A    .   11014    1    
+    3     3     G    .   11014    1    
+    4     4     C    .   11014    1    
+    5     5     C    .   11014    1    
+    6     6     C    .   11014    1    
+    7     7     U    .   11014    1    
+    8     8     G    .   11014    1    
+    9     9     G    .   11014    1    
+    10    10    G    .   11014    1    
+    11    11    A    .   11014    1    
+    12    12    G    .   11014    1    
+    13    13    G    .   11014    1    
+    14    14    C    .   11014    1    
+    15    15    U    .   11014    1    
+    16    16    C    .   11014    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   G    1     1     11014    1    
+    .   A    2     2     11014    1    
+    .   G    3     3     11014    1    
+    .   C    4     4     11014    1    
+    .   C    5     5     11014    1    
+    .   C    6     6     11014    1    
+    .   U    7     7     11014    1    
+    .   G    8     8     11014    1    
+    .   G    9     9     11014    1    
+    .   G    10    10    11014    1    
+    .   A    11    11    11014    1    
+    .   G    12    12    11014    1    
+    .   G    13    13    11014    1    
+    .   C    14    14    11014    1    
+    .   U    15    15    11014    1    
+    .   C    16    16    11014    1    
+  stop_
+
+save_
+
+save_TAR*GA
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     TAR*GA
+  _Entity.Entry_ID                         11014
+  _Entity.ID                               2
+  _Entity.BMRB_code                        .
+  _Entity.Name                             TAR*GA
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polyribonucleotide
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                B
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      GCUGGUCCCAGACAGC
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       
+;
+The numbering begins at 17: G17 C18 U19 G20 G21 U22 C23 C24 C25 A26 G27 A28 C29
+A30 G31 C32.
+;
+
+  _Entity.Polymer_author_seq_details       
+;
+The numbering begins at 17 (G17 C18 U19 G20 G21 U22 C23 C24 C25 A26 G27 A28 C29
+A30 G31 C32).
+;
+
+  _Entity.Ambiguous_conformational_states  no
+  _Entity.Ambiguous_chem_comp_sites        no
+  _Entity.Nstd_monomer                     no
+  _Entity.Nstd_chirality                   no
+  _Entity.Nstd_linkage                     no
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               16
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     no
+  _Entity.Thiol_state                      'not present'
+  _Entity.Src_method                       syn
+  _Entity.Parent_entity_ID                 .
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   5112.145
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_biological_function.Biological_function
+    _Entity_biological_function.Entry_ID
+    _Entity_biological_function.Entity_ID
+
+    'High affinity RNA aptamer optimized to bind the apical loop of HIV TAR by SELEX.'  11014    2    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     17    G    .   11014    2    
+    2     18    C    .   11014    2    
+    3     19    U    .   11014    2    
+    4     20    G    .   11014    2    
+    5     21    G    .   11014    2    
+    6     22    U    .   11014    2    
+    7     23    C    .   11014    2    
+    8     24    C    .   11014    2    
+    9     25    C    .   11014    2    
+    10    26    A    .   11014    2    
+    11    27    G    .   11014    2    
+    12    28    A    .   11014    2    
+    13    29    C    .   11014    2    
+    14    30    A    .   11014    2    
+    15    31    G    .   11014    2    
+    16    32    C    .   11014    2    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   G    1     1     11014    2    
+    .   C    2     2     11014    2    
+    .   U    3     3     11014    2    
+    .   G    4     4     11014    2    
+    .   G    5     5     11014    2    
+    .   U    6     6     11014    2    
+    .   C    7     7     11014    2    
+    .   C    8     8     11014    2    
+    .   C    9     9     11014    2    
+    .   A    10    10    11014    2    
+    .   G    11    11    11014    2    
+    .   A    12    12    11014    2    
+    .   C    13    13    11014    2    
+    .   A    14    14    11014    2    
+    .   G    15    15    11014    2    
+    .   C    16    16    11014    2    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      11014
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $TAR      .   11676    virus                .   HIV-1        HIV-1    .   .   Viruses    .   Lentivirus    'Human immunodeficiency virus 1'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+;
+Apical loop of the Trans Activation Response RNA (TAR) of HIV-1, stabilized by a
+GC base pair.
+;
+  .   .   11014    1    
+    2    2    $TAR*GA   .   .        'no natural source'  .   synthetic    .        .   .   .          .   .             .                                 .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   'RNA aptamer optimized to bind the apical loop of the HIV TAR RNA by SELEX.'                      .   .   11014    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      11014
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $TAR      .   'obtained from a vendor'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+;
+Natural abundance RNA were synthesized chemically by Integrated DNA Technologies
+, BVBA. 13C-15N-labelled RNA were prepared in vitro using T7 RNA polymerase by
+Silantes GmbH.
+;
+  .   .   11014    1    
+    2    2    $TAR*GA   .   'obtained from a vendor'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   
+;
+Natural abundance RNA were synthesized chemically by Integrated DNA Technologies
+, BVBA. 13C-15N-labelled RNA were prepared in vitro using T7 RNA polymerase by
+Silantes GmbH.
+;
+  .   .   11014    1    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_1
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              1
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '100% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 'natural abundance'  .   .   1    $TAR      .   .   1.3    .   .   mM     .   .   .   .   11014    1    
+    2    TAR*GA              'natural abundance'  .   .   2    $TAR*GA   .   .   1.3    .   .   mM     .   .   .   .   11014    1    
+    3    'sodium phosphate'  'natural abundance'  .   .   .    .         .   .   10     .   .   mM     .   .   .   .   11014    1    
+    4    'sodium chloride'   'natural abundance'  .   .   .    .         .   .   50     .   .   mM     .   .   .   .   11014    1    
+    5    EDTA                'natural abundance'  .   .   .    .         .   .   10     .   .   uM     .   .   .   .   11014    1    
+    6    'sodium azide'      'natural abundance'  .   .   .    .         .   .   0.4    .   .   g/L    .   .   .   .   11014    1    
+  stop_
+
+save_
+
+save_sample_2
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_2
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              2
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '90% H2O/10% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 'natural abundance'  .   .   1    $TAR      .   .   1.1    .   .   mM     .   .   .   .   11014    2    
+    2    TAR*GA              'natural abundance'  .   .   2    $TAR*GA   .   .   1.1    .   .   mM     .   .   .   .   11014    2    
+    3    'sodium phosphate'  'natural abundance'  .   .   .    .         .   .   10     .   .   mM     .   .   .   .   11014    2    
+    4    'sodium chloride'   'natural abundance'  .   .   .    .         .   .   50     .   .   mM     .   .   .   .   11014    2    
+    5    EDTA                'natural abundance'  .   .   .    .         .   .   10     .   .   uM     .   .   .   .   11014    2    
+    6    'sodium azide'      'natural abundance'  .   .   .    .         .   .   0.4    .   .   g/L    .   .   .   .   11014    2    
+  stop_
+
+save_
+
+save_sample_3
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_3
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              3
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '90% H2O/10% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 '[U-98% 13C; U-98% 15N]'  .   .   1    $TAR      .   .   0.37    .   .   mM     .   .   .   .   11014    3    
+    2    TAR*GA              'natural abundance'       .   .   2    $TAR*GA   .   .   0.74    .   .   mM     .   .   .   .   11014    3    
+    3    'sodium phosphate'  'natural abundance'       .   .   .    .         .   .   10      .   .   mM     .   .   .   .   11014    3    
+    4    'sodium chloride'   'natural abundance'       .   .   .    .         .   .   50      .   .   mM     .   .   .   .   11014    3    
+    5    EDTA                'natural abundance'       .   .   .    .         .   .   10      .   .   uM     .   .   .   .   11014    3    
+    6    'sodium azide'      'natural abundance'       .   .   .    .         .   .   0.4     .   .   g/L    .   .   .   .   11014    3    
+  stop_
+
+save_
+
+save_sample_4
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_4
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              4
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '90% H2O/10% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 'natural abundance'       .   .   1    $TAR      .   .   0.74    .   .   mM     .   .   .   .   11014    4    
+    2    TAR*GA              '[U-98% 13C; U-98% 15N]'  .   .   2    $TAR*GA   .   .   0.37    .   .   mM     .   .   .   .   11014    4    
+    3    'sodium phosphate'  'natural abundance'       .   .   .    .         .   .   10      .   .   mM     .   .   .   .   11014    4    
+    4    'sodium chloride'   'natural abundance'       .   .   .    .         .   .   50      .   .   mM     .   .   .   .   11014    4    
+    5    EDTA                'natural abundance'       .   .   .    .         .   .   10      .   .   uM     .   .   .   .   11014    4    
+    6    'sodium azide'      'natural abundance'       .   .   .    .         .   .   0.4     .   .   g/L    .   .   .   .   11014    4    
+  stop_
+
+save_
+
+save_sample_5
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_5
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              5
+  _Sample.Type                            'filamentous virus'
+  _Sample.Sub_type                        .
+  _Sample.Details                         'Solution containing Pf1 filamentous phages (D2O splitting =12.4 Hz)."'
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '100% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 'natural abundance'       .   .   1    $TAR      .   .   1.6    .   .   mM     .   .   .   .   11014    5    
+    2    TAR*GA              '[U-98% 13C; U-98% 15N]'  .   .   2    $TAR*GA   .   .   0.8    .   .   mM     .   .   .   .   11014    5    
+    3    'sodium phosphate'  'natural abundance'       .   .   .    .         .   .   10     .   .   mM     .   .   .   .   11014    5    
+    4    'sodium chloride'   'natural abundance'       .   .   .    .         .   .   50     .   .   mM     .   .   .   .   11014    5    
+    5    EDTA                'natural abundance'       .   .   .    .         .   .   10     .   .   uM     .   .   .   .   11014    5    
+    6    'sodium azide'      'natural abundance'       .   .   .    .         .   .   0.4    .   .   g/L    .   .   .   .   11014    5    
+  stop_
+
+save_
+
+save_sample_6
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_6
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              6
+  _Sample.Type                            'filamentous virus'
+  _Sample.Sub_type                        .
+  _Sample.Details                         'Solution containing Pf1 filamentous phages (D2O splitting =14.0 Hz)."'
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '100% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 '[U-98% 13C; U-98% 15N]'  .   .   1    $TAR      .   .   0.5    .   .   mM     .   .   .   .   11014    6    
+    2    TAR*GA              'natural abundance'       .   .   2    $TAR*GA   .   .   1.0    .   .   mM     .   .   .   .   11014    6    
+    3    'sodium phosphate'  'natural abundance'       .   .   .    .         .   .   10     .   .   mM     .   .   .   .   11014    6    
+    4    'sodium chloride'   'natural abundance'       .   .   .    .         .   .   50     .   .   mM     .   .   .   .   11014    6    
+    5    EDTA                'natural abundance'       .   .   .    .         .   .   10     .   .   uM     .   .   .   .   11014    6    
+    6    'sodium azide'      'natural abundance'       .   .   .    .         .   .   0.4    .   .   g/L    .   .   .   .   11014    6    
+  stop_
+
+save_
+
+save_sample_7
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_7
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              7
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '100% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 'natural abundance'       .   .   1    $TAR      .   .   1.8    .   .   mM     .   .   .   .   11014    7    
+    2    TAR*GA              '[U-98% 13C; U-98% 15N]'  .   .   2    $TAR*GA   .   .   0.9    .   .   mM     .   .   .   .   11014    7    
+    3    'sodium phosphate'  'natural abundance'       .   .   .    .         .   .   10     .   .   mM     .   .   .   .   11014    7    
+    4    'sodium chloride'   'natural abundance'       .   .   .    .         .   .   50     .   .   mM     .   .   .   .   11014    7    
+    5    EDTA                'natural abundance'       .   .   .    .         .   .   10     .   .   uM     .   .   .   .   11014    7    
+    6    'sodium azide'      'natural abundance'       .   .   .    .         .   .   0.4    .   .   g/L    .   .   .   .   11014    7    
+  stop_
+
+save_
+
+save_sample_8
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_8
+  _Sample.Entry_ID                        11014
+  _Sample.ID                              8
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '100% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    TAR                 '[U-98% 13C; U-98% 15N]'  .   .   1    $TAR      .   .   0.9    .   .   mM     .   .   .   .   11014    8    
+    2    TAR*GA              'natural abundance'       .   .   2    $TAR*GA   .   .   1.8    .   .   mM     .   .   .   .   11014    8    
+    3    'sodium phosphate'  'natural abundance'       .   .   .    .         .   .   10     .   .   mM     .   .   .   .   11014    8    
+    4    'sodium chloride'   'natural abundance'       .   .   .    .         .   .   50     .   .   mM     .   .   .   .   11014    8    
+    5    EDTA                'natural abundance'       .   .   .    .         .   .   10     .   .   uM     .   .   .   .   11014    8    
+    6    'sodium azide'      'natural abundance'       .   .   .    .         .   .   0.4    .   .   g/L    .   .   .   .   11014    8    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_sample_conditions_1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_conditions_1
+  _Sample_condition_list.Entry_ID      11014
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  60     .   mM     11014    1    
+    pH                6.6    .   pH     11014    1    
+    pressure          1      .   atm    11014    1    
+    temperature       298    .   K      11014    1    
+  stop_
+
+save_
+
+save_sample_conditions_2
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_conditions_2
+  _Sample_condition_list.Entry_ID      11014
+  _Sample_condition_list.ID            2
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  60     .   mM     11014    2    
+    pH                6.6    .   pH     11014    2    
+    pressure          1      .   atm    11014    2    
+    temperature       283    .   K      11014    2    
+  stop_
+
+save_
+
+save_sample_conditions_3
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_conditions_3
+  _Sample_condition_list.Entry_ID      11014
+  _Sample_condition_list.ID            3
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  60     .   mM     11014    3    
+    pH                6.6    .   pH     11014    3    
+    pressure          1      .   atm    11014    3    
+    temperature       278    .   K      11014    3    
+  stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+save_X-PLOR_NIH
+  _Software.Sf_category   software
+  _Software.Sf_framecode  X-PLOR_NIH
+  _Software.Entry_ID      11014
+  _Software.ID            1
+  _Software.Name          'X-PLOR NIH'
+  _Software.Version       .
+  _Software.Details       'Force field optimized for nucleic acids (Bryce et al., JACS 2005).'
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Schwieters, Kuszewski, Tjandra and Clore'  .   .   11014    1    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    refinement            11014    1    
+    'structure solution'  11014    1    
+  stop_
+
+save_
+
+save_Felix
+  _Software.Sf_category   software
+  _Software.Sf_framecode  Felix
+  _Software.Entry_ID      11014
+  _Software.ID            2
+  _Software.Name          FELIX
+  _Software.Version       2000
+  _Software.Details       .
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Accelrys Software Inc.'  .   .   11014    2    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    'chemical shift assignment'  11014    2    
+    processing                   11014    2    
+  stop_
+
+save_
+
+save_InsightII
+  _Software.Sf_category   software
+  _Software.Sf_framecode  InsightII
+  _Software.Entry_ID      11014
+  _Software.ID            3
+  _Software.Name          InsightII
+  _Software.Version       .
+  _Software.Details       .
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Accelrys Software Inc.'  .   .   11014    3    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    'data analysis'  11014    3    
+  stop_
+
+save_
+
+save_NMRPipe
+  _Software.Sf_category   software
+  _Software.Sf_framecode  NMRPipe
+  _Software.Entry_ID      11014
+  _Software.ID            4
+  _Software.Name          NMRPipe
+  _Software.Version       .
+  _Software.Details       .
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'  .   .   11014    4    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    processing    11014    4    
+  stop_
+
+save_
+
+save_NMRDraw
+  _Software.Sf_category   software
+  _Software.Sf_framecode  NMRDraw
+  _Software.Entry_ID      11014
+  _Software.ID            5
+  _Software.Name          NMRDraw
+  _Software.Version       .
+  _Software.Details       .
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'  .   .   11014    5    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    'chemical shift assignment'  11014    5    
+    'peak picking'               11014    5    
+  stop_
+
+save_
+
+save_CURVES
+  _Software.Sf_category   software
+  _Software.Sf_framecode  CURVES
+  _Software.Entry_ID      11014
+  _Software.ID            6
+  _Software.Name          CURVES
+  _Software.Version       5.3
+  _Software.Details       .
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Lavery and sklenar, 1989'  .   .   11014    6    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    'data analysis'  11014    6    
+  stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_spectrometer_1
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    spectrometer_1
+  _NMR_spectrometer.Entry_ID        11014
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         'equipped with a cryogenic probe'
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           INOVA
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  800
+
+save_
+
+save_spectrometer_2
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    spectrometer_2
+  _NMR_spectrometer.Entry_ID        11014
+  _NMR_spectrometer.ID              2
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           INOVA
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  600
+
+save_
+
+save_NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  NMR_spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      11014
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    spectrometer_1    Varian    INOVA    .   800    'equipped with a cryogenic probe'  .   .   11014    1    
+    2    spectrometer_2    Varian    INOVA    .   600    .                                  .   .   11014    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      11014
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1     '2D 1H-1H NOESY'                           no    .   .   .   .   .   .   .   .   .   .   2    $sample_2   isotropic      .   .   2    $sample_conditions_2   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    2     '2D 1H-1H NOESY'                           no    .   .   .   .   .   .   .   .   .   .   1    $sample_1   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    3     '3D 1H-13C TROSY NOESY'                    no    .   .   .   .   .   .   .   .   .   .   7    $sample_7   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    4     '2D JNN-COSY'                              no    .   .   .   .   .   .   .   .   .   .   3    $sample_3   isotropic      .   .   3    $sample_conditions_3   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    5     '3D HCCH-COSY'                             no    .   .   .   .   .   .   .   .   .   .   7    $sample_7   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    6     '3D HCCH-COSY'                             no    .   .   .   .   .   .   .   .   .   .   8    $sample_8   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    7     '3D HCN'                                   no    .   .   .   .   .   .   .   .   .   .   7    $sample_7   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    8     '3D HCN'                                   no    .   .   .   .   .   .   .   .   .   .   8    $sample_8   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    9     '2D intra base TOCSY'                      no    .   .   .   .   .   .   .   .   .   .   7    $sample_7   isotropic      .   .   1    $sample_conditions_1   .   .   .   2    $spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    10    '3D 1H-13C TROSY NOESY'                    no    .   .   .   .   .   .   .   .   .   .   8    $sample_8   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    11    '2D intra base TOCSY'                      no    .   .   .   .   .   .   .   .   .   .   8    $sample_8   isotropic      .   .   1    $sample_conditions_1   .   .   .   2    $spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    12    '13C-1H spin state selective experiments'  no    .   .   .   .   .   .   .   .   .   .   8    $sample_8   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    13    '13C-1H spin state selective experiments'  no    .   .   .   .   .   .   .   .   .   .   7    $sample_7   isotropic      .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    14    '2D JNN-COSY'                              no    .   .   .   .   .   .   .   .   .   .   4    $sample_4   isotropic      .   .   3    $sample_conditions_3   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    15    '13C-1H spin state selective experiments'  no    .   .   .   .   .   .   .   .   .   .   5    $sample_5   anisotropic    .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+    16    '13C-1H spin state selective experiments'  no    .   .   .   .   .   .   .   .   .   .   6    $sample_6   anisotropic    .   .   1    $sample_conditions_1   .   .   .   1    $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   11014    1    
+  stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+save_chemical_shift_reference_1
+  _Chem_shift_reference.Sf_category   chem_shift_reference
+  _Chem_shift_reference.Sf_framecode  chemical_shift_reference_1
+  _Chem_shift_reference.Entry_ID      11014
+  _Chem_shift_reference.ID            1
+  _Chem_shift_reference.Details       .
+
+  loop_
+    _Chem_shift_ref.Atom_type
+    _Chem_shift_ref.Atom_isotope_number
+    _Chem_shift_ref.Mol_common_name
+    _Chem_shift_ref.Atom_group
+    _Chem_shift_ref.Concentration_val
+    _Chem_shift_ref.Concentration_units
+    _Chem_shift_ref.Solvent
+    _Chem_shift_ref.Rank
+    _Chem_shift_ref.Chem_shift_units
+    _Chem_shift_ref.Chem_shift_val
+    _Chem_shift_ref.Ref_method
+    _Chem_shift_ref.Ref_type
+    _Chem_shift_ref.Indirect_shift_ratio
+    _Chem_shift_ref.External_ref_loc
+    _Chem_shift_ref.External_ref_sample_geometry
+    _Chem_shift_ref.External_ref_axis
+    _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+    _Chem_shift_ref.Indirect_shift_ratio_cit_label
+    _Chem_shift_ref.Ref_correction_type
+    _Chem_shift_ref.Correction_val
+    _Chem_shift_ref.Correction_val_cit_ID
+    _Chem_shift_ref.Correction_val_cit_label
+    _Chem_shift_ref.Entry_ID
+    _Chem_shift_ref.Chem_shift_reference_ID
+
+    C    13    DSS      'methyl protons'  .   .   .   .   ppm    0.0     .           indirect    0.251449530    .   .   .   .   .   .   .   .   .   11014    1    
+    H    1     water    protons           .   .   .   .   ppm    4.77    internal    direct      1.0            .   .   .   .   .   .   .   .   .   11014    1    
+    N    15    DSS      'methyl protons'  .   .   .   .   ppm    0.0     .           indirect    0.101329118    .   .   .   .   .   .   .   .   .   11014    1    
+  stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chem_shift_list_1
+  _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_framecode                 assigned_chem_shift_list_1
+  _Assigned_chem_shift_list.Entry_ID                     11014
+  _Assigned_chem_shift_list.ID                           1
+  _Assigned_chem_shift_list.Sample_condition_list_ID     1
+  _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+  _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+  _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+  _Assigned_chem_shift_list.Chem_shift_1H_err            0.01
+  _Assigned_chem_shift_list.Chem_shift_13C_err           0.05
+  _Assigned_chem_shift_list.Chem_shift_15N_err           0.05
+  _Assigned_chem_shift_list.Chem_shift_31P_err           .
+  _Assigned_chem_shift_list.Chem_shift_2H_err            .
+  _Assigned_chem_shift_list.Chem_shift_19F_err           .
+  _Assigned_chem_shift_list.Error_derivation_method      .
+  _Assigned_chem_shift_list.Details                      .
+  _Assigned_chem_shift_list.Text_data_format             .
+  _Assigned_chem_shift_list.Text_data                    .
+
+  loop_
+    _Chem_shift_experiment.Experiment_ID
+    _Chem_shift_experiment.Experiment_name
+    _Chem_shift_experiment.Sample_ID
+    _Chem_shift_experiment.Sample_label
+    _Chem_shift_experiment.Sample_state
+    _Chem_shift_experiment.Entry_ID
+    _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+    3     '3D 1H-13C TROSY NOESY'  7    $sample_7   isotropic    11014    1    
+    5     '3D HCCH-COSY'           7    $sample_7   isotropic    11014    1    
+    6     '3D HCCH-COSY'           8    $sample_8   isotropic    11014    1    
+    7     '3D HCN'                 7    $sample_7   isotropic    11014    1    
+    8     '3D HCN'                 8    $sample_8   isotropic    11014    1    
+    9     '2D intra base TOCSY'    7    $sample_7   isotropic    11014    1    
+    10    '3D 1H-13C TROSY NOESY'  8    $sample_8   isotropic    11014    1    
+    11    '2D intra base TOCSY'    8    $sample_8   isotropic    11014    1    
+  stop_
+
+  loop_
+    _Chem_shift_software.Software_ID
+    _Chem_shift_software.Software_label
+    _Chem_shift_software.Method_ID
+    _Chem_shift_software.Method_label
+    _Chem_shift_software.Entry_ID
+    _Chem_shift_software.Assigned_chem_shift_list_ID
+
+    2    $Felix     .   .   11014    1    
+    4    $NMRPipe   .   .   11014    1    
+    5    $NMRDraw   .   .   11014    1    
+  stop_
+
+  loop_
+    _Atom_chem_shift.ID
+    _Atom_chem_shift.Assembly_atom_ID
+    _Atom_chem_shift.Entity_assembly_ID
+    _Atom_chem_shift.Entity_ID
+    _Atom_chem_shift.Comp_index_ID
+    _Atom_chem_shift.Seq_ID
+    _Atom_chem_shift.Comp_ID
+    _Atom_chem_shift.Atom_ID
+    _Atom_chem_shift.Atom_type
+    _Atom_chem_shift.Atom_isotope_number
+    _Atom_chem_shift.Val
+    _Atom_chem_shift.Val_err
+    _Atom_chem_shift.Assign_fig_of_merit
+    _Atom_chem_shift.Ambiguity_code
+    _Atom_chem_shift.Occupancy
+    _Atom_chem_shift.Resonance_ID
+    _Atom_chem_shift.Auth_entity_assembly_ID
+    _Atom_chem_shift.Auth_asym_ID
+    _Atom_chem_shift.Auth_seq_ID
+    _Atom_chem_shift.Auth_comp_ID
+    _Atom_chem_shift.Auth_atom_ID
+    _Atom_chem_shift.Details
+    _Atom_chem_shift.Entry_ID
+    _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+    1      .   1    1    1     1     G    H1      H    1     12.45     0.01    .   1    .   .   .   .   1     G    H1      .   11014    1    
+    2      .   1    1    1     1     G    N9      N    15    168.16    0.05    .   1    .   .   .   .   1     G    N9      .   11014    1    
+    3      .   1    1    1     1     G    H1'     H    1     5.73      0.01    .   1    .   .   .   .   1     G    H1'     .   11014    1    
+    4      .   1    1    1     1     G    H2'     H    1     4.93      0.01    .   1    .   .   .   .   1     G    H2'     .   11014    1    
+    5      .   1    1    1     1     G    H3'     H    1     4.54      0.01    .   1    .   .   .   .   1     G    H3'     .   11014    1    
+    6      .   1    1    1     1     G    H4'     H    1     4.35      0.01    .   1    .   .   .   .   1     G    H4'     .   11014    1    
+    7      .   1    1    1     1     G    H5'     H    1     4.24      0.01    .   2    .   .   .   .   1     G    H5'     .   11014    1    
+    8      .   1    1    1     1     G    H5''    H    1     4.05      0.01    .   2    .   .   .   .   1     G    H5''    .   11014    1    
+    9      .   1    1    1     1     G    C1'     C    13    90.90     0.05    .   1    .   .   .   .   1     G    C1'     .   11014    1    
+    10     .   1    1    1     1     G    C2'     C    13    75.055    0.05    .   1    .   .   .   .   1     G    C2'     .   11014    1    
+    11     .   1    1    1     1     G    C4'     C    13    83.75     0.05    .   1    .   .   .   .   1     G    C4'     .   11014    1    
+    12     .   1    1    1     1     G    C5'     C    13    66.76     0.05    .   1    .   .   .   .   1     G    C5'     .   11014    1    
+    13     .   1    1    1     1     G    H8      H    1     8.15      0.01    .   1    .   .   .   .   1     G    H8      .   11014    1    
+    14     .   1    1    1     1     G    C2      C    13    154.40    0.05    .   1    .   .   .   .   1     G    C2      .   11014    1    
+    15     .   1    1    1     1     G    C8      C    13    139.72    0.05    .   1    .   .   .   .   1     G    C8      .   11014    1    
+    16     .   1    1    2     2     A    H2      H    1     7.57      0.01    .   1    .   .   .   .   2     A    H2      .   11014    1    
+    17     .   1    1    2     2     A    H8      H    1     8.11      0.01    .   1    .   .   .   .   2     A    H8      .   11014    1    
+    18     .   1    1    2     2     A    C8      C    13    140.55    0.05    .   1    .   .   .   .   2     A    C8      .   11014    1    
+    19     .   1    1    2     2     A    H1'     H    1     6.05      0.01    .   1    .   .   .   .   2     A    H1'     .   11014    1    
+    20     .   1    1    2     2     A    H2'     H    1     4.76      0.01    .   1    .   .   .   .   2     A    H2'     .   11014    1    
+    21     .   1    1    2     2     A    H3'     H    1     4.70      0.01    .   1    .   .   .   .   2     A    H3'     .   11014    1    
+    22     .   1    1    2     2     A    H4'     H    1     4.61      0.01    .   1    .   .   .   .   2     A    H4'     .   11014    1    
+    23     .   1    1    2     2     A    H5'     H    1     4.56      0.01    .   2    .   .   .   .   2     A    H5'     .   11014    1    
+    24     .   1    1    2     2     A    H5''    H    1     4.38      0.01    .   2    .   .   .   .   2     A    H5''    .   11014    1    
+    25     .   1    1    2     2     A    C1'     C    13    92.65     0.05    .   1    .   .   .   .   2     A    C1'     .   11014    1    
+    26     .   1    1    2     2     A    C2'     C    13    75.55     0.05    .   1    .   .   .   .   2     A    C2'     .   11014    1    
+    27     .   1    1    2     2     A    C3'     C    13    73.20     0.05    .   1    .   .   .   .   2     A    C3'     .   11014    1    
+    28     .   1    1    2     2     A    C4'     C    13    82.48     0.05    .   1    .   .   .   .   2     A    C4'     .   11014    1    
+    29     .   1    1    2     2     A    C5'     C    13    66.00     0.05    .   1    .   .   .   .   2     A    C5'     .   11014    1    
+    30     .   1    1    3     3     G    H1      H    1     13.53     0.01    .   1    .   .   .   .   3     G    H1      .   11014    1    
+    31     .   1    1    3     3     G    H8      H    1     7.25      0.01    .   1    .   .   .   .   3     G    H8      .   11014    1    
+    32     .   1    1    3     3     G    C8      C    13    136.00    0.05    .   1    .   .   .   .   3     G    C8      .   11014    1    
+    33     .   1    1    3     3     G    N9      N    15    169.34    0.05    .   1    .   .   .   .   3     G    N9      .   11014    1    
+    34     .   1    1    3     3     G    H1'     H    1     5.67      0.01    .   1    .   .   .   .   3     G    H1'     .   11014    1    
+    35     .   1    1    3     3     G    H2'     H    1     4.44      0.01    .   1    .   .   .   .   3     G    H2'     .   11014    1    
+    36     .   1    1    3     3     G    H3'     H    1     4.49      0.01    .   1    .   .   .   .   3     G    H3'     .   11014    1    
+    37     .   1    1    3     3     G    C1'     C    13    92.65     0.05    .   1    .   .   .   .   3     G    C1'     .   11014    1    
+    38     .   1    1    3     3     G    C2'     C    13    75.31     0.05    .   1    .   .   .   .   3     G    C2'     .   11014    1    
+    39     .   1    1    3     3     G    C3'     C    13    72.73     0.05    .   1    .   .   .   .   3     G    C3'     .   11014    1    
+    40     .   1    1    4     4     C    H5      H    1     5.19      0.01    .   1    .   .   .   .   4     C    H5      .   11014    1    
+    41     .   1    1    4     4     C    H6      H    1     7.67      0.01    .   1    .   .   .   .   4     C    H6      .   11014    1    
+    42     .   1    1    4     4     C    C6      C    13    141.01    0.05    .   1    .   .   .   .   4     C    C6      .   11014    1    
+    43     .   1    1    4     4     C    H1'     H    1     5.53      0.01    .   1    .   .   .   .   4     C    H1'     .   11014    1    
+    44     .   1    1    4     4     C    H2'     H    1     4.23      0.01    .   1    .   .   .   .   4     C    H2'     .   11014    1    
+    45     .   1    1    4     4     C    H3'     H    1     4.51      0.01    .   1    .   .   .   .   4     C    H3'     .   11014    1    
+    46     .   1    1    4     4     C    C1'     C    13    94.06     0.05    .   1    .   .   .   .   4     C    C1'     .   11014    1    
+    47     .   1    1    4     4     C    C2'     C    13    75.54     0.05    .   1    .   .   .   .   4     C    C2'     .   11014    1    
+    48     .   1    1    4     4     C    C3'     C    13    71.79     0.05    .   1    .   .   .   .   4     C    C3'     .   11014    1    
+    49     .   1    1    5     5     C    H5      H    1     5.44      0.01    .   1    .   .   .   .   5     C    H5      .   11014    1    
+    50     .   1    1    5     5     C    H6      H    1     7.68      0.01    .   1    .   .   .   .   5     C    H6      .   11014    1    
+    51     .   1    1    5     5     C    C6      C    13    142.29    0.05    .   1    .   .   .   .   5     C    C6      .   11014    1    
+    52     .   1    1    5     5     C    H1'     H    1     5.85      0.01    .   1    .   .   .   .   5     C    H1'     .   11014    1    
+    53     .   1    1    5     5     C    H2'     H    1     4.47      0.01    .   1    .   .   .   .   5     C    H2'     .   11014    1    
+    54     .   1    1    5     5     C    H3'     H    1     4.55      0.01    .   1    .   .   .   .   5     C    H3'     .   11014    1    
+    55     .   1    1    5     5     C    H4'     H    1     4.33      0.01    .   1    .   .   .   .   5     C    H4'     .   11014    1    
+    56     .   1    1    5     5     C    H5'     H    1     4.59      0.01    .   2    .   .   .   .   5     C    H5'     .   11014    1    
+    57     .   1    1    5     5     C    H5''    H    1     4.13      0.01    .   2    .   .   .   .   5     C    H5''    .   11014    1    
+    58     .   1    1    5     5     C    C1'     C    13    93.59     0.05    .   1    .   .   .   .   5     C    C1'     .   11014    1    
+    59     .   1    1    5     5     C    C2'     C    13    76.48     0.05    .   1    .   .   .   .   5     C    C2'     .   11014    1    
+    60     .   1    1    5     5     C    C3'     C    13    72.26     0.05    .   1    .   .   .   .   5     C    C3'     .   11014    1    
+    61     .   1    1    5     5     C    C4'     C    13    81.87     0.05    .   1    .   .   .   .   5     C    C4'     .   11014    1    
+    62     .   1    1    5     5     C    C5'     C    13    64.30     0.05    .   1    .   .   .   .   5     C    C5'     .   11014    1    
+    63     .   1    1    6     6     C    H5      H    1     5.12      0.01    .   1    .   .   .   .   6     C    H5      .   11014    1    
+    64     .   1    1    6     6     C    H6      H    1     8.38      0.01    .   1    .   .   .   .   6     C    H6      .   11014    1    
+    65     .   1    1    6     6     C    C6      C    13    144.38    0.05    .   1    .   .   .   .   6     C    C6      .   11014    1    
+    66     .   1    1    6     6     C    H1'     H    1     5.50      0.01    .   1    .   .   .   .   6     C    H1'     .   11014    1    
+    67     .   1    1    6     6     C    H2'     H    1     4.44      0.01    .   1    .   .   .   .   6     C    H2'     .   11014    1    
+    68     .   1    1    6     6     C    H3'     H    1     4.75      0.01    .   1    .   .   .   .   6     C    H3'     .   11014    1    
+    69     .   1    1    6     6     C    H4'     H    1     4.48      0.01    .   1    .   .   .   .   6     C    H4'     .   11014    1    
+    70     .   1    1    6     6     C    H5'     H    1     4.62      0.01    .   2    .   .   .   .   6     C    H5'     .   11014    1    
+    71     .   1    1    6     6     C    H5''    H    1     4.09      0.01    .   2    .   .   .   .   6     C    H5''    .   11014    1    
+    72     .   1    1    6     6     C    C1'     C    13    94.99     0.05    .   1    .   .   .   .   6     C    C1'     .   11014    1    
+    73     .   1    1    6     6     C    C2'     C    13    75.31     0.05    .   1    .   .   .   .   6     C    C2'     .   11014    1    
+    74     .   1    1    6     6     C    C3'     C    13    72.03     0.05    .   1    .   .   .   .   6     C    C3'     .   11014    1    
+    75     .   1    1    6     6     C    C4'     C    13    83.28     0.05    .   1    .   .   .   .   6     C    C4'     .   11014    1    
+    76     .   1    1    6     6     C    C5'     C    13    64.10     0.05    .   1    .   .   .   .   6     C    C5'     .   11014    1    
+    77     .   1    1    7     7     U    H3      H    1     13.67     0.01    .   1    .   .   .   .   7     U    H3      .   11014    1    
+    78     .   1    1    7     7     U    H5      H    1     5.35      0.01    .   1    .   .   .   .   7     U    H5      .   11014    1    
+    79     .   1    1    7     7     U    H6      H    1     8.00      0.01    .   1    .   .   .   .   7     U    H6      .   11014    1    
+    80     .   1    1    7     7     U    C6      C    13    142.29    0.05    .   1    .   .   .   .   7     U    C6      .   11014    1    
+    81     .   1    1    7     7     U    N1      N    15    146.07    0.05    .   1    .   .   .   .   7     U    N1      .   11014    1    
+    82     .   1    1    7     7     U    H1'     H    1     5.53      0.01    .   1    .   .   .   .   7     U    H1'     .   11014    1    
+    83     .   1    1    7     7     U    H2'     H    1     4.34      0.01    .   1    .   .   .   .   7     U    H2'     .   11014    1    
+    84     .   1    1    7     7     U    H3'     H    1     4.76      0.01    .   1    .   .   .   .   7     U    H3'     .   11014    1    
+    85     .   1    1    7     7     U    H4'     H    1     4.45      0.01    .   1    .   .   .   .   7     U    H4'     .   11014    1    
+    86     .   1    1    7     7     U    H5'     H    1     4.43      0.01    .   2    .   .   .   .   7     U    H5'     .   11014    1    
+    87     .   1    1    7     7     U    H5''    H    1     4.19      0.01    .   2    .   .   .   .   7     U    H5''    .   11014    1    
+    88     .   1    1    7     7     U    C1'     C    13    93.35     0.05    .   1    .   .   .   .   7     U    C1'     .   11014    1    
+    89     .   1    1    7     7     U    C2'     C    13    75.31     0.05    .   1    .   .   .   .   7     U    C2'     .   11014    1    
+    90     .   1    1    7     7     U    C3'     C    13    71.79     0.05    .   1    .   .   .   .   7     U    C3'     .   11014    1    
+    91     .   1    1    7     7     U    C4'     C    13    94.42     0.05    .   1    .   .   .   .   7     U    C4'     .   11014    1    
+    92     .   1    1    7     7     U    C5'     C    13    64.40     0.05    .   1    .   .   .   .   7     U    C5'     .   11014    1    
+    93     .   1    1    8     8     G    H1      H    1     11.68     0.01    .   1    .   .   .   .   8     G    H1      .   11014    1    
+    94     .   1    1    8     8     G    H8      H    1     7.78      0.01    .   1    .   .   .   .   8     G    H8      .   11014    1    
+    95     .   1    1    8     8     G    C8      C    13    136.93    0.05    .   1    .   .   .   .   8     G    C8      .   11014    1    
+    96     .   1    1    8     8     G    N9      N    15    170.47    0.05    .   1    .   .   .   .   8     G    N9      .   11014    1    
+    97     .   1    1    8     8     G    H1'     H    1     5.78      0.01    .   1    .   .   .   .   8     G    H1'     .   11014    1    
+    98     .   1    1    8     8     G    H2'     H    1     4.29      0.01    .   1    .   .   .   .   8     G    H2'     .   11014    1    
+    99     .   1    1    8     8     G    H3'     H    1     4.83      0.01    .   1    .   .   .   .   8     G    H3'     .   11014    1    
+    100    .   1    1    8     8     G    H4'     H    1     4.43      0.01    .   1    .   .   .   .   8     G    H4'     .   11014    1    
+    101    .   1    1    8     8     G    H5'     H    1     4.46      0.01    .   2    .   .   .   .   8     G    H5'     .   11014    1    
+    102    .   1    1    8     8     G    H5''    H    1     4.18      0.01    .   2    .   .   .   .   8     G    H5''    .   11014    1    
+    103    .   1    1    8     8     G    C1'     C    13    91.71     0.05    .   1    .   .   .   .   8     G    C1'     .   11014    1    
+    104    .   1    1    8     8     G    C2'     C    13    75.78     0.05    .   1    .   .   .   .   8     G    C2'     .   11014    1    
+    105    .   1    1    8     8     G    C3'     C    13    71.79     0.05    .   1    .   .   .   .   8     G    C3'     .   11014    1    
+    106    .   1    1    8     8     G    C4'     C    13    81.52     0.05    .   1    .   .   .   .   8     G    C4'     .   11014    1    
+    107    .   1    1    8     8     G    C5'     C    13    64.91     0.05    .   1    .   .   .   .   8     G    C5'     .   11014    1    
+    108    .   1    1    9     9     G    H1      H    1     12.58     0.01    .   1    .   .   .   .   9     G    H1      .   11014    1    
+    109    .   1    1    9     9     G    H8      H    1     7.04      0.01    .   1    .   .   .   .   9     G    H8      .   11014    1    
+    110    .   1    1    9     9     G    C8      C    13    135.52    0.05    .   1    .   .   .   .   9     G    C8      .   11014    1    
+    111    .   1    1    9     9     G    N9      N    15    169.82    0.05    .   1    .   .   .   .   9     G    N9      .   11014    1    
+    112    .   1    1    9     9     G    H1'     H    1     5.55      0.01    .   1    .   .   .   .   9     G    H1'     .   11014    1    
+    113    .   1    1    9     9     G    H2'     H    1     4.12      0.01    .   1    .   .   .   .   9     G    H2'     .   11014    1    
+    114    .   1    1    9     9     G    H3'     H    1     4.51      0.01    .   1    .   .   .   .   9     G    H3'     .   11014    1    
+    115    .   1    1    9     9     G    H4'     H    1     4.36      0.01    .   1    .   .   .   .   9     G    H4'     .   11014    1    
+    116    .   1    1    9     9     G    H5'     H    1     4.42      0.01    .   2    .   .   .   .   9     G    H5'     .   11014    1    
+    117    .   1    1    9     9     G    H5''    H    1     4.06      0.01    .   2    .   .   .   .   9     G    H5''    .   11014    1    
+    118    .   1    1    9     9     G    C1'     C    13    91.95     0.05    .   1    .   .   .   .   9     G    C1'     .   11014    1    
+    119    .   1    1    9     9     G    C2'     C    13    76.01     0.05    .   1    .   .   .   .   9     G    C2'     .   11014    1    
+    120    .   1    1    9     9     G    C3'     C    13    71.79     0.05    .   1    .   .   .   .   9     G    C3'     .   11014    1    
+    121    .   1    1    9     9     G    C4'     C    13    81.40     0.05    .   1    .   .   .   .   9     G    C4'     .   11014    1    
+    122    .   1    1    9     9     G    C5'     C    13    64.53     0.05    .   1    .   .   .   .   9     G    C5'     .   11014    1    
+    123    .   1    1    10    10    G    H1      H    1     12.08     0.01    .   1    .   .   .   .   10    G    H1      .   11014    1    
+    124    .   1    1    10    10    G    H8      H    1     6.86      0.01    .   1    .   .   .   .   10    G    H8      .   11014    1    
+    125    .   1    1    10    10    G    C8      C    13    135.19    0.05    .   1    .   .   .   .   10    G    C8      .   11014    1    
+    126    .   1    1    10    10    G    N9      N    15    169.24    0.05    .   1    .   .   .   .   10    G    N9      .   11014    1    
+    127    .   1    1    10    10    G    H1'     H    1     5.54      0.01    .   1    .   .   .   .   10    G    H1'     .   11014    1    
+    128    .   1    1    10    10    G    H2'     H    1     4.33      0.01    .   1    .   .   .   .   10    G    H2'     .   11014    1    
+    129    .   1    1    10    10    G    H3'     H    1     4.36      0.01    .   1    .   .   .   .   10    G    H3'     .   11014    1    
+    130    .   1    1    10    10    G    H4'     H    1     4.33      0.01    .   1    .   .   .   .   10    G    H4'     .   11014    1    
+    131    .   1    1    10    10    G    H5'     H    1     4.33      0.01    .   1    .   .   .   .   10    G    H5'     .   11014    1    
+    132    .   1    1    10    10    G    H5''    H    1     3.99      0.01    .   2    .   .   .   .   10    G    H5''    .   11014    1    
+    133    .   1    1    10    10    G    C1'     C    13    92.18     0.05    .   2    .   .   .   .   10    G    C1'     .   11014    1    
+    134    .   1    1    10    10    G    C2'     C    13    75.78     0.05    .   1    .   .   .   .   10    G    C2'     .   11014    1    
+    135    .   1    1    10    10    G    C3'     C    13    72.5      0.05    .   1    .   .   .   .   10    G    C3'     .   11014    1    
+    136    .   1    1    10    10    G    C4'     C    13    81.40     0.05    .   1    .   .   .   .   10    G    C4'     .   11014    1    
+    137    .   1    1    10    10    G    C5'     C    13    65.00     0.05    .   1    .   .   .   .   10    G    C5'     .   11014    1    
+    138    .   1    1    11    11    A    H2      H    1     7.69      0.01    .   1    .   .   .   .   11    A    H2      .   11014    1    
+    139    .   1    1    11    11    A    H8      H    1     7.18      0.01    .   1    .   .   .   .   11    A    H8      .   11014    1    
+    140    .   1    1    11    11    A    C2      C    13    153.30    0.05    .   1    .   .   .   .   11    A    C2      .   11014    1    
+    141    .   1    1    11    11    A    C8      C    13    138.57    0.05    .   1    .   .   .   .   11    A    C8      .   11014    1    
+    142    .   1    1    11    11    A    H1'     H    1     5.73      0.01    .   1    .   .   .   .   11    A    H1'     .   11014    1    
+    143    .   1    1    11    11    A    H2'     H    1     4.51      0.01    .   1    .   .   .   .   11    A    H2'     .   11014    1    
+    144    .   1    1    11    11    A    H3'     H    1     4.49      0.01    .   1    .   .   .   .   11    A    H3'     .   11014    1    
+    145    .   1    1    11    11    A    C1'     C    13    92.89     0.05    .   1    .   .   .   .   11    A    C1'     .   11014    1    
+    146    .   1    1    11    11    A    C2'     C    13    75.07     0.05    .   1    .   .   .   .   11    A    C2'     .   11014    1    
+    147    .   1    1    11    11    A    C3'     C    13    72.73     0.05    .   1    .   .   .   .   11    A    C3'     .   11014    1    
+    148    .   1    1    12    12    G    H1      H    1     12.92     0.01    .   1    .   .   .   .   12    G    H1      .   11014    1    
+    149    .   1    1    12    12    G    H8      H    1     6.91      0.01    .   1    .   .   .   .   12    G    H8      .   11014    1    
+    150    .   1    1    12    12    G    C8      C    13    136.13    0.05    .   1    .   .   .   .   12    G    C8      .   11014    1    
+    151    .   1    1    12    12    G    N9      N    15    169.37    0.05    .   1    .   .   .   .   12    G    N9      .   11014    1    
+    152    .   1    1    12    12    G    H1'     H    1     4.92      0.01    .   1    .   .   .   .   12    G    H1'     .   11014    1    
+    153    .   1    1    12    12    G    H2'     H    1     4.53      0.01    .   1    .   .   .   .   12    G    H2'     .   11014    1    
+    154    .   1    1    12    12    G    H3'     H    1     4.32      0.01    .   1    .   .   .   .   12    G    H3'     .   11014    1    
+    155    .   1    1    12    12    G    H4'     H    1     4.37      0.01    .   1    .   .   .   .   12    G    H4'     .   11014    1    
+    156    .   1    1    12    12    G    H5'     H    1     4.27      0.01    .   2    .   .   .   .   12    G    H5'     .   11014    1    
+    157    .   1    1    12    12    G    H5''    H    1     3.99      0.01    .   2    .   .   .   .   12    G    H5''    .   11014    1    
+    158    .   1    1    12    12    G    C1'     C    13    92.45     0.05    .   1    .   .   .   .   12    G    C1'     .   11014    1    
+    159    .   1    1    12    12    G    C2'     C    13    75.07     0.05    .   1    .   .   .   .   12    G    C2'     .   11014    1    
+    160    .   1    1    12    12    G    C3'     C    13    73.20     0.05    .   1    .   .   .   .   12    G    C3'     .   11014    1    
+    161    .   1    1    12    12    G    C4'     C    13    81.99     0.05    .   1    .   .   .   .   12    G    C4'     .   11014    1    
+    162    .   1    1    12    12    G    C5'     C    13    65.94     0.05    .   1    .   .   .   .   12    G    C5'     .   11014    1    
+    163    .   1    1    13    13    G    H1      H    1     13.37     0.01    .   1    .   .   .   .   13    G    H1      .   11014    1    
+    164    .   1    1    13    13    G    H8      H    1     7.36      0.01    .   1    .   .   .   .   13    G    H8      .   11014    1    
+    165    .   1    1    13    13    G    C8      C    13    136.57    0.05    .   1    .   .   .   .   13    G    C8      .   11014    1    
+    166    .   1    1    13    13    G    N9      N    15    169.64    0.05    .   1    .   .   .   .   13    G    N9      .   11014    1    
+    167    .   1    1    13    13    G    H1'     H    1     5.75      0.01    .   1    .   .   .   .   13    G    H1'     .   11014    1    
+    168    .   1    1    13    13    G    H2'     H    1     4.67      0.01    .   1    .   .   .   .   13    G    H2'     .   11014    1    
+    169    .   1    1    13    13    G    H3'     H    1     4.24      0.01    .   1    .   .   .   .   13    G    H3'     .   11014    1    
+    170    .   1    1    13    13    G    H4'     H    1     4.42      0.01    .   1    .   .   .   .   13    G    H4'     .   11014    1    
+    171    .   1    1    13    13    G    H5'     H    1     4.00      0.01    .   2    .   .   .   .   13    G    H5'     .   11014    1    
+    172    .   1    1    13    13    G    H5''    H    1     4.31      0.01    .   2    .   .   .   .   13    G    H5''    .   11014    1    
+    173    .   1    1    13    13    G    C1'     C    13    92.65     0.05    .   1    .   .   .   .   13    G    C1'     .   11014    1    
+    174    .   1    1    13    13    G    C2'     C    13    75.54     0.05    .   1    .   .   .   .   13    G    C2'     .   11014    1    
+    175    .   1    1    13    13    G    C3'     C    13    73.20     0.05    .   1    .   .   .   .   13    G    C3'     .   11014    1    
+    176    .   1    1    13    13    G    C4'     C    13    81.64     0.05    .   1    .   .   .   .   13    G    C4'     .   11014    1    
+    177    .   1    1    13    13    G    C5'     C    13    66.03     0.05    .   1    .   .   .   .   13    G    C5'     .   11014    1    
+    178    .   1    1    14    14    C    H5      H    1     5.22      0.01    .   1    .   .   .   .   14    C    H5      .   11014    1    
+    179    .   1    1    14    14    C    H6      H    1     7.74      0.01    .   1    .   .   .   .   14    C    H6      .   11014    1    
+    180    .   1    1    14    14    C    C6      C    13    141.37    0.05    .   1    .   .   .   .   14    C    C6      .   11014    1    
+    181    .   1    1    14    14    C    H1'     H    1     5.53      0.01    .   1    .   .   .   .   14    C    H1'     .   11014    1    
+    182    .   1    1    14    14    C    H2'     H    1     4.38      0.01    .   1    .   .   .   .   14    C    H2'     .   11014    1    
+    183    .   1    1    14    14    C    H3'     H    1     4.47      0.01    .   1    .   .   .   .   14    C    H3'     .   11014    1    
+    184    .   1    1    14    14    C    C1'     C    13    94.06     0.05    .   1    .   .   .   .   14    C    C1'     .   11014    1    
+    185    .   1    1    14    14    C    C2'     C    13    75.31     0.05    .   1    .   .   .   .   14    C    C2'     .   11014    1    
+    186    .   1    1    14    14    C    C3'     C    13    72.03     0.05    .   1    .   .   .   .   14    C    C3'     .   11014    1    
+    187    .   1    1    15    15    U    H3      H    1     14.27     0.01    .   1    .   .   .   .   15    U    H3      .   11014    1    
+    188    .   1    1    15    15    U    H5      H    1     5.44      0.01    .   1    .   .   .   .   15    U    H5      .   11014    1    
+    189    .   1    1    15    15    U    H6      H    1     7.93      0.01    .   1    .   .   .   .   15    U    H6      .   11014    1    
+    190    .   1    1    15    15    U    C6      C    13    142.41    0.05    .   1    .   .   .   .   15    U    C6      .   11014    1    
+    191    .   1    1    15    15    U    N1      N    15    146.79    0.05    .   1    .   .   .   .   15    U    N1      .   11014    1    
+    192    .   1    1    15    15    U    H1'     H    1     5.59      0.01    .   1    .   .   .   .   15    U    H1'     .   11014    1    
+    193    .   1    1    15    15    U    H2'     H    1     4.33      0.01    .   1    .   .   .   .   15    U    H2'     .   11014    1    
+    194    .   1    1    15    15    U    H3'     H    1     4.57      0.01    .   1    .   .   .   .   15    U    H3'     .   11014    1    
+    195    .   1    1    15    15    U    H4'     H    1     4.42      0.01    .   1    .   .   .   .   15    U    H4'     .   11014    1    
+    196    .   1    1    15    15    U    H5'     H    1     4.08      0.01    .   2    .   .   .   .   15    U    H5'     .   11014    1    
+    197    .   1    1    15    15    U    H5''    H    1     4.08      0.01    .   2    .   .   .   .   15    U    H5''    .   11014    1    
+    198    .   1    1    15    15    U    C1'     C    13    94.21     0.05    .   1    .   .   .   .   15    U    C1'     .   11014    1    
+    199    .   1    1    15    15    U    C2'     C    13    75.31     0.05    .   1    .   .   .   .   15    U    C2'     .   11014    1    
+    200    .   1    1    15    15    U    C3'     C    13    71.79     0.05    .   1    .   .   .   .   15    U    C3'     .   11014    1    
+    201    .   1    1    15    15    U    C4'     C    13    81.99     0.05    .   1    .   .   .   .   15    U    C4'     .   11014    1    
+    202    .   1    1    15    15    U    C5'     C    13    64.19     0.05    .   1    .   .   .   .   15    U    C5'     .   11014    1    
+    203    .   1    1    16    16    C    H5      H    1     5.68      0.01    .   1    .   .   .   .   16    C    H5      .   11014    1    
+    204    .   1    1    16    16    C    H6      H    1     7.76      0.01    .   1    .   .   .   .   16    C    H6      .   11014    1    
+    205    .   1    1    16    16    C    C6      C    13    142.53    0.05    .   1    .   .   .   .   16    C    C6      .   11014    1    
+    206    .   1    1    16    16    C    H1'     H    1     5.82      0.01    .   1    .   .   .   .   16    C    H1'     .   11014    1    
+    207    .   1    1    16    16    C    H2'     H    1     4.01      0.01    .   1    .   .   .   .   16    C    H2'     .   11014    1    
+    208    .   1    1    16    16    C    H3'     H    1     4.22      0.01    .   1    .   .   .   .   16    C    H3'     .   11014    1    
+    209    .   1    1    16    16    C    C1'     C    13    92.65     0.05    .   1    .   .   .   .   16    C    C1'     .   11014    1    
+    210    .   1    1    16    16    C    C2'     C    13    77.42     0.05    .   1    .   .   .   .   16    C    C2'     .   11014    1    
+    211    .   1    1    16    16    C    C3'     C    13    69.92     0.05    .   1    .   .   .   .   16    C    C3'     .   11014    1    
+    212    .   2    2    1     1     G    H1      H    1     13.15     0.01    .   1    .   .   .   .   17    G    H1      .   11014    1    
+    213    .   2    2    1     1     G    H8      H    1     8.14      0.01    .   1    .   .   .   .   17    G    H8      .   11014    1    
+    214    .   2    2    1     1     G    C8      C    13    139.90    0.05    .   1    .   .   .   .   17    G    C8      .   11014    1    
+    215    .   2    2    1     1     G    H1'     H    1     5.67      0.01    .   1    .   .   .   .   17    G    H1'     .   11014    1    
+    216    .   2    2    1     1     G    H2'     H    1     4.83      0.01    .   1    .   .   .   .   17    G    H2'     .   11014    1    
+    217    .   2    2    1     1     G    H4'     H    1     4.50      0.01    .   1    .   .   .   .   17    G    H4'     .   11014    1    
+    218    .   2    2    1     1     G    H5'     H    1     4.40      0.01    .   2    .   .   .   .   17    G    H5'     .   11014    1    
+    219    .   2    2    1     1     G    H5''    H    1     4.22      0.01    .   2    .   .   .   .   17    G    H5''    .   11014    1    
+    220    .   2    2    1     1     G    C1'     C    13    91.9      0.05    .   1    .   .   .   .   17    G    C1'     .   11014    1    
+    221    .   2    2    1     1     G    C4'     C    13    83.62     0.05    .   1    .   .   .   .   17    G    C4'     .   11014    1    
+    222    .   2    2    1     1     G    C5'     C    13    66.14     0.05    .   1    .   .   .   .   17    G    C5'     .   11014    1    
+    223    .   2    2    2     2     C    H5      H    1     5.46      0.01    .   1    .   .   .   .   18    C    H5      .   11014    1    
+    224    .   2    2    2     2     C    H6      H    1     7.86      0.01    .   1    .   .   .   .   18    C    H6      .   11014    1    
+    225    .   2    2    2     2     C    C6      C    13    142.50    0.05    .   1    .   .   .   .   18    C    C6      .   11014    1    
+    226    .   2    2    2     2     C    H1'     H    1     5.62      0.01    .   1    .   .   .   .   18    C    H1'     .   11014    1    
+    227    .   2    2    2     2     C    H2'     H    1     4.55      0.01    .   1    .   .   .   .   18    C    H2'     .   11014    1    
+    228    .   2    2    2     2     C    H3'     H    1     4.50      0.01    .   1    .   .   .   .   18    C    H3'     .   11014    1    
+    229    .   2    2    2     2     C    H4'     H    1     4.51      0.01    .   1    .   .   .   .   18    C    H4'     .   11014    1    
+    230    .   2    2    2     2     C    H5'     H    1     4.55      0.01    .   2    .   .   .   .   18    C    H5'     .   11014    1    
+    231    .   2    2    2     2     C    H5''    H    1     4.23      0.01    .   2    .   .   .   .   18    C    H5''    .   11014    1    
+    232    .   2    2    2     2     C    C1'     C    13    94.36     0.05    .   1    .   .   .   .   18    C    C1'     .   11014    1    
+    233    .   2    2    2     2     C    C2'     C    13    75.25     0.05    .   1    .   .   .   .   18    C    C2'     .   11014    1    
+    234    .   2    2    2     2     C    C3'     C    13    72.50     0.05    .   1    .   .   .   .   18    C    C3'     .   11014    1    
+    235    .   2    2    2     2     C    C4'     C    13    82.24     0.05    .   1    .   .   .   .   18    C    C4'     .   11014    1    
+    236    .   2    2    2     2     C    C5'     C    13    65.26     0.05    .   1    .   .   .   .   18    C    C5'     .   11014    1    
+    237    .   2    2    3     3     U    H3      H    1     14.0      0.01    .   1    .   .   .   .   19    U    H3      .   11014    1    
+    238    .   2    2    3     3     U    H5      H    1     5.51      0.01    .   1    .   .   .   .   19    U    H5      .   11014    1    
+    239    .   2    2    3     3     U    H6      H    1     7.83      0.01    .   1    .   .   .   .   19    U    H6      .   11014    1    
+    240    .   2    2    3     3     U    C6      C    13    141.9     0.05    .   1    .   .   .   .   19    U    C6      .   11014    1    
+    241    .   2    2    3     3     U    H1'     H    1     5.55      0.01    .   1    .   .   .   .   19    U    H1'     .   11014    1    
+    242    .   2    2    3     3     U    H2'     H    1     4.36      0.01    .   1    .   .   .   .   19    U    H2'     .   11014    1    
+    243    .   2    2    3     3     U    H3'     H    1     4.59      0.01    .   1    .   .   .   .   19    U    H3'     .   11014    1    
+    244    .   2    2    3     3     U    H4'     H    1     4.45      0.01    .   1    .   .   .   .   19    U    H4'     .   11014    1    
+    245    .   2    2    3     3     U    H5'     H    1     4.50      0.01    .   2    .   .   .   .   19    U    H5'     .   11014    1    
+    246    .   2    2    3     3     U    H5''    H    1     4.13      0.01    .   2    .   .   .   .   19    U    H5''    .   11014    1    
+    247    .   2    2    3     3     U    C1'     C    13    93.97     0.05    .   1    .   .   .   .   19    U    C1'     .   11014    1    
+    248    .   2    2    3     3     U    C2'     C    13    75.25     0.05    .   1    .   .   .   .   19    U    C2'     .   11014    1    
+    249    .   2    2    3     3     U    C3'     C    13    72.81     0.05    .   1    .   .   .   .   19    U    C3'     .   11014    1    
+    250    .   2    2    3     3     U    C4'     C    13    81.99     0.05    .   1    .   .   .   .   19    U    C4'     .   11014    1    
+    251    .   2    2    3     3     U    C5'     C    13    64.51     0.05    .   1    .   .   .   .   19    U    C5'     .   11014    1    
+    252    .   2    2    4     4     G    H1      H    1     12.45     0.01    .   1    .   .   .   .   20    G    H1      .   11014    1    
+    253    .   2    2    4     4     G    H8      H    1     7.68      0.01    .   1    .   .   .   .   20    G    H8      .   11014    1    
+    254    .   2    2    4     4     G    C8      C    13    137.70    0.05    .   1    .   .   .   .   20    G    C8      .   11014    1    
+    255    .   2    2    4     4     G    H1'     H    1     5.68      0.01    .   1    .   .   .   .   20    G    H1'     .   11014    1    
+    256    .   2    2    4     4     G    H2'     H    1     3.256     0.01    .   1    .   .   .   .   20    G    H2'     .   11014    1    
+    257    .   2    2    4     4     G    H3'     H    1     4.90      0.01    .   1    .   .   .   .   20    G    H3'     .   11014    1    
+    258    .   2    2    4     4     G    H4'     H    1     4.32      0.01    .   1    .   .   .   .   20    G    H4'     .   11014    1    
+    259    .   2    2    4     4     G    H5'     H    1     4.63      0.01    .   2    .   .   .   .   20    G    H5'     .   11014    1    
+    260    .   2    2    4     4     G    H5''    H    1     4.16      0.01    .   2    .   .   .   .   20    G    H5''    .   11014    1    
+    261    .   2    2    4     4     G    C1'     C    13    92.71     0.05    .   1    .   .   .   .   20    G    C1'     .   11014    1    
+    262    .   2    2    4     4     G    C2'     C    13    76.12     0.05    .   1    .   .   .   .   20    G    C2'     .   11014    1    
+    263    .   2    2    4     4     G    C3'     C    13    72.63     0.05    .   1    .   .   .   .   20    G    C3'     .   11014    1    
+    264    .   2    2    4     4     G    C4'     C    13    81.99     0.05    .   1    .   .   .   .   20    G    C4'     .   11014    1    
+    265    .   2    2    4     4     G    C5'     C    13    64.26     0.05    .   1    .   .   .   .   20    G    C5'     .   11014    1    
+    266    .   2    2    5     5     G    H1      H    1     13.51     0.01    .   1    .   .   .   .   21    G    H1      .   11014    1    
+    267    .   2    2    5     5     G    H8      H    1     8.07      0.01    .   1    .   .   .   .   21    G    H8      .   11014    1    
+    268    .   2    2    5     5     G    C8      C    13    140.9     0.05    .   1    .   .   .   .   21    G    C8      .   11014    1    
+    269    .   2    2    5     5     G    H1'     H    1     6.11      0.01    .   1    .   .   .   .   21    G    H1'     .   11014    1    
+    270    .   2    2    5     5     G    H2'     H    1     4.68      0.01    .   1    .   .   .   .   21    G    H2'     .   11014    1    
+    271    .   2    2    5     5     G    H3'     H    1     4.94      0.01    .   1    .   .   .   .   21    G    H3'     .   11014    1    
+    272    .   2    2    5     5     G    H4'     H    1     4.42      0.01    .   1    .   .   .   .   21    G    H4'     .   11014    1    
+    273    .   2    2    5     5     G    H5'     H    1     4.55      0.01    .   2    .   .   .   .   21    G    H5'     .   11014    1    
+    274    .   2    2    5     5     G    H5''    H    1     4.16      0.01    .   2    .   .   .   .   21    G    H5''    .   11014    1    
+    275    .   2    2    5     5     G    C1'     C    13    92.13     0.05    .   1    .   .   .   .   21    G    C1'     .   11014    1    
+    276    .   2    2    5     5     G    C2'     C    13    76.50     0.05    .   1    .   .   .   .   21    G    C2'     .   11014    1    
+    277    .   2    2    5     5     G    C3'     C    13    72.63     0.05    .   1    .   .   .   .   21    G    C3'     .   11014    1    
+    278    .   2    2    5     5     G    C4'     C    13    83.37     0.05    .   1    .   .   .   .   21    G    C4'     .   11014    1    
+    279    .   2    2    5     5     G    C5'     C    13    64.76     0.05    .   1    .   .   .   .   21    G    C5'     .   11014    1    
+    280    .   2    2    6     6     U    H3      H    1     13.68     0.01    .   1    .   .   .   .   22    U    H3      .   11014    1    
+    281    .   2    2    6     6     U    H5      H    1     5.73      0.01    .   1    .   .   .   .   22    U    H5      .   11014    1    
+    282    .   2    2    6     6     U    H6      H    1     8.46      0.01    .   1    .   .   .   .   22    U    H6      .   11014    1    
+    283    .   2    2    6     6     U    C6      C    13    144.6     0.05    .   1    .   .   .   .   22    U    C6      .   11014    1    
+    284    .   2    2    6     6     U    H1'     H    1     5.67      0.01    .   1    .   .   .   .   22    U    H1'     .   11014    1    
+    285    .   2    2    6     6     U    H2'     H    1     4.58      0.01    .   1    .   .   .   .   22    U    H2'     .   11014    1    
+    286    .   2    2    6     6     U    H3'     H    1     4.71      0.01    .   1    .   .   .   .   22    U    H3'     .   11014    1    
+    287    .   2    2    6     6     U    H4'     H    1     4.52      0.01    .   1    .   .   .   .   22    U    H4'     .   11014    1    
+    288    .   2    2    6     6     U    H5'     H    1     4.72      0.01    .   2    .   .   .   .   22    U    H5'     .   11014    1    
+    289    .   2    2    6     6     U    H5''    H    1     4.17      0.01    .   2    .   .   .   .   22    U    H5''    .   11014    1    
+    290    .   2    2    6     6     U    C1'     C    13    94.65     0.05    .   1    .   .   .   .   22    U    C1'     .   11014    1    
+    291    .   2    2    6     6     U    C2'     C    13    75.00     0.05    .   1    .   .   .   .   22    U    C2'     .   11014    1    
+    292    .   2    2    6     6     U    C3'     C    13    72.63     0.05    .   1    .   .   .   .   22    U    C3'     .   11014    1    
+    293    .   2    2    6     6     U    C4'     C    13    83.12     0.05    .   1    .   .   .   .   22    U    C4'     .   11014    1    
+    294    .   2    2    6     6     U    C5'     C    13    64.13     0.05    .   1    .   .   .   .   22    U    C5'     .   11014    1    
+    295    .   2    2    7     7     C    H5      H    1     5.67      0.01    .   1    .   .   .   .   23    C    H5      .   11014    1    
+    296    .   2    2    7     7     C    H6      H    1     8.24      0.01    .   1    .   .   .   .   23    C    H6      .   11014    1    
+    297    .   2    2    7     7     C    C6      C    13    143.20    0.05    .   1    .   .   .   .   23    C    C6      .   11014    1    
+    298    .   2    2    7     7     C    H1'     H    1     5.72      0.01    .   1    .   .   .   .   23    C    H1'     .   11014    1    
+    299    .   2    2    7     7     C    H2'     H    1     4.16      0.01    .   1    .   .   .   .   23    C    H2'     .   11014    1    
+    300    .   2    2    7     7     C    H3'     H    1     4.71      0.01    .   1    .   .   .   .   23    C    H3'     .   11014    1    
+    301    .   2    2    7     7     C    H4'     H    1     4.48      0.01    .   1    .   .   .   .   23    C    H4'     .   11014    1    
+    302    .   2    2    7     7     C    H5'     H    1     4.64      0.01    .   2    .   .   .   .   23    C    H5'     .   11014    1    
+    303    .   2    2    7     7     C    H5''    H    1     4.19      0.01    .   2    .   .   .   .   23    C    H5''    .   11014    1    
+    304    .   2    2    7     7     C    C1'     C    13    93.97     0.05    .   1    .   .   .   .   23    C    C1'     .   11014    1    
+    305    .   2    2    7     7     C    C2'     C    13    75.47     0.05    .   1    .   .   .   .   23    C    C2'     .   11014    1    
+    306    .   2    2    7     7     C    C3'     C    13    71.88     0.05    .   1    .   .   .   .   23    C    C3'     .   11014    1    
+    307    .   2    2    7     7     C    C4'     C    13    81.99     0.05    .   1    .   .   .   .   23    C    C4'     .   11014    1    
+    308    .   2    2    7     7     C    C5'     C    13    70.25     0.05    .   1    .   .   .   .   23    C    C5'     .   11014    1    
+    309    .   2    2    8     8     C    H5      H    1     5.28      0.01    .   1    .   .   .   .   24    C    H5      .   11014    1    
+    310    .   2    2    8     8     C    H6      H    1     7.94      0.01    .   1    .   .   .   .   24    C    H6      .   11014    1    
+    311    .   2    2    8     8     C    C6      C    13    142.4     0.05    .   1    .   .   .   .   24    C    C6      .   11014    1    
+    312    .   2    2    8     8     C    H1'     H    1     5.47      0.01    .   1    .   .   .   .   24    C    H1'     .   11014    1    
+    313    .   2    2    8     8     C    H2'     H    1     4.07      0.01    .   1    .   .   .   .   24    C    H2'     .   11014    1    
+    314    .   2    2    8     8     C    H3'     H    1     4.60      0.01    .   1    .   .   .   .   24    C    H3'     .   11014    1    
+    315    .   2    2    8     8     C    H4'     H    1     4.40      0.01    .   1    .   .   .   .   24    C    H4'     .   11014    1    
+    316    .   2    2    8     8     C    H5'     H    1     4.48      0.01    .   2    .   .   .   .   24    C    H5'     .   11014    1    
+    317    .   2    2    8     8     C    H5''    H    1     4.04      0.01    .   2    .   .   .   .   24    C    H5''    .   11014    1    
+    318    .   2    2    8     8     C    C1'     C    13    93.34     0.05    .   1    .   .   .   .   24    C    C1'     .   11014    1    
+    319    .   2    2    8     8     C    C2'     C    13    75.74     0.05    .   1    .   .   .   .   24    C    C2'     .   11014    1    
+    320    .   2    2    8     8     C    C3'     C    13    71.63     0.05    .   1    .   .   .   .   24    C    C3'     .   11014    1    
+    321    .   2    2    8     8     C    C4'     C    13    81.74     0.05    .   1    .   .   .   .   24    C    C4'     .   11014    1    
+    322    .   2    2    8     8     C    C5'     C    13    65.13     0.05    .   1    .   .   .   .   24    C    C5'     .   11014    1    
+    323    .   2    2    9     9     C    H5      H    1     5.40      0.01    .   1    .   .   .   .   25    C    H5      .   11014    1    
+    324    .   2    2    9     9     C    H6      H    1     7.76      0.01    .   1    .   .   .   .   25    C    H6      .   11014    1    
+    325    .   2    2    9     9     C    C6      C    13    140.95    0.05    .   1    .   .   .   .   25    C    C6      .   11014    1    
+    326    .   2    2    9     9     C    H1'     H    1     5.47      0.01    .   1    .   .   .   .   25    C    H1'     .   11014    1    
+    327    .   2    2    9     9     C    H2'     H    1     4.35      0.01    .   1    .   .   .   .   25    C    H2'     .   11014    1    
+    328    .   2    2    9     9     C    H3'     H    1     4.56      0.01    .   1    .   .   .   .   25    C    H3'     .   11014    1    
+    329    .   2    2    9     9     C    H4'     H    1     4.34      0.01    .   1    .   .   .   .   25    C    H4'     .   11014    1    
+    330    .   2    2    9     9     C    H5'     H    1     4.39      0.01    .   2    .   .   .   .   25    C    H5'     .   11014    1    
+    331    .   2    2    9     9     C    H5''    H    1     4.09      0.01    .   2    .   .   .   .   25    C    H5''    .   11014    1    
+    332    .   2    2    9     9     C    C1'     C    13    92.99     0.05    .   1    .   .   .   .   25    C    C1'     .   11014    1    
+    333    .   2    2    9     9     C    C2'     C    13    75.50     0.05    .   1    .   .   .   .   25    C    C2'     .   11014    1    
+    334    .   2    2    9     9     C    C3'     C    13    71.63     0.05    .   1    .   .   .   .   25    C    C3'     .   11014    1    
+    335    .   2    2    9     9     C    C4'     C    13    81.49     0.05    .   1    .   .   .   .   25    C    C4'     .   11014    1    
+    336    .   2    2    9     9     C    C5'     C    13    64.26     0.05    .   1    .   .   .   .   25    C    C5'     .   11014    1    
+    337    .   2    2    10    10    A    H2      H    1     6.87      0.01    .   1    .   .   .   .   26    A    H2      .   11014    1    
+    338    .   2    2    10    10    A    H8      H    1     7.73      0.01    .   1    .   .   .   .   26    A    H8      .   11014    1    
+    339    .   2    2    10    10    A    C8      C    13    139.20    0.05    .   1    .   .   .   .   26    A    C8      .   11014    1    
+    340    .   2    2    10    10    A    H1'     H    1     5.78      0.01    .   1    .   .   .   .   26    A    H1'     .   11014    1    
+    341    .   2    2    10    10    A    H2'     H    1     4.47      0.01    .   1    .   .   .   .   26    A    H2'     .   11014    1    
+    342    .   2    2    10    10    A    H3'     H    1     4.51      0.01    .   1    .   .   .   .   26    A    H3'     .   11014    1    
+    343    .   2    2    10    10    A    H4'     H    1     4.40      0.01    .   1    .   .   .   .   26    A    H4'     .   11014    1    
+    344    .   2    2    10    10    A    H5'     H    1     4.43      0.01    .   2    .   .   .   .   26    A    H5'     .   11014    1    
+    345    .   2    2    10    10    A    H5''    H    1     4.09      0.01    .   2    .   .   .   .   26    A    H5''    .   11014    1    
+    346    .   2    2    10    10    A    C1'     C    13    92.27     0.05    .   1    .   .   .   .   26    A    C1'     .   11014    1    
+    347    .   2    2    10    10    A    C2'     C    13    76.00     0.05    .   1    .   .   .   .   26    A    C2'     .   11014    1    
+    348    .   2    2    10    10    A    C3'     C    13    72.63     0.05    .   1    .   .   .   .   26    A    C3'     .   11014    1    
+    349    .   2    2    10    10    A    C4'     C    13    81.49     0.05    .   1    .   .   .   .   26    A    C4'     .   11014    1    
+    350    .   2    2    10    10    A    C5'     C    13    65.13     0.05    .   1    .   .   .   .   26    A    C5'     .   11014    1    
+    351    .   2    2    11    11    G    H1      H    1     12.50     0.01    .   1    .   .   .   .   27    G    H1      .   11014    1    
+    352    .   2    2    11    11    G    H8      H    1     6.64      0.01    .   1    .   .   .   .   27    G    H8      .   11014    1    
+    353    .   2    2    11    11    G    C8      C    13    136.00    0.05    .   1    .   .   .   .   27    G    C8      .   11014    1    
+    354    .   2    2    11    11    G    H1'     H    1     5.04      0.01    .   1    .   .   .   .   27    G    H1'     .   11014    1    
+    355    .   2    2    11    11    G    H2'     H    1     4.47      0.01    .   1    .   .   .   .   27    G    H2'     .   11014    1    
+    356    .   2    2    11    11    G    H3'     H    1     4.20      0.01    .   1    .   .   .   .   27    G    H3'     .   11014    1    
+    357    .   2    2    11    11    G    H4'     H    1     4.35      0.01    .   1    .   .   .   .   27    G    H4'     .   11014    1    
+    358    .   2    2    11    11    G    H5'     H    1     4.24      0.01    .   2    .   .   .   .   27    G    H5'     .   11014    1    
+    359    .   2    2    11    11    G    H5''    H    1     3.93      0.01    .   2    .   .   .   .   27    G    H5''    .   11014    1    
+    360    .   2    2    11    11    G    C1'     C    13    92.59     0.05    .   1    .   .   .   .   27    G    C1'     .   11014    1    
+    361    .   2    2    11    11    G    C2'     C    13    75.12     0.05    .   1    .   .   .   .   27    G    C2'     .   11014    1    
+    362    .   2    2    11    11    G    C3'     C    13    73.75     0.05    .   1    .   .   .   .   27    G    C3'     .   11014    1    
+    363    .   2    2    11    11    G    C4'     C    13    81.99     0.05    .   1    .   .   .   .   27    G    C4'     .   11014    1    
+    364    .   2    2    11    11    G    C5'     C    13    69.04     0.05    .   1    .   .   .   .   27    G    C5'     .   11014    1    
+    365    .   2    2    12    12    A    H2      H    1     7.89      0.01    .   1    .   .   .   .   28    A    H2      .   11014    1    
+    366    .   2    2    12    12    A    H8      H    1     7.72      0.01    .   1    .   .   .   .   28    A    H8      .   11014    1    
+    367    .   2    2    12    12    A    C8      C    13    139.00    0.05    .   1    .   .   .   .   28    A    C8      .   11014    1    
+    368    .   2    2    12    12    A    H1'     H    1     5.84      0.01    .   1    .   .   .   .   28    A    H1'     .   11014    1    
+    369    .   2    2    12    12    A    H2'     H    1     4.70      0.01    .   1    .   .   .   .   28    A    H2'     .   11014    1    
+    370    .   2    2    12    12    A    H3'     H    1     4.42      0.01    .   1    .   .   .   .   28    A    H3'     .   11014    1    
+    371    .   2    2    12    12    A    H4'     H    1     4.46      0.01    .   1    .   .   .   .   28    A    H4'     .   11014    1    
+    372    .   2    2    12    12    A    C1'     C    13    92.33     0.05    .   1    .   .   .   .   28    A    C1'     .   11014    1    
+    373    .   2    2    12    12    A    C2'     C    13    75.50     0.05    .   1    .   .   .   .   28    A    C2'     .   11014    1    
+    374    .   2    2    12    12    A    C3'     C    13    72.75     0.05    .   1    .   .   .   .   28    A    C3'     .   11014    1    
+    375    .   2    2    12    12    A    C4'     C    13    81.74     0.05    .   1    .   .   .   .   28    A    C4'     .   11014    1    
+    376    .   2    2    13    13    C    H5      H    1     5.33      0.01    .   1    .   .   .   .   29    C    H5      .   11014    1    
+    377    .   2    2    13    13    C    H6      H    1     7.34      0.01    .   1    .   .   .   .   29    C    H6      .   11014    1    
+    378    .   2    2    13    13    C    C6      C    13    140.20    0.05    .   1    .   .   .   .   29    C    C6      .   11014    1    
+    379    .   2    2    13    13    C    H1'     H    1     5.29      0.01    .   1    .   .   .   .   29    C    H1'     .   11014    1    
+    380    .   2    2    13    13    C    H2'     H    1     4.27      0.01    .   1    .   .   .   .   29    C    H2'     .   11014    1    
+    381    .   2    2    13    13    C    H3'     H    1     4.45      0.01    .   1    .   .   .   .   29    C    H3'     .   11014    1    
+    382    .   2    2    13    13    C    C1'     C    13    93.48     0.05    .   1    .   .   .   .   29    C    C1'     .   11014    1    
+    383    .   2    2    13    13    C    C2'     C    13    75.22     0.05    .   1    .   .   .   .   29    C    C2'     .   11014    1    
+    384    .   2    2    13    13    C    C3'     C    13    72.25     0.05    .   1    .   .   .   .   29    C    C3'     .   11014    1    
+    385    .   2    2    14    14    A    H2      H    1     7.00      0.01    .   1    .   .   .   .   30    A    H2      .   11014    1    
+    386    .   2    2    14    14    A    H8      H    1     8.04      0.01    .   1    .   .   .   .   30    A    H8      .   11014    1    
+    387    .   2    2    14    14    A    C8      C    13    139.90    0.05    .   1    .   .   .   .   30    A    C8      .   11014    1    
+    388    .   2    2    14    14    A    H1'     H    1     5.87      0.01    .   1    .   .   .   .   30    A    H1'     .   11014    1    
+    389    .   2    2    14    14    A    H2'     H    1     4.57      0.01    .   1    .   .   .   .   30    A    H2'     .   11014    1    
+    390    .   2    2    14    14    A    H3'     H    1     4.79      0.01    .   1    .   .   .   .   30    A    H3'     .   11014    1    
+    391    .   2    2    14    14    A    H4'     H    1     4.45      0.01    .   1    .   .   .   .   30    A    H4'     .   11014    1    
+    392    .   2    2    14    14    A    C1'     C    13    92.62     0.05    .   1    .   .   .   .   30    A    C1'     .   11014    1    
+    393    .   2    2    14    14    A    C2'     C    13    75.63     0.05    .   1    .   .   .   .   30    A    C2'     .   11014    1    
+    394    .   2    2    14    14    A    C3'     C    13    72.25     0.05    .   1    .   .   .   .   30    A    C3'     .   11014    1    
+    395    .   2    2    14    14    A    C4'     C    13    81.87     0.05    .   1    .   .   .   .   30    A    C4'     .   11014    1    
+    396    .   2    2    15    15    G    H1      H    1     13.49     0.01    .   1    .   .   .   .   31    G    H1      .   11014    1    
+    397    .   2    2    15    15    G    H8      H    1     7.20      0.01    .   1    .   .   .   .   31    G    H8      .   11014    1    
+    398    .   2    2    15    15    G    C8      C    13    136.10    0.05    .   1    .   .   .   .   31    G    C8      .   11014    1    
+    399    .   2    2    15    15    G    H1'     H    1     5.54      0.01    .   1    .   .   .   .   31    G    H1'     .   11014    1    
+    400    .   2    2    15    15    G    H2'     H    1     4.28      0.01    .   1    .   .   .   .   31    G    H2'     .   11014    1    
+    401    .   2    2    15    15    G    H3'     H    1     4.45      0.01    .   1    .   .   .   .   31    G    H3'     .   11014    1    
+    402    .   2    2    15    15    G    H4'     H    1     4.40      0.01    .   1    .   .   .   .   31    G    H4'     .   11014    1    
+    403    .   2    2    15    15    G    C1'     C    13    92.53     0.05    .   1    .   .   .   .   31    G    C1'     .   11014    1    
+    404    .   2    2    15    15    G    C2'     C    13    75.46     0.05    .   1    .   .   .   .   31    G    C2'     .   11014    1    
+    405    .   2    2    15    15    G    C3'     C    13    72.38     0.05    .   1    .   .   .   .   31    G    C3'     .   11014    1    
+    406    .   2    2    15    15    G    C4'     C    13    81.62     0.05    .   1    .   .   .   .   31    G    C4'     .   11014    1    
+    407    .   2    2    16    16    C    H5      H    1     5.17      0.01    .   1    .   .   .   .   32    C    H5      .   11014    1    
+    408    .   2    2    16    16    C    H6      H    1     7.38      0.01    .   1    .   .   .   .   32    C    H6      .   11014    1    
+    409    .   2    2    16    16    C    C6      C    13    141.60    0.05    .   1    .   .   .   .   32    C    C6      .   11014    1    
+    410    .   2    2    16    16    C    H1'     H    1     5.66      0.01    .   1    .   .   .   .   32    C    H1'     .   11014    1    
+    411    .   2    2    16    16    C    H2'     H    1     3.96      0.01    .   1    .   .   .   .   32    C    H2'     .   11014    1    
+    412    .   2    2    16    16    C    H3'     H    1     4.10      0.01    .   1    .   .   .   .   32    C    H3'     .   11014    1    
+    413    .   2    2    16    16    C    H4'     H    1     4.14      0.01    .   1    .   .   .   .   32    C    H4'     .   11014    1    
+    414    .   2    2    16    16    C    H5'     H    1     4.44      0.01    .   2    .   .   .   .   32    C    H5'     .   11014    1    
+    415    .   2    2    16    16    C    H5''    H    1     3.99      0.01    .   2    .   .   .   .   32    C    H5''    .   11014    1    
+    416    .   2    2    16    16    C    C1'     C    13    92.84     0.05    .   1    .   .   .   .   32    C    C1'     .   11014    1    
+    417    .   2    2    16    16    C    C2'     C    13    77.49     0.05    .   1    .   .   .   .   32    C    C2'     .   11014    1    
+    418    .   2    2    16    16    C    C3'     C    13    69.50     0.05    .   1    .   .   .   .   32    C    C3'     .   11014    1    
+    419    .   2    2    16    16    C    C4'     C    13    83.24     0.05    .   1    .   .   .   .   32    C    C4'     .   11014    1    
+    420    .   2    2    16    16    C    C5'     C    13    65.01     0.05    .   1    .   .   .   .   32    C    C5'     .   11014    1    
+  stop_
+
+save_
+

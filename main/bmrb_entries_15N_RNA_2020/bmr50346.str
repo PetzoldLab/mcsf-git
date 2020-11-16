@@ -1,0 +1,1090 @@
+data_50346
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information_1
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information_1
+   _Entry.ID                             50346
+   _Entry.Title
+;
+Assignment of base 15N and 1H chemical shifts for 5_SL5a
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2020-06-23
+   _Entry.Accession_date                 2020-06-23
+   _Entry.Last_release_date              2020-06-23
+   _Entry.Original_release_date          2020-06-23
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.6.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Harald      Schwalbe   .   .   .   .   50346
+      2   Christian   Richter    .   .   .   .   50346
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   50346
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   17   50346
+      '15N chemical shifts'   61   50346
+      '1H chemical shifts'    81   50346
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2020-07-10   .   original   BMRB   .   50346
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   50339         'chemical shifts of the 5_SL5B+C'                                                        50346
+      BMRB   50340         'chemical shifts of the 5_SL5stem'                                                       50346
+      BMRB   50341         'chemical shifts of the 3_s2m'                                                           50346
+      BMRB   50342         'chemical shifts of the 3_SL1'                                                           50346
+      BMRB   50343         'chemical shifts of the 2_SL3'                                                           50346
+      BMRB   50344         'chemical shifts of the 5_SL2+3'                                                         50346
+      BMRB   50347         'chemical shifts of the 5_SL4'                                                           50346
+      BMRB   50348         'chemical shifts of the PK (Pseudoknot)'                                                 50346
+      BMRB   50349         'chemical shifts of the 5_SL1'                                                           50346
+      BMRB   50350         'chemical shifts of the 3_SL3base'                                                       50346
+      BMRB   50351         'chemical shifts of the 5_SL6'                                                           50346
+      BMRB   50352         'chemical shifts of the 5_SL8'                                                           50346
+      NCBI   NC_045512.2   'Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome.'   50346
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citations_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations_1
+   _Citation.Entry_ID                     50346
+   _Citation.ID                           1
+   _Citation.Name                         'citations 1'
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    .
+   _Citation.DOI                          .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Secondary structure determination of conserved SARS-CoV-2 RNA elements by NMR spectroscopy and DMS footprinting analysis
+;
+   _Citation.Status                       'in preparation'
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Nucleic Acids Res.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         .
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1    Anna           Wacker                .   .    .   .   50346   1
+      2    Julia          Weigand               .   E.   .   .   50346   1
+      3    Sabine         Akabayov              .   R.   .   .   50346   1
+      4    Nadide         Altincekic            .   .    .   .   50346   1
+      5    Jasleen        'Kaur Bains'          .   .    .   .   50346   1
+      6    Elnaz          Banijamali            .   .    .   .   50346   1
+      7    Oliver         Binas                 .   .    .   .   50346   1
+      8    Jesus          Castillo-Martinez     .   .    .   .   50346   1
+      9    Erhan          Cetiner               .   .    .   .   50346   1
+      10   Betul          Ceylan                .   .    .   .   50346   1
+      11   Liang-Yuan     Chiu                  .   .    .   .   50346   1
+      12   Jesse          Davila-Calderon       .   .    .   .   50346   1
+      13   Vanessa        'De Jesus'            .   .    .   .   50346   1
+      14   Karthikeyan    Dhamotharan           .   .    .   .   50346   1
+      15   Elke           Duchardt-Ferner       .   .    .   .   50346   1
+      16   Jan            Ferner                .   .    .   .   50346   1
+      17   Lucio          Frydman               .   .    .   .   50346   1
+      18   Boris          Furtig                .   .    .   .   50346   1
+      19   Jose           Gallego               .   .    .   .   50346   1
+      20   'J. Tassilo'   Grun                  .   .    .   .   50346   1
+      21   Carolin        Hacker                .   .    .   .   50346   1
+      22   Christina      Haddad                .   .    .   .   50346   1
+      23   Martin         Hahnke                .   .    .   .   50346   1
+      24   Martin         Hengesbach            .   .    .   .   50346   1
+      25   Fabian         Hiller                .   .    .   .   50346   1
+      26   Katharina      Hohmann               .   F.   .   .   50346   1
+      27   Daniel         Hymon                 .   .    .   .   50346   1
+      28   Henry          Jonker                .   .    .   .   50346   1
+      29   Heiko          Keller                .   .    .   .   50346   1
+      30   Bozana         Knezic                .   .    .   .   50346   1
+      31   Tom            Landgraf              .   .    .   .   50346   1
+      32   Frank          Lohr                  .   .    .   .   50346   1
+      33   Luke           Luo                   .   .    .   .   50346   1
+      34   Klara          Mertinkus             .   R.   .   .   50346   1
+      35   Christina      Muhs                  .   .    .   .   50346   1
+      36   Mihajlo        Novakovic             .   .    .   .   50346   1
+      37   Andreas        Oxenfarth             .   .    .   .   50346   1
+      38   Martina        Palomino-Schatzlein   .   .    .   .   50346   1
+      39   Katja          Petzold               .   .    .   .   50346   1
+      40   Stephen        Peter                 .   A.   .   .   50346   1
+      41   Dennis         Pyper                 .   J.   .   .   50346   1
+      42   Nusrat         Qureshi               .   S.   .   .   50346   1
+      43   Magdalena      Riad                  .   .    .   .   50346   1
+      44   Christian      Richter               .   .    .   .   50346   1
+      45   Krishna        Saxena                .   .    .   .   50346   1
+      46   Tatjana        Schamber              .   .    .   .   50346   1
+      47   Tali           Scherf                .   .    .   .   50346   1
+      48   Judith         Schlagnitweit         .   .    .   .   50346   1
+      49   Andreas        Schlundt              .   .    .   .   50346   1
+      50   Robbin         Schnieders            .   .    .   .   50346   1
+      51   Harald         Schwalbe              .   .    .   .   50346   1
+      52   Alvaro         Simba-Lahuasi         .   .    .   .   50346   1
+      53   Sridhar        Sreeramulu            .   .    .   .   50346   1
+      54   Elke           Stirnal               .   .    .   .   50346   1
+      55   Alexey         Sudakov               .   .    .   .   50346   1
+      56   Jan-Niklas     Tants                 .   .    .   .   50346   1
+      57   Blanton        Tolbert               .   S.   .   .   50346   1
+      58   Jenny          Vogele                .   .    .   .   50346   1
+      59   Lena           Weiss                 .   .    .   .   50346   1
+      60   Julia          Wirmer-Bartoschek     .   .    .   .   50346   1
+      61   Maria          'Wirtz Martin'        .   A.   .   .   50346   1
+      62   Jens           Wohnert               .   .    .   .   50346   1
+      63   Heidi          Zetzsche              .   .    .   .   50346   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          50346
+   _Assembly.ID                                1
+   _Assembly.Name                              5_SL5A
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   no
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   5_SL5A   1   $entity_1   .   .   yes   native   no   no   .   .   .   50346   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          50346
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polyribonucleotide
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+GGGCUGCUUACGGUUUCGUC
+CGUGUUGCAGCCC
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                33
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    -1    G   .   50346   1
+      2    188   G   .   50346   1
+      3    189   G   .   50346   1
+      4    190   C   .   50346   1
+      5    191   U   .   50346   1
+      6    192   G   .   50346   1
+      7    193   C   .   50346   1
+      8    194   U   .   50346   1
+      9    195   U   .   50346   1
+      10   196   A   .   50346   1
+      11   197   C   .   50346   1
+      12   198   G   .   50346   1
+      13   199   G   .   50346   1
+      14   200   U   .   50346   1
+      15   201   U   .   50346   1
+      16   202   U   .   50346   1
+      17   203   C   .   50346   1
+      18   204   G   .   50346   1
+      19   205   U   .   50346   1
+      20   206   C   .   50346   1
+      21   207   C   .   50346   1
+      22   208   G   .   50346   1
+      23   209   U   .   50346   1
+      24   210   G   .   50346   1
+      25   211   U   .   50346   1
+      26   212   U   .   50346   1
+      27   213   G   .   50346   1
+      28   214   C   .   50346   1
+      29   215   A   .   50346   1
+      30   216   G   .   50346   1
+      31   217   C   .   50346   1
+      32   218   C   .   50346   1
+      33   1     C   .   50346   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   G   1    1    50346   1
+      .   G   2    2    50346   1
+      .   G   3    3    50346   1
+      .   C   4    4    50346   1
+      .   U   5    5    50346   1
+      .   G   6    6    50346   1
+      .   C   7    7    50346   1
+      .   U   8    8    50346   1
+      .   U   9    9    50346   1
+      .   A   10   10   50346   1
+      .   C   11   11   50346   1
+      .   G   12   12   50346   1
+      .   G   13   13   50346   1
+      .   U   14   14   50346   1
+      .   U   15   15   50346   1
+      .   U   16   16   50346   1
+      .   C   17   17   50346   1
+      .   G   18   18   50346   1
+      .   U   19   19   50346   1
+      .   C   20   20   50346   1
+      .   C   21   21   50346   1
+      .   G   22   22   50346   1
+      .   U   23   23   50346   1
+      .   G   24   24   50346   1
+      .   U   25   25   50346   1
+      .   U   26   26   50346   1
+      .   G   27   27   50346   1
+      .   C   28   28   50346   1
+      .   A   29   29   50346   1
+      .   G   30   30   50346   1
+      .   C   31   31   50346   1
+      .   C   32   32   50346   1
+      .   C   33   33   50346   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source_1
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source_1
+   _Entity_natural_src_list.Entry_ID       50346
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   2697049   organism   .   'Severe acute respiratory syndrome coronavirus 2'   SARS-CoV-2   .   .   Viruses   .   Betacoronavirus   HCoV-SARS   SARS-CoV-2   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source_1
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source_1
+   _Entity_experimental_src_list.Entry_ID       50346
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   transcription   'in vitro'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         50346
+   _Sample.ID                               1
+   _Sample.Name                             5_SL5A
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   5_SL5A                  [U-15N]               .   .   1   $entity_1   .   .   807   .   .   uM   .   .   .   .   50346   1
+      2   'potassium phosphate'   'natural abundance'   .   .   .   .           .   .   25    .   .   mM   .   .   .   .   50346   1
+      3   KCl                     'natural abundance'   .   .   .   .           .   .   50    .   .   mM   .   .   .   .   50346   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       50346
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           '5_SL5A 298K'
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   75    .   mM    50346   1
+      pH                 6.2   .   pH    50346   1
+      pressure           1     .   atm   50346   1
+      temperature        298   .   K     50346   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       50346
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           LOGS
+   _Software.Version        2.2
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   collection   50346   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       50346
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           SPARKY
+   _Software.Version        3.114
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   'chemical shift assignment'   50346   2
+      .   'peak picking'                50346   2
+   stop_
+save_
+
+save_software_3
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_3
+   _Software.Entry_ID       50346
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           TOPSPIN
+   _Software.Version        3.6.2
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   collection   50346   3
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         50346
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             'NMR spectrometer 1'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            AVIII
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list_1
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list_1
+   _Experiment_list.Entry_ID       50346
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    NOESY-JR[15N]-Amino   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      2    HSQC[15N]             no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      3    HSQC[15N]-2J          no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      4    HSQC[15N]-2J          no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      5    TROSY[15N]            no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      6    HNN-COSY[15N]         no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      7    HSQC[15N]-Amino       no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      8    TOCSY                 no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      9    HNN-COSY[15N]         no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      10   '2D HSQC HC'          no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+      11   NOESY[15N]-Imino      no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   50346   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       50346
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           'Chemical shift reference DSS'
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.251449530   .   .   .   .   .   50346   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.00   internal   direct     1.000000000   .   .   .   .   .   50346   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.101329118   .   .   .   .   .   50346   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      50346
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          'Chemical shift list'
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1    NOESY-JR[15N]-Amino   .   .   .   50346   1
+      2    HSQC[15N]             .   .   .   50346   1
+      3    HSQC[15N]-2J          .   .   .   50346   1
+      4    HSQC[15N]-2J          .   .   .   50346   1
+      5    TROSY[15N]            .   .   .   50346   1
+      6    HNN-COSY[15N]         .   .   .   50346   1
+      7    HSQC[15N]-Amino       .   .   .   50346   1
+      8    TOCSY                 .   .   .   50346   1
+      9    HNN-COSY[15N]         .   .   .   50346   1
+      10   '2D HSQC HC'          .   .   .   50346   1
+      11   NOESY[15N]-Imino      .   .   .   50346   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      2   $software_2   .   .   50346   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_assembly_asym_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   .   1   2    2    G   H1    H   1    12.851    .   .   1   .   .   .   .   .   188   G   H1    .   50346   1
+      2     .   1   .   1   2    2    G   H1'   H   1    5.9399    .   .   1   .   .   .   .   .   188   G   H1'   .   50346   1
+      3     .   1   .   1   2    2    G   H8    H   1    7.55265   .   .   1   .   .   .   .   .   188   G   H8    .   50346   1
+      4     .   1   .   1   2    2    G   C8    C   13   136.733   .   .   1   .   .   .   .   .   188   G   C8    .   50346   1
+      5     .   1   .   1   2    2    G   N1    N   15   147.886   .   .   1   .   .   .   .   .   188   G   N1    .   50346   1
+      6     .   1   .   1   2    2    G   N7    N   15   234.114   .   .   1   .   .   .   .   .   188   G   N7    .   50346   1
+      7     .   1   .   1   2    2    G   N9    N   15   169.761   .   .   1   .   .   .   .   .   188   G   N9    .   50346   1
+      8     .   1   .   1   3    3    G   H1    H   1    13.2767   .   .   1   .   .   .   .   .   189   G   H1    .   50346   1
+      9     .   1   .   1   3    3    G   H1'   H   1    5.7964    .   .   1   .   .   .   .   .   189   G   H1'   .   50346   1
+      10    .   1   .   1   3    3    G   H8    H   1    7.2539    .   .   1   .   .   .   .   .   189   G   H8    .   50346   1
+      11    .   1   .   1   3    3    G   C8    C   13   135.919   .   .   1   .   .   .   .   .   189   G   C8    .   50346   1
+      12    .   1   .   1   3    3    G   N1    N   15   149.025   .   .   1   .   .   .   .   .   189   G   N1    .   50346   1
+      13    .   1   .   1   3    3    G   N7    N   15   234.291   .   .   1   .   .   .   .   .   189   G   N7    .   50346   1
+      14    .   1   .   1   3    3    G   N9    N   15   169.299   .   .   1   .   .   .   .   .   189   G   N9    .   50346   1
+      15    .   1   .   1   4    4    C   H5    H   1    5.2364    .   .   1   .   .   .   .   .   190   C   H5    .   50346   1
+      16    .   1   .   1   4    4    C   H6    H   1    7.58323   .   .   1   .   .   .   .   .   190   C   H6    .   50346   1
+      17    .   1   .   1   4    4    C   H41   H   1    8.61007   .   .   1   .   .   .   .   .   190   C   H41   .   50346   1
+      18    .   1   .   1   4    4    C   H42   H   1    6.9284    .   .   1   .   .   .   .   .   190   C   H42   .   50346   1
+      19    .   1   .   1   4    4    C   N1    N   15   150.874   .   .   1   .   .   .   .   .   190   C   N1    .   50346   1
+      20    .   1   .   1   4    4    C   N3    N   15   197.104   .   .   1   .   .   .   .   .   190   C   N3    .   50346   1
+      21    .   1   .   1   4    4    C   N4    N   15   98.6065   .   .   1   .   .   .   .   .   190   C   N4    .   50346   1
+      22    .   1   .   1   5    5    U   H1'   H   1    5.4444    .   .   1   .   .   .   .   .   191   U   H1'   .   50346   1
+      23    .   1   .   1   5    5    U   H3    H   1    13.4942   .   .   1   .   .   .   .   .   191   U   H3    .   50346   1
+      24    .   1   .   1   5    5    U   H5    H   1    5.44515   .   .   1   .   .   .   .   .   191   U   H5    .   50346   1
+      25    .   1   .   1   5    5    U   H6    H   1    7.8138    .   .   1   .   .   .   .   .   191   U   H6    .   50346   1
+      26    .   1   .   1   5    5    U   C6    C   13   141.636   .   .   1   .   .   .   .   .   191   U   C6    .   50346   1
+      27    .   1   .   1   5    5    U   N1    N   15   145.924   .   .   1   .   .   .   .   .   191   U   N1    .   50346   1
+      28    .   1   .   1   5    5    U   N3    N   15   162.237   .   .   1   .   .   .   .   .   191   U   N3    .   50346   1
+      29    .   1   .   1   6    6    G   H1    H   1    12.514    .   .   1   .   .   .   .   .   192   G   H1    .   50346   1
+      30    .   1   .   1   6    6    G   H1'   H   1    5.80715   .   .   1   .   .   .   .   .   192   G   H1'   .   50346   1
+      31    .   1   .   1   6    6    G   H8    H   1    7.77883   .   .   1   .   .   .   .   .   192   G   H8    .   50346   1
+      32    .   1   .   1   6    6    G   C8    C   13   136.386   .   .   1   .   .   .   .   .   192   G   C8    .   50346   1
+      33    .   1   .   1   6    6    G   N1    N   15   147.681   .   .   1   .   .   .   .   .   192   G   N1    .   50346   1
+      34    .   1   .   1   6    6    G   N7    N   15   234.896   .   .   1   .   .   .   .   .   192   G   N7    .   50346   1
+      35    .   1   .   1   6    6    G   N9    N   15   169.986   .   .   1   .   .   .   .   .   192   G   N9    .   50346   1
+      36    .   1   .   1   7    7    C   H1'   H   1    5.44773   .   .   1   .   .   .   .   .   193   C   H1'   .   50346   1
+      37    .   1   .   1   7    7    C   H5    H   1    5.228     .   .   1   .   .   .   .   .   193   C   H5    .   50346   1
+      38    .   1   .   1   7    7    C   H6    H   1    7.44362   .   .   1   .   .   .   .   .   193   C   H6    .   50346   1
+      39    .   1   .   1   7    7    C   H41   H   1    8.24673   .   .   1   .   .   .   .   .   193   C   H41   .   50346   1
+      40    .   1   .   1   7    7    C   H42   H   1    6.90773   .   .   1   .   .   .   .   .   193   C   H42   .   50346   1
+      41    .   1   .   1   7    7    C   C6    C   13   140.465   .   .   1   .   .   .   .   .   193   C   C6    .   50346   1
+      42    .   1   .   1   7    7    C   N1    N   15   151.337   .   .   1   .   .   .   .   .   193   C   N1    .   50346   1
+      43    .   1   .   1   7    7    C   N3    N   15   195.868   .   .   1   .   .   .   .   .   193   C   N3    .   50346   1
+      44    .   1   .   1   7    7    C   N4    N   15   98.778    .   .   1   .   .   .   .   .   193   C   N4    .   50346   1
+      45    .   1   .   1   8    8    U   H1'   H   1    5.5844    .   .   1   .   .   .   .   .   194   U   H1'   .   50346   1
+      46    .   1   .   1   8    8    U   H5    H   1    5.5884    .   .   1   .   .   .   .   .   194   U   H5    .   50346   1
+      47    .   1   .   1   8    8    U   H6    H   1    7.7339    .   .   1   .   .   .   .   .   194   U   H6    .   50346   1
+      48    .   1   .   1   8    8    U   C6    C   13   141.033   .   .   1   .   .   .   .   .   194   U   C6    .   50346   1
+      49    .   1   .   1   8    8    U   N1    N   15   146.237   .   .   1   .   .   .   .   .   194   U   N1    .   50346   1
+      50    .   1   .   1   9    9    U   H3    H   1    11.2479   .   .   1   .   .   .   .   .   195   U   H3    .   50346   1
+      51    .   1   .   1   9    9    U   H5    H   1    5.6084    .   .   1   .   .   .   .   .   195   U   H5    .   50346   1
+      52    .   1   .   1   9    9    U   H6    H   1    7.793     .   .   1   .   .   .   .   .   195   U   H6    .   50346   1
+      53    .   1   .   1   9    9    U   N1    N   15   145.675   .   .   1   .   .   .   .   .   195   U   N1    .   50346   1
+      54    .   1   .   1   9    9    U   N3    N   15   157.851   .   .   1   .   .   .   .   .   195   U   N3    .   50346   1
+      55    .   1   .   1   10   10   A   H1'   H   1    5.967     .   .   1   .   .   .   .   .   196   A   H1'   .   50346   1
+      56    .   1   .   1   10   10   A   H2    H   1    7.6803    .   .   1   .   .   .   .   .   196   A   H2    .   50346   1
+      57    .   1   .   1   10   10   A   H8    H   1    8.38496   .   .   1   .   .   .   .   .   196   A   H8    .   50346   1
+      58    .   1   .   1   10   10   A   C2    C   13   153.691   .   .   1   .   .   .   .   .   196   A   C2    .   50346   1
+      59    .   1   .   1   10   10   A   C8    C   13   141.031   .   .   1   .   .   .   .   .   196   A   C8    .   50346   1
+      60    .   1   .   1   10   10   A   N1    N   15   222.84    .   .   1   .   .   .   .   .   196   A   N1    .   50346   1
+      61    .   1   .   1   10   10   A   N3    N   15   213.815   .   .   1   .   .   .   .   .   196   A   N3    .   50346   1
+      62    .   1   .   1   10   10   A   N7    N   15   230.415   .   .   1   .   .   .   .   .   196   A   N7    .   50346   1
+      63    .   1   .   1   10   10   A   N9    N   15   170.255   .   .   1   .   .   .   .   .   196   A   N9    .   50346   1
+      64    .   1   .   1   11   11   C   H1'   H   1    5.51973   .   .   1   .   .   .   .   .   197   C   H1'   .   50346   1
+      65    .   1   .   1   11   11   C   H5    H   1    5.19407   .   .   1   .   .   .   .   .   197   C   H5    .   50346   1
+      66    .   1   .   1   11   11   C   H6    H   1    7.50907   .   .   1   .   .   .   .   .   197   C   H6    .   50346   1
+      67    .   1   .   1   11   11   C   H41   H   1    8.2164    .   .   1   .   .   .   .   .   197   C   H41   .   50346   1
+      68    .   1   .   1   11   11   C   H42   H   1    6.7274    .   .   1   .   .   .   .   .   197   C   H42   .   50346   1
+      69    .   1   .   1   11   11   C   N1    N   15   150.29    .   .   1   .   .   .   .   .   197   C   N1    .   50346   1
+      70    .   1   .   1   11   11   C   N3    N   15   196.686   .   .   1   .   .   .   .   .   197   C   N3    .   50346   1
+      71    .   1   .   1   11   11   C   N4    N   15   97.5505   .   .   1   .   .   .   .   .   197   C   N4    .   50346   1
+      72    .   1   .   1   12   12   G   H1    H   1    12.5619   .   .   1   .   .   .   .   .   198   G   H1    .   50346   1
+      73    .   1   .   1   12   12   G   N1    N   15   147.049   .   .   1   .   .   .   .   .   198   G   N1    .   50346   1
+      74    .   1   .   1   13   13   G   H1    H   1    13.3603   .   .   1   .   .   .   .   .   199   G   H1    .   50346   1
+      75    .   1   .   1   13   13   G   N1    N   15   148.831   .   .   1   .   .   .   .   .   199   G   N1    .   50346   1
+      76    .   1   .   1   20   20   C   H5    H   1    5.7454    .   .   1   .   .   .   .   .   206   C   H5    .   50346   1
+      77    .   1   .   1   20   20   C   H6    H   1    7.7929    .   .   1   .   .   .   .   .   206   C   H6    .   50346   1
+      78    .   1   .   1   20   20   C   H41   H   1    8.55773   .   .   1   .   .   .   .   .   206   C   H41   .   50346   1
+      79    .   1   .   1   20   20   C   H42   H   1    7.1812    .   .   1   .   .   .   .   .   206   C   H42   .   50346   1
+      80    .   1   .   1   20   20   C   N3    N   15   197.489   .   .   1   .   .   .   .   .   206   C   N3    .   50346   1
+      81    .   1   .   1   20   20   C   N4    N   15   97.991    .   .   1   .   .   .   .   .   206   C   N4    .   50346   1
+      82    .   1   .   1   21   21   C   H5    H   1    5.60807   .   .   1   .   .   .   .   .   207   C   H5    .   50346   1
+      83    .   1   .   1   21   21   C   H6    H   1    7.8044    .   .   1   .   .   .   .   .   207   C   H6    .   50346   1
+      84    .   1   .   1   21   21   C   H41   H   1    8.40515   .   .   1   .   .   .   .   .   207   C   H41   .   50346   1
+      85    .   1   .   1   21   21   C   H42   H   1    6.8484    .   .   1   .   .   .   .   .   207   C   H42   .   50346   1
+      86    .   1   .   1   21   21   C   N3    N   15   195.566   .   .   1   .   .   .   .   .   207   C   N3    .   50346   1
+      87    .   1   .   1   21   21   C   N4    N   15   98.025    .   .   1   .   .   .   .   .   207   C   N4    .   50346   1
+      88    .   1   .   1   22   22   G   H1    H   1    12.8128   .   .   1   .   .   .   .   .   208   G   H1    .   50346   1
+      89    .   1   .   1   22   22   G   H8    H   1    7.50215   .   .   1   .   .   .   .   .   208   G   H8    .   50346   1
+      90    .   1   .   1   22   22   G   C8    C   13   136.209   .   .   1   .   .   .   .   .   208   G   C8    .   50346   1
+      91    .   1   .   1   22   22   G   N1    N   15   147.491   .   .   1   .   .   .   .   .   208   G   N1    .   50346   1
+      92    .   1   .   1   22   22   G   N7    N   15   234.794   .   .   1   .   .   .   .   .   208   G   N7    .   50346   1
+      93    .   1   .   1   22   22   G   N9    N   15   169.089   .   .   1   .   .   .   .   .   208   G   N9    .   50346   1
+      94    .   1   .   1   23   23   U   H3    H   1    13.7107   .   .   1   .   .   .   .   .   209   U   H3    .   50346   1
+      95    .   1   .   1   23   23   U   H5    H   1    5.06865   .   .   1   .   .   .   .   .   209   U   H5    .   50346   1
+      96    .   1   .   1   23   23   U   H6    H   1    7.5679    .   .   1   .   .   .   .   .   209   U   H6    .   50346   1
+      97    .   1   .   1   23   23   U   N1    N   15   145.58    .   .   1   .   .   .   .   .   209   U   N1    .   50346   1
+      98    .   1   .   1   23   23   U   N3    N   15   161.713   .   .   1   .   .   .   .   .   209   U   N3    .   50346   1
+      99    .   1   .   1   24   24   G   H1'   H   1    5.6569    .   .   1   .   .   .   .   .   210   G   H1'   .   50346   1
+      100   .   1   .   1   24   24   G   H8    H   1    7.6944    .   .   1   .   .   .   .   .   210   G   H8    .   50346   1
+      101   .   1   .   1   24   24   G   C8    C   13   137.631   .   .   1   .   .   .   .   .   210   G   C8    .   50346   1
+      102   .   1   .   1   24   24   G   N7    N   15   237.199   .   .   1   .   .   .   .   .   210   G   N7    .   50346   1
+      103   .   1   .   1   24   24   G   N9    N   15   168.829   .   .   1   .   .   .   .   .   210   G   N9    .   50346   1
+      104   .   1   .   1   25   25   U   H5    H   1    5.3924    .   .   1   .   .   .   .   .   211   U   H5    .   50346   1
+      105   .   1   .   1   25   25   U   H6    H   1    7.6189    .   .   1   .   .   .   .   .   211   U   H6    .   50346   1
+      106   .   1   .   1   25   25   U   C6    C   13   142.662   .   .   1   .   .   .   .   .   211   U   C6    .   50346   1
+      107   .   1   .   1   25   25   U   N1    N   15   144.565   .   .   1   .   .   .   .   .   211   U   N1    .   50346   1
+      108   .   1   .   1   27   27   G   H1    H   1    13.16     .   .   1   .   .   .   .   .   213   G   H1    .   50346   1
+      109   .   1   .   1   27   27   G   H1'   H   1    5.7654    .   .   1   .   .   .   .   .   213   G   H1'   .   50346   1
+      110   .   1   .   1   27   27   G   H8    H   1    7.84923   .   .   1   .   .   .   .   .   213   G   H8    .   50346   1
+      111   .   1   .   1   27   27   G   C8    C   13   136.944   .   .   1   .   .   .   .   .   213   G   C8    .   50346   1
+      112   .   1   .   1   27   27   G   N1    N   15   148.671   .   .   1   .   .   .   .   .   213   G   N1    .   50346   1
+      113   .   1   .   1   27   27   G   N7    N   15   235.651   .   .   1   .   .   .   .   .   213   G   N7    .   50346   1
+      114   .   1   .   1   27   27   G   N9    N   15   169.143   .   .   1   .   .   .   .   .   213   G   N9    .   50346   1
+      115   .   1   .   1   28   28   C   H1'   H   1    5.5544    .   .   1   .   .   .   .   .   214   C   H1'   .   50346   1
+      116   .   1   .   1   28   28   C   H5    H   1    5.31657   .   .   1   .   .   .   .   .   214   C   H5    .   50346   1
+      117   .   1   .   1   28   28   C   H6    H   1    7.59697   .   .   1   .   .   .   .   .   214   C   H6    .   50346   1
+      118   .   1   .   1   28   28   C   H41   H   1    8.56673   .   .   1   .   .   .   .   .   214   C   H41   .   50346   1
+      119   .   1   .   1   28   28   C   H42   H   1    6.8574    .   .   1   .   .   .   .   .   214   C   H42   .   50346   1
+      120   .   1   .   1   28   28   C   C6    C   13   141.301   .   .   1   .   .   .   .   .   214   C   C6    .   50346   1
+      121   .   1   .   1   28   28   C   N1    N   15   150.874   .   .   1   .   .   .   .   .   214   C   N1    .   50346   1
+      122   .   1   .   1   28   28   C   N3    N   15   196.681   .   .   1   .   .   .   .   .   214   C   N3    .   50346   1
+      123   .   1   .   1   28   28   C   N4    N   15   97.4745   .   .   1   .   .   .   .   .   214   C   N4    .   50346   1
+      124   .   1   .   1   29   29   A   H1'   H   1    5.9539    .   .   1   .   .   .   .   .   215   A   H1'   .   50346   1
+      125   .   1   .   1   29   29   A   H2    H   1    7.00632   .   .   1   .   .   .   .   .   215   A   H2    .   50346   1
+      126   .   1   .   1   29   29   A   H8    H   1    8.0464    .   .   1   .   .   .   .   .   215   A   H8    .   50346   1
+      127   .   1   .   1   29   29   A   C2    C   13   152.411   .   .   1   .   .   .   .   .   215   A   C2    .   50346   1
+      128   .   1   .   1   29   29   A   C8    C   13   139.511   .   .   1   .   .   .   .   .   215   A   C8    .   50346   1
+      129   .   1   .   1   29   29   A   N1    N   15   220.748   .   .   1   .   .   .   .   .   215   A   N1    .   50346   1
+      130   .   1   .   1   29   29   A   N3    N   15   213.414   .   .   1   .   .   .   .   .   215   A   N3    .   50346   1
+      131   .   1   .   1   29   29   A   N7    N   15   230.844   .   .   1   .   .   .   .   .   215   A   N7    .   50346   1
+      132   .   1   .   1   29   29   A   N9    N   15   170.552   .   .   1   .   .   .   .   .   215   A   N9    .   50346   1
+      133   .   1   .   1   30   30   G   H1    H   1    13.4196   .   .   1   .   .   .   .   .   216   G   H1    .   50346   1
+      134   .   1   .   1   30   30   G   H1'   H   1    5.6429    .   .   1   .   .   .   .   .   216   G   H1'   .   50346   1
+      135   .   1   .   1   30   30   G   H8    H   1    7.31962   .   .   1   .   .   .   .   .   216   G   H8    .   50346   1
+      136   .   1   .   1   30   30   G   C8    C   13   135.741   .   .   1   .   .   .   .   .   216   G   C8    .   50346   1
+      137   .   1   .   1   30   30   G   N1    N   15   148.635   .   .   1   .   .   .   .   .   216   G   N1    .   50346   1
+      138   .   1   .   1   30   30   G   N7    N   15   234.356   .   .   1   .   .   .   .   .   216   G   N7    .   50346   1
+      139   .   1   .   1   30   30   G   N9    N   15   169.305   .   .   1   .   .   .   .   .   216   G   N9    .   50346   1
+      140   .   1   .   1   31   31   C   H5    H   1    5.1964    .   .   1   .   .   .   .   .   217   C   H5    .   50346   1
+      141   .   1   .   1   31   31   C   H6    H   1    7.62807   .   .   1   .   .   .   .   .   217   C   H6    .   50346   1
+      142   .   1   .   1   31   31   C   H41   H   1    8.60473   .   .   1   .   .   .   .   .   217   C   H41   .   50346   1
+      143   .   1   .   1   31   31   C   H42   H   1    6.86673   .   .   1   .   .   .   .   .   217   C   H42   .   50346   1
+      144   .   1   .   1   31   31   C   N1    N   15   151.183   .   .   1   .   .   .   .   .   217   C   N1    .   50346   1
+      145   .   1   .   1   31   31   C   N3    N   15   197.489   .   .   1   .   .   .   .   .   217   C   N3    .   50346   1
+      146   .   1   .   1   31   31   C   N4    N   15   99.098    .   .   1   .   .   .   .   .   217   C   N4    .   50346   1
+      147   .   1   .   1   32   32   C   H5    H   1    5.49873   .   .   1   .   .   .   .   .   218   C   H5    .   50346   1
+      148   .   1   .   1   32   32   C   H6    H   1    7.76273   .   .   1   .   .   .   .   .   218   C   H6    .   50346   1
+      149   .   1   .   1   32   32   C   H41   H   1    8.5244    .   .   1   .   .   .   .   .   218   C   H41   .   50346   1
+      150   .   1   .   1   32   32   C   H42   H   1    6.88773   .   .   1   .   .   .   .   .   218   C   H42   .   50346   1
+      151   .   1   .   1   32   32   C   C6    C   13   141.501   .   .   1   .   .   .   .   .   218   C   C6    .   50346   1
+      152   .   1   .   1   32   32   C   N1    N   15   151.436   .   .   1   .   .   .   .   .   218   C   N1    .   50346   1
+      153   .   1   .   1   32   32   C   N3    N   15   197.237   .   .   1   .   .   .   .   .   218   C   N3    .   50346   1
+      154   .   1   .   1   32   32   C   N4    N   15   98.3365   .   .   1   .   .   .   .   .   218   C   N4    .   50346   1
+      155   .   1   .   1   33   33   C   H5    H   1    5.5469    .   .   1   .   .   .   .   .   1     C   H5    .   50346   1
+      156   .   1   .   1   33   33   C   H6    H   1    7.5129    .   .   1   .   .   .   .   .   1     C   H6    .   50346   1
+      157   .   1   .   1   33   33   C   H41   H   1    8.4374    .   .   1   .   .   .   .   .   1     C   H41   .   50346   1
+      158   .   1   .   1   33   33   C   H42   H   1    7.0964    .   .   1   .   .   .   .   .   1     C   H42   .   50346   1
+      159   .   1   .   1   33   33   C   N4    N   15   98.922    .   .   1   .   .   .   .   .   1     C   N4    .   50346   1
+   stop_
+save_
+

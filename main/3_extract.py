@@ -5,13 +5,13 @@ import forgi
 from forgi.graph import bulge_graph as cgb
 
 # ---------------------------------------------------------------------#
-# Script for extracting chemical shift data from the database          #
-# CSF_DB_v1.0.db. The script requires input lists described below. It  #
-# will generate an output file "nuclei.txt" with the following         #
+# Script for extracting chemical shift data from the RNA CS database   #
+# CSF_DB_vX.X.db. The script requires input lists described below. It  #
+# will generate an output file "nuclei.txt" with the following struct: #
 #                                                                      #
 # Columns:                                                             #
-#   PDB id, BMRB id, base, base before, base after,                    #
-#   partner base, nuclei type, chemical shift                          #
+#   PDB ID, BMRB ID, residue ID, base, base before, base after,        #
+#   partner base, feature, nuclei type, chemical shift                 #
 #                                                                      #
 # Appearance:                                                          #
 #   2FDT 10018 1 G N G C s H8 8.145                                    #
@@ -19,18 +19,12 @@ from forgi.graph import bulge_graph as cgb
 # Dependencies:                                                        #
 #   forgi                                                              #
 #                                                                      #
-# Install forgi (script written for version 1.1)                       #
-# https://viennarna.github.io/forgi/                                   #
-# https://www.tbi.univie.ac.at/RNA/documentation.html                  #
+# Install forgi (any version, script initially written for version 1.1)#
+#   https://viennarna.github.io/forgi/                                 #
+#   https://www.tbi.univie.ac.at/RNA/documentation.html                #
 #                                                                      #
-# Hampus May-18, Noah Nov-20                                           #
+# Authors: Hampus May-18, Noah Nov-20                                  #
 # ---------------------------------------------------------------------#
-
-# Import data
-split_path = os.path.abspath(os.getcwd()).split(os.path.sep)
-src_path = os.path.sep
-for a in range(len(split_path[1:-1])):
-    src_path = src_path + split_path[a + 1] + os.path.sep
 
 # Input file 1: structures_imino_20.txt contains PDB id, Put in 'lists/'
 # Sequence and lowest energy secondary structure from FRABASE:
@@ -40,12 +34,12 @@ inpf1 = "structures_imino_20.txt"
 # Input file 2: bmrb_pdb_15N_20.txt contains a list of BMRB ID:s and the
 # corresponding PDB ID:s, extracted from NMR star files (with
 # bmrb2pdb.py in the "main" directory). Put in 'lists/'.
-# download BMRB identities from:
+# Download BMRB identities from:
 # https://bmrb.io/search/query_grid/query_1_20.html
 inpf2 = "bmrb_pdb_15N_20.txt"
 
 # Input Database (put in 'db/'):
-mcsf_db_path = "MCSF_DB_v2.0.db"
+mcsf_db_path = "MCSF_DB_v3.0.db"
 
 # Nuclei of interest
 # interesting_nuclei = ["H6","H8","H2","C6","C8","C2"]
@@ -56,6 +50,12 @@ output_path = "nuclei_imino_20.txt"
 
 # -------- RUN -------- #
 
+# Import data
+split_path = os.path.abspath(os.getcwd()).split(os.path.sep)
+src_path = os.path.sep
+for a in range(len(split_path[1:-1])):
+    src_path = src_path + split_path[a + 1] + os.path.sep
+    
 inpf1 = open(os.path.normpath(os.path.join(src_path, "lists", inpf1)))
 inpf2 = open(os.path.normpath(os.path.join(src_path, "lists", inpf2)))
 mcsf_db_path = os.path.normpath(os.path.join("db", mcsf_db_path))
@@ -80,11 +80,11 @@ for j in bmrb_pdb:
 for number in range(len(seq_list)):
     seq_list[number] = seq_list[number].upper()
 
-# connect to entry_table
+# connect to sql database
 conn = sqlite3.connect(src_path + mcsf_db_path)
 c = conn.cursor()
 
-# select all from table main
+# select all from database table 'entry'
 c.execute("SELECT * FROM entry")
 entry_table = c.fetchall()
 
@@ -95,7 +95,7 @@ for row in entry_table:
         if d_bmrb_pdb[str(row[0])] in pdb_list:
             bmrb_ids.append(row[0])
 
-# print out bmrbs and pdb ids
+# print out bmrb and pdb ids
 print(27*"-" + "\nFound BMRB IDs in DB for:\n" + "-"*27 +
       "\nBMRB    PDB")
 
@@ -109,7 +109,7 @@ print("\nSummary:\nFound BMRB ID for " + str(len(bmrb_ids)) +
 extr_seqs = []
 for i in range(len(bmrb_ids)):
     
-    # to hold sequnce and base letters
+    # to hold sequence and base letters
     sequence = []
     resid = 0
     dummy_str = ""
@@ -125,10 +125,9 @@ for i in range(len(bmrb_ids)):
             sequence.append(row[4])
             resid = int(row[3])
     
-    # put all extracted sequences "extr_seqs"
+    # put all extracted sequences in "extr_seqs"
     for letter in sequence:
         dummy_str = dummy_str + letter
-    
     extr_seqs.append(dummy_str)
 
 conn.commit()
@@ -138,10 +137,8 @@ conn.close()
 print(37*"-" + "\nCheck match between BMRB and FRAbase:\n" + 37*"-" +
       "\n")
 
-# bmrb ids of structures where sequences match
-filtered_bmrb_id = []
-
 # Control that extracted seqs from bmrb match with seqs from FRAbase
+filtered_bmrb_id = []  # bmrb ids of structures where sequences match
 for i in range(len(bmrb_ids)):
     
     ind1 = pdb_list.index(d_bmrb_pdb[str(bmrb_ids[i])])
@@ -157,12 +154,14 @@ for i in range(len(bmrb_ids)):
     
     print("            " + dot_brack_list[ind1] + "\n")
 
-print ("Summary:\n" + str(len(filtered_bmrb_id)) +
-       " sequences OK out of " + str(len(bmrb_ids)) + "\n")
+print("Summary:\n" + str(len(filtered_bmrb_id)) +
+      " sequences OK out of " + str(len(bmrb_ids)) + "\n")
 
 # connect to database again
 conn = sqlite3.connect(src_path + mcsf_db_path)
 c = conn.cursor()
+
+# Collect all nuclei associated with the filtered bmrb/pdb structures:
 
 col_names = ("\nPDB\t\t\t"
              "BMRB\t\t"
@@ -175,9 +174,7 @@ col_names = ("\nPDB\t\t\t"
              "nuc\t\t"
              "cs")
 
-print(27*"-" + "\nChosen nuclei of interest:\n" + "-"*25 + col_names)
-
-# collect all nuclei associated with these filtered bmrb/pdb structures
+print(27*"-" + "\nChosen nuclei of interest:\n" + "-"*27 + col_names)
 
 # save output to file
 text_file = open(src_path + output_path, "w")
@@ -191,10 +188,10 @@ for i in range(len(filtered_bmrb_id)):
     
     for nuclei_data in cs_table:
     
-        residue_id  = nuclei_data[3] # 6
-        nt_type     = nuclei_data[4] # 7
-        nuc_type    = nuclei_data[5] # 8
-        cs_val      = nuclei_data[6]  # 9
+        residue_id  = nuclei_data[3]
+        nt_type     = nuclei_data[4]
+        nuc_type    = nuclei_data[5]
+        cs_val      = nuclei_data[6]
         
         fra_seq = seq_list[
             pdb_list.index(d_bmrb_pdb[str(filtered_bmrb_id[i])])
@@ -210,7 +207,8 @@ for i in range(len(filtered_bmrb_id)):
             es = bg.to_element_string()
         # if forgi 2.x
         else:
-            bg = forgi.graph.bulge_graph.BulgeGraph.from_dotbracket(dot_brack)
+            bg = forgi.graph.bulge_graph.BulgeGraph
+            bg = bg.from_dotbracket(dot_brack)
             es = bg.to_element_string()
         
         # define base pairing partner
@@ -251,7 +249,8 @@ for i in range(len(filtered_bmrb_id)):
             )
 
         # if not the first or the last nucleotide in sequence
-        elif nuc_type in interesting_nuclei and 1 < residue_id < len(fra_seq):
+        elif (nuc_type in interesting_nuclei
+              and 1 < residue_id < len(fra_seq)):
     
             # PDB ID, BMRB ID, Residue ID, Base type, Base before
             # Base after, partner base, feature, Nuc type, CS value
@@ -282,7 +281,8 @@ for i in range(len(filtered_bmrb_id)):
             )
 
         # if last nucleotide in sequence
-        elif nuc_type in interesting_nuclei and residue_id == len(fra_seq):
+        elif (nuc_type in interesting_nuclei
+              and residue_id == len(fra_seq)):
     
             # PDB ID, BMRB ID, Residue ID, Base type, Base before
             # Base after, partner base, feature, Nuc type, CS value

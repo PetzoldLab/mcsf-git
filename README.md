@@ -3,7 +3,7 @@
 1. 1_bmrb2pdb.py
 	1. Download BMRB NMR star-file for hairpins containing nitrogen CS from https://bmrb.io/search/query_grid/query_1_20.html. An example is called bmrb_entries_15N_RNA_20
 	2. Put bmrb_entries_15N_RNA_20 folder in the “main” folder
-	3. Use 1_bmrb2pdb.py script to fish out PDB-IDs from bmrb_entries_15N_RNA_20
+	3. Use 1_bmrb2pdb.py script to fish out PDB IDs from bmrb_entries_15N_RNA_20
 		1. This script prints out PDB and BMRB matched IDs which are to be put into a text file named for example “bmrb_pdb.txt”
 		2. Put that text file in the “main” folder
 

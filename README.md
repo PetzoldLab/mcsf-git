@@ -9,7 +9,7 @@
 
 2. 2_retrieve_sec_from_fra.py 
 	1. Input: “bmrb_pdb.txt”
-	2. Use 2_retrieve_sec_from_fra.py  to retrieve PDB ID, sequence and dot bracket structures from FRABASE, for the PDB and BMRB matched IDs.
+	2. Use 2_retrieve_sec_from_fra.py  to retrieve PDB IDs, sequences and dot bracket structures from FRABASE, for the PDB and BMRB matched IDs.
 	3. Manually remove structures containing: [, }, -, signs indicating pseudoknot structures, e.g 	((((((((.....[[[[[[.)))))))).........((((....))))..]]]]]]...
 	4. Put the structures in a text file called “structures.txt” in the “lists” folder
 

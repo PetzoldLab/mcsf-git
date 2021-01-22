@@ -1,4 +1,4 @@
-# mcsf 
+# mcsf - plotting imino chemical shifts
 
 1. 1_bmrb2pdb.py
 	1. Download BMRB NMR star-file for hairpins containing nitrogen CS from https://bmrb.io/search/query_grid/query_1_20.html. An example is called bmrb_entries_15N_RNA_20

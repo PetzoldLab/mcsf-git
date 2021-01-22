@@ -1,9 +1,3 @@
-import os
-import sqlite3
-
-import forgi
-from forgi.graph import bulge_graph as cgb
-
 # ---------------------------------------------------------------------#
 # Script for extracting chemical shift data from the RNA CS database   #
 # CSF_DB_vX.X.db. The script requires input lists described below. It  #
@@ -14,7 +8,7 @@ from forgi.graph import bulge_graph as cgb
 #   partner base, feature, nuclei type, chemical shift                 #
 #                                                                      #
 # Appearance:                                                          #
-#   2FDT 10018 1 G N G C s H8 8.145                                    #
+#   2JTP 15417 1 G N G C s H1 12.0                                     #
 #                                                                      #
 # Dependencies:                                                        #
 #   forgi                                                              #
@@ -25,6 +19,11 @@ from forgi.graph import bulge_graph as cgb
 #                                                                      #
 # Authors: Hampus May-18, Noah Nov-20                                  #
 # ---------------------------------------------------------------------#
+
+import os
+import sqlite3
+import forgi
+from forgi.graph import bulge_graph as cgb
 
 # Input file 1: structures_imino_20.txt contains PDB id, Put in 'lists/'
 # Sequence and lowest energy secondary structure from FRABASE:

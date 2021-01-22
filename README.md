@@ -14,19 +14,19 @@
 	4. Put the structures in a text file called “structures.txt” in the “lists” folder
 
 3. 3_extract.py
-	1. Install the python module “forgi” 1.1
+	1. Install the python module “forgi”, any version
 	2. In case the forgi module gives errors such as: “ImportError: No module called builtins found”, then comment out the built-ins in the following scripts:
 		Residue.py
 		Mcannotate.py
 		stuff.py
 		bulge_graph.py
 	3. Input: structures.txt, bmrb_pdb.txt
-	4. Output: nuclei.txt
+	4. Output: nuclei_imino_20.txt
 
 4. 4_reorganize_n_calib_2020_imino.py
-	1. Input: nuclei.txt
-	2. Output: nuc_sparse.txt
+	1. Input: nuclei_imino_20.txt
+	2. Output: imino_nuc_sparse_20
 
 5. 5_plot_bmrb_cs_imino.py
-	1. Input: nuc_sparse.txt
+	1. Input: imino_nuc_sparse_20
 	2. Output: chemical shift plot

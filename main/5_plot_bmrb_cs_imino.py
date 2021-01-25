@@ -1,12 +1,17 @@
 # Script to plot chemical shifts of imino protons and nitrogens from BMRB chemical shift data
 # Input "nuc_sparse.txt" and outputs .eps-plot
 # Author: Hampus May-18
+# Updated to be python2 and python3 compatible: Magdalena January 2021
 
 import numpy as np
 import matplotlib
+from platform import python_version
 
-matplotlib.use('TKAgg', warn=False, force=True)
-from matplotlib import pyplot as plt
+if float(python_version()[0]) >= 3.0:
+    from matplotlib import pyplot as plt
+else:
+    matplotlib.use('TKAgg', warn=False, force=True)
+    from matplotlib import pyplot as plt
 
 plt.rc('xtick', labelsize=14)
 plt.rc('ytick', labelsize=14)

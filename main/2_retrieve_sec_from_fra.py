@@ -1,8 +1,13 @@
 # This script retrieves the PDB ID, sequence and dot-bracket structures from FRABASE
 # for the PDB and BMRB matched IDs
 # Authors: Hampus May-18
+# Updated to be python2 and python3 compatible: Magdalena January 2021
 
-import urllib2
+try:
+    import urllib.request as urllib2
+except ImportError:
+    import urllib2
+from platform import python_version
 import time
 
 inpf1 = open('./bmrb_pdb_15N_20.txt')
@@ -13,7 +18,6 @@ for i in inpf1.readlines():
     line = i.split()
     pdb_list.append(line[1])
 
-
 for j in range(len(pdb_list)):
 
     url = 'http://rnafrabase.cs.put.poznan.pl/?act=pdbdetails&id='+pdb_list[j]
@@ -22,14 +26,18 @@ for j in range(len(pdb_list)):
     source = response.read()
     source_lines = source.splitlines()
     statements = source_lines[143].split()
-
     hold_list = []
 
     for k in range(len(statements)):
 
         statement = statements[k]
 
-        if statement.find('((') != -1 and statement.find('))') != -1:
+        if float(python_version()[0]) >= 3.0:
+            statement = statement.decode("utf-8")
+        else:
+            pass
+
+        if statement.find("((") != -1 and statement.find("))") != -1:
             hold_list.append(statement)
 
     if len(hold_list) > 0:

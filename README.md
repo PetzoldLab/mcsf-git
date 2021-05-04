@@ -4,7 +4,7 @@
 	1. Convert the .csv file to .txt and name it for example: "BMRB_match_PDB_210419.txt"
 	2. Put the text file in the lists folder
 
-2. 1_retrieve_sec_from_fra.py 
+2. 1A_retrieve_dbn_from_fra.py 
 	1. Input: “BMRB_match_PDB_.txt”
 	2. Use 1A_retrieve_dbn_from_fra.py  to retrieve PDB IDs, sequences and dot bracket structures from FRABASE, for the PDB and BMRB matched IDs.
 	3. Manually remove structures containing: "-" signs indicating structures containing nucleotides lacking structural data, e.g 	 -------(.(((......))).)-----

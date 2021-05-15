@@ -81,13 +81,6 @@ XY_PAIR_DATA = [
     ('U', 'G', 'H1',  'N1', 'in/FRABASE_U[G]_pairs.txt'),
     ('C', 'G', 'H1',  'N1', 'in/FRABASE_C[G]_pairs.txt'),
 ]
-# XY_PAIR_DATA = [
-#     # X   [Y]  nuc_A  nuc_B   X-Y pair list file name
-#     ('C', 'G', 'H1',  'N1', 'in/FRABASE_C[G]_pairs.txt'),
-#     ('A', 'U', 'H3',  'N3', 'in/FRABASE_A[U]_pairs.txt'),
-#     ('G', 'U', 'H3',  'N3', 'in/FRABASE_G[U]_pairs.txt'),
-#     ('U', 'G', 'H1',  'N1', 'in/FRABASE_U[G]_pairs.txt'),
-# ]
 # FRABASE PAIR DATA
 #
 # X and Y are paired residues forming the nt pair X-Y.

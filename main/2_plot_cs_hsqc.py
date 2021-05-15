@@ -14,8 +14,12 @@ else:
     from matplotlib import pyplot as plt
 
 # Choose to save the figure in .eps or pdf format
-save_figure = True # Set to True to save the figure
+save_figure = False # Set to True to save the figure
 figure_format = "eps" # "pdf"
+
+# Choose "all" to plot all base-pairs
+# Choose "brackets" to plot only base-pair with brackets in the dot-bracket notation
+to_plot = "all" # "brackets"
 
 plt.rc('xtick', labelsize=12)
 plt.rc('ytick', labelsize=12)
@@ -27,27 +31,26 @@ lines = inpf.readlines()
 
 i = 0
 
-# UG
-ug_H3 = []
-ug_N3 = []
-
-# UA
-ua_H3 = []
-ua_N3 = []
-
-# GC
-gc_H1 = []
-gc_N1 = []
-
 # GU
-gu_H1 = []
-gu_N1 = []
+gu_H3 = []
+gu_N3 = []
+
+# AU
+au_H3 = []
+au_N3 = []
+
+# CG
+cg_H1 = []
+cg_N1 = []
+
+# UG
+ug_H1 = []
+ug_N1 = []
 
 while i < (len(lines) - 1):
 
     current_line = lines[i]
     split_curr = current_line.split()
-
 
     #0:   idx
     #1:   pdb_id
@@ -76,71 +79,93 @@ while i < (len(lines) - 1):
     idx, pdb_id, bmrbid, shift_list_id, assembid, entityid, entity_assid, resid,\
     nt_type, nt_dbn, resid_bp_part, nt_type_part, nt_dbn_part, c_nuctype_H, c_Hcs, c_Hcs_err, c_amb_h, c_nuctype_n, c_Ncs, c_Ncs_err, c_amb_n  = split_curr
 
-    if (nt_type == "U" and nt_type_part == "G") and c_nuctype_H == "H3":
+    if to_plot == "all":
+        if (nt_type == "U" and nt_type_part == "G") and c_nuctype_H == "H3":
 
-        ug_H3.append(float(c_Hcs))
-        ug_N3.append(float(c_Ncs))
+            gu_H3.append(float(c_Hcs))
+            gu_N3.append(float(c_Ncs))
 
-    elif (nt_type == "U" and nt_type_part == "A") and c_nuctype_H == "H3":
+        elif (nt_type == "U" and nt_type_part == "A") and c_nuctype_H == "H3":
 
-        ua_H3.append(float(c_Hcs))
-        ua_N3.append(float(c_Ncs))
+            au_H3.append(float(c_Hcs))
+            au_N3.append(float(c_Ncs))
 
-    elif (nt_type == "G" and nt_type_part == "C") and c_nuctype_H == "H1":
+        elif (nt_type == "G" and nt_type_part == "C") and c_nuctype_H == "H1":
 
-        gc_H1.append(float(c_Hcs))
-        gc_N1.append(float(c_Ncs))
+            cg_H1.append(float(c_Hcs))
+            cg_N1.append(float(c_Ncs))
 
-    elif (nt_type == "G" and nt_type_part == "U") and c_nuctype_H == "H1":
+        elif (nt_type == "G" and nt_type_part == "U") and c_nuctype_H == "H1":
 
-        gu_H1.append(float(c_Hcs))
-        gu_N1.append(float(c_Ncs))
+            ug_H1.append(float(c_Hcs))
+            ug_N1.append(float(c_Ncs))
+
+    elif to_plot == "brackets":
+        if (nt_type == "U" and nt_type_part == "G") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H3":
+
+            gu_H3.append(float(c_Hcs))
+            gu_N3.append(float(c_Ncs))
+
+        elif (nt_type == "U" and nt_type_part == "A") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H3":
+
+            au_H3.append(float(c_Hcs))
+            au_N3.append(float(c_Ncs))
+
+        elif (nt_type == "G" and nt_type_part == "C") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H1":
+
+            cg_H1.append(float(c_Hcs))
+            cg_N1.append(float(c_Ncs))
+
+        elif (nt_type == "G" and nt_type_part == "U") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H1":
+
+            ug_H1.append(float(c_Hcs))
+            ug_N1.append(float(c_Ncs))
 
     i += 1
 
 inpf.close()
 
 # Average and std U-G
-avg_ug_H3 = round(np.average(np.asarray(ug_H3)), 3)
-avg_ug_N3 = round(np.average(np.asarray(ug_N3)), 3)
+avg_ug_H3 = round(np.average(np.asarray(gu_H3)), 3)
+avg_ug_N3 = round(np.average(np.asarray(gu_N3)), 3)
 
-std_ug_H3 = round(np.std(np.asarray(ug_H3)), 3)
-std_ug_N3 = round(np.std(np.asarray(ug_N3)), 3)
+std_ug_H3 = round(np.std(np.asarray(gu_H3)), 3)
+std_ug_N3 = round(np.std(np.asarray(gu_N3)), 3)
 
 # Average and std U-A
 
-avg_ua_H3 = round(np.average(np.asarray(ua_H3)), 3)
-avg_ua_N3 = round(np.average(np.asarray(ua_N3)), 3)
+avg_ua_H3 = round(np.average(np.asarray(au_H3)), 3)
+avg_ua_N3 = round(np.average(np.asarray(au_N3)), 3)
 
-std_ua_H3 = round(np.std(np.asarray(ua_H3)), 3)
-std_ua_N3 = round(np.std(np.asarray(ua_N3)), 3)
+std_ua_H3 = round(np.std(np.asarray(au_H3)), 3)
+std_ua_N3 = round(np.std(np.asarray(au_N3)), 3)
 
 # Average and std G-C
-avg_gc_H1 = round(np.average(np.asarray(gc_H1)), 3)
-avg_gc_N1 = round(np.average(np.asarray(gc_N1)), 3)
+avg_gc_H1 = round(np.average(np.asarray(cg_H1)), 3)
+avg_gc_N1 = round(np.average(np.asarray(cg_N1)), 3)
 
-std_gc_H1 = round(np.std(np.asarray(gc_H1)), 3)
-std_gc_N1 = round(np.std(np.asarray(gc_N1)), 3)
+std_gc_H1 = round(np.std(np.asarray(cg_H1)), 3)
+std_gc_N1 = round(np.std(np.asarray(cg_N1)), 3)
 
 # Average and std G-U
-avg_gu_H1 = round(np.average(np.asarray(gu_H1)), 3)
-avg_gu_N1 = round(np.average(np.asarray(gu_N1)), 3)
+avg_gu_H1 = round(np.average(np.asarray(ug_H1)), 3)
+avg_gu_N1 = round(np.average(np.asarray(ug_N1)), 3)
 
-std_gu_H1 = round(np.std(np.asarray(gu_H1)), 3)
-std_gu_N1 = round(np.std(np.asarray(gu_N1)), 3)
+std_gu_H1 = round(np.std(np.asarray(ug_H1)), 3)
+std_gu_N1 = round(np.std(np.asarray(ug_N1)), 3)
 
 # plot
 fig = plt.figure()
 params = {'legend.fontsize': 14,
           'legend.handlelength': 1}
 plt.rcParams.update(params)
-plt.plot(ug_H3, ug_N3, "mo", markersize=6, zorder=1, label="UG n=" + str(len(ug_H3)))
+plt.plot(gu_H3, gu_N3, "mo", markersize=6, zorder=1, label="GU n=" + str(len(gu_H3)))
 plt.errorbar(avg_ug_H3, avg_ug_N3, std_ug_N3, std_ug_H3, "kx", markersize=6)
-plt.plot(ua_H3, ua_N3, "bo", markersize=6, zorder=1, label="UA n=" + str(len(ua_H3)))
+plt.plot(au_H3, au_N3, "bo", markersize=6, zorder=1, label="AU n=" + str(len(au_H3)))
 plt.errorbar(avg_ua_H3, avg_ua_N3, std_ua_N3, std_ua_H3, "kx", markersize=6)
-plt.plot(gc_H1, gc_N1, "ro", markersize=6, zorder=1, label="GC n=" + str(len(gc_H1)))
+plt.plot(cg_H1, cg_N1, "ro", markersize=6, zorder=1, label="CG n=" + str(len(cg_H1)))
 plt.errorbar(avg_gc_H1, avg_gc_N1, std_gc_N1, std_gc_H1, "kx", markersize=6)
-plt.plot(gu_H1, gu_N1, "yo", markersize=6, zorder=1, label="GU n=" + str(len(gu_H1)))
+plt.plot(ug_H1, ug_N1, "co", markersize=6, zorder=1, label="UG n=" + str(len(ug_H1)))
 plt.errorbar(avg_gu_H1, avg_gu_N1, std_gu_N1, std_gu_H1, "kx", markersize=6)
 
 # Adding ellipses with 1 sd

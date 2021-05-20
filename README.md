@@ -58,8 +58,8 @@ nucleus, for entries with multiple shift lists, have been added in case it is us
    
    https://bmrb.io/ftp/pub/bmrb/nmr_pdb_integrated_data/adit_nmr_matched_pdb_bmrb_entry_ids.csv
    
-	1. Convert the `.csv`-file to `.txt` and name it for example: `BMRB_match_PDB_<DATE>.txt`
-	2. Put the text file in the lists folder
+	1. Name the file for example: `BMRB_match_PDB_<DATE>.csv` to keep track on the date of the download
+	2. Put the file in the `in` folder
 
 2. Generate a FRABASE pair list using the `Structural elements > Base Pair` query at: 
    
@@ -79,7 +79,7 @@ nucleus, for entries with multiple shift lists, have been added in case it is us
 
 4. `2_plot_cs_hsqc.py`
 	1. Input: `out_ALL_(A[U]_H3-N3)_(G[U]_H3-N3)_(U[G]_H1-N1)_(C[G]_H1-N1).txt`
-	2. Output: chemical shift plot (in `.eps`-format)
+	2. Output: chemical shift plot (in `.eps` or `.pdf`- format)
 	
 # Authors and acknowledgement
 

@@ -310,7 +310,7 @@ def match_frabase_with_bmrb(bmrb_pdb_match_list, frabase_pair_data):
     matched_frabase_pair_data : list
         The rows in frabase_pair_data which have a matching BMRB entry.
     """
-    # Create a new match list with a 1:1 mapping between PDB and BMRB IDs
+    # Create a new match list with 1:1 mapping between PDB and BMRB IDs
     reduced_bmrb_pdb_match_dict = reduce_match_list(bmrb_pdb_match_list)
     reduced_pdb_bmrb_match_dict = {v: k for k, v  # reverse dict
                                    in reduced_bmrb_pdb_match_dict.items()}
@@ -563,8 +563,12 @@ def avg_cs(cs_to_avg):
         cs_amb_code = cs_res_row[10]
         
         # Extract number of decimals from data
-        cs_val_dec = abs(decimal.Decimal(str(cs_val)).as_tuple().exponent)
-        cs_val_err_dec = abs(decimal.Decimal(str(cs_val_err)).as_tuple().exponent)
+        cs_val_dec = abs(
+            decimal.Decimal(str(cs_val)).as_tuple().exponent
+        )
+        cs_val_err_dec = abs(
+            decimal.Decimal(str(cs_val_err)).as_tuple().exponent
+        )
         
         shifts.append(cs_val)
         errs.append(cs_val_err)
@@ -655,7 +659,7 @@ def extract_nuclei_data_from_db(path_db, matched_pair_list,
             open(out_B_path, "w+") as out_file_nuc_B:
         with closing(sqlite3.connect(path_db)) as conn:
             
-            # Search through matchlist for pairs which have data in the DB
+            # Search through matchlist for pairs which have data in DB
             i_A = 1
             i_B = 1
             for XY_pair in matched_pair_list:
@@ -935,13 +939,15 @@ def extract_from_pair_list(frabase_pair_list_data, path_db, path_output,
         nuc_A_data_arr = list(dict.fromkeys(nuc_A_data_arr))
         nuc_B_data_arr = list(dict.fromkeys(nuc_B_data_arr))
         
-    # Note: Duplicates are a result of multi-paired bases as specified in
-    # the FRABASE pair list. I.e. sometimes one nucleotide interacts/pairs
-    # to multiple other nucleotides.
+    # Note: Duplicates are a result of multi-paired bases as specified
+    # in the FRABASE pair list. I.e. sometimes one nucleotide
+    # interacts/pairs to multiple other nucleotides.
 
     # Cleaning of data
-    nuc_A_data_arr = [A_d.strip('\n').split(" ") for A_d in nuc_A_data_arr]
-    nuc_B_data_arr = [B_d.strip('\n').split(" ") for B_d in nuc_B_data_arr]
+    nuc_A_data_arr = [A_d.strip('\n').split(" ")
+                      for A_d in nuc_A_data_arr]
+    nuc_B_data_arr = [B_d.strip('\n').split(" ")
+                      for B_d in nuc_B_data_arr]
     
     # Combine data from nuc_A and nuc_b (of nt Y) into one output file
     merged_AB = []
@@ -1087,117 +1093,3 @@ if VERBOSE:
 
 main(db_path=DB_PATH, output_path=OUTPUT_PATH, fn_match_list=FN_MATCH_LIST,
      pair_data=XY_PAIR_DATA, average_cs=AVERAGE_CS, verbose=VERBOSE)
-
-
-# **********--------------------------------------------------------********** #
-# |                             ~~ [6] TESTS ~~                              | #
-# **********--------------------------------------------------------********** #
-
-try:
-    from itertools import zip_longest
-except ImportError:
-    from itertools import izip_longest as zip_longest
-
-
-def test_that_output_files_are_identical_to_original(pair_type,
-                                                     out_path,
-                                                     out_A_path,
-                                                     out_B_path,
-                                                     out_all_path):
-    # Arrange / Act
-    (X, Y, A, B,) = pair_type
-
-    path_out_A_original = join(
-        out_path, 'out_{}[{}]_{}_cleaned.txt'.format(nt_x, nt_y, nuc_a)
-    )
-    path_out_B_original = join(
-        out_path, 'out_{}[{}]_{}_cleaned.txt'.format(nt_x, nt_y, nuc_b)
-    )
-    path_out_all_original = join(
-        out_path, 'out_{}[{}]_{}-{}_cleaned.txt'.format(nt_x, nt_y, nuc_a, nuc_b)
-    )
-    
-    out_A_original = extract_data(path_out_A_original, sep=" ")
-    out_B_original = extract_data(path_out_B_original, sep=" ")
-    out_all_original = extract_data(path_out_all_original, sep=" ")
-    
-    len_A_original = len(out_A_original)
-    len_B_original = len(out_B_original)
-    len_all_original = len(out_all_original)
-    
-    out_A = extract_data(out_A_path, sep=" ")
-    out_B = extract_data(out_B_path, sep=" ")
-    out_all = extract_data(out_all_path, sep=" ")
-    
-    len_A = len(out_A)
-    len_B = len(out_B)
-    len_all = len(out_all)
-
-    # Assert
-    A_passed = [(e1 == e2) for (e1, e2) in zip_longest(out_A, out_A_original)]
-    B_passed = [(e1 == e2) for (e1, e2) in zip_longest(out_B, out_B_original)]
-    all_passed = [(e1 == e2) for (e1, e2) in zip_longest(out_all, out_all_original)]
-    
-    print('Testing {}-[{}] : {}-{}'.format(X, Y, A, B))
-    if all(A_passed) and (len_A == len_A_original):
-        print('\n[ {} ] Pass! \nActual length: {}\nExpected length: {}'
-              ''.format(A, len_A, len_A_original))
-    else:
-        print_diff_if_test_failed(A, A_passed, out_A, out_A_original)
-    
-    if all(B_passed) and (len_B == len_B_original):
-        print('\n[ {} ] Pass! \nActual length: {}\nExpected length: {}'
-              ''.format(B, len_B, len_B_original))
-    else:
-        print_diff_if_test_failed(B, B_passed, out_B, out_B_original)
-    
-    if all(all_passed) and (len_all == len_all_original):
-        print('\n[ All ] Pass! \nActual length: {}\nExpected length: {}'
-              ''.format(len_all, len_all_original))
-    else:
-        print_diff_if_test_failed('{}-{}'.format(A, B), all_passed, out_all, out_all_original)
-    
-    # Print summary
-    if not (all(A_passed) and all(B_passed) and all(all_passed)):
-        print('\n -------------------------------------------------------- \n')
-        print('Tested {}[{}] : {}-{}'.format(X, Y, A, B))
-        print('\n[ {} ] \nActual length: {}\nExpected length: {}'
-              ''.format(A, len_A, len_A_original))
-        print('\n[ {} ] \nActual length: {}\nExpected length: {}'
-              ''.format(B, len_B, len_B_original))
-        print('\n[ All ] \nActual length: {}\nExpected length: {}'
-              ''.format(len_all, len_all_original))
-
-
-def print_diff_if_test_failed(name, isSame, actual, expected):
-    last = ()
-    z = zip_longest(isSame, actual, expected)
-    for _i, (_p, _a, _e) in enumerate(z):
-        print('\n[{}] Passed: {}\nActual: {}\nExpected: {}'
-              ''.format(_i, _p, _a, _e))
-        last = (_p, _a, _e)
-    if None in last:
-        print('\n{} failed!\n'.format(name))
-        print('Actual length: {}\nExpected length: {}'
-              ''.format(len(actual), len(expected)))
-
-
-TEST = True
-if TEST:
-    # Testing-related imports
-    try:
-        from itertools import zip_longest
-    except ImportError:
-        from itertools import izip_longest as zip_longest
-    
-    # Perform tests
-    for pair_list_data in XY_PAIR_DATA:
-        nt_x, nt_y, nuc_a, nuc_b, _ = pair_list_data
-        file_A = 'out_{}[{}]_{}.txt'.format(nt_x, nt_y, nuc_a)
-        file_B = 'out_{}[{}]_{}.txt'.format(nt_x, nt_y, nuc_b)
-        file_all = 'out_{}[{}]_{}-{}.txt'.format(nt_x, nt_y, nuc_a, nuc_b)
-        test_that_output_files_are_identical_to_original((nt_x, nt_y, nuc_a, nuc_b),
-                                                         "in/",
-                                                         join(OUTPUT_PATH, file_A),
-                                                         join(OUTPUT_PATH, file_B),
-                                                         join(OUTPUT_PATH, file_all))

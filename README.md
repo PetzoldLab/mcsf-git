@@ -75,10 +75,10 @@ nucleus, for entries with multiple shift lists, have been added in case it is us
 3. `1_extract_from_pair_list.py`
 	1. Run the script `1_extract_from_pair_list.py` with the text files generated in step 1 and 2 as
 	   inputs
-	2. Output: `out_all.txt`
+	2. Output: `out_ALL_(A[U]_H3-N3)_(G[U]_H3-N3)_(U[G]_H1-N1)_(C[G]_H1-N1).txt`
 
 4. `2_plot_cs_hsqc.py`
-	1. Input: `out_all.txt`
+	1. Input: `out_ALL_(A[U]_H3-N3)_(G[U]_H3-N3)_(U[G]_H1-N1)_(C[G]_H1-N1).txt`
 	2. Output: chemical shift plot (in `.eps`-format)
 	
 # Authors and acknowledgement

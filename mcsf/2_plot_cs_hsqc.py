@@ -24,8 +24,12 @@
 # Outputs a plot in .eps or .pdf format.
 #
 # Note: This script is not fully automated and needs to be adjusted/configured
-# according to ones needs. Currently it is set up using one of the MCSF
-# publication figures as an example.
+#       according to ones needs. Currently it is set up using one of the MCSF
+#       publication figures as an example.
+#
+# WARNING: Make sure to plot all new datasets with large x- and y-limits
+#          so that potential outliers are included in the plot and not
+#          accidentally missed.
 
 # **********--------------------------------------------------------********** #
 # |                           ~~ [1] IMPORTS ~~                              | #
@@ -51,13 +55,21 @@ else:
 # **********--------------------------------------------------------********** #
 
 INPUT_FILE = 'out/out_ALL_(A[U]_H3-N3)_(G[U]_H3-N3)_(U[G]_H1-N1)_(C[G]_H1-N1).txt'
-# PATH TO INPUT FILE
+# CHOOSE PATH TO INPUT FILE
 # Input file is a list of shifts and related data. Can be retrieved by running
 # script '1_extract_from_pair_list.py'.
 
-SAVE_FIGURE = False
+SAVE_FIGURE = True
 # SAVE OPTION
-# Set to True to save the figure.
+# Set to 'True' to save the figure after plotting.
+
+OUTPUT_FILE_NAME = 'out_imino'
+# CHOOSE OUTPUT FILE NAME
+# Name of figure output file name (without file extension).
+
+OUTPUT_PATH = "out/"
+# PATH TO OUTPUT FOLDER
+# All output figure files will be generated into this directory.
 
 FIGURE_FORMAT = 'pdf'
 # CHOOSE FORMAT
@@ -88,19 +100,19 @@ lines = inpf.readlines()
 
 i = 0
 
-# GU
+# G[U]
 gu_H3 = []
 gu_N3 = []
 
-# AU
+# A[U]
 au_H3 = []
 au_N3 = []
 
-# CG
+# C[G]
 cg_H1 = []
 cg_N1 = []
 
-# UG
+# U[G]
 ug_H1 = []
 ug_N1 = []
 
@@ -140,43 +152,59 @@ for i, line in enumerate(lines):
     
     # Adjust/configure according to needs:
     if PAIR_TYPE == "all":
-        if (nt_type == "U" and nt_type_part == "G") and c_nuctype_H == "H3":
+        if (((nt_type == "U" and nt_type_part == "G")
+             and (c_nuctype_H == "H3"))):
 
             gu_H3.append(float(c_Hcs))
             gu_N3.append(float(c_Ncs))
 
-        elif (nt_type == "U" and nt_type_part == "A") and c_nuctype_H == "H3":
+        elif ((nt_type == "U" and nt_type_part == "A")
+              and c_nuctype_H == "H3"):
 
             au_H3.append(float(c_Hcs))
             au_N3.append(float(c_Ncs))
 
-        elif (nt_type == "G" and nt_type_part == "C") and c_nuctype_H == "H1":
+        elif ((nt_type == "G" and nt_type_part == "C")
+              and c_nuctype_H == "H1"):
 
             cg_H1.append(float(c_Hcs))
             cg_N1.append(float(c_Ncs))
 
-        elif (nt_type == "G" and nt_type_part == "U") and c_nuctype_H == "H1":
+        elif ((nt_type == "G" and nt_type_part == "U")
+              and c_nuctype_H == "H1"):
 
             ug_H1.append(float(c_Hcs))
             ug_N1.append(float(c_Ncs))
 
     elif PAIR_TYPE == "brackets":
-        if (nt_type == "U" and nt_type_part == "G") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H3":
+        if (((nt_type == "U" and nt_type_part == "G")
+             and (nt_dbn == "(" or nt_dbn == ")")
+             and (nt_dbn_part == "(" or nt_dbn_part == ")")
+             and (c_nuctype_H == "H3"))):
 
             gu_H3.append(float(c_Hcs))
             gu_N3.append(float(c_Ncs))
 
-        elif (nt_type == "U" and nt_type_part == "A") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H3":
+        elif ((nt_type == "U" and nt_type_part == "A")
+              and (nt_dbn == "(" or nt_dbn == ")")
+              and (nt_dbn_part == "(" or nt_dbn_part == ")")
+              and (c_nuctype_H == "H3")):
 
             au_H3.append(float(c_Hcs))
             au_N3.append(float(c_Ncs))
 
-        elif (nt_type == "G" and nt_type_part == "C") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H1":
+        elif ((nt_type == "G" and nt_type_part == "C")
+              and (nt_dbn == "(" or nt_dbn == ")")
+              and (nt_dbn_part == "(" or nt_dbn_part == ")")
+              and (c_nuctype_H == "H1")):
 
             cg_H1.append(float(c_Hcs))
             cg_N1.append(float(c_Ncs))
 
-        elif (nt_type == "G" and nt_type_part == "U") and (nt_dbn == "(" or nt_dbn == ")") and (nt_dbn_part == "(" or nt_dbn_part == ")") and c_nuctype_H == "H1":
+        elif ((nt_type == "G" and nt_type_part == "U")
+              and (nt_dbn == "(" or nt_dbn == ")")
+              and (nt_dbn_part == "(" or nt_dbn_part == ")")
+              and (c_nuctype_H == "H1")):
 
             ug_H1.append(float(c_Hcs))
             ug_N1.append(float(c_Ncs))
@@ -220,13 +248,21 @@ fig = plt.figure()
 params = {'legend.fontsize': 14,
           'legend.handlelength': 1}
 plt.rcParams.update(params)
-plt.plot(gu_H3, gu_N3, "mo", markersize=6, zorder=1, label="GU n=" + str(len(gu_H3)))
+
+plt.plot(gu_H3, gu_N3, "mo",
+         markersize=6, zorder=1, label="GU n=" + str(len(gu_H3)))
 plt.errorbar(avg_ug_H3, avg_ug_N3, std_ug_N3, std_ug_H3, "kx", markersize=6)
-plt.plot(au_H3, au_N3, "bo", markersize=6, zorder=1, label="AU n=" + str(len(au_H3)))
+
+plt.plot(au_H3, au_N3, "bo",
+         markersize=6, zorder=1, label="AU n=" + str(len(au_H3)))
 plt.errorbar(avg_ua_H3, avg_ua_N3, std_ua_N3, std_ua_H3, "kx", markersize=6)
-plt.plot(cg_H1, cg_N1, "ro", markersize=6, zorder=1, label="CG n=" + str(len(cg_H1)))
+
+plt.plot(cg_H1, cg_N1, "ro",
+         markersize=6, zorder=1, label="CG n=" + str(len(cg_H1)))
 plt.errorbar(avg_gc_H1, avg_gc_N1, std_gc_N1, std_gc_H1, "kx", markersize=6)
-plt.plot(ug_H1, ug_N1, "co", markersize=6, zorder=1, label="UG n=" + str(len(ug_H1)))
+
+plt.plot(ug_H1, ug_N1,
+         "co", markersize=6, zorder=1, label="UG n=" + str(len(ug_H1)))
 plt.errorbar(avg_gu_H1, avg_gu_N1, std_gu_N1, std_gu_H1, "kx", markersize=6)
 
 # Adding ellipses with 1 sd
@@ -241,11 +277,14 @@ gu_y = np.linspace(135, 150, 1000)
 
 gu_X, gu_Y = np.meshgrid(gu_x, gu_y)
 
-gu_eqn = (((gu_X - gu_x_center) ** 2) / (gu_horizontal_radius ** 2)) + (
-            ((gu_Y - gu_y_center) ** 2) / (gu_vertical_radius ** 2))
+gu_eqn = (
+    (((gu_X - gu_x_center) ** 2) / (gu_horizontal_radius ** 2)) +
+    (((gu_Y - gu_y_center) ** 2) / (gu_vertical_radius ** 2))
+)
 Z = 1
 
-plt.contour(gu_X, gu_Y, gu_eqn, [Z], colors="k", linewidths=1, linestyles="dashed")
+plt.contour(gu_X, gu_Y, gu_eqn, [Z],
+            colors="k", linewidths=1, linestyles="dashed")
 
 # GC
 gc_horizontal_radius = std_gc_H1
@@ -258,11 +297,14 @@ gc_y = np.linspace(135, 155, 1000)
 
 gc_X, gc_Y = np.meshgrid(gc_x, gc_y)
 
-gc_eqn = (((gc_X - gc_x_center) ** 2) / (gc_horizontal_radius ** 2)) + (((gc_Y - gc_y_center) ** 2) / (
-        gc_vertical_radius ** 2))
+gc_eqn = (
+    (((gc_X - gc_x_center) ** 2) / (gc_horizontal_radius ** 2)) +
+    (((gc_Y - gc_y_center)**2) / (gc_vertical_radius ** 2))
+)
 Z = 1
 
-plt.contour(gc_X, gc_Y, gc_eqn, [Z], colors="k", linewidths=1, linestyles="dashed")
+plt.contour(gc_X, gc_Y, gc_eqn, [Z],
+            colors="k", linewidths=1, linestyles="dashed")
 
 # UG
 ug_horizontal_radius = std_ug_H3
@@ -275,11 +317,14 @@ ug_y = np.linspace(150, 165, 1000)
 
 ug_X, ug_Y = np.meshgrid(ug_x, ug_y)
 
-ug_eqn = (((ug_X - ug_x_center) ** 2) / (ug_horizontal_radius ** 2)) + (
-            ((ug_Y - ug_y_center) ** 2) / (ug_vertical_radius ** 2))
+ug_eqn = (
+    (((ug_X - ug_x_center) ** 2) / (ug_horizontal_radius ** 2)) +
+    (((ug_Y - ug_y_center) ** 2) / (ug_vertical_radius ** 2))
+)
 Z = 1
 
-plt.contour(ug_X, ug_Y, ug_eqn, [Z], colors="k", linewidths=1, linestyles="dashed")
+plt.contour(ug_X, ug_Y, ug_eqn, [Z],
+            colors="k", linewidths=1, linestyles="dashed")
 
 # UA
 ua_horizontal_radius = std_ua_H3
@@ -292,11 +337,14 @@ ua_y = np.linspace(150, 165, 1000)
 
 ua_X, ua_Y = np.meshgrid(ua_x, ua_y)
 
-ua_eqn = (((ua_X - ua_x_center) ** 2) / (ua_horizontal_radius ** 2)) + (
-            ((ua_Y - ua_y_center) ** 2) / (ua_vertical_radius ** 2))
+ua_eqn = (
+    (((ua_X - ua_x_center) ** 2) / (ua_horizontal_radius ** 2)) +
+    (((ua_Y - ua_y_center) ** 2) / (ua_vertical_radius ** 2))
+)
 Z = 1
 
-plt.contour(ua_X, ua_Y, ua_eqn, [Z], colors="k", linewidths=1, linestyles="dashed")
+plt.contour(ua_X, ua_Y, ua_eqn, [Z],
+            colors="k", linewidths=1, linestyles="dashed")
 
 plt.title("Imino chemical shifts", fontsize=16)
 plt.xlabel("1H (ppm)", fontsize=16)
@@ -308,7 +356,9 @@ plt.ylim(170.0, 135.0)
 plt.show()
 
 if SAVE_FIGURE:
+    OUTPUT_FILE_PATH = os.path.normpath(os.path.join(OUTPUT_PATH,
+                                                     OUTPUT_FILE_NAME))
     if FIGURE_FORMAT == "eps":
-        fig.savefig("bmrb_imino_all.eps", format='eps')
+        fig.savefig("{}.eps".format(OUTPUT_FILE_PATH), format='eps')
     elif FIGURE_FORMAT == "pdf":
-        fig.savefig("bmrb_imino_all.pdf", format='pdf')
+        fig.savefig("{}.pdf".format(OUTPUT_FILE_PATH), format='pdf')

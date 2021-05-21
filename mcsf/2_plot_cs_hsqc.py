@@ -9,7 +9,7 @@
 # ||                                                                        || #
 # ||                     Written by Hampus Karlsson May-18                  || #
 # ||                Updated by Noah Hopkins and Magdalena Riad              || #
-# ||                         for to the publication                         || #
+# ||                           for the publication                          || #
 # ||      "Mutate-and-Chemical-Shift-Fingerprint (MCSF) to characterize     || #
 # ||              excited states in RNA using NMR spectroscopy"             || #
 # ||                                                                        || #
@@ -61,7 +61,7 @@ SAVE_FIGURE = False
 
 FIGURE_FORMAT = 'pdf'
 # CHOOSE FORMAT
-# Choose to save the figure in .eps or pdf format.
+# Choose to save the figure in .eps or .pdf format.
 # Set to either 'eps' or 'pdf'.
 
 PAIR_TYPE = 'all'

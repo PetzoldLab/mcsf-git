@@ -16,6 +16,29 @@
 # ||                                                                        || #
 # ||                           Katja Petzold Group                          || #
 # ||                                May 2021                                || #
+# ||                                                                        || #
+# || ---------------------------------------------------------------------- || #
+# ||                                                                        || #
+# || GNU GPLv3 License                                                      || #
+# ||                                                                        || #
+# || Mutate-and-Chemical-Shift-Fingerprint (MCSF) Pipeline                  || #
+# || Query local RNA BMRB database for chemical shift analysis.             || #
+# || Copyright (c) 2021 Noah Hopkins & Magdalena Riad,                      || #
+# || Katja Petzold Group, Karolinska Institutet                             || #
+# ||                                                                        || #
+# || This program is free software: you can redistribute it and/or modify   || #
+# || it under the terms of the GNU General Public License as published by   || #
+# || the Free Software Foundation, either version 3 of the License, or      || #
+# || (at your option) any later version.                                    || #
+# ||                                                                        || #
+# || This program is distributed in the hope that it will be useful,        || #
+# || but WITHOUT ANY WARRANTY; without even the implied warranty of         || #
+# || MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          || #
+# || GNU General Public License for more details.                           || #
+# ||                                                                        || #
+# || You should have received a copy of the GNU General Public License      || #
+# || along with this program.  If not, see <https://www.gnu.org/licenses/>. || #
+# ||                                                                        || #
 # **************************************************************************** #
 
 # ||--------

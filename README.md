@@ -20,9 +20,9 @@ The script `1_extract_from_pair_list.py` takes as input:
 - (d) two chosen nuclei (here called nuclei A and B) for each base-pair/FRABASE pairlist. 
 
 
-In some cases, a many-to-many relationship between BMRB IDs and PDB IDs might exist, 
-meaning a single BMRB ID may be linked to multiple PDB IDs, or vice versa. 
-In such scenarios, the script selects the paired entry with the highest ID number, 
+In some cases, a many-to-many relationship may exist between BMRB IDs and PDB IDs,
+meaning a single BMRB ID might be linked to multiple PDB IDs, or vice versa.
+In such scenarios, the script selects the paired entry with the highest ID number,
 assuming it to be the most recent.
 
 While both BMRB and PDB IDs generally follow a sequential numbering system, there are some exceptions. 
